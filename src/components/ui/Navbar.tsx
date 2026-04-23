@@ -24,10 +24,10 @@ export default function Navbar() {
           <span className="text-2xl">🛕</span>
           <div>
             <span className="text-white font-bold text-xl tracking-tight">
-              Naama<span className="text-amber-500">alayam</span>
+              Nam <span className="text-amber-500">Aalayam</span>
             </span>
-            <p className="text-stone-500 text-[10px] leading-none tracking-widest uppercase">
-              நாமாலயம்
+            <p className="text-stone-500 text-[10px] leading-none tracking-wider">
+              நம் ஆலயம்
             </p>
           </div>
         </Link>

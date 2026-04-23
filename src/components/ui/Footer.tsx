@@ -40,7 +40,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🛕</span>
               <span className="text-white font-bold text-lg">
-                Naama<span className="text-amber-500">alayam</span>
+                Nam <span className="text-amber-500">Aalayam</span>
               </span>
             </Link>
             <p className="text-stone-400 text-sm leading-relaxed">

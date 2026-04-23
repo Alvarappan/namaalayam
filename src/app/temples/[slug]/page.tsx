@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   MapPin, Clock, Star, ExternalLink,
   Plane, Train, Car, Calendar, Ticket, Shirt, Sun
@@ -37,39 +38,27 @@ const categoryColors: Record<string, string> = {
   mixed: "bg-amber-900/60 text-amber-300 border-amber-700/50",
 };
 
-const templeGradients = [
-  "from-amber-800 to-orange-900",
-  "from-red-800 to-rose-900",
-  "from-blue-800 to-indigo-900",
-  "from-violet-800 to-purple-900",
-  "from-teal-800 to-cyan-900",
-  "from-green-800 to-emerald-900",
-];
-
 export default async function TempleDetailPage({ params }: Props) {
   const { slug } = await params;
   const temple = temples.find((t) => t.slug === slug);
   if (!temple) notFound();
 
   const detail = getTempleDetail(slug);
-  const gradientIndex = (temple.id - 1) % templeGradients.length;
   const nearbyTemples = temples.filter((t) => detail.nearbyTemples.includes(t.slug));
 
   return (
     <div className="min-h-screen bg-stone-950">
       {/* Hero */}
-      <div className={`relative bg-gradient-to-br ${templeGradients[gradientIndex]} py-16 px-4 overflow-hidden`}>
-        <div className="absolute inset-0 opacity-10">
-          <svg viewBox="0 0 400 200" className="w-full h-full" fill="white" preserveAspectRatio="xMidYMid slice">
-            <rect x="180" y="20" width="40" height="140" />
-            <polygon points="200,5 165,45 235,45" />
-            <rect x="140" y="80" width="120" height="80" />
-            <rect x="100" y="120" width="200" height="60" />
-            <rect x="60" y="148" width="280" height="32" />
-            <rect x="20" y="168" width="360" height="12" />
-          </svg>
-        </div>
-        <div className="absolute inset-0 bg-black/40" />
+      <div className="relative bg-stone-900 py-16 px-4 overflow-hidden min-h-[420px] flex items-center">
+        <Image
+          src={temple.image}
+          alt={temple.name}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-black/50" />
 
         <div className="relative z-10 max-w-4xl mx-auto">
           {/* Breadcrumb */}

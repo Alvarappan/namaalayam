@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Star } from "lucide-react";
 import type { Temple } from "@/data/temples";
 
@@ -22,36 +23,26 @@ const categoryLabels: Record<string, string> = {
   mixed: "Trinity",
 };
 
-const templeGradients = [
-  "from-amber-800 to-orange-900",
-  "from-red-800 to-rose-900",
-  "from-blue-800 to-indigo-900",
-  "from-violet-800 to-purple-900",
-  "from-teal-800 to-cyan-900",
-  "from-green-800 to-emerald-900",
-];
-
 interface Props {
   temple: Temple;
   index: number;
 }
 
-export default function TempleCard({ temple, index }: Props) {
+export default function TempleCard({ temple, index: _index }: Props) {
   return (
     <Link
       href={`/temples/${temple.slug}`}
       className="group bg-stone-800/60 border border-stone-700/50 rounded-2xl overflow-hidden hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-900/20 transition-all duration-300"
     >
-      <div className={`relative h-44 bg-gradient-to-br ${templeGradients[index % templeGradients.length]} overflow-hidden`}>
-        <div className="absolute inset-0 flex items-end justify-center opacity-20">
-          <svg viewBox="0 0 200 120" className="w-full" fill="currentColor">
-            <rect x="90" y="20" width="20" height="80" className="text-white" />
-            <polygon points="100,5 85,25 115,25" className="text-white" />
-            <rect x="70" y="50" width="60" height="50" className="text-white" />
-            <rect x="50" y="70" width="100" height="30" className="text-white" />
-            <rect x="30" y="85" width="140" height="15" className="text-white" />
-          </svg>
-        </div>
+      <div className="relative h-44 bg-stone-800 overflow-hidden">
+        <Image
+          src={temple.image}
+          alt={temple.name}
+          fill
+          sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-black/30 pointer-events-none" />
         <div className="absolute top-3 left-3">
           <span className={`px-2.5 py-1 text-xs font-semibold rounded-full border ${categoryColors[temple.category]}`}>
             {categoryLabels[temple.category]}
