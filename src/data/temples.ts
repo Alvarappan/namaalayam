@@ -15,6 +15,7 @@ export interface Temple {
   featured: boolean;
   officialUrl?: string;
   tags: string[];
+  coordinates: { lat: number; lng: number };
 }
 
 export const temples: Temple[] = [
@@ -33,6 +34,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://tirumala.org/",
     tags: ["vishnu", "tirumala", "balaji", "andhra", "hill temple"],
+    coordinates: { lat: 13.6834, lng: 79.3470 },
   },
   {
     id: 2,
@@ -49,6 +51,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://maduraimeenakshi.hrce.tn.gov.in/",
     tags: ["shakti", "meenakshi", "madurai", "gopuram", "dravidian"],
+    coordinates: { lat: 9.9195, lng: 78.1193 },
   },
   {
     id: 3,
@@ -65,6 +68,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://www.brihadeeswaratemple.com/",
     tags: ["shiva", "chola", "unesco", "thanjavur", "architecture"],
+    coordinates: { lat: 10.7828, lng: 79.1318 },
   },
   {
     id: 4,
@@ -81,6 +85,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://rameswaramramanathar.hrce.tn.gov.in/",
     tags: ["shiva", "jyotirlinga", "rameswaram", "char dham", "corridor"],
+    coordinates: { lat: 9.2885, lng: 79.3172 },
   },
   {
     id: 5,
@@ -97,6 +102,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://sabarimala.kerala.gov.in/",
     tags: ["ayyappa", "sabarimala", "pilgrimage", "kerala", "forest"],
+    coordinates: { lat: 9.4359, lng: 77.0850 },
   },
   {
     id: 6,
@@ -113,6 +119,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://srirangamranganathar.hrce.tn.gov.in/",
     tags: ["vishnu", "divya desam", "srirangam", "largest temple", "vaishnava"],
+    coordinates: { lat: 10.8624, lng: 78.6892 },
   },
   {
     id: 7,
@@ -129,6 +136,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://spst.in/",
     tags: ["vishnu", "padmanabha", "kerala", "wealthiest", "trivandrum"],
+    coordinates: { lat: 8.4827, lng: 76.9437 },
   },
   {
     id: 8,
@@ -145,6 +153,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://guruvayurdevaswom.in/",
     tags: ["krishna", "guruvayur", "kerala", "elephant", "dwarka of south"],
+    coordinates: { lat: 10.5946, lng: 76.0398 },
   },
   {
     id: 9,
@@ -161,6 +170,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "http://chidambaramnataraja.org/",
     tags: ["shiva", "nataraja", "pancha bhuta", "chidambaram", "akasha lingam"],
+    coordinates: { lat: 11.3994, lng: 79.6932 },
   },
   {
     id: 10,
@@ -177,6 +187,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://tiruchendurmurugan.hrce.tn.gov.in/",
     tags: ["murugan", "arupadai veedu", "seashore", "tiruchendur", "subrahmanya"],
+    coordinates: { lat: 8.4953, lng: 78.1233 },
   },
   {
     id: 11,
@@ -193,6 +204,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://palanimurugan.hrce.tn.gov.in/",
     tags: ["murugan", "arupadai veedu", "palani", "hill temple", "navapashanam"],
+    coordinates: { lat: 10.4500, lng: 77.5217 },
   },
   {
     id: 12,
@@ -209,6 +221,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://hrce.tn.gov.in/",
     tags: ["shiva", "pancha bhuta", "kanchipuram", "prithvi lingam", "earth element"],
+    coordinates: { lat: 12.8472, lng: 79.7036 },
   },
   {
     id: 13,
@@ -224,6 +237,7 @@ export const temples: Temple[] = [
     reviewCount: 38000,
     featured: false,
     tags: ["shiva", "nadi astrology", "healer", "mangal dosha", "sirkazhi"],
+    coordinates: { lat: 11.1450, lng: 79.7367 },
   },
   {
     id: 14,
@@ -239,6 +253,7 @@ export const temples: Temple[] = [
     reviewCount: 32000,
     featured: false,
     tags: ["vishnu", "divya desam", "kumbakonam", "mahamaham", "rajagopuram"],
+    coordinates: { lat: 10.9601, lng: 79.3788 },
   },
   {
     id: 15,
@@ -255,6 +270,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://gokarnatourism.co.in/",
     tags: ["shiva", "murudeshwara", "karnataka", "ocean", "tallest statue"],
+    coordinates: { lat: 14.0936, lng: 74.4847 },
   },
   {
     id: 16,
@@ -271,6 +287,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://krishnamatha.org/",
     tags: ["krishna", "udupi", "karnataka", "madhvacharya", "paryaya"],
+    coordinates: { lat: 13.3413, lng: 74.7466 },
   },
   {
     id: 17,
@@ -287,6 +304,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://bookings.shridharmasthala.org/",
     tags: ["shiva", "dharmasthala", "karnataka", "annadana", "jain family"],
+    coordinates: { lat: 12.9492, lng: 75.3819 },
   },
   {
     id: 18,
@@ -303,6 +321,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://srikalahastitemple.org.in/",
     tags: ["shiva", "pancha bhuta", "rahu ketu", "vayu lingam", "andhra"],
+    coordinates: { lat: 13.7494, lng: 79.6986 },
   },
   {
     id: 19,
@@ -319,6 +338,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://www.tirumala.org/",
     tags: ["vishnu", "divya desam", "tirupati", "govindaraja", "andhra"],
+    coordinates: { lat: 13.6516, lng: 79.4192 },
   },
   {
     id: 20,
@@ -335,6 +355,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://svlnsd.com/",
     tags: ["vishnu", "narasimha", "simhachalam", "vizag", "chandanam"],
+    coordinates: { lat: 17.7665, lng: 83.2509 },
   },
   {
     id: 21,
@@ -351,6 +372,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://www.keralatourism.org/",
     tags: ["shakti", "attukal", "pongala", "kerala", "guinness record"],
+    coordinates: { lat: 8.4769, lng: 76.9550 },
   },
   {
     id: 22,
@@ -366,6 +388,7 @@ export const temples: Temple[] = [
     reviewCount: 27000,
     featured: false,
     tags: ["mixed", "trinity", "suchindram", "musical pillars", "hanuman"],
+    coordinates: { lat: 8.1521, lng: 77.4622 },
   },
   {
     id: 23,
@@ -382,6 +405,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://mylaikapaleeswarar.hrce.tn.gov.in/",
     tags: ["shiva", "mylapore", "chennai", "nayanmars", "dravidian"],
+    coordinates: { lat: 13.0338, lng: 80.2690 },
   },
   {
     id: 24,
@@ -398,6 +422,7 @@ export const temples: Temple[] = [
     featured: true,
     officialUrl: "https://annamalaiyar.hrce.tn.gov.in/",
     tags: ["shiva", "pancha bhuta", "agni lingam", "girivalam", "thiruvannamalai"],
+    coordinates: { lat: 12.2297, lng: 79.0670 },
   },
   {
     id: 25,
@@ -414,6 +439,7 @@ export const temples: Temple[] = [
     featured: false,
     officialUrl: "https://www.incredibleindia.gov.in/",
     tags: ["vishnu", "hoysala", "somnathpur", "architecture", "karnataka"],
+    coordinates: { lat: 12.2761, lng: 76.8857 },
   },
 ];
 

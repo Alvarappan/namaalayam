@@ -126,17 +126,17 @@ export default async function TempleDetailPage({ params }: Props) {
           </div>
 
           {/* History */}
-          <Section title="History" icon="📜">
+          <Section title="History">
             <p className="text-stone-300 leading-relaxed">{detail.history}</p>
           </Section>
 
           {/* Architecture */}
-          <Section title="Architecture" icon="🏛️">
+          <Section title="Architecture">
             <p className="text-stone-300 leading-relaxed">{detail.architecture}</p>
           </Section>
 
           {/* Highlights */}
-          <Section title="Highlights" icon="✨">
+          <Section title="Highlights">
             <ul className="space-y-3">
               {detail.highlights.map((h, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -150,7 +150,7 @@ export default async function TempleDetailPage({ params }: Props) {
           </Section>
 
           {/* Festivals */}
-          <Section title="Festivals & Events" icon="🎉">
+          <Section title="Festivals & Events">
             <div className="space-y-4">
               {detail.festivals.map((f) => (
                 <div key={f.name} className="bg-stone-800/50 border border-stone-700/40 rounded-xl p-4">
@@ -168,7 +168,7 @@ export default async function TempleDetailPage({ params }: Props) {
           </Section>
 
           {/* Poojas */}
-          <Section title="Poojas & Sevas" icon="🪔">
+          <Section title="Poojas & Sevas">
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
@@ -190,6 +190,7 @@ export default async function TempleDetailPage({ params }: Props) {
               </table>
             </div>
           </Section>
+
         </div>
 
         {/* Right: Sidebar */}
@@ -216,6 +217,34 @@ export default async function TempleDetailPage({ params }: Props) {
             </div>
           </SideCard>
 
+          {/* Location / Map */}
+          <SideCard title="Location">
+            <div className="rounded-xl overflow-hidden border border-stone-700/50 -mx-1">
+              <iframe
+                src={`https://www.google.com/maps?q=${temple.coordinates.lat},${temple.coordinates.lng}&hl=en&z=15&output=embed`}
+                width="100%"
+                height="220"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={`Map of ${temple.name}`}
+                className="block"
+              />
+            </div>
+            <div className="flex items-center gap-2 text-stone-400 text-xs mt-3">
+              <MapPin size={13} className="text-amber-400" />
+              <span>{temple.city}, {temple.state}</span>
+            </div>
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${temple.coordinates.lat},${temple.coordinates.lng}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 mt-3 px-4 py-2 bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 rounded-xl text-sm font-medium transition-all"
+            >
+              <ExternalLink size={13} />
+              View on Google Maps
+            </a>
+          </SideCard>
+
           {/* Tags */}
           <SideCard title="Tags">
             <div className="flex flex-wrap gap-2">
@@ -235,17 +264,12 @@ export default async function TempleDetailPage({ params }: Props) {
                   <Link
                     key={t.slug}
                     href={`/temples/${t.slug}`}
-                    className="flex items-center gap-3 p-3 bg-stone-800/60 rounded-xl hover:bg-stone-700/60 border border-stone-700/40 hover:border-amber-500/30 transition-all group"
+                    className="block p-3 bg-stone-800/60 rounded-xl hover:bg-stone-700/60 border border-stone-700/40 hover:border-amber-500/30 transition-all group"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-800 to-orange-900 flex items-center justify-center text-lg flex-shrink-0">
-                      🛕
+                    <div className="text-white text-sm font-medium group-hover:text-amber-400 transition-colors">
+                      {t.name}
                     </div>
-                    <div>
-                      <div className="text-white text-sm font-medium group-hover:text-amber-400 transition-colors">
-                        {t.name}
-                      </div>
-                      <div className="text-stone-500 text-xs">{t.city}, {t.state}</div>
-                    </div>
+                    <div className="text-stone-500 text-xs">{t.city}, {t.state}</div>
                   </Link>
                 ))}
               </div>
@@ -270,13 +294,10 @@ export default async function TempleDetailPage({ params }: Props) {
   );
 }
 
-function Section({ title, icon, children }: { title: string; icon: string; children: React.ReactNode }) {
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div>
-      <h2 className="flex items-center gap-2 text-xl font-bold text-white mb-4">
-        <span>{icon}</span>
-        {title}
-      </h2>
+      <h2 className="text-xl font-bold text-white mb-4">{title}</h2>
       {children}
     </div>
   );

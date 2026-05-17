@@ -19,7 +19,6 @@ export interface TempleDetail {
   festivals: { name: string; month: string; description: string }[];
   poojas: { name: string; time: string; fee: string }[];
   nearbyTemples: string[];
-  coordinates: { lat: number; lng: number };
 }
 
 export const templeDetails: Record<string, TempleDetail> = {
@@ -55,7 +54,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Kalyanam (Special Entry)", time: "7:30 AM onwards", fee: "₹300" },
     ],
     nearbyTemples: ["govindarajaswamy-tirupati", "srikalahasti-temple"],
-    coordinates: { lat: 13.6834, lng: 79.3470 },
   },
   "madurai-meenakshi": {
     slug: "madurai-meenakshi",
@@ -89,7 +87,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Ardhajama Puja", time: "9:00 PM", fee: "₹150" },
     ],
     nearbyTemples: ["nataraja-chidambaram", "ramanathaswamy-rameswaram"],
-    coordinates: { lat: 9.9195, lng: 78.1193 },
   },
   "brihadeeswara-thanjavur": {
     slug: "brihadeeswara-thanjavur",
@@ -122,7 +119,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Evening Puja", time: "6:00 PM", fee: "Free" },
     ],
     nearbyTemples: ["sarangapani-kumbakonam", "nataraja-chidambaram"],
-    coordinates: { lat: 10.7828, lng: 79.1318 },
   },
   "ramanathaswamy-rameswaram": {
     slug: "ramanathaswamy-rameswaram",
@@ -155,7 +151,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Sahasranama Archana", time: "All day", fee: "₹250" },
     ],
     nearbyTemples: ["madurai-meenakshi", "tiruchendur-murugan"],
-    coordinates: { lat: 9.2885, lng: 79.3172 },
   },
   "kapaleeswarar-mylapore": {
     slug: "kapaleeswarar-mylapore",
@@ -188,7 +183,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Ardhajama Puja", time: "9:00 PM", fee: "Free" },
     ],
     nearbyTemples: ["arunachaleswarar-thiruvannamalai", "ekambareswarar-kanchipuram"],
-    coordinates: { lat: 13.0338, lng: 80.2690 },
   },
   "arunachaleswarar-thiruvannamalai": {
     slug: "arunachaleswarar-thiruvannamalai",
@@ -221,7 +215,6 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Pradosham Puja", time: "Bi-monthly (Trayodasi)", fee: "Free" },
     ],
     nearbyTemples: ["vaitheeswaran-kovil", "nataraja-chidambaram"],
-    coordinates: { lat: 12.2297, lng: 79.0670 },
   },
 };
 
@@ -248,7 +241,6 @@ export function getTempleDetail(slug: string): TempleDetail {
         { name: "Evening Puja", time: "6:00 PM", fee: "Free" },
       ],
       nearbyTemples: [],
-      coordinates: { lat: 11.0, lng: 78.0 },
     }
   );
 }

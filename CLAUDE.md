@@ -57,6 +57,13 @@ git push
 - Accent: `amber-500` / `orange-500` gradient
 - Icons: `lucide-react`
 
+## Image Assets
+
+| Folder | Contents |
+|--------|----------|
+| `public/images/temples/` | Temple photos — filename matches the slug stem (e.g. `tirupati.jpg`, `meenakshi.jpg`). Referenced by `Temple.image` in `temples.ts`. |
+| `public/images/deities/` | Deity portraits used by the homepage category cards: `shiva.png`, `vishnu.png`, `murugan.png`, `shakti.png`. Square images render best (cropped to a circle). Referenced in `src/components/home/CategoriesSection.tsx`. |
+
 ## Still To Build
 
 - Rich detail for remaining 19 temples in `templeDetails.ts`
