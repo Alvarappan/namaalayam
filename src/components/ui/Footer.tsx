@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GopuramIcon from "./GopuramIcon";
 
 const footerLinks = {
   Temples: [
@@ -38,7 +39,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🛕</span>
+              <GopuramIcon size={26} className="text-amber-500" />
               <span className="text-white font-bold text-lg">
                 Nam <span className="text-amber-500">Aalayam</span>
               </span>

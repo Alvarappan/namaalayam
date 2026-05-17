@@ -15,13 +15,13 @@ interface Props {
 
 const categories = [
   { value: "", label: "All Deities" },
-  { value: "shiva", label: "🔱 Shiva" },
-  { value: "vishnu", label: "🪷 Vishnu" },
-  { value: "murugan", label: "🌟 Murugan" },
-  { value: "shakti", label: "🌺 Shakti" },
-  { value: "krishna", label: "🦚 Krishna" },
-  { value: "ayyappa", label: "🌿 Ayyappa" },
-  { value: "mixed", label: "✨ Trinity" },
+  { value: "shiva", label: "Shiva" },
+  { value: "vishnu", label: "Vishnu" },
+  { value: "murugan", label: "Murugan" },
+  { value: "shakti", label: "Shakti" },
+  { value: "krishna", label: "Krishna" },
+  { value: "ayyappa", label: "Ayyappa" },
+  { value: "mixed", label: "Trinity" },
 ];
 
 const states = [

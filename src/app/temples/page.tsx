@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import TempleGrid from "@/components/temples/TempleGrid";
 
 export const metadata: Metadata = {
@@ -25,7 +26,9 @@ export default function TemplesPage() {
         </div>
       </div>
 
-      <TempleGrid />
+      <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-20 text-center text-stone-400">Loading temples…</div>}>
+        <TempleGrid />
+      </Suspense>
     </div>
   );
 }

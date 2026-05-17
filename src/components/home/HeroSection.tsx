@@ -84,7 +84,6 @@ export default function HeroSection() {
         {/* Stats bar */}
         <div className="flex flex-wrap justify-center gap-8 mt-12 text-center">
           {[
-            { value: "1,000+", label: "Temples" },
             { value: "5", label: "States" },
             { value: "25+", label: "Festivals" },
             { value: "50+", label: "Poojas" },

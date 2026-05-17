@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GopuramIcon from "@/components/ui/GopuramIcon";
 
 export default function CTASection() {
   return (
@@ -8,7 +9,7 @@ export default function CTASection() {
       <div className="absolute bottom-0 right-1/3 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl" />
 
       <div className="relative z-10 max-w-3xl mx-auto text-center">
-        <div className="text-5xl mb-6">🛕</div>
+        <GopuramIcon size={64} className="text-amber-400 mx-auto mb-6" />
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
           Begin Your{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-400">

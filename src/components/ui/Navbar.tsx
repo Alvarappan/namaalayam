@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X, Search } from "lucide-react";
+import GopuramIcon from "./GopuramIcon";
 
 const navLinks = [
   { label: "Temples", href: "/temples" },
@@ -11,6 +12,7 @@ const navLinks = [
   { label: "Poojas", href: "/puja" },
   { label: "Gallery", href: "/gallery" },
   { label: "Blog", href: "/blog" },
+  { label: "Calendar", href: "/calendar" },
 ];
 
 export default function Navbar() {
@@ -21,7 +23,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5">
-          <span className="text-2xl">🛕</span>
+          <GopuramIcon size={30} className="text-amber-500" />
           <div>
             <span className="text-white font-bold text-xl tracking-tight">
               Nam <span className="text-amber-500">Aalayam</span>

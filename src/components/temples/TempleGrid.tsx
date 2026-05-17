@@ -1,14 +1,25 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { temples } from "@/data/temples";
 import TempleCard from "./TempleCard";
 import TempleFilters from "./TempleFilters";
 
 export default function TempleGrid() {
+  const searchParams = useSearchParams();
+  const urlCategory = searchParams.get("category") ?? "";
+  const urlState = searchParams.get("state") ?? "";
+
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("");
-  const [state, setState] = useState("");
+  const [category, setCategory] = useState(urlCategory);
+  const [state, setState] = useState(urlState);
+
+  // Sync filters when URL changes (e.g. navigating from /temples?category=shiva to ?category=vishnu)
+  useEffect(() => {
+    setCategory(urlCategory);
+    setState(urlState);
+  }, [urlCategory, urlState]);
 
   const filtered = useMemo(() => {
     return temples.filter((t) => {
@@ -18,7 +29,12 @@ export default function TempleGrid() {
         t.city.toLowerCase().includes(search.toLowerCase()) ||
         t.deity.toLowerCase().includes(search.toLowerCase()) ||
         t.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase()));
-      const matchCategory = !category || t.category === category;
+      // "vishnu" filter is treated as a group that also includes krishna temples,
+      // matching the homepage Categories card grouping (templesByCategory.vishnu).
+      const matchCategory =
+        !category ||
+        t.category === category ||
+        (category === "vishnu" && t.category === "krishna");
       const matchState = !state || t.state === state;
       return matchSearch && matchCategory && matchState;
     });

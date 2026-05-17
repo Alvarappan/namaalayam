@@ -452,15 +452,80 @@ export const templesByCategory = {
   shakti: temples.filter((t) => t.category === "shakti"),
 };
 
-export const festivals = [
-  { name: "Karthigai Deepam", temple: "Arunachaleswarar", date: "Nov–Dec", type: "Fire Festival", slug: "karthigai-deepam" },
-  { name: "Mahamaham", temple: "Kumbakonam", date: "Every 12 years", type: "Holy Dip", slug: "mahamaham" },
-  { name: "Brahmotsavam", temple: "Tirupati", date: "Sep–Oct", type: "Annual Festival", slug: "brahmotsavam-tirupati" },
-  { name: "Chithirai Festival", temple: "Madurai Meenakshi", date: "Apr–May", type: "Celestial Wedding", slug: "chithirai-festival" },
-  { name: "Aadi Perukku", temple: "River Kaveri", date: "Aug", type: "Water Festival", slug: "aadi-perukku" },
-  { name: "Pongala", temple: "Attukal Bhagavathy", date: "Feb–Mar", type: "Women's Festival", slug: "pongala-attukal" },
-  { name: "Skanda Sashti", temple: "Tiruchendur", date: "Oct–Nov", type: "Murugan Festival", slug: "skanda-sashti" },
-  { name: "Sabarimala Season", temple: "Sabarimala", date: "Nov–Jan", type: "Annual Pilgrimage", slug: "sabarimala-season" },
+export interface Festival {
+  name: string;
+  temple: string;
+  date: string;
+  type: string;
+  slug: string;
+  description: string;
+}
+
+export const festivals: Festival[] = [
+  {
+    name: "Karthigai Deepam",
+    temple: "Arunachaleswarar",
+    date: "Nov–Dec",
+    type: "Fire Festival",
+    slug: "karthigai-deepam",
+    description: "Millions of lamps lit across Tamil Nadu on the Karthigai full moon, culminating in the massive Mahadeepam beacon atop Arunachala hill — visible for 30 km.",
+  },
+  {
+    name: "Mahamaham",
+    temple: "Kumbakonam",
+    date: "Every 12 years",
+    type: "Holy Dip",
+    slug: "mahamaham",
+    description: "Once-every-12-years holy dip at the Mahamaham tank in Kumbakonam, where the nine sacred rivers of India are believed to converge. Draws millions of pilgrims.",
+  },
+  {
+    name: "Brahmotsavam",
+    temple: "Tirupati",
+    date: "Sep–Oct",
+    type: "Annual Festival",
+    slug: "brahmotsavam-tirupati",
+    description: "Nine-day grand festival at Tirumala where Lord Venkateswara is taken in procession on a different vahana each day. The Garuda Seva on day five draws over a million.",
+  },
+  {
+    name: "Chithirai Festival",
+    temple: "Madurai Meenakshi",
+    date: "Apr–May",
+    type: "Celestial Wedding",
+    slug: "chithirai-festival",
+    description: "Madurai's 18-day spectacle celebrating the celestial wedding of Goddess Meenakshi and Lord Sundareswarar — the largest street festival in Tamil Nadu.",
+  },
+  {
+    name: "Aadi Perukku",
+    temple: "River Kaveri",
+    date: "Aug",
+    type: "Water Festival",
+    slug: "aadi-perukku",
+    description: "Tamil monsoon festival on the 18th day of Aadi, honouring the swelling River Kaveri whose floodwaters bring life and abundance to the delta.",
+  },
+  {
+    name: "Pongala",
+    temple: "Attukal Bhagavathy",
+    date: "Feb–Mar",
+    type: "Women's Festival",
+    slug: "pongala-attukal",
+    description: "World's largest gathering of women — over 3 million devotees cook sweet rice offerings on roadside hearths along miles of Thiruvananthapuram streets for Goddess Attukal.",
+  },
+  {
+    name: "Skanda Sashti",
+    temple: "Tiruchendur",
+    date: "Oct–Nov",
+    type: "Murugan Festival",
+    slug: "skanda-sashti",
+    description: "Six-day fast and battle festival commemorating Lord Murugan's victory over the demon Soorapadman, culminating in the dramatic Soorasamharam ritual at Tiruchendur.",
+  },
+  {
+    name: "Sabarimala Season",
+    temple: "Sabarimala",
+    date: "Nov–Jan",
+    type: "Annual Pilgrimage",
+    slug: "sabarimala-season",
+    description: "Two-month pilgrimage to Lord Ayyappa's forest shrine, where over 50 million devotees undertake the 41-day vratham and climb the 18 sacred Pathinettam Padi steps.",
+  },
 ];
 
 export const popularPoojas = [

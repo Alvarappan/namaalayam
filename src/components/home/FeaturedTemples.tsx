@@ -84,10 +84,6 @@ export default function FeaturedTemples() {
                   <span className="text-white text-xs font-medium">{temple.rating}</span>
                 </div>
 
-                {/* Temple number */}
-                <div className="absolute bottom-3 right-3 w-7 h-7 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center">
-                  <span className="text-amber-400 text-xs font-bold">#{temple.id}</span>
-                </div>
               </div>
 
               {/* Card Content */}

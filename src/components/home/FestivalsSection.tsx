@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar } from "lucide-react";
 import { festivals } from "@/data/temples";
 
@@ -44,21 +45,33 @@ export default function FestivalsSection() {
               <Link
                 key={festival.slug}
                 href={`/festivals/${festival.slug}`}
-                className={`group p-5 rounded-2xl border ${color.bg} ${color.border} hover:scale-105 transition-all duration-300`}
+                className={`group rounded-2xl border ${color.bg} ${color.border} hover:scale-105 transition-all duration-300 overflow-hidden flex flex-col`}
               >
-                <div className="flex items-start justify-between mb-3">
-                  <span className={`text-3xl`}>🎉</span>
-                  <span className={`px-2.5 py-1 ${color.badge} text-xs font-medium rounded-full`}>
+                <div className="relative w-full h-36 overflow-hidden">
+                  <Image
+                    src={`/images/festivals/${festival.slug}.png`}
+                    alt={festival.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                  <span className={`absolute top-3 right-3 px-2.5 py-1 ${color.badge} backdrop-blur-sm text-xs font-medium rounded-full`}>
                     {festival.type}
                   </span>
                 </div>
-                <h3 className="text-white font-bold text-base mb-1 group-hover:text-amber-300 transition-colors">
-                  {festival.name}
-                </h3>
-                <p className="text-stone-400 text-sm mb-3">{festival.temple}</p>
-                <div className={`flex items-center gap-1.5 ${color.text} text-xs font-medium`}>
-                  <Calendar size={12} />
-                  <span>{festival.date}</span>
+                <div className="p-5 flex flex-col flex-1">
+                  <h3 className="text-white font-bold text-base mb-1 group-hover:text-amber-300 transition-colors">
+                    {festival.name}
+                  </h3>
+                  <p className="text-stone-400 text-xs mb-2">{festival.temple}</p>
+                  <p className="text-stone-300/80 text-sm leading-relaxed mb-4 line-clamp-3 flex-1">
+                    {festival.description}
+                  </p>
+                  <div className={`flex items-center gap-1.5 ${color.text} text-xs font-medium`}>
+                    <Calendar size={12} />
+                    <span>{festival.date}</span>
+                  </div>
                 </div>
               </Link>
             );
