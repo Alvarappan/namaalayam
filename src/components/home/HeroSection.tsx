@@ -15,7 +15,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[600px] flex items-start justify-center overflow-hidden pt-16 md:pt-20">
       {/* Background gradient — warm cream to soft saffron */}
       <div className="absolute inset-0 bg-gradient-to-br from-amber-100 via-orange-100 to-amber-200" />
 
@@ -37,7 +37,7 @@ export default function HeroSection() {
           ॐ நமசிவாய • Om Namo Narayanaya
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-bold text-stone-900 mb-4 leading-tight">
+        <h1 className="text-3xl md:text-5xl font-bold text-stone-900 mb-4 leading-tight">
           Discover the Sacred{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-600">
             Temples of South India
@@ -82,7 +82,7 @@ export default function HeroSection() {
         </div>
 
         {/* Stats bar */}
-        <div className="flex flex-wrap justify-center gap-8 mt-12 text-center">
+        <div className="flex flex-wrap justify-center gap-8 mt-6 text-center">
           {[
             { value: "5", label: "States" },
             { value: "25+", label: "Festivals" },

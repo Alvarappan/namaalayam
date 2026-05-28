@@ -39,7 +39,7 @@ export default function FestivalsSection() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {festivals.map((festival, index) => {
+          {festivals.filter((f) => f.featured !== false).map((festival, index) => {
             const color = festivalColors[index % festivalColors.length];
             return (
               <Link

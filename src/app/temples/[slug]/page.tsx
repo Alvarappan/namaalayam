@@ -3,11 +3,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
-  MapPin, Clock, Star, ExternalLink,
-  Plane, Train, Car, Calendar, Ticket, Shirt, Sun
+  MapPin, Clock, Star, ExternalLink, Calendar,
+  Sparkles, BookOpen,
 } from "lucide-react";
 import { temples } from "@/data/temples";
 import { getTempleDetail } from "@/data/templeDetails";
+import VisitorLogisticsCard from "@/components/temples/VisitorLogisticsCard";
+import TempleQuickCards from "@/components/temples/TempleQuickCards";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -103,37 +105,106 @@ export default async function TempleDetailPage({ params }: Props) {
         </div>
       </div>
 
+      {/* Quick info cards — full-width strip */}
+      <div className="max-w-6xl mx-auto px-4 pt-10">
+        <TempleQuickCards
+          detail={detail}
+          templeName={temple.name}
+          city={temple.city}
+          state={temple.state}
+          coordinates={temple.coordinates}
+        />
+      </div>
+
       {/* Main content */}
-      <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-4 pt-8 pb-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
 
         {/* Left: Main Info */}
         <div className="lg:col-span-2 space-y-8">
-
-          {/* Quick Facts */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {[
-              { icon: <Clock size={18} />, label: "Morning", value: detail.timings.morning },
-              { icon: <Clock size={18} />, label: "Evening", value: detail.timings.evening },
-              { icon: <Ticket size={18} />, label: "Entry", value: detail.entryFee.split(".")[0] },
-              { icon: <Sun size={18} />, label: "Best Time", value: detail.bestTime.split(".")[0] },
-            ].map((fact) => (
-              <div key={fact.label} className="bg-white border border-amber-200 rounded-xl p-4 shadow-sm">
-                <div className="text-orange-600 mb-2">{fact.icon}</div>
-                <div className="text-stone-500 text-xs mb-1">{fact.label}</div>
-                <div className="text-stone-900 text-sm font-medium leading-tight">{fact.value}</div>
-              </div>
-            ))}
-          </div>
 
           {/* History */}
           <Section title="History">
             <p className="text-stone-700 leading-relaxed">{detail.history}</p>
           </Section>
 
+          {/* Mythology */}
+          {detail.mythology && (
+            <Section title="Mythology & Legend">
+              <div className="space-y-5">
+                {detail.mythology.legend && (
+                  <div>
+                    <h3 className="text-stone-900 font-semibold text-base mb-2 flex items-center gap-2">
+                      <Sparkles size={16} className="text-orange-600" />
+                      The Legend
+                    </h3>
+                    <p className="text-stone-700 leading-relaxed">{detail.mythology.legend}</p>
+                  </div>
+                )}
+                {detail.mythology.tirukalyanam && (
+                  <div>
+                    <h3 className="text-stone-900 font-semibold text-base mb-2 flex items-center gap-2">
+                      <Sparkles size={16} className="text-orange-600" />
+                      The Divine Wedding
+                    </h3>
+                    <p className="text-stone-700 leading-relaxed">{detail.mythology.tirukalyanam}</p>
+                  </div>
+                )}
+                {detail.mythology.additionalStories?.map((s) => (
+                  <div key={s.title}>
+                    <h3 className="text-stone-900 font-semibold text-base mb-2 flex items-center gap-2">
+                      <BookOpen size={16} className="text-orange-600" />
+                      {s.title}
+                    </h3>
+                    <p className="text-stone-700 leading-relaxed">{s.content}</p>
+                  </div>
+                ))}
+              </div>
+            </Section>
+          )}
+
           {/* Architecture */}
           <Section title="Architecture">
             <p className="text-stone-700 leading-relaxed">{detail.architecture}</p>
+
+            {detail.architectureFeatures && detail.architectureFeatures.length > 0 && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                {detail.architectureFeatures.map((f) => (
+                  <div key={f.name} className="bg-amber-50/60 border border-amber-200 rounded-xl p-4">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <h4 className="text-stone-900 font-semibold text-sm leading-tight">{f.name}</h4>
+                      <span className="text-[10px] uppercase tracking-wider text-orange-700 bg-orange-100 px-1.5 py-0.5 rounded whitespace-nowrap">
+                        {f.type}
+                      </span>
+                    </div>
+                    {f.nameTa && (
+                      <p className="text-stone-500 text-xs mb-2">{f.nameTa}</p>
+                    )}
+                    <p className="text-stone-700 text-xs leading-relaxed">{f.description}</p>
+                    {f.detail && (
+                      <p className="text-orange-700 text-xs font-medium mt-2">{f.detail}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </Section>
+
+          {/* Sub-shrines */}
+          {detail.subShrines && detail.subShrines.length > 0 && (
+            <Section title="Sub-shrines & Other Deities">
+              <div className="space-y-3">
+                {detail.subShrines.map((s) => (
+                  <div key={s.name} className="bg-white border border-amber-200 rounded-xl p-4 shadow-sm">
+                    <div className="flex items-start justify-between gap-3 mb-1">
+                      <h4 className="text-stone-900 font-semibold text-base">{s.name}</h4>
+                      <span className="text-orange-600 text-xs font-medium whitespace-nowrap">{s.deity}</span>
+                    </div>
+                    <p className="text-stone-700 text-sm leading-relaxed">{s.description}</p>
+                  </div>
+                ))}
+              </div>
+            </Section>
+          )}
 
           {/* Highlights */}
           <Section title="Highlights">
@@ -152,70 +223,117 @@ export default async function TempleDetailPage({ params }: Props) {
           {/* Festivals */}
           <Section title="Festivals & Events">
             <div className="space-y-4">
-              {detail.festivals.map((f) => (
-                <div key={f.name} className="bg-amber-50/60 border border-amber-200 rounded-xl p-4">
-                  <div className="flex items-start justify-between gap-4 mb-2">
-                    <h4 className="text-stone-900 font-semibold">{f.name}</h4>
-                    <span className="flex items-center gap-1.5 text-orange-600 text-xs font-medium whitespace-nowrap">
-                      <Calendar size={12} />
-                      {f.month}
-                    </span>
+              {detail.festivals.map((f) => {
+                const inner = (
+                  <>
+                    <div className="flex items-start justify-between gap-4 mb-2">
+                      <h4 className="text-stone-900 font-semibold group-hover:text-orange-700 transition-colors">
+                        {f.name}
+                        {f.slug && <span className="text-orange-600 ml-1.5 text-xs">→</span>}
+                      </h4>
+                      <span className="flex items-center gap-1.5 text-orange-600 text-xs font-medium whitespace-nowrap">
+                        <Calendar size={12} />
+                        {f.month}
+                      </span>
+                    </div>
+                    <p className="text-stone-700 text-sm leading-relaxed">{f.description}</p>
+                  </>
+                );
+                return f.slug ? (
+                  <Link key={f.name} href={`/festivals/${f.slug}`} className="group block bg-amber-50/60 border border-amber-200 hover:border-orange-400 rounded-xl p-4 transition-colors">
+                    {inner}
+                  </Link>
+                ) : (
+                  <div key={f.name} className="group bg-amber-50/60 border border-amber-200 rounded-xl p-4">
+                    {inner}
                   </div>
-                  <p className="text-stone-700 text-sm leading-relaxed">{f.description}</p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </Section>
 
-          {/* Poojas */}
-          <Section title="Poojas & Sevas">
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-amber-200">
-                    <th className="text-left text-stone-600 font-medium pb-3 pr-4">Pooja / Seva</th>
-                    <th className="text-left text-stone-600 font-medium pb-3 pr-4">Time</th>
-                    <th className="text-left text-stone-600 font-medium pb-3">Fee</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-amber-100">
-                  {detail.poojas.map((p) => (
-                    <tr key={p.name}>
-                      <td className="text-stone-900 py-3 pr-4 font-medium">{p.name}</td>
-                      <td className="text-stone-600 py-3 pr-4">{p.time}</td>
-                      <td className="text-orange-600 py-3 font-medium">{p.fee}</td>
+          {/* Sevas (enhanced) or Poojas (fallback) */}
+          {detail.sevas && detail.sevas.length > 0 ? (
+            <Section title="Sevas & Poojas">
+              <div className="space-y-3">
+                {detail.sevas.map((s) => (
+                  <div key={s.name} className="bg-white border border-amber-200 rounded-xl p-4 shadow-sm">
+                    <div className="flex items-start justify-between gap-3 mb-2 flex-wrap">
+                      <div className="flex items-center gap-2">
+                        <h4 className="text-stone-900 font-semibold text-base">{s.name}</h4>
+                        {s.type && (
+                          <span className={`text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded ${
+                            s.type === "daily" ? "bg-emerald-100 text-emerald-700" :
+                            s.type === "weekly" ? "bg-blue-100 text-blue-700" :
+                            s.type === "monthly" ? "bg-violet-100 text-violet-700" :
+                            "bg-orange-100 text-orange-700"
+                          }`}>
+                            {s.type}
+                          </span>
+                        )}
+                      </div>
+                      <span className="text-orange-700 text-sm font-semibold whitespace-nowrap">{s.fee}</span>
+                    </div>
+                    {s.description && (
+                      <p className="text-stone-700 text-sm leading-relaxed mb-2">{s.description}</p>
+                    )}
+                    <div className="flex items-center justify-between gap-3 flex-wrap text-xs">
+                      <span className="flex items-center gap-1.5 text-stone-600">
+                        <Clock size={12} className="text-orange-600" />
+                        {s.time}
+                      </span>
+                      {s.bookingUrl && (
+                        <a
+                          href={s.bookingUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-orange-700 font-medium hover:underline"
+                        >
+                          Book online <ExternalLink size={11} />
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="text-stone-500 text-xs mt-4 leading-relaxed">
+                Fees and timings are indicative and may change. Please confirm with the temple office before travelling.
+              </p>
+            </Section>
+          ) : (
+            <Section title="Poojas & Sevas">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-amber-200">
+                      <th className="text-left text-stone-600 font-medium pb-3 pr-4">Pooja / Seva</th>
+                      <th className="text-left text-stone-600 font-medium pb-3 pr-4">Time</th>
+                      <th className="text-left text-stone-600 font-medium pb-3">Fee</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </Section>
+                  </thead>
+                  <tbody className="divide-y divide-amber-100">
+                    {detail.poojas.map((p) => (
+                      <tr key={p.name}>
+                        <td className="text-stone-900 py-3 pr-4 font-medium">{p.name}</td>
+                        <td className="text-stone-600 py-3 pr-4">{p.time}</td>
+                        <td className="text-orange-600 py-3 font-medium">{p.fee}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </Section>
+          )}
 
         </div>
 
         {/* Right: Sidebar */}
         <div className="space-y-6">
 
-          {/* Visitor Info */}
-          <SideCard title="Visitor Information">
-            <InfoRow icon={<Shirt size={15} />} label="Dress Code" value={detail.dressCode} />
-            <InfoRow icon={<Ticket size={15} />} label="Entry Fee" value={detail.entryFee} />
-            <InfoRow icon={<Sun size={15} />} label="Best Time" value={detail.bestTime} />
-            {detail.timings.note && (
-              <div className="mt-3 p-3 bg-amber-50 border border-amber-200 rounded-lg">
-                <p className="text-amber-900 text-xs leading-relaxed">⚠ {detail.timings.note}</p>
-              </div>
-            )}
-          </SideCard>
-
-          {/* How to Reach */}
-          <SideCard title="How to Reach">
-            <div className="space-y-4">
-              <TravelRow icon={<Plane size={15} />} label="By Air" value={detail.travelInfo.byAir} />
-              <TravelRow icon={<Train size={15} />} label="By Train" value={detail.travelInfo.byTrain} />
-              <TravelRow icon={<Car size={15} />} label="By Road" value={detail.travelInfo.byRoad} />
-            </div>
-          </SideCard>
+          {/* Visitor Logistics (optional, opens modal) */}
+          {detail.visitorLogistics && (
+            <VisitorLogisticsCard logistics={detail.visitorLogistics} />
+          )}
 
           {/* Location / Map */}
           <SideCard title="Location">
@@ -312,26 +430,3 @@ function SideCard({ title, children }: { title: string; children: React.ReactNod
   );
 }
 
-function InfoRow({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="flex gap-3 mb-3 last:mb-0">
-      <div className="text-orange-600 mt-0.5 flex-shrink-0">{icon}</div>
-      <div>
-        <div className="text-stone-500 text-xs mb-0.5">{label}</div>
-        <div className="text-stone-800 text-sm leading-relaxed">{value}</div>
-      </div>
-    </div>
-  );
-}
-
-function TravelRow({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
-  return (
-    <div className="flex gap-3">
-      <div className="text-orange-600 mt-0.5 flex-shrink-0">{icon}</div>
-      <div>
-        <div className="text-stone-600 text-xs font-medium mb-0.5">{label}</div>
-        <div className="text-stone-800 text-xs leading-relaxed">{value}</div>
-      </div>
-    </div>
-  );
-}

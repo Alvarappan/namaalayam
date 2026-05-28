@@ -124,11 +124,15 @@ export const festivalDetails: Record<string, FestivalDetail> = {
     story:
       "King Malayadhwaja Pandya and his queen Kanchanamala were childless. Through penance and divine grace, a three-breasted girl was born to them — declared by the gods to be a divine incarnation. The king raised her as a warrior princess. She grew up to become Meenakshi (the fish-eyed one), Queen of Madurai. Her third breast was prophesied to disappear when she met the man she would marry. On her conquest of Mount Kailasa, she met Lord Shiva — and at that moment, her third breast vanished. The wedding was solemnised in Madurai, with Lord Vishnu (her brother Kallazhagar) arriving to give her away.",
     rituals: [
-      "Days 1–10: Meenakshi Pattabhishekam — the goddess's coronation, with daily processions.",
-      "Day 9: Thirukalyanam — the celestial wedding ceremony. Tens of thousands gather in the temple complex.",
-      "Day 10: Theer Festival (Car Festival) — the great wooden chariot is pulled through the four Mada streets by thousands of devotees.",
-      "Day 12: Kallazhagar's procession — Lord Vishnu, as Kallazhagar, journeys from Alagar Koil to Madurai across the Vaigai river.",
-      "Devotees fast on the Thirukalyanam day and witness the wedding rituals re-enacted with full Vedic ceremony.",
+      "Day 1: Kodiyetram — the festival flag is hoisted on the Dwajasthambam (flag mast) in front of Sundareswarar's sanctum, formally inaugurating the 12-day temple festival.",
+      "Days 2–7: Meenakshi Pattabhishekam — daily morning processions of the goddess in different alankarams (decorations) through the inner corridors.",
+      "Day 8: Digvijayam — the symbolic conquest of the directions, recalling Meenakshi's pre-marriage digvijaya across the four quarters.",
+      "Day 9: Thirukalyanam — the celestial wedding ceremony of Meenakshi and Sundareswarar. Tens of thousands gather inside the temple complex; the rituals are conducted with full Vedic ceremony from dawn.",
+      "Day 10: Therottam (Car Festival) — the great wooden chariots of Meenakshi and Sundareswarar are pulled through the four Mada streets by tens of thousands of devotees. The largest gathering of the festival.",
+      "Day 11: Pallakku Utsavam — the deities are taken in a silver palanquin procession through the inner corridors.",
+      "Day 12: Kallazhagar's arrival — Lord Vishnu, as Kallazhagar from Alagar Kovil 20 km away, journeys to Madurai across the Vaigai riverbed for his sister's wedding. The river-crossing draws lakhs of spectators along the dry Vaigai bed.",
+      "Days 13–18: Vaikasi Visakam observances and concluding rituals; Kallazhagar returns to Alagar Kovil.",
+      "Devotees fast on Thirukalyanam day. The two deities are dressed in the traditional yellow wedding attire — Meenakshi in a green silk saree and Sundareswarar in a gold-embroidered veshti.",
     ],
     whenWhere: {
       duration: "18 days in Chithirai (April–May)",
@@ -212,6 +216,82 @@ export const festivalDetails: Record<string, FestivalDetail> = {
     forDevotees:
       "Begin the 41-day vratham at home, ideally with guidance from a Guru. The trek is physically demanding — train by walking 10 km daily for a month before the pilgrimage. Carry the irumudi kettu only after the ritual tying (kettu nira) at a designated temple. Women aged 10–50 are traditionally not permitted (a legal and cultural matter currently under debate). The forest can be cold at night — carry a warm shawl.",
     relatedTempleSlugs: ["sabarimala-ayyappa"],
+  },
+
+  "aavani-moolam": {
+    slug: "aavani-moolam",
+    intro:
+      "Aavani Moolam is the 10-day Madurai festival that re-enacts the 64 Thiruvilayadal — the sacred sports of Lord Sundareswarar (Shiva) as ruler of Madurai. Held during the Tamil month of Aavani (August–September) on the asterism of Moolam, the festival is celebrated almost exclusively at the Meenakshi Amman Temple. Each evening across the ten days, a different leela is enacted in song, drama, and procession through the temple corridors.",
+    significance:
+      "Aavani Moolam commemorates a unique theological idea: that Shiva once descended into Madurai as its mortal king and queen, performing playful and sometimes mischievous deeds to test, instruct, and ultimately bless his devotees. These 64 stories — recorded in the 17th-century Tamil text Thiruvilayadal Puranam by Paranjothi Munivar — root Shaivite myth in the very streets of Madurai. The festival is the temple's celebration of its city's identity.",
+    story:
+      "The Thiruvilayadal Puranam tells of how Shiva, in his form as Sundareswarar, performed 64 leelas alongside Queen Meenakshi while ruling Madurai. He sold pearls and rubies to a poor pious woman; turned a fox into a horse to humble a proud trader; ate a stale meal from an old devotee to teach her son humility; taught Tamil grammar to the sage Agastya; and battled the Pandyan war-elephant Madhura Veeran. The 64 stories blend the mythic and the mundane — Shiva walks the streets of Madurai as both king and trickster, blessing the simple devotee while testing the proud.",
+    rituals: [
+      "Day 1: Kodiyetram — the festival flag is raised on the Dwajasthambam, formally opening the festival.",
+      "Days 2–9: Each evening, one or more of the 64 Thiruvilayadal stories is enacted through a special procession of the deities in a different alankaram — accompanied by Tamil oratory and recital from the Thiruvilayadal Puranam.",
+      "Day 6 (Moolam asterism): The main festival day. Lord Sundareswarar is taken in grand procession around the four Mada streets.",
+      "Specific leelas are paired with specific processional vahanas (vehicles) — Hanuman vahanam, horse vahanam, swan vahanam, and others.",
+      "Day 10: Theerthavari — the concluding bath of the festival images in the temple tank, marking the closure of the festival.",
+    ],
+    whenWhere: {
+      duration: "10 days in Aavani (August–September), centred on the Moolam asterism",
+      mainTemple: "Meenakshi Amman Temple, Madurai",
+    },
+    forDevotees:
+      "Aavani Moolam is one of the lesser-known temple festivals — the crowds are smaller than Chithirai, making it a wonderful time to experience the temple's living storytelling tradition. Each evening's procession typically begins between 6 PM and 8 PM in the inner corridors. Reading even a brief summary of the Thiruvilayadal Puranam beforehand transforms the experience; English translations are available at the temple's bookstall near the East tower.",
+    relatedTempleSlugs: ["madurai-meenakshi"],
+  },
+
+  "navaratri-golu": {
+    slug: "navaratri-golu",
+    intro:
+      "Navaratri — the 'nine nights' of the Divine Mother — is among the most beloved festivals across South India. In Tamil Nadu, it is celebrated as Golu: an elaborate display of dolls arranged on tiered steps (kolu padi) in homes and temples, depicting deities, sages, royal court scenes, and tableaux from the Puranas. The first three nights honour Durga, the next three Lakshmi, and the final three Saraswati — culminating in Vijayadashami, the tenth day of victory.",
+    significance:
+      "Navaratri celebrates the Divine Feminine in her three principal aspects: Durga (the power that destroys evil), Lakshmi (the wealth that sustains life), and Saraswati (the knowledge that liberates). Vijayadashami, the tenth day, commemorates Durga's victory over the buffalo-demon Mahishasura — and is considered the most auspicious day of the year for beginning new ventures: starting school, learning music, beginning trade. At Meenakshi Amman Temple, the goddess is dressed in nine successively grander alankarams across the nine nights.",
+    story:
+      "The asuras Mahishasura and Sumbha-Nisumbha had performed great penance and obtained boons making them invincible to any male being. They terrorised the heavens. The devas, helpless, pooled their divine energies into a single radiant form — Devi Durga — who rode out on a lion and battled the demons for nine nights, finally slaying Mahishasura on the morning of the tenth day. The nine nights are remembered as Navaratri, the tenth as Vijayadashami — 'the day of victory'.",
+    rituals: [
+      "Households set up a Golu — an odd-numbered stepped display (3, 5, 7, 9 steps) of clay and wooden dolls depicting deities, sages, weddings, royal court scenes, and Puranic tableaux.",
+      "A kalasham (decorated pot representing the goddess) is placed at the centre of the display and worshipped each evening.",
+      "Women visit each other's homes to view their Golus; visitors are offered sundal (lentil snacks), tamboolam (betel leaf, areca nut, coconut, fruit), and a small return-gift.",
+      "Saraswati Pooja on the ninth day: books, musical instruments, and tools of one's trade are placed before the goddess and worshipped — no work is done that day.",
+      "Vijayadashami: the books are reopened with reverence (Vidyarambham) — a traditional day for beginning new learning. Children are inducted into formal study, sometimes by tracing their first letter in a tray of rice.",
+      "At Meenakshi Amman Temple: special alankarams of the goddess in nine forms (Navadurga); a large temple-Golu is displayed in the corridors.",
+    ],
+    whenWhere: {
+      duration: "10 days from the first day of Ashwina (September–October)",
+      mainTemple: "Meenakshi Amman Temple, Madurai",
+      otherLocations: ["Kapaleeswarar Temple Mylapore", "Mysore Palace", "Tamil and Karnataka homes"],
+    },
+    forDevotees:
+      "Even if you can't visit a temple, set up a small Golu at home — even three steps with a few dolls and a kalasham is enough. Invite neighbours to view it and share sundal — the social warmth of Navaratri is as important as the worship. On Vijayadashami, place your books and tools before the goddess in the morning; pick them up only after a small puja. This is the most auspicious day of the year to begin learning music, language, or a new craft.",
+    relatedTempleSlugs: ["madurai-meenakshi", "kapaleeswarar-mylapore"],
+  },
+
+  "float-festival-madurai": {
+    slug: "float-festival-madurai",
+    intro:
+      "The Madurai Float Festival — Theppotsavam — is held annually on the full-moon day of the Tamil month of Thai (mid-January to mid-February). On this night, the processional images of Goddess Meenakshi and Lord Sundareswarar are taken from the temple to the Mariamman Teppakulam, a vast sacred tank 5 km east of the temple. They are placed on an elaborately illuminated wooden float (theppam) garlanded with thousands of flowers and lit lamps, which is rowed slowly around the central pavilion of the tank — a luminous, slow-moving spectacle drawing several hundred thousand spectators to the tank's banks.",
+    significance:
+      "The Mariamman Teppakulam was excavated in 1645 by Thirumalai Nayak, the great Madurai king, to mark his birthday. It measures roughly 1,000 ft × 950 ft — one of the largest temple tanks in India — and was originally fed by the Vaigai river through underground channels. The central pavilion (Maiyam Mandapam) houses a small shrine to Lord Vinayaka. The Float Festival commemorates the king's birthday and the divine playfulness of Meenakshi-Sundareswarar, who 'take a holiday' from the inner sanctums to enjoy the cool waters of the tank.",
+    story:
+      "Thirumalai Nayak (r. 1623–59) was the most ambitious of the Madurai Nayak kings — patron of art, architecture, and the great Thirumalai Nayakkar Mahal palace. On his birthday, he is said to have requested a permanent gift to his city: a vast tank where the deities of his beloved Meenakshi temple could be brought out once a year, freed from the dim sanctum to bask under the full moon. He had his masons excavate clay for the Madurai brickworks, and the great tank was the resulting pit — formalised with steps, ringed by a parapet, and consecrated with the central Vinayaka pavilion.",
+    rituals: [
+      "On the morning of Thai Poosam full moon: festival images of Meenakshi and Sundareswarar are decorated and taken in procession from the Meenakshi temple to the Mariamman Teppakulam (5 km).",
+      "The deities are placed on a large wooden float (theppam) decorated with hundreds of garlands, paddy stalks, plantain trunks, and several thousand oil lamps.",
+      "At nightfall the float is launched into the tank and rowed slowly around the central Maiyam Mandapam — typically three or five circumambulations.",
+      "Devotees gather around the tank's stepped banks; the reflection of the illuminated float in the water is the festival's defining sight.",
+      "Music from the nadaswaram and tavil accompanies the procession.",
+      "The deities are returned to the Meenakshi temple by dawn the following day.",
+    ],
+    whenWhere: {
+      duration: "1 night (Thai Poosam full moon, January–February)",
+      mainTemple: "Mariamman Teppakulam, Madurai (5 km east of Meenakshi Amman Temple)",
+      otherLocations: ["Meenakshi Amman Temple (procession start and end)"],
+    },
+    forDevotees:
+      "Arrive at the Teppakulam by 5 PM to claim a good spot on the stepped banks — the float is launched around 7–8 PM and circles for 2–3 hours. The east and south banks are the most popular; the north bank is usually less crowded. Carry a shawl: January nights in Madurai are cooler than expected. Auto-rickshaws from the Meenakshi temple to the Teppakulam are easy but charge a festival premium — agree on fare beforehand. Photography is freely permitted from the banks (no flash, please).",
+    relatedTempleSlugs: ["madurai-meenakshi"],
   },
 };
 

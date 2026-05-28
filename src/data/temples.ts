@@ -459,6 +459,7 @@ export interface Festival {
   type: string;
   slug: string;
   description: string;
+  featured?: boolean;
 }
 
 export const festivals: Festival[] = [
@@ -525,5 +526,32 @@ export const festivals: Festival[] = [
     type: "Annual Pilgrimage",
     slug: "sabarimala-season",
     description: "Two-month pilgrimage to Lord Ayyappa's forest shrine, where over 50 million devotees undertake the 41-day vratham and climb the 18 sacred Pathinettam Padi steps.",
+  },
+  {
+    name: "Aavani Moolam",
+    temple: "Madurai Meenakshi",
+    date: "Aug–Sep",
+    type: "Annual Festival",
+    slug: "aavani-moolam",
+    description: "10-day Madurai festival re-enacting the 64 sacred sports (Thiruvilayadal) of Lord Sundareswarar — each evening a different leela.",
+    featured: false,
+  },
+  {
+    name: "Navaratri Golu",
+    temple: "Madurai Meenakshi",
+    date: "Sep–Oct",
+    type: "Nine Nights of Devi",
+    slug: "navaratri-golu",
+    description: "Nine nights of the Goddess celebrated with the traditional Tamil golu (step-doll display) at homes and temples — at Meenakshi Amman, the goddess is dressed in nine different alankarams.",
+    featured: false,
+  },
+  {
+    name: "Float Festival (Theppam)",
+    temple: "Madurai Meenakshi",
+    date: "Jan–Feb",
+    type: "Float Festival",
+    slug: "float-festival-madurai",
+    description: "On Thai Poosam full moon, processional images of Meenakshi and Sundareswarar are taken on an illuminated float across the Mariamman Teppakulam tank in Madurai.",
+    featured: false,
   },
 ];

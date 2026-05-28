@@ -3,6 +3,9 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/Footer";
+import TodayPanchang from "@/components/home/TodayPanchang";
+
+export const revalidate = 3600;
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -50,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-amber-50 text-stone-900">
-        <Navbar />
+        <Navbar rightSlot={<TodayPanchang />} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

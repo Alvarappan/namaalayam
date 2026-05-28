@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import GopuramIcon from "./GopuramIcon";
 
 const navLinks = [
@@ -15,14 +15,14 @@ const navLinks = [
   { label: "Calendar", href: "/calendar" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ rightSlot }: { rightSlot?: React.ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-amber-200/60 shadow-sm shadow-amber-100/40">
-      <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
           <GopuramIcon size={30} className="text-orange-600" />
           <div>
             <span className="text-stone-900 font-bold text-xl tracking-tight">
@@ -34,31 +34,31 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-1">
+        {/* Desktop Nav — centered */}
+        <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="px-3.5 py-2 text-stone-700 hover:text-orange-600 text-sm font-medium rounded-lg hover:bg-amber-100/60 transition-all"
+              className="px-3 py-2 text-stone-700 hover:text-orange-600 text-sm font-medium rounded-lg hover:bg-amber-100/60 transition-all"
             >
               {link.label}
             </Link>
           ))}
-        </div>
-
-        {/* Right actions */}
-        <div className="hidden md:flex items-center gap-3">
-          <button className="p-2 text-stone-500 hover:text-orange-600 hover:bg-amber-100/60 rounded-lg transition-all">
-            <Search size={18} />
-          </button>
           <Link
             href="/puja"
-            className="px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white text-sm font-semibold rounded-lg shadow-md shadow-orange-300/40 transition-all"
+            className="ml-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white text-sm font-semibold rounded-lg shadow-md shadow-orange-300/40 transition-all"
           >
             Book Pooja
           </Link>
         </div>
+
+        {/* Right slot (e.g. today's panchang) */}
+        {rightSlot && (
+          <div className="hidden md:flex items-center flex-shrink-0">
+            {rightSlot}
+          </div>
+        )}
 
         {/* Mobile toggle */}
         <button
