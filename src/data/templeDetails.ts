@@ -45,6 +45,11 @@ export interface Seva {
   bookingUrl?: string;
 }
 
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
 export interface TempleDetail {
   slug: string;
   timings: {
@@ -72,6 +77,7 @@ export interface TempleDetail {
   subShrines?: SubShrine[];
   visitorLogistics?: VisitorLogistics;
   sevas?: Seva[];
+  faqs?: FAQ[];
 }
 
 export const templeDetails: Record<string, TempleDetail> = {
@@ -96,17 +102,274 @@ export const templeDetails: Record<string, TempleDetail> = {
     history: "The Tirupati Venkateswara Temple, also known as the Tirumala Temple, is a Vaishnavite temple dedicated to Lord Venkateswara (a form of Vishnu). The temple is believed to have been visited by Ramanuja, the 12th-century philosopher who is said to have performed the Anointment of Lord Venkateswara. References to this temple appear in early Tamil literature, including the Divya Prabandha by the Alvars. The Tirumala Tirupati Devasthanams (TTD) trust, established in 1933, now administers the temple and manages the world's largest religious endowment.",
     architecture: "The temple is built in Dravidian architecture style with a distinctive golden Vimana (tower). The Ananda Nilayam (sanctum) is covered in gold plates. The Bangaru Vakili (golden door) leads to the main sanctum. The temple complex includes Hundi (donation box), Ranganayakula Mandapam, and the sacred Pushkarini tank.",
     festivals: [
-      { name: "Brahmotsavam", month: "September–October", description: "Nine-day annual festival drawing millions of pilgrims. The deity is taken out in a grand procession on 9 different vahanas (vehicles)." },
+      { name: "Brahmotsavam", month: "September–October", description: "Nine-day annual festival drawing millions of pilgrims. The deity is taken out in a grand procession on 9 different vahanas (vehicles).", slug: "brahmotsavam-tirupati" },
       { name: "Vaikunta Ekadasi", month: "December–January", description: "The most sacred day when the Vaikunta Dwaram (Heaven's Gate) is opened. Darshan is given through this special door." },
-      { name: "Rathasapthami", month: "February", description: "Celebrates the birthday of the Sun God. The deity is placed on a chariot and taken in a procession." },
+      { name: "Rathasapthami", month: "February", description: "Celebrates the birthday of the Sun God. The deity is placed on a chariot and taken in a procession through the four streets of Tirumala from 4 AM to midnight on seven different vahanas." },
+      { name: "Pushpa Yagam", month: "May", description: "Annual flower festival. The temple and processional deities are decorated with tonnes of flowers; a six-hour pushpa abhishekam is performed in the Tirumamani Mandapam." },
     ],
     poojas: [
-      { name: "Suprabhatha Seva", time: "2:30 AM", fee: "₹5,000" },
-      { name: "Thomala Seva", time: "3:00 AM", fee: "₹5,000" },
-      { name: "Archana", time: "All day", fee: "₹120" },
-      { name: "Kalyanam (Special Entry)", time: "7:30 AM onwards", fee: "₹300" },
+      { name: "Suprabhatha Seva", time: "2:30 AM", fee: "₹120 (Arjita)" },
+      { name: "Thomala Seva", time: "3:00 AM", fee: "₹220" },
+      { name: "Archana", time: "All day", fee: "₹220" },
+      { name: "Kalyanotsavam", time: "11:00 AM onwards", fee: "₹1,000" },
     ],
     nearbyTemples: ["govindarajaswamy-tirupati", "srikalahasti-temple"],
+    mythology: {
+      legend:
+        "Once, sage Bhrigu was sent by a council of rishis to determine the supreme among the Trimurti. Finding Vishnu reclining on Adi Shesha in Vaikuntha, apparently asleep and inattentive, the enraged Bhrigu kicked him in the chest. Vishnu calmly took the sage's foot and gently massaged it — but Goddess Lakshmi, who resides on Vishnu's chest, was deeply insulted by both the kick and the fact that Vishnu had pardoned the offence. She left Vaikuntha for Earth in search of a quieter dwelling, settling at Kolhapur as Mahalakshmi. Vishnu, separated from her, descended to the Venkata hills as Srinivasa — 'the abode of Sri' — to find her.",
+      tirukalyanam:
+        "On Earth, Srinivasa lived a life of austerity at Tirumala until he encountered the beautiful Princess Padmavathi, daughter of King Akasa Raja, at Narayanavanam. She was an incarnation of Lakshmi herself, born of a lotus from the earth. Srinivasa won her in marriage — but the wedding required vast wealth he did not possess. He borrowed an enormous sum from Kubera, the god of wealth, agreeing to repay only the interest until the end of Kali Yuga; the principal is to be repaid at the dawn of the next yuga. This is why devotees still pour their wealth — money, gold, hair, jewellery — into the temple Hundi: each donation is a token contribution toward Lord Venkateswara's debt to Kubera.",
+      additionalStories: [
+        {
+          title: "Why Devotees Offer Their Hair",
+          content:
+            "An old legend traces the hair-offering custom to a kind cowherd boy whose ox was struck by a stone meant to chase it away. The stone hit Lord Venkateswara on the head, dislodging a patch of his hair. A passing princess, Neeladevi, saw the bleeding scalp and cut off her own beautiful tresses to cover the wound. Touched by her sacrifice, the Lord declared that henceforth he would receive the hair of every devotee who offered it at his temple, and that Neeladevi would receive the blessings on his behalf. The tonsuring of one's head at Tirumala is therefore both an act of surrendering one's pride (the hair as a symbol of vanity) and a settlement of one's share of the debt to Kubera.",
+        },
+        {
+          title: "The Seven Sacred Hills (Sapta Giri)",
+          content:
+            "Tirumala stands on seven sacred hills, collectively the Seshachalam range — the seven hoods of Adi Shesha, the cosmic serpent on whom Vishnu reclines. Their names are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri and Venkatadri. The Lord's name 'Venkateswara' means the destroyer (eswara) of sins (venkata, from 'vem' = sins and 'kata' = destroyer). The path of Alipiri Mettu, with its 3,550 stone steps, threads through these hills and is the ancient pilgrim route to the temple.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Ananda Nilayam Vimana",
+        nameTa: "ఆనంద నిలయం",
+        type: "vimana",
+        description: "The three-tiered gilded tower directly above the sanctum, the most sacred element of the temple. The name means 'Abode of Bliss'. Its ~32 m gold-plated surface dominates the Tirumala skyline; the topmost finial holds the famous Vimana Venkateswara — a smaller replica image believed to bestow the same darshan benefit when viewed from outside.",
+        detail: "Three tiers · ~32 m gold-plated",
+      },
+      {
+        name: "Garbhagriha (Sanctum)",
+        type: "sanctum",
+        description: "The inner sanctum housing the ~8-foot tall self-manifest (svayambhu) murti of Lord Venkateswara, standing on a Padmapeetham. The deity holds the Shankha and Chakra in his upper hands; his lower hands rest in Varada and Hasta mudras. The image is famously said to maintain a body-warm temperature even in the cold sanctum.",
+      },
+      {
+        name: "Bangaru Vakili (Golden Door)",
+        type: "other",
+        description: "The 'Golden Doorway' that separates the Antarala mandapam from the Garbhagriha. Its silver-and-gold-plated doors are carved with the ten avatars of Vishnu. The threshold is so revered that pilgrims touch it with their foreheads as they pass through to the sanctum.",
+      },
+      {
+        name: "Mahadwaram (Main Entrance)",
+        type: "gopuram",
+        description: "The principal entrance gopuram on the east, also called the Padikavali. Built in the Chola–Vijayanagara style with five tiers and topped by a single kalasham. Pilgrims pass beneath it to enter the temple complex from the Mada streets.",
+      },
+      {
+        name: "Tirumamani Mandapam",
+        type: "mandapam",
+        description: "The 'Hall of the Sacred Bell', between the Mahadwaram and the inner enclosure. Daily Sahasranama Archana, Sahasra Deepalankarana and many of the major Arjita sevas are performed here. Its bells ring at every transition of the daily ritual cycle.",
+      },
+      {
+        name: "Vimana Pradakshinam",
+        type: "other",
+        description: "The innermost circumambulatory path around the Ananda Nilayam Vimana. Walking three times around the Vimana is considered equivalent to viewing the deity itself — particularly meaningful on busy darshan days when sanctum-time is brief.",
+      },
+      {
+        name: "Sampangi Pradakshinam",
+        type: "other",
+        description: "The outer circumambulatory corridor, lined with smaller shrines, mandapams, and the Tirumamani Mandapam. It is the path most pilgrims take on their way to the inner enclosure.",
+      },
+      {
+        name: "Snapana Mandapam",
+        type: "mandapam",
+        description: "The 'anointing hall' where the daily Snapana Tirumanjanam (abhishekam to the processional Bhoga Srinivasa) is conducted every Friday — the only weekly abhishekam to a form of the main deity that pilgrims may witness.",
+      },
+      {
+        name: "Kalyana Mandapam",
+        type: "mandapam",
+        description: "The wedding hall where the daily Kalyanotsavam (symbolic re-enactment of Srinivasa's wedding to Padmavathi) is performed. Sponsors of the seva sit in the mandapam during the ritual and receive a special wedding cloth.",
+      },
+      {
+        name: "Swami Pushkarini",
+        nameTa: "స్వామి పుష్కరిణి",
+        type: "tank",
+        description: "The sacred lake immediately to the north of the temple. Bathing in it before darshan is part of the prescribed pilgrim ritual. The Garuda Stambham and the small Sri Varahaswamy shrine on its western bank mark the spot where pilgrims are expected to seek Varaha's permission before approaching Venkateswara.",
+      },
+      {
+        name: "Sapta Giri (Seven Sacred Hills)",
+        type: "other",
+        description: "The temple sits atop the seventh of seven sacred hills — Venkatadri — collectively forming the Seshachalam range, said to be the hoods of Adi Shesha himself. The hills are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri, Venkatadri.",
+        detail: "853 m elevation · ~22 km from Tirupati town",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Sri Varahaswamy",
+        deity: "Lord Vishnu as Varaha (Boar Incarnation)",
+        description: "On the bank of the Swami Pushkarini, this is the first shrine every pilgrim must visit — Varaha was the original lord of the Venkata hills and is said to have granted the land to Venkateswara on the condition that he be worshipped first. Skipping this darshan is believed to render the Venkateswara visit incomplete.",
+      },
+      {
+        name: "Sri Yoga Narasimhaswamy",
+        deity: "Lord Vishnu as Narasimha in Yogic Posture",
+        description: "A peaceful seated form of Narasimha (rather than the more common fierce posture) housed in a sub-shrine within the main complex. Devotees worship here for protection from fear and for inner stability.",
+      },
+      {
+        name: "Sri Andal (Goda Devi)",
+        deity: "The Alvar Saint",
+        description: "The 9th-century Tamil poetess-saint, considered an incarnation of Bhumi Devi and the only female among the 12 Alvars. Her Tiruppavai hymns are recited daily in the Tirumamani Mandapam during the month of Margazhi.",
+      },
+      {
+        name: "Sri Ramanujacharya",
+        deity: "The Vaishnava Acharya",
+        description: "The 11th-12th century philosopher who codified Vishishtadvaita Vedanta and visited Tirumala seven times. His sub-shrine commemorates his role in establishing the temple's Vaishnavite practices and identifying Venkateswara conclusively as Vishnu.",
+      },
+      {
+        name: "Sri Vishvaksena",
+        deity: "Commander of Vishnu's Army",
+        description: "Equivalent to Ganesha in Vaishnava tradition — the remover of obstacles and the leader of Vishnu's celestial army. His shrine is invoked at the start of every major temple ritual.",
+      },
+      {
+        name: "Sri Garuda",
+        deity: "Divine Mount of Vishnu",
+        description: "Housed in the Garuda Mandapam directly facing the Bangaru Vakili, where Garuda gazes eternally at his lord. Pilgrims briefly halt here before approaching the sanctum.",
+      },
+      {
+        name: "Hundi",
+        deity: "Sacred Donation Vessel",
+        description: "Not a deity but central to the temple's ritual life: the great hundi (donation receptacle) in front of the Bangaru Vakili is where pilgrims offer money, gold, and jewellery — each gift considered a contribution toward Lord Venkateswara's eternal debt to Kubera.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Mahadwaram (Main Entrance)", direction: "East", notes: "The principal entrance for all darshan queues. Opens onto the inner enclosure via the Sampangi Pradakshinam." },
+        { name: "Vaikuntham Queue Complex (Q-I, Q-II, Q-III)", direction: "North", notes: "The three-building complex that channels all darshan queues — Sarva Darshan (free), Special Darshan (₹300), and Divya Darshan (for trek pilgrims). Air-conditioned, has resting areas and free meals." },
+        { name: "Sudarshan Token Counters", direction: "North", notes: "Free time-stamped tokens issued from counters at Vishnu Nivasam, Srinivasam, and the bus stand. The token assigns a darshan slot; report at the assigned time to skip the unstamped queue." },
+        { name: "Alipiri / Srivari Mettu Trek Entrance", direction: "South", notes: "Trek pilgrims arriving via the Alipiri Mettu (3,550 steps, ~9 km) or Srivari Mettu (2,388 steps, ~2.5 km) enter via a dedicated Divya Darshan queue at the top — often faster than the Sarva Darshan queue." },
+      ],
+      cloakRoom: "Free cloak rooms (luggage and footwear) are available at the Vaikuntham complex, near the Mahadwaram, and at the foot of both trek routes. Tokens are issued — keep them safe. Mobile phones and cameras are deposited separately at the entrance of the queue complex.",
+      mobilePolicy: "Mobile phones, smart-watches, cameras, and Bluetooth devices are strictly prohibited inside the temple complex. Free deposit lockers are available at the entrance of the Vaikuntham queue complex and at the cloak rooms near the Mahadwaram. Violations result in immediate confiscation.",
+      cameraPolicy: "Photography is completely prohibited inside the temple, the queue complex, and even in the corridors leading to the sanctum. Cameras must be deposited at the cloak room. Photography of the outer gopurams and the Tirumala township is permitted.",
+      wheelchairAccess: "Wheelchairs are available on request at the Vaikuntham complex (refundable deposit). A dedicated wheelchair queue offers near-direct sanctum access for pilgrims with mobility needs, senior citizens above 65, and pregnant women — bring photo ID for age proof.",
+      seniorCitizenDarshan: "Senior citizens (65+), physically challenged persons, and pregnant women may use the Special Privileged Darshan entrance (twice daily — morning and afternoon slots). Photo ID is mandatory. The queue is significantly shorter than the regular Sarva Darshan.",
+      parking: "TTD operates large free parking lots at Tirumala for pilgrim vehicles. Private vehicles can drive up via the Tirumala Ghat Road; many pilgrims prefer to take TTD's free shuttle buses from the Alipiri toll gate to avoid the climb. Two-wheelers are not permitted on the Ghat Road.",
+      restrooms: "Public restrooms and bathing facilities are available at the Vaikuntham complex, at all TTD cottages, at the Alipiri footstep entrance, and at multiple stations along the trek route. Free hot water for bathing is available at the Pushpa Mandapam.",
+      drinkingWater: "Free filtered drinking water (Pulipathi) is available throughout the queue complex, along the trek routes, and at all major mandapams. TTD also distributes free buttermilk and snacks during peak hours.",
+    },
+    sevas: [
+      {
+        name: "Suprabhata Seva",
+        description: "The first ritual of the day — the deity is gently awakened with the recitation of the Sri Venkateswara Suprabhatam by Ramanuja's disciple Prativadi Bhayankaram Annan. The most sought-after Arjita seva at Tirumala; bookings open 90 days in advance via the TTD online portal.",
+        time: "Daily, 2:30 – 3:00 AM",
+        fee: "₹120 (Arjita)",
+        type: "daily",
+      },
+      {
+        name: "Thomala Seva",
+        description: "Adornment of the deity with fresh tulsi garlands and silken vastrams (clothes) after Suprabhatam. Pilgrims observe the alankaram from the Sampangi Pradakshinam.",
+        time: "Daily, 3:00 – 3:30 AM",
+        fee: "₹220",
+        type: "daily",
+      },
+      {
+        name: "Archana / Visesha Pooja",
+        description: "Recitation of the 108 sacred names of Lord Venkateswara (Ashtottara) and the 1,008 names (Sahasranama), each with offering of flowers, in the Tirumamani Mandapam. Sponsors receive sankalpam in their name.",
+        time: "Daily, 4:30 AM",
+        fee: "₹220",
+        type: "daily",
+      },
+      {
+        name: "Kalyanotsavam",
+        description: "The symbolic re-enactment of the wedding of Srinivasa, Padmavathi and Bhu Devi. Performed daily in the Kalyana Mandapam — sponsors witness the full Vedic ceremony and receive a special wedding cloth, laddus, and a framed photograph of the deities.",
+        time: "Daily, 11:00 AM and 2:00 PM",
+        fee: "₹1,000 (sponsors a pair)",
+        type: "daily",
+      },
+      {
+        name: "Sahasra Kalashabhishekam",
+        description: "Anointing of the Snapana Beram with water from 1,008 sacred kalashams. Among the most spiritually charged of the Arjita sevas. Booking essential.",
+        time: "Wednesdays, ~6:30 AM",
+        fee: "₹1,700",
+        type: "weekly",
+      },
+      {
+        name: "Astadalapadapadmaradhana",
+        description: "Eight-petalled lotus archana to the deity's feet with 108 golden lotus petals. A Monday-only seva first introduced in 1989.",
+        time: "Mondays, ~6:30 AM",
+        fee: "₹1,250",
+        type: "weekly",
+      },
+      {
+        name: "Tiruppavada Seva",
+        description: "Mountain of cooked rice (~6 quintals) is offered to Lord Venkateswara as naivedyam, then distributed as prasadam. A Thursday tradition.",
+        time: "Thursdays, ~6:00 AM",
+        fee: "₹500",
+        type: "weekly",
+      },
+      {
+        name: "Vasantotsavam",
+        description: "'Spring festival' performed in the Vasantha Mandapam for the processional deities — Sri Devi, Bhu Devi and Malayappa Swami. Conducted twice weekly.",
+        time: "Tuesdays & Saturdays, ~10:30 AM",
+        fee: "₹400",
+        type: "weekly",
+      },
+      {
+        name: "Sahasra Deepalankarana Seva",
+        description: "'A thousand lamps illumination' of the processional Malayappa Swami in the Unjala Mandapam each evening. A serene, lamp-lit darshan.",
+        time: "Daily, 6:30 PM",
+        fee: "₹500",
+        type: "daily",
+      },
+      {
+        name: "Ekantha Seva",
+        description: "The final seva of the day — the deity is put to bed (palli kondu) in the inner sanctum with a recitation of the Tarigonda Vengamamba's lullabies. The temple closes after this for the night.",
+        time: "Daily, ~1:30 AM (next morning)",
+        fee: "₹120",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I have to shave my head (mundana) at Tirumala?",
+        answer:
+          "No — tonsuring is voluntary, not compulsory. Many devotees offer their hair as fulfilment of a personal vow (mokku) or as a symbolic settlement of their share of Lord Venkateswara's debt to Kubera. TTD operates free tonsure halls (Kalyana Katta) at Tirumala that can accommodate over 600 barbers simultaneously, with separate enclosures for men, women, and children. The shaved hair is donated to TTD, processed, and auctioned globally — a major source of temple revenue.",
+      },
+      {
+        question: "What is the difference between Sarva Darshan, Special Darshan, and VIP Darshan?",
+        answer:
+          "Sarva Darshan is the free general darshan with the longest queue (often 6–18 hours during peak season). The free Sudarshan token system assigns a time slot — get a token from Vishnu Nivasam, Srinivasam, or the bus stand to skip the unstamped wait. Special Darshan (Seeghra Darshan, ₹300) provides a faster, ticketed entry — usually 1–3 hour wait. VIP Break Darshan is offered to recommended visitors (MPs, MLAs, religious heads); not bookable by the public. Senior citizens (65+) and physically challenged persons have a separate priority queue.",
+      },
+      {
+        question: "How far in advance should I book sevas like Suprabhata, Kalyanotsavam, or Brahmotsavam?",
+        answer:
+          "TTD opens the Arjita Seva quota 90 days in advance through its official online portal (tirumala.org). Popular sevas like Suprabhata Seva and Kalyanotsavam are typically booked out within minutes. Brahmotsavam-related seva tickets open even earlier and require a separate lottery for many slots. A few same-day current-booking tickets are released at the TTD counters — but availability is uncertain.",
+      },
+      {
+        question: "Should I take the trek (Alipiri or Srivari Mettu) or the bus?",
+        answer:
+          "Trek pilgrims receive a dedicated Divya Darshan queue at the top — often much faster than the regular Sarva Darshan, even after the climb. Alipiri Mettu has 3,550 steps (~9 km, 4–6 hours) and is the traditional pilgrim route; Srivari Mettu is shorter at 2,388 steps (~2.5 km, 2–3 hours) and steeper. Both routes are roofed and lit, with free TTD canteens and medical aid along the way. If you have time and reasonable fitness, the trek is highly recommended — both for the spiritual experience and the faster darshan.",
+      },
+      {
+        question: "What's the famous Tirupati laddu? How many can I get?",
+        answer:
+          "The Tirupati Laddu is the temple's signature prasadam — a sweet made of besan, ghee, sugar, cardamom, cashew, and edible camphor, prepared in the Potu kitchen using a closely-guarded recipe. It holds a Geographical Indication (GI) tag (2009), legally restricting its name to the TTD-prepared variant. Every paid darshan ticket includes two free small laddus. Additional Big Laddus (~700g) can be purchased at the Laddu counter for ₹50 each, with a limit of 2 per person per visit. During Brahmotsavam and special occasions, gifting laddus to thousands is a common practice.",
+      },
+      {
+        question: "Can foreigners and non-Hindus visit the temple?",
+        answer:
+          "Foreigners are welcome to the Tirumala township and its outer corridors. However, entry into the main temple sanctum requires devotees to sign a declaration affirming their faith in Lord Venkateswara, which is presented at the entrance for foreigners and non-Hindu Indians. The declaration is a brief written form — no proof is required. Many foreign devotees do darshan annually with this provision.",
+      },
+      {
+        question: "What is the dress code at Tirumala?",
+        answer:
+          "Traditional Indian attire is strictly enforced for the sanctum darshan: dhoti (or panche) with upper cloth for men; saree, half-saree, or salwar kameez (with dupatta) for women. Western dress — jeans, shorts, sleeveless tops, short skirts, ripped clothing — is not permitted beyond the outer corridors. Several cloth-rental counters near the queue complex provide traditional wear; you may also bring your own. Black is traditionally avoided by some devotees, though not strictly prohibited.",
+      },
+      {
+        question: "Where do I stay at Tirumala?",
+        answer:
+          "TTD operates extensive pilgrim accommodation at Tirumala (free dormitories and paid cottages at PAC-I, PAC-II, PAC-III, Vishnu Nivasam, Srinivasam, Madhavam) with rates from ₹50 to ₹3,000 per night. Booking via tirumala.org opens 60 days in advance; current-booking counters at Tirumala handle walk-ins subject to availability. Private hotels at Tirumala are limited (TTD has historically restricted commercial development). Many pilgrims stay at private hotels in Tirupati town (22 km below) and travel up by TTD shuttle bus — this is often easier for non-Telugu-speaking visitors.",
+      },
+      {
+        question: "When are the busiest days I should try to avoid?",
+        answer:
+          "Avoid weekends, public holidays, school vacations (April–June), Vaikunta Ekadasi (Dec–Jan, queues can exceed 24 hours), the nine days of Brahmotsavam (Sep–Oct), and the days around Rathasapthami (Feb). Tuesday, Wednesday, and Thursday in the off-season (Aug, Oct–Nov, Jan–Mar excluding festival weeks) are typically the calmest. Even on those days, expect a minimum 2–4 hour queue for Sarva Darshan.",
+      },
+      {
+        question: "What about the Annaprasadam — the free meals?",
+        answer:
+          "TTD's Nitya Annadanam Trust runs one of the world's largest free meal services — over 100,000 pilgrims served daily at the Matrusri Tarigonda Vengamamba Annaprasadam Complex (and ~5x that during festivals). Hot, simple South Indian vegetarian meals (rice, sambar, rasam, curd, pickle, sweet) are served continuously through the day. No coupons or charge — just walk in. The complex is a 5-minute walk from the Vaikuntham queue exit. Donations toward the trust (any amount) can be made at any TTD counter and are tax-exempt.",
+      },
+    ],
   },
   "madurai-meenakshi": {
     slug: "madurai-meenakshi",
@@ -364,6 +627,58 @@ export const templeDetails: Record<string, TempleDetail> = {
         time: "Sponsor any date",
         fee: "₹15,000 per day (approximate)",
         type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Can foreigners visit Meenakshi Amman Temple?",
+        answer:
+          "Yes — foreign visitors of all nationalities are welcome at the temple, free of charge. There is no separate entry for foreigners. The only restriction (which also applies to Hindus from other denominations) is that the innermost sanctums of Meenakshi and Sundareswarar are reserved for Hindu devotees. The corridors, mandapams, gopurams, and the Pottramarai Kulam are open to everyone. Modest dress and basic temple etiquette (no shoes, no leather, no loud conversation) are expected.",
+      },
+      {
+        question: "How much time should I allocate for my visit?",
+        answer:
+          "A quick darshan can be done in about 1.5 hours if queues are short. To take in the architecture properly — the four gopurams, the Ashta Shakti Mandapam, the Hall of 1000 Pillars (now a museum), the Musical Pillars, and the Pottramarai Kulam — plan for 3–4 hours. A leisurely first visit including both sanctums, the museum, and a snack break easily fills a half-day. On Fridays, festival days, and during the closure window (12:30–4:00 PM), allow extra time for queues.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "Traditional Indian attire is preferred — saree, half-saree, or salwar kameez for women; dhoti or veshti with shirt for men. Western clothing is permitted as long as it is modest: shoulders and knees should be covered. Shorts, short skirts, sleeveless tops, ripped jeans, and revealing clothing are not allowed. Leather items (belts, wallets, handbags) are also discouraged inside the inner corridors.",
+      },
+      {
+        question: "Are mobile phones, cameras, and bags allowed inside?",
+        answer:
+          "Mobile phones, smart-watches, Bluetooth devices, and cameras are not permitted inside the temple complex. Free cloak rooms are located outside each of the four main gates (East, West, North, South) where you must deposit them before entering. Photography of the gopurams from outside the temple is freely permitted. Large bags should also be left at the cloak room — security may not allow them through.",
+      },
+      {
+        question: "Is there wheelchair access?",
+        answer:
+          "Partially. Wheelchairs are available on a refundable deposit at the South and East gates. The main corridors are wheelchair-accessible. However, the steps leading into the inner sanctums of Meenakshi and Sundareswarar are narrow and not wheelchair-friendly — temple staff will assist visitors with mobility needs. The Hall of 1000 Pillars museum has step access only. Senior citizens, pregnant women, and persons with disabilities can request the priority darshan queue at the South Tower.",
+      },
+      {
+        question: "When is the best time of day to visit?",
+        answer:
+          "The early-morning window between 5:30 AM and 7:30 AM is the quietest and the most spiritually charged — the Kalasandhi pooja takes place around 6:30 AM. Mid-morning (8–11 AM) is also good but busier. The temple closes 12:30–4:00 PM for the afternoon break, so plan your visit either side of that window. Friday is the busiest day of the week (Meenakshi's special day); Tuesday and Wednesday tend to be quieter. Weekends and public holidays draw very long queues.",
+      },
+      {
+        question: "Are there food options inside the temple?",
+        answer:
+          "Inside the complex, only blessed prasadam is offered — typically curd-rice, tamarind-rice, and sweet pongal at specific times. No commercial food stalls operate within the complex. Just outside the four gates, however, you will find Madurai's famous street-food scene: Murugan Idli, Konar Kadai biryani, Amma Mess kari-dosa, and the iconic jigarthanda (a chilled almond-milk drink with ice cream and china grass) at Famous Jigarthanda on East Masi Street. The temple Annadanam (free meal service) is available to all pilgrims at the East-gate dining hall, typically between 11:30 AM and 1:00 PM.",
+      },
+      {
+        question: "Is there a special quick-darshan ticket?",
+        answer:
+          "Yes — the temple offers a paid quick-darshan ticket (around ₹100–₹250 depending on day and time) that allows entry via a shorter queue, especially during peak hours. Tickets are sold at the counters near the South and East gates. On major festival days, quick-darshan may be suspended or extended; the temple administration's announcements at the gates are authoritative.",
+      },
+      {
+        question: "Where can I stay nearby?",
+        answer:
+          "Madurai has accommodation across all budgets within walking distance of the temple. Budget options like Hotel Royal Court, Hotel Sangam Surya, and TamilNadu's HRCE-affiliated guesthouses are within 1 km. Mid-range hotels (Hotel Supreme, Hotel Park Plaza, GRT Regency) are 1–2 km away. The Heritage Madurai and the Gateway Hotel Pasumalai are the premium options. During Chithirai (April–May) and Aavani Moolam (Aug–Sep), book at least a month in advance.",
+      },
+      {
+        question: "What other places should I see in Madurai?",
+        answer:
+          "Within Madurai city: the Thirumalai Nayakkar Palace (a 17th-century Indo-Saracenic palace, 1.5 km from the temple), the Mariamman Teppakulam (the 1 km festival tank, 5 km east), the Gandhi Memorial Museum, and the Pudhu Mandapam (the 16th-century pillared market hall built by Thirumalai Nayak directly opposite the East Tower). Day trips from Madurai include Alagar Kovil (20 km north — the brother-deity Vishnu temple), Thirupparankundram (8 km south — one of the six abodes of Murugan), and Kodaikanal (120 km — hill station).",
       },
     ],
   },

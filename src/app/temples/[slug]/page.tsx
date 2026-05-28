@@ -10,6 +10,7 @@ import { temples } from "@/data/temples";
 import { getTempleDetail } from "@/data/templeDetails";
 import VisitorLogisticsCard from "@/components/temples/VisitorLogisticsCard";
 import TempleQuickCards from "@/components/temples/TempleQuickCards";
+import TempleFAQ from "@/components/temples/TempleFAQ";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -323,6 +324,11 @@ export default async function TempleDetailPage({ params }: Props) {
                 </table>
               </div>
             </Section>
+          )}
+
+          {/* FAQs (optional) */}
+          {detail.faqs && detail.faqs.length > 0 && (
+            <TempleFAQ faqs={detail.faqs} />
           )}
 
         </div>
