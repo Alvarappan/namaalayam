@@ -57,8 +57,8 @@ export default function TempleGrid() {
         {filtered.length === 0 ? (
           <div className="text-center py-20">
             <div className="text-5xl mb-4">🔍</div>
-            <h3 className="text-white text-xl font-semibold mb-2">No temples found</h3>
-            <p className="text-stone-400">Try adjusting your search or filters</p>
+            <h3 className="text-stone-900 text-xl font-semibold mb-2">No temples found</h3>
+            <p className="text-stone-600">Try adjusting your search or filters</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

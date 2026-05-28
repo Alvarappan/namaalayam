@@ -27,10 +27,10 @@ export default function MonthPicker({ selectedYear, selectedMonth, baseHref }: P
     <select
       value={current}
       onChange={(e) => router.push(`${baseHref}?date=${e.target.value}`)}
-      className="bg-stone-800 border border-stone-700 text-white text-sm font-medium px-3 py-2 rounded-lg hover:bg-stone-700/80 focus:outline-none focus:ring-2 focus:ring-amber-500/40 cursor-pointer"
+      className="bg-amber-50 border border-amber-200 text-stone-800 text-sm font-medium px-3 py-2 rounded-lg hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-orange-400/50 cursor-pointer"
     >
       {options.map((o) => (
-        <option key={o.value} value={o.value} className="bg-stone-900">
+        <option key={o.value} value={o.value} className="bg-white">
           {o.label}
         </option>
       ))}

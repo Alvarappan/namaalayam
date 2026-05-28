@@ -12,8 +12,9 @@ const languages = [
     name: "Tamil Calendar",
     nativeName: "தமிழ் காலண்டர்",
     description: "Daily panchang with Thithi, Natchathiram, Rahu Kalam, and Tamil festivals",
-    gradient: "from-red-900 to-rose-900",
-    accent: "text-red-300",
+    gradient: "from-rose-50 to-red-100",
+    border: "border-rose-200",
+    accent: "text-rose-700",
     href: "/calendar/tamil",
     available: true,
   },
@@ -22,8 +23,9 @@ const languages = [
     name: "Malayalam Calendar",
     nativeName: "മലയാളം കലണ്ടർ",
     description: "Kollavarsham panchangam with Thithi, Nakshathram, and Kerala festivals",
-    gradient: "from-emerald-900 to-green-900",
-    accent: "text-emerald-300",
+    gradient: "from-emerald-50 to-green-100",
+    border: "border-emerald-200",
+    accent: "text-emerald-700",
     href: "/calendar/malayalam",
     available: false,
   },
@@ -32,8 +34,9 @@ const languages = [
     name: "Telugu Calendar",
     nativeName: "తెలుగు క్యాలెండర్",
     description: "Telugu panchangam with Tithi, Nakshatra, Varjyam, and Andhra/Telangana festivals",
-    gradient: "from-amber-900 to-yellow-900",
-    accent: "text-amber-300",
+    gradient: "from-amber-50 to-yellow-100",
+    border: "border-amber-200",
+    accent: "text-amber-700",
     href: "/calendar/telugu",
     available: false,
   },
@@ -42,8 +45,9 @@ const languages = [
     name: "Kannada Calendar",
     nativeName: "ಕನ್ನಡ ಕ್ಯಾಲೆಂಡರ್",
     description: "Kannada panchanga with Tithi, Nakshatra, and Karnataka festivals",
-    gradient: "from-violet-900 to-purple-900",
-    accent: "text-violet-300",
+    gradient: "from-violet-50 to-purple-100",
+    border: "border-violet-200",
+    accent: "text-violet-700",
     href: "/calendar/kannada",
     available: false,
   },
@@ -51,16 +55,16 @@ const languages = [
 
 export default function CalendarLandingPage() {
   return (
-    <div className="min-h-screen bg-stone-950 py-16 px-4">
+    <div className="min-h-screen bg-amber-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-amber-500 text-sm font-semibold tracking-widest uppercase mb-2">
+          <p className="text-orange-600 text-sm font-semibold tracking-widest uppercase mb-2">
             Hindu Panchang
           </p>
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold text-stone-900 mb-4">
             South Indian Calendar
           </h1>
-          <p className="text-stone-400 max-w-2xl mx-auto">
+          <p className="text-stone-600 max-w-2xl mx-auto">
             Daily Hindu calendar with Tithi, Nakshatra, Rahu Kalam, festivals & auspicious timings.
             Choose your language to begin.
           </p>
@@ -72,11 +76,11 @@ export default function CalendarLandingPage() {
               <Link
                 key={lang.key}
                 href={lang.href}
-                className={`group relative rounded-2xl border border-stone-700/50 bg-gradient-to-br ${lang.gradient} p-8 hover:scale-[1.02] transition-all`}
+                className={`group relative rounded-2xl border ${lang.border} bg-gradient-to-br ${lang.gradient} p-8 hover:scale-[1.02] hover:shadow-lg transition-all`}
               >
-                <h2 className="text-white text-2xl font-bold mb-1">{lang.name}</h2>
+                <h2 className="text-stone-900 text-2xl font-bold mb-1">{lang.name}</h2>
                 <p className={`${lang.accent} text-base mb-3`}>{lang.nativeName}</p>
-                <p className="text-stone-300/80 text-sm leading-relaxed mb-4">
+                <p className="text-stone-700/90 text-sm leading-relaxed mb-4">
                   {lang.description}
                 </p>
                 <span className={`inline-flex items-center gap-2 ${lang.accent} text-sm font-semibold`}>
@@ -87,14 +91,14 @@ export default function CalendarLandingPage() {
             ) : (
               <div
                 key={lang.key}
-                className={`relative rounded-2xl border border-stone-800/50 bg-gradient-to-br ${lang.gradient} opacity-50 p-8`}
+                className={`relative rounded-2xl border ${lang.border} bg-gradient-to-br ${lang.gradient} opacity-70 p-8`}
               >
-                <h2 className="text-white text-2xl font-bold mb-1">{lang.name}</h2>
+                <h2 className="text-stone-900 text-2xl font-bold mb-1">{lang.name}</h2>
                 <p className={`${lang.accent} text-base mb-3`}>{lang.nativeName}</p>
-                <p className="text-stone-300/80 text-sm leading-relaxed mb-4">
+                <p className="text-stone-700/90 text-sm leading-relaxed mb-4">
                   {lang.description}
                 </p>
-                <span className="inline-block px-3 py-1 bg-stone-800/80 text-stone-400 text-xs font-medium rounded-full">
+                <span className="inline-block px-3 py-1 bg-white text-stone-600 border border-stone-300 text-xs font-medium rounded-full">
                   Coming soon
                 </span>
               </div>

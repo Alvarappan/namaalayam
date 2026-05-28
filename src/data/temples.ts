@@ -527,12 +527,3 @@ export const festivals: Festival[] = [
     description: "Two-month pilgrimage to Lord Ayyappa's forest shrine, where over 50 million devotees undertake the 41-day vratham and climb the 18 sacred Pathinettam Padi steps.",
   },
 ];
-
-export const popularPoojas = [
-  { name: "Abhishekam", description: "Sacred bathing of the deity with milk, honey & rosewater", icon: "🪔", temples: ["Tirupati", "Rameswaram"] },
-  { name: "Archana", description: "Recitation of divine names with flower offerings", icon: "🌸", temples: ["Meenakshi", "Kapaleeswarar"] },
-  { name: "Sahasranamam", description: "Chanting of 1000 names of the deity", icon: "📿", temples: ["Srirangam", "Guruvayur"] },
-  { name: "Rahu Ketu Pooja", description: "Special pooja to nullify Sarpa Dosha", icon: "🐍", temples: ["Srikalahasti", "Rameswaram"] },
-  { name: "Annabishekam", description: "Abhishekam performed with cooked rice", icon: "🍚", temples: ["Thiruvannamalai"] },
-  { name: "Dolotsavam", description: "The deity is placed on a decorated swing", icon: "🎊", temples: ["Srirangam", "Tirupati"] },
-];

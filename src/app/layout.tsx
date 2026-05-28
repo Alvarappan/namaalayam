@@ -49,7 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geist.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-stone-950 text-white">
+      <body className="min-h-full flex flex-col bg-amber-50 text-stone-900">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

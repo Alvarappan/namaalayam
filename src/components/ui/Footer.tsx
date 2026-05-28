@@ -33,25 +33,25 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-950 border-t border-stone-800/60">
+    <footer className="bg-stone-100 border-t border-amber-200/60">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <GopuramIcon size={26} className="text-amber-500" />
-              <span className="text-white font-bold text-lg">
-                Nam <span className="text-amber-500">Aalayam</span>
+              <GopuramIcon size={26} className="text-orange-600" />
+              <span className="text-stone-900 font-bold text-lg">
+                Nam <span className="text-orange-600">Aalayam</span>
               </span>
             </Link>
-            <p className="text-stone-400 text-sm leading-relaxed">
+            <p className="text-stone-600 text-sm leading-relaxed">
               Your complete digital guide to the sacred temples of South India.
             </p>
             <div className="flex gap-3 mt-5">
               {["𝕏", "f", "in", "▶"].map((icon, i) => (
                 <button
                   key={i}
-                  className="w-8 h-8 bg-stone-800 hover:bg-amber-500/20 hover:text-amber-400 text-stone-400 rounded-lg flex items-center justify-center text-sm transition-all"
+                  className="w-8 h-8 bg-white hover:bg-orange-100 hover:text-orange-600 text-stone-500 border border-stone-200 rounded-lg flex items-center justify-center text-sm transition-all"
                 >
                   {icon}
                 </button>
@@ -62,13 +62,13 @@ export default function Footer() {
           {/* Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h4 className="text-white font-semibold text-sm mb-4">{category}</h4>
+              <h4 className="text-stone-900 font-semibold text-sm mb-4">{category}</h4>
               <ul className="space-y-2.5">
                 {links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-stone-400 hover:text-amber-400 text-sm transition-colors"
+                      className="text-stone-600 hover:text-orange-600 text-sm transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -79,11 +79,11 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="pt-8 border-t border-stone-800/60 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-stone-500 text-sm">
+        <div className="pt-8 border-t border-amber-200/60 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-stone-600 text-sm">
             © {new Date().getFullYear()} Namaalayam.com · All rights reserved
           </p>
-          <p className="text-stone-600 text-xs">
+          <p className="text-stone-500 text-xs">
             🙏 Dedicated to the sacred temples of South India
           </p>
         </div>

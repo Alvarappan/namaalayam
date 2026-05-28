@@ -36,7 +36,7 @@ export default async function FestivalDetailPage({ params }: Props) {
     : [];
 
   return (
-    <div className="min-h-screen bg-stone-950">
+    <div className="min-h-screen bg-amber-50">
       {/* Hero */}
       <div className="relative bg-stone-900 py-16 px-4 overflow-hidden min-h-[380px] flex items-center">
         <Image
@@ -60,7 +60,7 @@ export default async function FestivalDetailPage({ params }: Props) {
           </div>
 
           <div className="flex flex-wrap items-start gap-3 mb-4">
-            <span className="px-3 py-1 text-sm font-semibold rounded-full bg-amber-900/60 text-amber-300 border border-amber-700/50">
+            <span className="px-3 py-1 text-sm font-semibold rounded-full bg-amber-100/95 text-amber-900 border border-amber-200">
               {festival.type}
             </span>
             <span className="flex items-center gap-1.5 px-3 py-1 bg-black/30 rounded-full text-white/70 text-sm">
@@ -83,30 +83,30 @@ export default async function FestivalDetailPage({ params }: Props) {
         {detail ? (
           <>
             <Section title="Overview">
-              <p className="text-stone-300 leading-relaxed">{detail.intro}</p>
+              <p className="text-stone-700 leading-relaxed">{detail.intro}</p>
             </Section>
 
             <Section title="Significance">
-              <p className="text-stone-300 leading-relaxed">{detail.significance}</p>
+              <p className="text-stone-700 leading-relaxed">{detail.significance}</p>
             </Section>
 
             <Section title="The Story Behind the Festival">
-              <p className="text-stone-300 leading-relaxed">{detail.story}</p>
+              <p className="text-stone-700 leading-relaxed">{detail.story}</p>
             </Section>
 
             <Section title="Rituals & Observances">
               <ul className="space-y-3">
                 {detail.rituals.map((r, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <Sparkles size={16} className="text-amber-400 flex-shrink-0 mt-1" />
-                    <span className="text-stone-300 leading-relaxed">{r}</span>
+                    <Sparkles size={16} className="text-orange-600 flex-shrink-0 mt-1" />
+                    <span className="text-stone-700 leading-relaxed">{r}</span>
                   </li>
                 ))}
               </ul>
             </Section>
 
             <Section title="When & Where">
-              <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-6 space-y-4">
+              <div className="bg-white border border-amber-200 rounded-2xl p-6 space-y-4 shadow-sm">
                 <InfoRow label="Duration" value={detail.whenWhere.duration} />
                 <InfoRow label="Main Temple" value={detail.whenWhere.mainTemple} />
                 {detail.whenWhere.otherLocations && (
@@ -116,8 +116,8 @@ export default async function FestivalDetailPage({ params }: Props) {
             </Section>
 
             <Section title="For Devotees">
-              <div className="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-6">
-                <p className="text-amber-100/90 leading-relaxed">{detail.forDevotees}</p>
+              <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+                <p className="text-amber-900 leading-relaxed">{detail.forDevotees}</p>
               </div>
             </Section>
 
@@ -128,16 +128,16 @@ export default async function FestivalDetailPage({ params }: Props) {
                     <Link
                       key={t.slug}
                       href={`/temples/${t.slug}`}
-                      className="flex items-center gap-4 p-4 bg-stone-900/80 hover:bg-stone-800/80 border border-stone-700/50 hover:border-amber-500/40 rounded-2xl transition-all group"
+                      className="flex items-center gap-4 p-4 bg-white hover:bg-amber-50 border border-amber-200 hover:border-orange-400 rounded-2xl shadow-sm transition-all group"
                     >
                       <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0">
                         <Image src={t.image} alt={t.name} fill sizes="64px" className="object-cover" />
                       </div>
                       <div>
-                        <div className="text-white font-semibold group-hover:text-amber-400 transition-colors">
+                        <div className="text-stone-900 font-semibold group-hover:text-orange-600 transition-colors">
                           {t.name}
                         </div>
-                        <div className="text-stone-400 text-sm">{t.city}, {t.state}</div>
+                        <div className="text-stone-600 text-sm">{t.city}, {t.state}</div>
                       </div>
                     </Link>
                   ))}
@@ -146,8 +146,8 @@ export default async function FestivalDetailPage({ params }: Props) {
             )}
           </>
         ) : (
-          <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-8 text-center">
-            <p className="text-stone-400">Detailed information for this festival is coming soon.</p>
+          <div className="bg-white border border-amber-200 rounded-xl p-8 text-center">
+            <p className="text-stone-600">Detailed information for this festival is coming soon.</p>
           </div>
         )}
       </div>
@@ -158,7 +158,7 @@ export default async function FestivalDetailPage({ params }: Props) {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div>
-      <h2 className="text-xl font-bold text-white mb-4">{title}</h2>
+      <h2 className="text-xl font-bold text-stone-900 mb-4">{title}</h2>
       {children}
     </div>
   );
@@ -167,8 +167,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 function InfoRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex gap-3">
-      <div className="text-amber-400 text-xs uppercase tracking-wider w-32 flex-shrink-0 mt-0.5">{label}</div>
-      <div className="text-stone-300 leading-relaxed">{value}</div>
+      <div className="text-orange-600 text-xs uppercase tracking-wider w-32 flex-shrink-0 mt-0.5">{label}</div>
+      <div className="text-stone-800 leading-relaxed">{value}</div>
     </div>
   );
 }

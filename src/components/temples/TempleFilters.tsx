@@ -35,18 +35,18 @@ const states = [
 
 export default function TempleFilters({ search, onSearch, category, onCategory, state, onState, total, filtered }: Props) {
   return (
-    <div className="bg-stone-900/80 border-b border-stone-800/60 sticky top-16 z-40 backdrop-blur-md">
+    <div className="bg-white/95 border-b border-amber-200/60 sticky top-16 z-40 backdrop-blur-md shadow-sm shadow-amber-100/40">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex flex-col md:flex-row gap-3 items-stretch md:items-center">
           {/* Search */}
           <div className="relative flex-1 max-w-md">
-            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" />
+            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-500" />
             <input
               type="text"
               value={search}
               onChange={(e) => onSearch(e.target.value)}
               placeholder="Search by name, city, deity..."
-              className="w-full pl-9 pr-4 py-2.5 bg-stone-800 border border-stone-700/60 rounded-xl text-white text-sm placeholder-stone-500 outline-none focus:border-amber-500/50 transition-colors"
+              className="w-full pl-9 pr-4 py-2.5 bg-amber-50/50 border border-amber-200 rounded-xl text-stone-900 text-sm placeholder-stone-400 outline-none focus:border-orange-400 focus:bg-white transition-colors"
             />
           </div>
 
@@ -56,13 +56,13 @@ export default function TempleFilters({ search, onSearch, category, onCategory, 
               <select
                 value={category}
                 onChange={(e) => onCategory(e.target.value)}
-                className="appearance-none pl-3 pr-8 py-2.5 bg-stone-800 border border-stone-700/60 rounded-xl text-stone-300 text-sm outline-none focus:border-amber-500/50 transition-colors cursor-pointer"
+                className="appearance-none pl-3 pr-8 py-2.5 bg-amber-50/50 border border-amber-200 rounded-xl text-stone-700 text-sm outline-none focus:border-orange-400 focus:bg-white transition-colors cursor-pointer"
               >
                 {categories.map((c) => (
                   <option key={c.value} value={c.value}>{c.label}</option>
                 ))}
               </select>
-              <SlidersHorizontal size={13} className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none" />
+              <SlidersHorizontal size={13} className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-500 pointer-events-none" />
             </div>
 
             {/* State filter */}
@@ -70,20 +70,20 @@ export default function TempleFilters({ search, onSearch, category, onCategory, 
               <select
                 value={state}
                 onChange={(e) => onState(e.target.value)}
-                className="appearance-none pl-3 pr-8 py-2.5 bg-stone-800 border border-stone-700/60 rounded-xl text-stone-300 text-sm outline-none focus:border-amber-500/50 transition-colors cursor-pointer"
+                className="appearance-none pl-3 pr-8 py-2.5 bg-amber-50/50 border border-amber-200 rounded-xl text-stone-700 text-sm outline-none focus:border-orange-400 focus:bg-white transition-colors cursor-pointer"
               >
                 {states.map((s) => (
                   <option key={s.value} value={s.value}>{s.label}</option>
                 ))}
               </select>
-              <SlidersHorizontal size={13} className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none" />
+              <SlidersHorizontal size={13} className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-500 pointer-events-none" />
             </div>
 
             {/* Clear filters */}
             {(search || category || state) && (
               <button
                 onClick={() => { onSearch(""); onCategory(""); onState(""); }}
-                className="px-3 py-2.5 text-amber-400 text-sm hover:bg-amber-500/10 rounded-xl transition-colors"
+                className="px-3 py-2.5 text-orange-600 text-sm hover:bg-orange-50 rounded-xl transition-colors"
               >
                 Clear
               </button>
@@ -91,11 +91,11 @@ export default function TempleFilters({ search, onSearch, category, onCategory, 
           </div>
 
           {/* Result count */}
-          <div className="text-stone-500 text-sm whitespace-nowrap">
+          <div className="text-stone-600 text-sm whitespace-nowrap">
             {filtered === total ? (
               <span>{total} temples</span>
             ) : (
-              <span><span className="text-amber-400 font-medium">{filtered}</span> of {total}</span>
+              <span><span className="text-orange-600 font-semibold">{filtered}</span> of {total}</span>
             )}
           </div>
         </div>

@@ -46,30 +46,30 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
   const selectedKey = formatDateParam(selected);
 
   return (
-    <div className="min-h-screen bg-stone-950 py-12 px-4">
+    <div className="min-h-screen bg-amber-50 py-12 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Breadcrumb */}
-        <div className="flex items-center gap-2 text-stone-500 text-sm mb-6">
-          <Link href="/" className="hover:text-amber-400">Home</Link>
+        <div className="flex items-center gap-2 text-stone-600 text-sm mb-6">
+          <Link href="/" className="hover:text-orange-600">Home</Link>
           <span>›</span>
-          <Link href="/calendar" className="hover:text-amber-400">Calendar</Link>
+          <Link href="/calendar" className="hover:text-orange-600">Calendar</Link>
           <span>›</span>
-          <span className="text-stone-300">Tamil</span>
+          <span className="text-stone-800">Tamil</span>
         </div>
 
         {/* Header */}
         <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
           <div>
-            <p className="text-amber-500 text-sm font-semibold tracking-widest uppercase mb-2">
+            <p className="text-orange-600 text-sm font-semibold tracking-widest uppercase mb-2">
               தமிழ் தினசரி காலண்டர்
             </p>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Tamil Daily Calendar</h1>
-            <p className="text-stone-400">{p.gregorianDate}</p>
+            <h1 className="text-3xl md:text-4xl font-bold text-stone-900 mb-2">Tamil Daily Calendar</h1>
+            <p className="text-stone-600">{p.gregorianDate}</p>
           </div>
           {selectedKey !== todayKey && (
             <Link
               href={BASE_HREF}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 rounded-xl text-sm font-medium transition-all"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 hover:bg-orange-200 text-orange-700 border border-orange-300 rounded-xl text-sm font-medium transition-all"
             >
               <CalendarIcon size={14} />
               Jump to today
@@ -78,37 +78,37 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
         </div>
 
         {/* Banner: selected date */}
-        <div className="bg-gradient-to-br from-red-900/60 to-rose-900/40 border border-red-700/40 rounded-2xl p-8 mb-8">
+        <div className="bg-gradient-to-br from-orange-500 to-amber-500 border border-orange-400 rounded-2xl p-8 mb-8 shadow-lg shadow-orange-200/50">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
-              <p className="text-rose-300 text-sm mb-1">தமிழ் வருடம் · Tamil Year</p>
-              <h2 className="text-white text-2xl md:text-3xl font-bold mb-3">
+              <p className="text-amber-100 text-sm mb-1">தமிழ் வருடம் · Tamil Year</p>
+              <h2 className="text-white text-2xl md:text-3xl font-bold mb-3 drop-shadow-sm">
                 {p.tamilYearNative} ({p.tamilYearName})
               </h2>
-              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-stone-300">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-white/95">
                 <span>
-                  <span className="text-rose-300 text-xs uppercase tracking-wider mr-2">Month</span>
+                  <span className="text-amber-100 text-xs uppercase tracking-wider mr-2">Month</span>
                   {p.tamilMonthNative} · {p.tamilMonth}
                 </span>
                 <span>
-                  <span className="text-rose-300 text-xs uppercase tracking-wider mr-2">Day</span>
+                  <span className="text-amber-100 text-xs uppercase tracking-wider mr-2">Day</span>
                   {p.tamilDay}
                 </span>
                 <span>
-                  <span className="text-rose-300 text-xs uppercase tracking-wider mr-2">Vaaram</span>
+                  <span className="text-amber-100 text-xs uppercase tracking-wider mr-2">Vaaram</span>
                   {p.vaaramTa} · {p.vaaramEn}
                 </span>
               </div>
             </div>
-            <div className="text-7xl md:text-8xl font-bold text-white/90">{p.tamilDay}</div>
+            <div className="text-7xl md:text-8xl font-bold text-white drop-shadow-md">{p.tamilDay}</div>
           </div>
         </div>
 
         {/* Panchang grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-6">
-            <h3 className="flex items-center gap-2 text-white font-bold text-lg mb-4">
-              <Star size={18} className="text-amber-400" />
+          <div className="bg-white border border-amber-200 rounded-2xl p-6 shadow-sm">
+            <h3 className="flex items-center gap-2 text-stone-900 font-bold text-lg mb-4">
+              <Star size={18} className="text-orange-600" />
               Panchangam · பஞ்சாங்கம்
             </h3>
             <div className="space-y-3">
@@ -120,47 +120,47 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
             </div>
           </div>
 
-          <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-6">
-            <h3 className="flex items-center gap-2 text-white font-bold text-lg mb-4">
-              <Sun size={18} className="text-amber-400" />
+          <div className="bg-white border border-amber-200 rounded-2xl p-6 shadow-sm">
+            <h3 className="flex items-center gap-2 text-stone-900 font-bold text-lg mb-4">
+              <Sun size={18} className="text-orange-600" />
               Sun Timings
             </h3>
             <div className="space-y-3">
-              <PanchangRow label="Sunrise · சூரிய உதயம்" tamil={p.sunrise} icon={<Sun size={14} className="text-amber-400" />} />
-              <PanchangRow label="Sunset · சூரிய அஸ்தமனம்" tamil={p.sunset} icon={<Moon size={14} className="text-orange-400" />} />
+              <PanchangRow label="Sunrise · சூரிய உதயம்" tamil={p.sunrise} icon={<Sun size={14} className="text-orange-600" />} />
+              <PanchangRow label="Sunset · சூரிய அஸ்தமனம்" tamil={p.sunset} icon={<Moon size={14} className="text-orange-500" />} />
             </div>
           </div>
 
-          <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-6">
-            <h3 className="flex items-center gap-2 text-white font-bold text-lg mb-4">
-              <AlertTriangle size={18} className="text-red-400" />
+          <div className="bg-white border border-amber-200 rounded-2xl p-6 shadow-sm">
+            <h3 className="flex items-center gap-2 text-stone-900 font-bold text-lg mb-4">
+              <AlertTriangle size={18} className="text-red-600" />
               Inauspicious Times · தீய நேரம்
             </h3>
             <div className="space-y-3">
-              <PanchangRow label="Rahu Kalam · ராகு காலம்" tamil={p.rahuKalam} valueClass="text-red-300" />
-              <PanchangRow label="Yamagandam · எமகண்டம்" tamil={p.yamagandam} valueClass="text-red-300" />
-              <PanchangRow label="Kuligai · குளிகை" tamil={p.kuligai} valueClass="text-red-300" />
+              <PanchangRow label="Rahu Kalam · ராகு காலம்" tamil={p.rahuKalam} valueClass="text-red-700" />
+              <PanchangRow label="Yamagandam · எமகண்டம்" tamil={p.yamagandam} valueClass="text-red-700" />
+              <PanchangRow label="Kuligai · குளிகை" tamil={p.kuligai} valueClass="text-red-700" />
             </div>
           </div>
 
-          <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-6">
-            <h3 className="flex items-center gap-2 text-white font-bold text-lg mb-4">
-              <Clock size={18} className="text-emerald-400" />
+          <div className="bg-white border border-amber-200 rounded-2xl p-6 shadow-sm">
+            <h3 className="flex items-center gap-2 text-stone-900 font-bold text-lg mb-4">
+              <Clock size={18} className="text-emerald-600" />
               Auspicious Times · சுப நேரம்
             </h3>
             <div className="space-y-3">
-              <PanchangRow label="Abhijit Muhurta · அபிஜித் முகூர்த்தம்" tamil={p.abhijit} valueClass="text-emerald-300" />
+              <PanchangRow label="Abhijit Muhurta · அபிஜித் முகூர்த்தம்" tamil={p.abhijit} valueClass="text-emerald-700" />
             </div>
           </div>
         </div>
 
         {/* Monthly Calendar Grid */}
-        <div className="bg-stone-900/80 border border-stone-700/50 rounded-2xl p-4 sm:p-6 mb-8">
+        <div className="bg-white border border-amber-200 rounded-2xl p-4 sm:p-6 mb-8 shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
             <div className="flex items-center gap-2">
               <Link
                 href={`${BASE_HREF}?date=${formatDateParam(prevMonth)}`}
-                className="p-2 bg-stone-800 hover:bg-stone-700 border border-stone-700 text-stone-300 rounded-lg transition-all"
+                className="p-2 bg-amber-50 hover:bg-amber-100 border border-amber-200 text-stone-700 rounded-lg transition-all"
                 aria-label="Previous month"
               >
                 <ChevronLeft size={16} />
@@ -172,13 +172,13 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
               />
               <Link
                 href={`${BASE_HREF}?date=${formatDateParam(nextMonth)}`}
-                className="p-2 bg-stone-800 hover:bg-stone-700 border border-stone-700 text-stone-300 rounded-lg transition-all"
+                className="p-2 bg-amber-50 hover:bg-amber-100 border border-amber-200 text-stone-700 rounded-lg transition-all"
                 aria-label="Next month"
               >
                 <ChevronRight size={16} />
               </Link>
             </div>
-            <span className="text-stone-400 text-sm">{p.tamilMonthNative} · {p.tamilMonth}</span>
+            <span className="text-stone-600 text-sm">{p.tamilMonthNative} · {p.tamilMonth}</span>
           </div>
 
           {/* Weekday headers */}
@@ -186,7 +186,7 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
             {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((d, i) => (
               <div
                 key={d}
-                className={`text-center text-xs font-semibold py-2 ${i === 0 ? "text-red-400" : "text-stone-400"}`}
+                className={`text-center text-xs font-semibold py-2 ${i === 0 ? "text-red-600" : "text-stone-600"}`}
               >
                 {d}
               </div>
@@ -209,10 +209,10 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
 
               const baseClasses = "aspect-square rounded-lg border p-1 sm:p-2 flex flex-col justify-between text-[10px] sm:text-xs transition-all cursor-pointer";
               const stateClasses = isSelected
-                ? "border-amber-500 bg-amber-500/25 ring-2 ring-amber-500/40"
+                ? "border-orange-500 bg-orange-100 ring-2 ring-orange-300"
                 : isToday
-                ? "border-amber-500/70 bg-amber-500/10"
-                : "border-stone-800 bg-stone-950/60 hover:border-amber-500/50 hover:bg-stone-800/50";
+                ? "border-orange-400 bg-amber-100"
+                : "border-stone-200 bg-amber-50/40 hover:border-orange-400 hover:bg-amber-50";
 
               return (
                 <Link
@@ -223,22 +223,22 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
                 >
                   <div className="flex items-start justify-between gap-1">
                     <span className={`font-bold text-sm sm:text-lg leading-none ${
-                      isSelected ? "text-amber-200" :
-                      isSunday ? "text-red-400" :
-                      isToday ? "text-amber-300" :
-                      "text-white"
+                      isSelected ? "text-orange-700" :
+                      isSunday ? "text-red-600" :
+                      isToday ? "text-orange-600" :
+                      "text-stone-900"
                     }`}>
                       {gregDay}
                     </span>
-                    <span className="text-stone-400 text-[10px] sm:text-xs font-medium">{day.tamilDay}</span>
+                    <span className="text-stone-500 text-[10px] sm:text-xs font-medium">{day.tamilDay}</span>
                   </div>
                   <div className="space-y-0.5 mt-1">
-                    <div className="text-stone-400 truncate leading-tight" title={day.natchathiramTa}>{day.natchathiramTa}</div>
+                    <div className="text-stone-600 truncate leading-tight" title={day.natchathiramTa}>{day.natchathiramTa}</div>
                     {day.marker && (
                       <div className={`truncate leading-tight font-medium ${
-                        day.marker === "பௌர்ணமி" ? "text-amber-400" :
-                        day.marker === "அமாவாசை" ? "text-stone-400" :
-                        "text-emerald-400"
+                        day.marker === "பௌர்ணமி" ? "text-orange-600" :
+                        day.marker === "அமாவாசை" ? "text-stone-500" :
+                        "text-emerald-600"
                       }`}>
                         {day.marker}
                       </div>
@@ -250,19 +250,19 @@ export default async function TamilCalendarPage({ searchParams }: Props) {
           </div>
 
           {/* Legend */}
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-5 pt-4 border-t border-stone-800 text-xs">
-            <span className="flex items-center gap-1.5"><span className="w-3 h-3 rounded bg-amber-500/40 border border-amber-500"></span><span className="text-stone-400">Selected</span></span>
-            <span className="flex items-center gap-1.5"><span className="w-3 h-3 rounded bg-amber-500/20 border border-amber-500/70"></span><span className="text-stone-400">Today</span></span>
-            <span className="text-stone-400"><span className="text-amber-400 font-medium">பௌர்ணமி</span> Full Moon</span>
-            <span className="text-stone-400"><span className="text-stone-300 font-medium">அமாவாசை</span> New Moon</span>
-            <span className="text-stone-400"><span className="text-emerald-400 font-medium">ஏகாதசி</span> Ekadasi</span>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 mt-5 pt-4 border-t border-amber-200 text-xs">
+            <span className="flex items-center gap-1.5"><span className="w-3 h-3 rounded bg-orange-100 border border-orange-500"></span><span className="text-stone-600">Selected</span></span>
+            <span className="flex items-center gap-1.5"><span className="w-3 h-3 rounded bg-amber-100 border border-orange-400"></span><span className="text-stone-600">Today</span></span>
+            <span className="text-stone-600"><span className="text-orange-600 font-medium">பௌர்ணமி</span> Full Moon</span>
+            <span className="text-stone-600"><span className="text-stone-700 font-medium">அமாவாசை</span> New Moon</span>
+            <span className="text-stone-600"><span className="text-emerald-600 font-medium">ஏகாதசி</span> Ekadasi</span>
           </div>
         </div>
 
         {/* Note */}
-        <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-5 text-center">
-          <p className="text-stone-400 text-xs leading-relaxed">
-            Panchang values are computed using the <code className="text-stone-300">mhah-panchang</code> library
+        <div className="bg-white border border-amber-200 rounded-xl p-5 text-center">
+          <p className="text-stone-600 text-xs leading-relaxed">
+            Panchang values are computed using the <code className="text-stone-800 bg-amber-50 px-1 rounded">mhah-panchang</code> library
             (Swiss Ephemeris-based astronomical calculations). Rahu Kalam, Yamagandam &amp; Kuligai are derived from sunrise/sunset
             using the traditional 8-segment day division. All times shown in Indian Standard Time (IST).
           </p>
@@ -283,12 +283,12 @@ function PanchangRow({
 }) {
   return (
     <div className="flex items-start justify-between gap-4 py-1">
-      <span className="text-stone-400 text-sm flex items-center gap-2 flex-shrink-0">
+      <span className="text-stone-600 text-sm flex items-center gap-2 flex-shrink-0">
         {icon}
         {label}
       </span>
       <span className="text-right">
-        <span className={`text-sm font-medium ${valueClass ?? "text-white"}`}>{tamil}</span>
+        <span className={`text-sm font-medium ${valueClass ?? "text-stone-900"}`}>{tamil}</span>
         {english && <span className="text-stone-500 text-xs ml-1.5">({english})</span>}
       </span>
     </div>

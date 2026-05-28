@@ -49,7 +49,7 @@ git push
 ## Page Structure
 
 ```
-/ → Homepage (Hero, Categories, FeaturedTemples, Festivals, Poojas, CTA)
+/ → Homepage (Hero, Categories, FeaturedTemples, Festivals, CTA)
 /temples → Directory (live search + filter by deity/state)
 /temples/[slug] → Detail page (history, timings, travel, festivals, poojas, nearby temples)
 /festivals/[slug] → Festival detail page (significance, story, rituals, devotee guide, related temples)
