@@ -40,9 +40,9 @@ git push
 ### Data
 | File | Purpose |
 |------|---------|
-| `src/data/temples.ts` | All 25 temple records + the homepage `festivals` array (11 entries; `featured: false` keeps a festival off the homepage Trending grid but still generates its detail page). |
-| `src/data/templeDetails.ts` | Rich per-temple detail. Required fields: `timings`, `entryFee`, `dressCode`, `bestTime`, `travelInfo`, `highlights`, `history`, `architecture`, `festivals`, `poojas`, `nearbyTemples`. Optional rich fields (preferred when present): `mythology`, `architectureFeatures[]`, `subShrines[]`, `visitorLogistics`, `sevas[]` (richer than `poojas`), `faqs[]`. Two temples fully deep-detailed so far: **madurai-meenakshi** and **tirupati-venkateswara** — both have all optional fields populated. All other temples render via the default fallback in `getTempleDetail()`. |
-| `src/data/festivalDetails.ts` | Rich detail per festival. 11 festivals detailed: `karthigai-deepam`, `mahamaham`, `brahmotsavam-tirupati`, `chithirai-festival`, `aadi-perukku`, `pongala-attukal`, `skanda-sashti`, `sabarimala-season`, plus the 3 Madurai-specific ones (`aavani-moolam`, `navaratri-golu`, `float-festival-madurai`) added for the Meenakshi temple page. |
+| `src/data/temples.ts` | All 25 temple records + the homepage `festivals` array (16 entries; `featured: false` keeps a festival off the homepage Trending grid but still generates its detail page). |
+| `src/data/templeDetails.ts` | Rich per-temple detail. Required fields: `timings`, `entryFee`, `dressCode`, `bestTime`, `travelInfo`, `highlights`, `history`, `architecture`, `festivals`, `poojas`, `nearbyTemples`. Optional rich fields (preferred when present): `mythology`, `architectureFeatures[]`, `subShrines[]`, `visitorLogistics`, `sevas[]` (richer than `poojas`), `faqs[]`. Three temples fully deep-detailed so far: **madurai-meenakshi**, **tirupati-venkateswara**, and **brihadeeswara-thanjavur** — all have every optional field populated. All other temples render via the default fallback in `getTempleDetail()`. |
+| `src/data/festivalDetails.ts` | Rich detail per festival. 16 festivals detailed: original 8 — `karthigai-deepam`, `mahamaham`, `brahmotsavam-tirupati`, `chithirai-festival`, `aadi-perukku`, `pongala-attukal`, `skanda-sashti`, `sabarimala-season`. 3 Madurai-specific — `aavani-moolam`, `navaratri-golu`, `float-festival-madurai`. 3 Tirumala-specific — `vaikunta-ekadasi-tirupati`, `rathasapthami-tirupati`, `pushpa-yagam-tirupati`. 2 added for Brihadeeswara — `maha-shivaratri` (pan-Shaivite, cross-linked to 6 Shiva temples), `sadayam-vizha-thanjavur`. |
 | `src/data/imageCredits.ts` | Image source / license credits for temple photos. |
 
 ### App routes
@@ -138,11 +138,11 @@ Follow the pattern in `VisitorLogisticsCard.tsx` or `TempleQuickCards.tsx`: clie
 
 ## Still To Build
 
-- Deep rich detail (mythology, architectureFeatures, subShrines, visitorLogistics, sevas, faqs) for the remaining 23 temples in `templeDetails.ts`.
+- Deep rich detail (mythology, architectureFeatures, subShrines, visitorLogistics, sevas, faqs) for the remaining 22 temples in `templeDetails.ts`.
 - `/festivals` index/listing page (individual `/festivals/[slug]` pages exist).
 - `/puja` booking page.
 - `/travel` guides.
-- More festival detail pages for pan-Vaishnavite/Shaivite festivals (Vaikunta Ekadasi, Rathasapthami, etc.).
+- More festival detail pages for the remaining un-detailed festivals (e.g. Aippasi Brahmotsavam at Brihadeeswara, Aadi Pooram for Brihannayaki).
 - Calendar pages for Malayalam, Telugu, Kannada (Tamil shipped).
 - Multilingual UI translation (Tamil, Telugu, Kannada, Malayalam).
 - Online seva booking integration (currently sevas show fees with no `bookingUrl`).
