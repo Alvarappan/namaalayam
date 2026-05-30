@@ -703,9 +703,10 @@ export const templeDetails: Record<string, TempleDetail> = {
     history: "Built by the great Chola Emperor Raja Raja I between 1003–1010 CE, the Brihadeeswara Temple (also called Peruvudaiyar Kovil) is a testament to the zenith of Chola art and architecture. The temple was built to celebrate military victories and royal power. The inscriptions on the walls — over 400 of them — provide detailed records of the Chola empire's administration, donations, and religious practices.",
     architecture: "Built entirely of granite, the Brihadeeswara is the world's first complete granite temple. The 66-meter vimana consists of 13 tapered tiers. The massive Shivalingam in the sanctum (8.7 meters tall) is the second largest in India. The outer wall is decorated with sculptures of Shiva in various forms (108 Bharata Natyam poses are depicted).",
     festivals: [
-      { name: "Shivaratri", month: "February–March", description: "Major celebration with all-night puja and special events." },
-      { name: "Karthigai Deepam", month: "November–December", description: "Lighting of lamps around the temple." },
-      { name: "Raja Raja Chola Birthday", month: "October", description: "Commemorates the birth of the temple's founder with special rituals." },
+      { name: "Maha Shivaratri", month: "February–March", description: "All-night vigil with four prahara abhishekams to the great lingam. Brihadeeswara's vast prakaram is illuminated with thousands of lamps; one of the largest Shivaratri gatherings in Tamil Nadu.", slug: "maha-shivaratri" },
+      { name: "Karthigai Deepam", month: "November–December", description: "The temple is lit with thousands of clay deepams; a great beacon is lit atop the vimana at dusk, visible across the old city.", slug: "karthigai-deepam" },
+      { name: "Sadayam Vizha (Raja Raja Chola Birthday)", month: "October–November", description: "Commemorates the birthday of Raja Raja Chola I (Sadayam nakshatra in the Tamil month of Aippasi). Revived in 2003 by the Tamil Nadu government as a state-level cultural festival.", slug: "sadayam-vizha-thanjavur" },
+      { name: "Aippasi Brahmotsavam", month: "October–November", description: "10-day annual Brahmotsavam with daily processions of the deity on different vahanas through the inner prakaram." },
     ],
     poojas: [
       { name: "Thiruvanandal (Morning Puja)", time: "6:00 AM", fee: "Free" },
@@ -713,6 +714,273 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Evening Puja", time: "6:00 PM", fee: "Free" },
     ],
     nearbyTemples: ["sarangapani-kumbakonam", "nataraja-chidambaram"],
+    mythology: {
+      legend:
+        "Raja Raja Chola I (Arulmozhivarman) had a vision during a military campaign in Sri Lanka — Lord Shiva appeared and instructed him to build a temple worthy of his cosmic stature. Returning to his capital Thanjavur at the height of his empire (he had conquered Kerala, the Pandyan kingdom, parts of Karnataka and northern Sri Lanka), the king resolved to construct a Dakshina Meru — a southern Mount Meru — that would surpass every temple ever built. Construction began in 1003 CE and was completed in 1010 CE: just seven years for a monument of granite weighing over 130,000 tonnes. The temple was consecrated with its main deity named Rajarajeswaram-Udaiyar after the king himself; over the centuries it came to be known by the more universal name Brihadeeswara, 'the Great Lord'.",
+      tirukalyanam:
+        "Unlike Meenakshi or Tirupati, Brihadeeswara has no central wedding narrative — its mythology is one of imperial vision realised in stone. Raja Raja's choice of the saint Karuvur Devar to perform the consecration is itself the temple's defining legend. When the king brought the great Shivalingam to the sanctum and tried to install it, every method failed — the lingam would not rise. Devars assembled in despair. Karuvur Devar, then a wandering Shaiva saint, was summoned. He sang the Tiruvisaippa (a hymn in praise of Brihadeeswara, composed on the spot) and the lingam rose effortlessly into place. Raja Raja built a small shrine for Karuvurar inside the southern prakaram, where the saint remains in worship to this day.",
+      additionalStories: [
+        {
+          title: "The Mystery of the Shadow",
+          content:
+            "A popular belief holds that the shadow of the temple's 66-metre vimana never falls on the ground — that it 'disappears' at noon. Modern survey work has shown this is partially true and partially mythologised: at midday, the vimana's shadow falls onto its own base rather than extending beyond the temple compound. This is the result of a remarkable architectural calculation by the Chola sthapatis (architects), who designed the tapering pyramid so its centre of mass and shadow geometry align with the base. Whether intentional or accidental, the effect contributes to the structure's mystique — and may have been a deliberate symbolic statement that the king's temple, like the king himself, cast no overshadowing presence on his subjects.",
+        },
+        {
+          title: "The 80-Tonne Cap Stone",
+          content:
+            "At the top of the vimana sits a single 25-tonne (some accounts say 80-tonne) octagonal cap stone (the sikhara), capped with a kalasham. Local tradition holds that the Chola engineers raised this stone using a six-kilometre-long inclined earthen ramp from the village of Sarapallam ('scaffold-pit village') near modern Thanjavur. Elephants and labourers slowly hauled the stone up the ramp on log rollers. After installation, the entire ramp was dismantled. The feat is among the marvels of ancient engineering — the cap stone was raised to 60 metres without modern machinery, only animal power, ropes, and one of history's great experiments in friction physics.",
+        },
+        {
+          title: "The Living Bronzes",
+          content:
+            "Raja Raja commissioned dozens of bronze processional images for the temple, cast in the cire perdue (lost-wax) method that Chola sthapatis had perfected. The most exquisite is the Rajaraja-Sundara-Choleswara — a Shiva-Parvati pair where Parvati is said to be modelled on the king's queen, Lokamadevi. These bronzes are still in active worship today — taken in procession on festival days, anointed daily, dressed in fresh silks. They are considered among the finest surviving Chola bronzes in the world.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Brihad-Vimana (Sri Vimana)",
+        nameTa: "ஸ்ரீ விமானம்",
+        type: "vimana",
+        description: "The temple's defining feature — a 13-tier granite pyramid rising 66 metres (216 ft) over the sanctum. The tallest temple tower of its era and one of the tallest in India. Each tier diminishes geometrically; the cap stone (sikhara) is a single octagonal granite monolith weighing approximately 25 tonnes.",
+        detail: "66 m · 13 tiers · 25-tonne cap stone",
+      },
+      {
+        name: "Garbhagriha & Mahalingam",
+        type: "sanctum",
+        description: "The square sanctum (~14 m on each side) is two storeys tall internally, housing one of India's largest Shivalingams — an 8.7 m (29 ft) tall granite lingam on a square avudaiyar pedestal. The lingam is so large that priests use specially-built scaffolds to perform abhishekam. The sanctum is unusually deep, allowing devotees to circumambulate the lingam within.",
+        detail: "Lingam 8.7 m · sanctum two storeys tall",
+      },
+      {
+        name: "Nandi Mandapam",
+        type: "mandapam",
+        description: "Houses the colossal monolithic Nandi (sacred bull) facing the sanctum — 6 m long × 2.6 m wide × 3.7 m tall, carved from a single block of granite weighing approximately 25 tonnes. It is the second-largest Nandi in India (after Lepakshi). The mandapam itself was added in the 16th century by the Nayaks.",
+        detail: "Nandi: 6 × 2.6 × 3.7 m · ~25 tonnes",
+      },
+      {
+        name: "Keralantakan Tiruvasal",
+        type: "gopuram",
+        description: "The outer eastern gateway — named after Raja Raja's conquest of Kerala (his title was Keralantaka, 'destroyer of the Cheras'). Built in the Chola period, the gateway has a single tier with the original Chola sculptures still intact.",
+      },
+      {
+        name: "Rajarajan Tiruvasal",
+        type: "gopuram",
+        description: "The inner gateway, named after the founder himself. A three-tiered gopuram of remarkable proportional balance — its sculptures depict dvarapalakas (gate-guardians), Bhairava forms, and scenes from the Periya Puranam. Unusually for South India, the inner gopuram is taller than the outer.",
+      },
+      {
+        name: "Maha Mandapam & Ardha Mandapam",
+        type: "mandapam",
+        description: "The two pillared halls between the gateway and the sanctum, used for daily rituals and for displays of the festival bronzes. The pillars carry Chola inscriptions recording donations of land, gold and slaves by the king, his queens, and the merchant guilds. Many of the bronzes housed here are 11th-century originals.",
+      },
+      {
+        name: "Karandai Inscriptions",
+        type: "other",
+        description: "Over 400 stone inscriptions cover the temple's base mouldings (adhishthana) — the most extensive surviving administrative record from the Chola period. They record gifts of villages, sums of gold, quantities of paddy, lists of dancers, musicians, accountants, watchmen, and ritual specialists endowed by Raja Raja and his nobles. The inscriptions are written in early Tamil with Grantha letters for Sanskrit names.",
+        detail: "400+ inscriptions · early Tamil + Grantha",
+      },
+      {
+        name: "Chola Frescoes",
+        type: "other",
+        description: "Inside the lower corridor of the vimana, the original 11th-century Chola murals were rediscovered in 1930 — preserved under a later Nayak-era overpainting. Both layers are now visible: the deep Chola reds and ochres depict scenes from the life of Sundarar and Nataraja; the Nayak overlay shows lighter palette portraits of saints and donors. The space is dimly-lit; ASI permits only authorised photographers.",
+      },
+      {
+        name: "81 Karana Sculptures",
+        type: "other",
+        description: "Carved on the niches of the vimana's first storey: 81 of the 108 Bharatanatyam karanas (movement units) described in the Natyashastra. The figures — about 1 m tall, in granite — show the dancer in dynamic mid-pose, accompanied by drummers and singers. They are the earliest complete sculptural catalogue of the karanas anywhere in India.",
+        detail: "81 of 108 Natyashastra karanas",
+      },
+      {
+        name: "Brihannayaki Amman Shrine",
+        nameTa: "பெரிய நாயகி அம்மன்",
+        type: "other",
+        description: "The consort goddess Brihannayaki ('Great Mother') in her own shrine within the northern prakaram. Added by the Pandyas in the 13th century after Chola decline. Her annual Aadi Pooram festival is a major draw.",
+      },
+      {
+        name: "Subrahmanya Shrine",
+        type: "other",
+        description: "A 17th-century Nayak-era addition in the north-western corner of the prakaram. Despite being centuries younger than the main temple, it is considered one of the finest examples of late Nayak granite sculpture — its pillared mandapam is rated by art historians as a miniature masterpiece.",
+      },
+      {
+        name: "Karuvurar Shrine",
+        type: "other",
+        description: "A small shrine in the southern prakaram dedicated to Karuvur Devar — the wandering Shaiva saint whose Tiruvisaippa hymn enabled the consecration of the main lingam. His installation here, alongside the great deity, is a rare honour granted by Raja Raja himself.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Brihannayaki Amman",
+        deity: "Goddess Parvati as 'The Great Mother'",
+        description: "The consort goddess in her own shrine on the northern prakaram, added by the Pandyas in the 13th century. Friday is her special day; the annual Aadi Pooram (July–August) draws thousands of women devotees.",
+      },
+      {
+        name: "Subrahmanya Swamy",
+        deity: "Lord Murugan",
+        description: "A late-Nayak (17th c.) shrine in the north-western corner. The pillared mandapam — with finely detailed yali and Bhairava sculptures — is widely regarded as the artistic high point of late Tamil temple architecture.",
+      },
+      {
+        name: "Chandikeshwara",
+        deity: "The Custodian of Shiva Temples",
+        description: "An original Chola-period shrine on the northern wall of the sanctum. Devotees customarily snap their fingers when passing — a gesture to wake Chandikeshwara (who is said to be eternally meditating) and to attest to the truth of the prayers just offered to Shiva.",
+      },
+      {
+        name: "Ganapathy",
+        deity: "Lord Ganesha",
+        description: "An original Chola shrine immediately to the south of the main entrance, where every devotee first offers prayers before approaching the great lingam.",
+      },
+      {
+        name: "Dakshinamurthy",
+        deity: "Shiva as the Cosmic Teacher",
+        description: "Carved into the southern niche of the vimana — a 1.5 m granite sculpture of Shiva as the silent teacher seated under the banyan tree, surrounded by four sages. One of the finest Dakshinamurthy depictions of the Chola period.",
+      },
+      {
+        name: "Lingodbhavar",
+        deity: "Shiva as the Infinite Pillar",
+        description: "On the rear (western) niche of the vimana — Shiva emerging from a column of fire whose ends Brahma and Vishnu cannot find, despite their searches as a hamsa and varaha respectively. The scene is rendered with rare iconographic completeness.",
+      },
+      {
+        name: "Karuvur Devar Shrine",
+        deity: "The Saint Karuvur Devar",
+        description: "The 11th-century Shaiva poet-saint whose Tiruvisaippa enabled the original consecration of the temple lingam. His enshrinement alongside the main deity is a unique honour in Chola temple tradition.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Keralantakan Tiruvasal (Outer Gateway)", direction: "East", notes: "The main outer entrance through which all visitors enter. Open from sunrise; security checks at this gate." },
+        { name: "Rajarajan Tiruvasal (Inner Gateway)", direction: "East", notes: "The inner three-tiered gopuram leading into the temple's main courtyard. This is where you first see the great vimana." },
+      ],
+      cloakRoom: "A small cloak room operates just inside the Keralantakan Tiruvasal for shoes and bags. Mobile phones and cameras are permitted inside the complex (see camera policy). A ₹10 token is sometimes charged.",
+      mobilePolicy: "Mobile phones are permitted inside the complex — but switch to silent mode and avoid taking calls within the sanctum area. The temple is an active place of worship; loud conversation is frowned upon.",
+      cameraPolicy: "Photography is freely permitted inside the temple complex — this is one of the few major South Indian temples that does not restrict cameras. Flash and tripods are prohibited inside the inner sanctum and inside the frescoes corridor (to protect the 11th-century pigments). The ASI sometimes posts additional restrictions on weekends and festival days.",
+      wheelchairAccess: "Wheelchairs are not provided by the temple, but the inner prakaram is wheelchair-friendly — the courtyard is mostly level granite paving. The Nandi Mandapam, Brihannayaki shrine, and Subrahmanya shrine are accessible. The inner sanctum has steps and is not wheelchair-accessible; staff may assist devotees with mobility needs.",
+      seniorCitizenDarshan: "There is no formal priority queue, but the temple is rarely crowded enough to require one. On Mondays, Shivaratri, Karthigai Deepam, and Sadayam day, however, queues do build up — senior citizens may request priority entry from on-duty staff at the inner gateway.",
+      parking: "Free public parking is available outside the fort wall on West Main Road and Indra Gandhi Road, about 200–300 m from the outer gateway. Two-wheelers can park closer; no vehicle parking is permitted within the fort.",
+      restrooms: "Public restrooms are located near the outer parking area and at the eastern corner of the inner prakaram. Facilities are basic — bring tissues and hand sanitiser.",
+      drinkingWater: "Drinking water taps are available near the Nandi Mandapam and at the eastern entrance to the prakaram. The temple is in a hot, dry zone — carry your own bottle if visiting in summer (April–June).",
+    },
+    sevas: [
+      {
+        name: "Thiruvanandal Pooja",
+        description: "The morning waking ritual — abhishekam to the great lingam with milk, panchamrutham, vibhuti and sandal. Performed by climbing the wooden scaffold to reach the lingam's height. Pilgrims watch from the sanctum entrance.",
+        time: "Daily, 6:00 – 6:45 AM",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Kalasandhi Pooja",
+        description: "Mid-morning archana with Bilva (bel) leaves and recitation of the Sri Rudram.",
+        time: "Daily, 8:30 AM",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Uchikala Pooja",
+        description: "Noon pooja with Maha Naivedyam (food offering). The sanctum is closed shortly after for the afternoon break.",
+        time: "Daily, 12:00 PM",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Sayaratchai Pooja",
+        description: "Evening pooja with deepa aradhana and Carnatic vocal recital.",
+        time: "Daily, 6:00 PM",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Maha Abhishekam (Sponsored)",
+        description: "Special sponsored abhishekam to the great lingam with full panchamrutham, navadhanyam, and vibhuti. Sponsors receive prasadam, a framed photograph, and the day's recitation.",
+        time: "Booking required, ~7:00 AM",
+        fee: "₹500",
+        type: "special",
+      },
+      {
+        name: "Rudra Abhishekam",
+        description: "Eleven-fold recitation of the Sri Rudram with continuous abhishekam — a powerful ritual recommended for relief from doshas and for fulfilment of major vows.",
+        time: "Booking required, ~6:00 AM",
+        fee: "₹1,100",
+        type: "special",
+      },
+      {
+        name: "Pradosha Pooja",
+        description: "Performed on Pradosham days (Trayodashi tithi, twice each month). Abhishekam to Shiva between sunset and the first watch of the night — one of the most charged of Shaivite rituals.",
+        time: "Pradosham evenings, ~5:30 PM",
+        fee: "Free",
+        type: "monthly",
+      },
+      {
+        name: "Bilva Archana",
+        description: "Offering of 108 bel leaves with the chanting of Shiva's 108 names. Especially powerful on Mondays and during Karthigai.",
+        time: "All day on request",
+        fee: "₹150",
+        type: "special",
+      },
+      {
+        name: "Annadanam Sponsorship",
+        description: "Sponsor a day of free meals for pilgrims at the temple's annadana hall (north of the prakaram). Conducted simply but warmly.",
+        time: "Sponsor any date",
+        fee: "₹5,000 per day (approximate)",
+        type: "special",
+      },
+      {
+        name: "Brihannayaki Special Archana",
+        description: "Friday-only sankalpa archana to the consort goddess Brihannayaki in her northern prakaram shrine.",
+        time: "Fridays, 9:00 AM onwards",
+        fee: "₹200",
+        type: "weekly",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is entry to Brihadeeswara free?",
+        answer:
+          "Yes — entry is completely free for Indian citizens. Foreign nationals are charged ₹250 for entry to the inner prakaram (the Archaeological Survey of India fee for World Heritage Sites). Pooja-related fees are separate and entirely voluntary. The temple is administered jointly by the ASI (for the monument) and the HR&CE department (for the active worship).",
+      },
+      {
+        question: "How long should I plan for a visit?",
+        answer:
+          "A brisk darshan can be done in about 1 hour, but the temple rewards a longer visit. To appreciate the architecture — the great vimana from multiple angles, the Nandi monolith, the Chola frescoes (in the dimly-lit corridor), the inscriptions, the Subrahmanya shrine, and the Brihannayaki shrine — plan 2.5 to 3 hours. Photographers and architecture enthusiasts often spend half a day. Plan around the temple's 12:30–4:00 PM closure for the afternoon break.",
+      },
+      {
+        question: "Is the legend about the shadow really true?",
+        answer:
+          "Partially. The popular belief — that the vimana's shadow never falls on the ground — is more poetic than literal. Modern surveys show that the shadow does fall during most of the day; what is true is that at noon, the shadow folds onto the vimana's own base rather than extending out into the courtyard. The Chola sthapatis appear to have designed the geometry so the structure does not visually 'overshadow' its surroundings at midday. Whether this was intentional or a happy by-product of perfect proportions remains debated among historians.",
+      },
+      {
+        question: "How did the Cholas raise the 25-tonne cap stone to the top of the vimana?",
+        answer:
+          "Local tradition and recent archaeological survey both point to a long, gently-sloped inclined earthen ramp — approximately six kilometres long, beginning near the village of Sarapallam (literally 'scaffold-pit village'). The stone was hauled up by elephants and labourers on greased log rollers, then the entire ramp was dismantled after installation. The feat used no machinery beyond ropes, animal power, and friction — but it required precise mathematical calculation and immense organisational effort. Similar techniques were used to raise the great monoliths at Mahabalipuram and Karnataka temples.",
+      },
+      {
+        question: "Can I take photographs inside the temple?",
+        answer:
+          "Yes — Brihadeeswara is one of the few major active South Indian temples that freely permits photography in the courtyards, of the vimana, the Nandi, and most sculptures. Flash and tripods are prohibited inside the inner sanctum (where you should not photograph the lingam) and inside the frescoes corridor (to protect the 11th-century pigments). Drone photography requires prior ASI permission. The temple is exceptionally photogenic at sunrise and sunset.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "Modest traditional clothing is preferred but not strictly enforced. Saree, salwar, churidar, or skirt below the knee for women; dhoti or pant-shirt for men. Sleeveless tops, shorts, and very short skirts are discouraged. Unlike Tirupati, there is no strict dress-code check — but you may be politely asked to cover up before entering the inner sanctum.",
+      },
+      {
+        question: "When is the best time of day to visit?",
+        answer:
+          "Sunrise (around 6:00–7:30 AM) is the most magical — the granite glows golden, the morning Thiruvanandal pooja is in progress, and crowds are minimal. Avoid mid-day (the granite courtyard becomes very hot, especially March–June). Sunset (around 5:30–6:30 PM) is similarly beautiful and cooler. The temple is closed 12:30–4:00 PM. Mondays and festival days draw the largest crowds.",
+      },
+      {
+        question: "What's the connection to UNESCO World Heritage?",
+        answer:
+          "Brihadeeswara was inscribed as a UNESCO World Heritage Site in 1987 (originally as 'Brihadisvara Temple, Thanjavur'). In 2004, the inscription was extended and renamed 'Great Living Chola Temples' to include two sister temples: the Brihadeeswara at Gangaikonda Cholapuram (built by Raja Raja's son Rajendra I) and the Airavateswara Temple at Darasuram (built by Rajaraja II). All three are within 100 km of each other and can be visited as a single circuit.",
+      },
+      {
+        question: "What's special about the Nandi here?",
+        answer:
+          "The Nandi at Brihadeeswara is a single monolith — 6 m long, 2.6 m wide, 3.7 m tall, weighing approximately 25 tonnes. It is the second-largest monolithic Nandi in India (after Lepakshi in Andhra). Unusually, it was added in the 16th century by the Nayaks — five centuries after the main temple — yet harmonises perfectly with the original Chola scale. The mandapam housing it dates from the same period. Devotees touch its feet and whisper their prayers into its ear, in the belief that Nandi conveys them directly to Shiva.",
+      },
+      {
+        question: "What other temples should I see while in Thanjavur?",
+        answer:
+          "Three sites form the 'Great Living Chola Temples' circuit: Brihadeeswara Thanjavur, Brihadeeswara at Gangaikonda Cholapuram (75 km), and Airavateswara at Darasuram (35 km). Within Thanjavur, also visit the Tanjore Maratha Palace (the Sangeetha Mahal, the Royal Museum), the Saraswathi Mahal Library (one of the oldest continuously-used libraries in Asia), and the Sarangapani temple at Kumbakonam (40 km). Eating: try the authentic Thanjavur-style sambar at Sri Krishna Bhavan, and the famous filter coffee.",
+      },
+    ],
   },
   "ramanathaswamy-rameswaram": {
     slug: "ramanathaswamy-rameswaram",

@@ -581,4 +581,22 @@ export const festivals: Festival[] = [
     description: "Annual flower festival at Tirumala — over five tonnes of flowers are offered in a six-hour Pushpa Abhishekam to the processional deities, performed in the Tirumamani Mandapam.",
     featured: false,
   },
+  {
+    name: "Maha Shivaratri",
+    temple: "All Shiva Temples",
+    date: "Feb–Mar",
+    type: "Night of Shiva",
+    slug: "maha-shivaratri",
+    description: "The 'Great Night of Shiva' — celebrated at every Shaivite temple in India with all-night vigil, fasting, and four prahara abhishekams to the lingam.",
+    featured: false,
+  },
+  {
+    name: "Sadayam Vizha (Thanjavur)",
+    temple: "Brihadeeswara Thanjavur",
+    date: "Oct–Nov",
+    type: "Founder's Birthday",
+    slug: "sadayam-vizha-thanjavur",
+    description: "Commemorates the birthday of Raja Raja Chola I (Sadayam nakshatra in the Tamil month of Aippasi), revived in 2003 as a state-level cultural festival at the Brihadeeswara Temple.",
+    featured: false,
+  },
 ];

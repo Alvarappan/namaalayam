@@ -268,6 +268,62 @@ export const festivalDetails: Record<string, FestivalDetail> = {
     relatedTempleSlugs: ["madurai-meenakshi", "kapaleeswarar-mylapore"],
   },
 
+  "maha-shivaratri": {
+    slug: "maha-shivaratri",
+    intro:
+      "Maha Shivaratri — the 'Great Night of Shiva' — is among the most widely observed festivals in the Hindu calendar, marked at every Shaivite temple in India and by tens of millions of Shiva devotees in their homes. It falls on the fourteenth night of the dark fortnight (Krishna Chaturdashi) of the Tamil month of Masi (February–March). Unlike most festivals, which are celebrated by day, Shivaratri is observed through the night — with fasting, all-night vigil, and four prahara abhishekams performed in sequence from dusk to dawn.",
+    significance:
+      "Maha Shivaratri commemorates several interconnected events in Shaiva tradition: the marriage of Shiva to Parvati; the night of Shiva's cosmic dance (the Lasya-Tandava); the night Shiva swallowed the halahala poison emerging from the churning of the ocean, holding it in his throat to save the world; and, in some traditions, the night Shiva first manifested as the infinite Lingodbhava pillar. The vrat itself — the all-night fast and vigil — is considered the single most efficacious act in the Shaivite calendar, said to grant the merit of all the year's daily worship combined.",
+    story:
+      "When the devas and asuras churned the cosmic ocean for amrita (the nectar of immortality), the first thing to emerge was not nectar but halahala — a poison so virulent it threatened to destroy all creation. Brahma and Vishnu were helpless. They turned to Shiva, who calmly accepted the poison into his throat — but Parvati, terrified, clasped his neck to prevent it descending into his stomach (which contained all the worlds). The poison was held forever in his throat, turning it blue: hence Shiva's name Neelakanta, 'the blue-throated one'. The devas kept vigil through the night while Shiva sat in trance, holding the poison. That night of vigil — when the world hung between life and death — is the night re-enacted by every Shaiva devotee on Maha Shivaratri.",
+    rituals: [
+      "Devotees fast through the day (water, milk, fruit only; no rice or grains) and stay awake through the night.",
+      "Four prahara abhishekams are performed at temples through the night — each three hours apart, beginning around 6 PM and ending at dawn.",
+      "First Prahara (~6 PM): abhishekam with milk · Second (~9 PM): with curd · Third (~midnight): with ghee · Fourth (~3 AM): with honey.",
+      "Devotees chant 'Om Namah Shivaya' continuously through the night; Shiva Sahasranamam, Sri Rudram and the Lingashtakam are recited.",
+      "Bilva (bel) leaves are the prescribed offering — each leaf has three lobes representing the three eyes of Shiva and the three gunas; offering them on Shivaratri is considered exceptionally powerful.",
+      "At Brihadeeswara Thanjavur, the great vimana and prakaram are illuminated with thousands of clay deepams; the cultural programme includes Carnatic vocal, Bharatanatyam, and Nagaswaram concerts.",
+      "At Arunachaleswarar Thiruvannamalai, the Mahadeepam atop the Annamalai hill is lit at twilight, visible for 30 km.",
+      "At Ramanathaswamy Rameswaram, the 22 sacred theerthams are bathed in by devotees through the day.",
+      "Many homeowners observe the vrat at home: keep a Shivalingam (or photo) before you, light a lamp, fast, and chant through the night.",
+    ],
+    whenWhere: {
+      duration: "1 night (Krishna Chaturdashi of Masi, February–March)",
+      mainTemple: "All Shaivite temples in India",
+      otherLocations: ["Brihadeeswara Thanjavur", "Arunachaleswarar Thiruvannamalai", "Ramanathaswamy Rameswaram", "Nataraja Chidambaram", "Kapaleeswarar Mylapore", "Ekambareswarar Kanchipuram"],
+    },
+    forDevotees:
+      "If you attend a temple Shivaratri, arrive by 5 PM and plan to stay through the full night to witness all four prahara abhishekams — leaving partway is considered to break the vrat. Carry a shawl (temple floors are cold), water, fruit, and a small mat to sit on. The middle prahara (midnight) is often the most spiritually charged. If observing at home, set up a simple altar: a Shivalingam (or photo), a small lamp, bilva leaves, vibhuti. Chant Om Namah Shivaya, read or listen to the Sri Rudram, and try to stay awake the whole night. Breaking the fast the next morning with a small meal of fruit and curd-rice is traditional.",
+    relatedTempleSlugs: ["brihadeeswara-thanjavur", "arunachaleswarar-thiruvannamalai", "ramanathaswamy-rameswaram", "nataraja-chidambaram", "kapaleeswarar-mylapore", "ekambareswarar-kanchipuram"],
+  },
+
+  "sadayam-vizha-thanjavur": {
+    slug: "sadayam-vizha-thanjavur",
+    intro:
+      "Sadayam Vizha is the annual commemoration of the birthday of Raja Raja Chola I (Arulmozhivarman, 947–1014 CE) — the great Chola emperor who built the Brihadeeswara Temple in Thanjavur. Raja Raja was born on the Sadayam nakshatra in the Tamil month of Aippasi (mid-October to mid-November), and the festival falls on the day when Sadayam recurs in this month. Revived as a state-level cultural festival by the Tamil Nadu government in 2003 (the temple's millennium year), it combines temple ritual with classical music, dance, and historical commemoration.",
+    significance:
+      "Sadayam Vizha is unique among Tamil temple festivals — it is the only major celebration honouring the builder of a temple rather than the deity. Raja Raja's reign (985–1014 CE) marked the apogee of Chola power: he subdued the Cheras and Pandyas, conquered northern Sri Lanka and the Maldives, established a navy of unprecedented sophistication, and patronised the arts and Saiva-Siddhanta philosophy. His building of the Brihadeeswara — designed as a Dakshina Meru, the 'Southern Mount Meru' — was the culminating act of his reign. Modern Tamil Nadu celebrates this day as a moment of cultural memory, reconnecting with the period that defined classical Tamil civilisation.",
+    story:
+      "Raja Raja's birth-name was Arulmozhivarman ('he of gracious speech') — the second son of Sundara Chola and Vanavan Mahadevi. He was passed over for the throne in favour of his elder brother Aditya Karikalan, then his uncle Madurantaka, and finally ascended only at 38, after both predecessors died. In just under three decades, he rebuilt the Chola empire from its ruined state, codified its administration through extensive temple inscriptions, and commissioned the Brihadeeswara — completed in 1010 CE, the year of the temple's consecration. He was buried (per Chola tradition) under a memorial shrine at Udayalur near Thanjavur. The Sadayam Vizha was largely forgotten for centuries; its 2003 revival was led by historian R. Nagaswamy and the Tamil Nadu Hindu Religious & Charitable Endowments department.",
+    rituals: [
+      "Morning: a special abhishekam to the great lingam in Raja Raja's name, accompanied by recitation of his contributions inscribed on the temple walls.",
+      "Reading aloud of the Karandai Tamil Sangam Plates — the original copper-plate land-grant inscriptions of Raja Raja's reign, preserved at the Saraswathi Mahal Library.",
+      "A formal pradakshina (circumambulation) of the vimana by descendants of the original temple servitors — including the Devar (the family said to descend from Karuvur Devar, the saint who consecrated the lingam).",
+      "Late afternoon: a procession of Raja Raja's symbolic image (recreated based on Chola bronzes) through the inner prakaram.",
+      "Evening: Carnatic music concerts and Bharatanatyam performances on the temple's outer prakaram stage — featuring compositions on Brihadeeswara by Muthuswami Dikshitar and Syama Sastri.",
+      "A special poem-recital of the Periya Puranam passages about Karuvur Devar and the temple's consecration.",
+      "Distribution of free annadana to all visitors through the day at the northern prakaram dining hall.",
+    ],
+    whenWhere: {
+      duration: "1 day (Sadayam nakshatra in Aippasi, October–November)",
+      mainTemple: "Brihadeeswara Temple, Thanjavur",
+      otherLocations: ["Udayalur Cholaeswaram (Raja Raja's memorial)", "Saraswathi Mahal Library Thanjavur"],
+    },
+    forDevotees:
+      "Sadayam Vizha is one of the most culturally rich days of the Tamil calendar — and one of the least crowded major temple events, as it remains primarily a state and academic celebration rather than a mass pilgrimage. If you have any interest in Chola history, architecture, or classical Tamil arts, this is the day to visit Thanjavur. Combine the day with a visit to the Tanjore Maratha Palace (Royal Museum + Sangeetha Mahal) and the Saraswathi Mahal Library — both within walking distance of the temple. The evening concerts are free; arrive by 6 PM for a seat.",
+    relatedTempleSlugs: ["brihadeeswara-thanjavur"],
+  },
+
   "vaikunta-ekadasi-tirupati": {
     slug: "vaikunta-ekadasi-tirupati",
     intro:
