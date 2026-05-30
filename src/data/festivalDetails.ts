@@ -268,6 +268,88 @@ export const festivalDetails: Record<string, FestivalDetail> = {
     relatedTempleSlugs: ["madurai-meenakshi", "kapaleeswarar-mylapore"],
   },
 
+  "vaikunta-ekadasi-tirupati": {
+    slug: "vaikunta-ekadasi-tirupati",
+    intro:
+      "Vaikunta Ekadasi at Tirumala is the single most sacred day of the year at Lord Venkateswara's temple. It falls on the Shukla Paksha Ekadasi of the Tamil month of Margazhi (December–January), when the Vaikunta Dwaram — the 'Gate to Heaven' — is symbolically opened in the temple. Devotees who pass through this dwaram are believed to attain moksha, liberation from the cycle of birth and death. Tirumala receives between 200,000 and 400,000 pilgrims on this single day — the largest single-day footfall of the year.",
+    significance:
+      "Of the 24 Ekadasis observed each year, Vaikunta Ekadasi is considered the most sacred — its merit is said to equal that of all the others combined. The opening of the Vaikunta Dwaram at Tirumala is a once-a-year event: a special north-facing passage inside the temple, normally closed, is opened only on this day. Devotees passing through it in the prescribed sequence (after darshan of Lord Venkateswara) symbolically enter Vaikunta. Three Ekadasis are observed: the Vaikunta Ekadasi day itself, the previous day's Dasami, and the following day's Dwadasi — together known as the 'three sacred days' (Trayodasi Vratham).",
+    story:
+      "When the demon Muran tormented the devas, they prayed to Vishnu for protection. Vishnu fought Muran for a thousand years but the demon was relentless. Tired, Vishnu retreated to Badarikashrama and slept inside the Himavati cave. Muran followed to slay him in his sleep — but at that moment, a brilliant goddess emerged from Vishnu's body and incinerated the demon. Pleased, Vishnu named her Ekadasi (born on the eleventh tithi) and granted her the boon that any devotee who fasted in her name on the Shukla Paksha Ekadasi of Margazhi would attain Vaikunta. This is the Vaikunta Ekadasi vrat, observed across all Vishnu temples but most spectacularly at Tirumala.",
+    rituals: [
+      "Devotees observe the Ekadasi vratham — a fast from sunrise on Dasami (the day before) to sunrise on Dwadasi (the day after). Some observe a complete waterless fast (nirjala); others take only fruit and milk.",
+      "The fast is broken on Dwadasi morning with parana — the prescribed meal taken at a specific muhurta after Surya namaskaram.",
+      "Sleeping is traditionally avoided during the Ekadasi night — devotees stay awake reciting Vishnu Sahasranamam, singing Bhajans, and listening to the Tiruppavai of Andal (December is the Tiruppavai recitation month).",
+      "At Tirumala, the Vaikunta Dwaram is ceremoniously opened by the Pradhana Archaka before dawn. Pilgrims pass through it after darshan of the main deity — entering from the north side and exiting on the south.",
+      "TTD opens additional darshan queues from 2 AM and runs them continuously for ~48 hours.",
+      "Special Pushpa Alankaram (flower decoration) of Lord Venkateswara is performed; the deity is dressed in white silk vastrams.",
+      "The Vaikunta Dwaram remains open for 10 days (the period of 'Bhagavadgita Adhyayanam') for those unable to come on Ekadasi day itself.",
+    ],
+    whenWhere: {
+      duration: "1 day (Shukla Ekadasi of Margazhi, December–January) — Dwaram remains open for 10 days for late-comers",
+      mainTemple: "Sri Venkateswara Swamy Temple, Tirumala",
+      otherLocations: ["Ranganathaswamy Temple Srirangam", "Padmanabhaswamy Temple Trivandrum", "All Vishnu temples"],
+    },
+    forDevotees:
+      "Tirumala on Vaikunta Ekadasi day is overwhelming — queues can exceed 24 hours; the Vaikuntham complex's Q-I/II/III are filled to capacity, with overflow into temporary holding areas. If you intend to attend on the actual day, arrive at Tirumala 2 days in advance and stay at TTD cottages. A calmer option: visit any of the 10 days after Ekadasi while the Dwaram is still open. Special Darshan and Arjita Seva quotas are usually suspended on Ekadasi day; only Sarva Darshan and Sudarshan token queues operate. Fast and follow the vratham at home if you cannot travel.",
+    relatedTempleSlugs: ["tirupati-venkateswara", "ranganathaswamy-srirangam", "padmanabhaswamy-trivandrum", "govindarajaswamy-tirupati"],
+  },
+
+  "rathasapthami-tirupati": {
+    slug: "rathasapthami-tirupati",
+    intro:
+      "Rathasapthami at Tirumala is the most spectacular single-day festival at the Sri Venkateswara Swamy Temple. Falling on the Shukla Paksha Saptami of the Tamil/Telugu month of Magha (early February), it commemorates the day Surya — the Sun God — began his northward journey (Uttarayana) on his seven-horse chariot. At Tirumala, the processional deity Sri Malayappa Swami is taken in procession on seven different vahanas across a single day, from 4 AM to midnight — a feat performed only on this one day each year, considered equivalent to attending the full nine-day Brahmotsavam compressed into 24 hours.",
+    significance:
+      "Rathasapthami marks Surya Jayanti — the birthday of Surya — and the symbolic awakening of the sun from his winter dormancy. The seven horses of Surya's chariot represent the seven days of the week, the seven colours of light, and the seven chakras of the body. For Vaishnavas, the day also commemorates Lord Vishnu's incarnation as the Sun's chariot — the seven horses are forms of Surya's own consorts. At Tirumala, the festival has been celebrated continuously for at least 500 years, and is one of the temple's most attended single-day events after Vaikunta Ekadasi.",
+    story:
+      "When King Yashasvi suffered from incurable leprosy, the sage Vasishtha advised him to observe the Ratha Saptami vrat — bathe at dawn while holding seven Ekka (Calotropis gigantea) leaves on his head, one each at the head, shoulders, knees, and feet, then perform Surya Arghya (offering of water to the sun). The king did so, and his disease was cured. From then on, the day has been observed across India as Arogya Saptami — the festival of health, where bathing in the early morning with the seven leaves is believed to wash away seven births' worth of sins and grant freedom from illness.",
+    rituals: [
+      "4:00 AM — Surya Prabha Vahanam: the deity is taken in a chariot shaped like a radiant sun-disk, illuminated with golden lamps.",
+      "7:00 AM — Sesha Vahanam: procession on Adi Shesha, the cosmic serpent.",
+      "10:00 AM — Garuda Vahanam: the deity rides the celestial eagle Garuda — the most iconic of Vishnu's vahanas.",
+      "1:00 PM — Hanuman Vahanam: procession on Hanuman, the great devotee.",
+      "4:00 PM — Kalpavriksha Vahanam: the deity is seated under the wish-fulfilling tree.",
+      "7:00 PM — Sarvabhupala Vahanam: the deity is taken on a palanquin shaped to represent the rulership of all kings.",
+      "10:00 PM — Chandra Prabha Vahanam: the closing procession on a moon-shaped vahana.",
+      "Devotees take a sacred bath at dawn, traditionally with seven Ekka leaves placed on the body, and recite the Aditya Hridayam (the hymn to Surya from the Ramayana).",
+      "TTD distributes thousands of laddus and free anna prasadam through the day.",
+    ],
+    whenWhere: {
+      duration: "1 day (Shukla Saptami of Magha, January–February)",
+      mainTemple: "Sri Venkateswara Swamy Temple, Tirumala",
+      otherLocations: ["All Surya temples", "Sun-aligned shrines like Konark and Suryanar Kovil"],
+    },
+    forDevotees:
+      "Rathasapthami is the best day of the year to witness Lord Venkateswara's vahana processions if you cannot attend the full nine-day Brahmotsavam. The four Mada streets of Tirumala are packed from 4 AM through midnight — stake a viewing position along South or West Mada Street by 3 AM. The Garuda Vahanam (10 AM) draws the largest crowd. Sarva Darshan queues are extended through the day with multiple breaks for the vahanas to pass. If you observe the vratham at home: take a pre-dawn bath, place Ekka or rice leaves on the head/shoulders/knees, recite the Aditya Hridayam, and offer Surya Arghya at sunrise.",
+    relatedTempleSlugs: ["tirupati-venkateswara"],
+  },
+
+  "pushpa-yagam-tirupati": {
+    slug: "pushpa-yagam-tirupati",
+    intro:
+      "Pushpa Yagam — the 'flower sacrifice' — is the annual concluding festival of the Vaisakha Brahmotsavam at Tirumala, held in early May. Over a single six-hour ritual conducted in the Tirumamani Mandapam, the processional deities Sri Malayappa Swami, Sri Devi and Bhu Devi are anointed with more than five tonnes of fresh flowers — chrysanthemum, marigold, jasmine, rose, parijata, tulsi, lotus — heaped petal-deep over their forms in a slow, fragrant abhishekam. It is the most visually spectacular of Tirumala's annual rituals.",
+    significance:
+      "Pushpa Yagam is performed as the formal conclusion of the Vaisakha Brahmotsavam — the 'second' Brahmotsavam (the main one being in September). Flowers, the most ephemeral of offerings, represent the devotee's surrender of impermanent things to the eternal lord. The yagam is also a thanksgiving for the year's blessings and a prayer for abundant rains in the coming monsoon. The Tirumamani Mandapam — the same hall where Sahasranama Archana is performed daily — is transformed into a flower-filled inner sanctum for the duration of the ritual.",
+    story:
+      "The Vaisakha Brahmotsavam was established by Sri Ramanujacharya in the 12th century as a 'second' annual festival, complementing the older Salakatla (September) Brahmotsavam. Pushpa Yagam was added later as the festival's closing ritual, drawing on the Vedic tradition of pushpa-archana — worship through flowers — and on the south Indian temple tradition of seasonal flower-abhishekams. The choice of Vaisakha (May) is intentional: it is the height of the south Indian flower season, when jasmine, mogra and parijata are most abundant.",
+    rituals: [
+      "Day before: thousands of devotees and TTD volunteers gather to sort and weigh the flowers — sourced from temple gardens and donations across South India.",
+      "Morning of the yagam (~6:30 AM): the Snapana Bera (anointing deity) and the processional Malayappa Swami are brought to the Tirumamani Mandapam.",
+      "Snapana Tirumanjanam — a ceremonial bath of the deities with milk, curd, honey, sandal paste, and rosewater — is performed first.",
+      "Pushpa Abhishekam begins: priests recite the Purusha Suktam, Sri Suktam and Bhu Suktam while flowers are poured continuously over the deities for approximately six hours.",
+      "The flowers are distributed as prasadam to devotees present at the conclusion — receiving even a single petal is considered highly auspicious.",
+      "A final Maha Mangala Harati closes the yagam.",
+      "Pushpa Yagam is held in the daytime so devotees can witness it directly; it is the only Tirumala ritual where photography is occasionally permitted by TTD media.",
+    ],
+    whenWhere: {
+      duration: "1 day, ~6 hours (early May, concluding day of Vaisakha Brahmotsavam)",
+      mainTemple: "Sri Venkateswara Swamy Temple, Tirumala",
+    },
+    forDevotees:
+      "Pushpa Yagam is one of the most photogenic and sensorially overwhelming rituals at Tirumala — the entire Tirumamani Mandapam fills with the fragrance of fresh flowers. Tickets for the yagam darshan are limited and released through the TTD Arjita Seva portal about 60 days in advance. If you cannot get a ticket, a free Sarva Darshan during the morning will still give you a glimpse of the deities being readied. Pilgrims who donate flowers (any quantity, brought as fresh, unworshipped offerings) are received with gratitude at the Pushpa Mandapam — speak to TTD volunteers near the South Mada Street.",
+    relatedTempleSlugs: ["tirupati-venkateswara"],
+  },
+
   "float-festival-madurai": {
     slug: "float-festival-madurai",
     intro:

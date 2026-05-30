@@ -103,9 +103,9 @@ export const templeDetails: Record<string, TempleDetail> = {
     architecture: "The temple is built in Dravidian architecture style with a distinctive golden Vimana (tower). The Ananda Nilayam (sanctum) is covered in gold plates. The Bangaru Vakili (golden door) leads to the main sanctum. The temple complex includes Hundi (donation box), Ranganayakula Mandapam, and the sacred Pushkarini tank.",
     festivals: [
       { name: "Brahmotsavam", month: "September–October", description: "Nine-day annual festival drawing millions of pilgrims. The deity is taken out in a grand procession on 9 different vahanas (vehicles).", slug: "brahmotsavam-tirupati" },
-      { name: "Vaikunta Ekadasi", month: "December–January", description: "The most sacred day when the Vaikunta Dwaram (Heaven's Gate) is opened. Darshan is given through this special door." },
-      { name: "Rathasapthami", month: "February", description: "Celebrates the birthday of the Sun God. The deity is placed on a chariot and taken in a procession through the four streets of Tirumala from 4 AM to midnight on seven different vahanas." },
-      { name: "Pushpa Yagam", month: "May", description: "Annual flower festival. The temple and processional deities are decorated with tonnes of flowers; a six-hour pushpa abhishekam is performed in the Tirumamani Mandapam." },
+      { name: "Vaikunta Ekadasi", month: "December–January", description: "The most sacred day when the Vaikunta Dwaram (Heaven's Gate) is opened. Darshan is given through this special door.", slug: "vaikunta-ekadasi-tirupati" },
+      { name: "Rathasapthami", month: "February", description: "Celebrates the birthday of the Sun God. The deity is placed on a chariot and taken in a procession through the four streets of Tirumala from 4 AM to midnight on seven different vahanas.", slug: "rathasapthami-tirupati" },
+      { name: "Pushpa Yagam", month: "May", description: "Annual flower festival. The temple and processional deities are decorated with tonnes of flowers; a six-hour pushpa abhishekam is performed in the Tirumamani Mandapam.", slug: "pushpa-yagam-tirupati" },
     ],
     poojas: [
       { name: "Suprabhatha Seva", time: "2:30 AM", fee: "₹120 (Arjita)" },
