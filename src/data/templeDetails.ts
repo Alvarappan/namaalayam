@@ -717,9 +717,12 @@ export const templeDetails: Record<string, TempleDetail> = {
     mythology: {
       legend:
         "Raja Raja Chola I (Arulmozhivarman) had a vision during a military campaign in Sri Lanka — Lord Shiva appeared and instructed him to build a temple worthy of his cosmic stature. Returning to his capital Thanjavur at the height of his empire (he had conquered Kerala, the Pandyan kingdom, parts of Karnataka and northern Sri Lanka), the king resolved to construct a Dakshina Meru — a southern Mount Meru — that would surpass every temple ever built. Construction began in 1003 CE and was completed in 1010 CE: just seven years for a monument of granite weighing over 130,000 tonnes. The temple was consecrated with its main deity named Rajarajeswaram-Udaiyar after the king himself; over the centuries it came to be known by the more universal name Brihadeeswara, 'the Great Lord'.",
-      tirukalyanam:
-        "Unlike Meenakshi or Tirupati, Brihadeeswara has no central wedding narrative — its mythology is one of imperial vision realised in stone. Raja Raja's choice of the saint Karuvur Devar to perform the consecration is itself the temple's defining legend. When the king brought the great Shivalingam to the sanctum and tried to install it, every method failed — the lingam would not rise. Devars assembled in despair. Karuvur Devar, then a wandering Shaiva saint, was summoned. He sang the Tiruvisaippa (a hymn in praise of Brihadeeswara, composed on the spot) and the lingam rose effortlessly into place. Raja Raja built a small shrine for Karuvurar inside the southern prakaram, where the saint remains in worship to this day.",
       additionalStories: [
+        {
+          title: "The Consecration of the Great Lingam",
+          content:
+            "Raja Raja's choice of the saint Karuvur Devar to perform the consecration is itself the temple's defining legend. When the king brought the great Shivalingam to the sanctum and tried to install it, every method failed — the lingam would not rise. Devars assembled in despair. Karuvur Devar, then a wandering Shaiva saint, was summoned. He sang the Tiruvisaippa — a hymn in praise of Brihadeeswara, composed on the spot — and the lingam rose effortlessly into place. Raja Raja built a small shrine for Karuvurar inside the southern prakaram, where the saint remains in worship to this day.",
+        },
         {
           title: "The Mystery of the Shadow",
           content:
