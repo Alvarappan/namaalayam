@@ -138,7 +138,7 @@ Follow the pattern in `VisitorLogisticsCard.tsx` or `TempleQuickCards.tsx`: clie
 
 ## Still To Build
 
-- Deep rich detail (mythology, architectureFeatures, subShrines, visitorLogistics, sevas, faqs) for the remaining 22 temples in `templeDetails.ts`.
+- Deep rich detail (mythology, architectureFeatures, subShrines, visitorLogistics, sevas, faqs) for the remaining 19 temples in `templeDetails.ts`.
 - `/festivals` index/listing page (individual `/festivals/[slug]` pages exist).
 - `/puja` booking page.
 - `/travel` guides.
