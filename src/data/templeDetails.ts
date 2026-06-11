@@ -1307,6 +1307,239 @@ export const templeDetails: Record<string, TempleDetail> = {
     ],
     nearbyTemples: ["vaitheeswaran-kovil", "nataraja-chidambaram"],
   },
+  "sabarimala-ayyappa": {
+    slug: "sabarimala-ayyappa",
+    timings: { morning: "Season only: ~4:00 AM Nirmalya Darshanam", evening: "Closes ~11:00 PM after Harivarasanam", note: "Sabarimala is NOT open year-round. It opens only during the Mandala–Makaravilakku season (mid-Nov to mid-Jan), for Vishu (April), and on the first five days of each Malayalam month. Confirm the exact days and book the virtual queue before travelling." },
+    entryFee: "Free darshan. Virtual-queue (spot) booking via the Travancore Devaswom Board is required during season. Only pilgrims carrying the irumudi kettu may climb the 18 holy steps to the sanctum.",
+    dressCode: "Black, blue or saffron dhoti; no stitched or luxury clothing; barefoot throughout. Pilgrims wear the tulsi/rudraksha mala for the 41-day vratham and are addressed only as 'Swami' or 'Ayyappan'.",
+    bestTime: "Mandala–Makaravilakku season (mid-November to mid-January). Makaravilakku (14 January) is the spiritual climax but by far the most crowded; early Mandala days (late Nov) are calmer.",
+    travelInfo: {
+      byAir: "Cochin (Kochi) International Airport (~150 km) and Trivandrum International Airport (~120 km) are the nearest. Madurai is an alternative for pilgrims from Tamil Nadu.",
+      byTrain: "Chengannur (~90 km) is the nearest major railhead; Kottayam and Tiruvalla are also used. From the station take a bus/taxi to the base camps at Nilackal and Pamba.",
+      byRoad: "During season, private vehicles park at the Nilackal base camp; KSRTC shuttle buses ferry pilgrims the last ~20 km to Pamba. From Pamba it is a ~5 km uphill forest trek to the Sannidhanam. The traditional penance route is a 40+ km forest trek from Erumeli via Azhutha, Karimala and Peruvazhi.",
+    },
+    highlights: [
+      "Shrine of Lord Ayyappa (Dharma Sastha) — Hariharaputra, born of Shiva and Vishnu (as Mohini)",
+      "Among the largest annual pilgrimages on earth — over 50 million devotees in the two-month season",
+      "The 41-day vratham — the most demanding fast-and-discipline observance in the Hindu calendar; all pilgrims are equal and called 'Swami'",
+      "Pathinettam Padi — 18 gold-plated holy steps, climbable only while carrying the irumudi kettu",
+      "Makaravilakku & Makara Jyothi (14 January) — the sacred light at Ponnambalamedu and the Thiruvabharanam procession from Pandalam",
+      "A forest hilltop shrine inside the Periyar Tiger Reserve — reachable only on foot",
+      "'Tatvamasi' ('That Thou Art') — the Upanishadic Mahavakya inscribed at the shrine; radical inclusivity across caste and religion",
+    ],
+    history: "Sabarimala is the forest shrine of Lord Ayyappa, also called Dharma Sastha — a deity venerated as Hariharaputra, the son of Hari (Vishnu in his Mohini form) and Hara (Shiva). The hill is named for Sabari, the elderly devotee of the Ramayana who awaited Rama in these forests. The shrine's roots are ancient, woven through the history of the Pandalam royal family, who by tradition raised Ayyappa as the prince Manikandan and to whom the Thiruvabharanam (sacred ornaments) still belong. After a fire in 1950 the sanctum was rebuilt and the panchaloha idol reconsecrated. The temple is administered by the Travancore Devaswom Board. What distinguishes Sabarimala above all is its ethos: pilgrims of every caste, class and religion observe the same vratham, wear the same austere black, and are addressed alike as 'Swami' — a living embodiment of the Mahavakya 'Tatvamasi'.",
+    architecture: "Unlike the grand Dravidian temples, Sabarimala is a deliberately austere forest shrine. Its heart is the Sreekovil (sanctum) atop the Pathinettam Padi — the eighteen sacred, now gold-plated, steps. Within the copper-roofed sanctum the idol of Ayyappa is seated in a yogic posture, the right hand in chin-mudra, a band (yogapatta) around the drawn-up knee. The Sannidhanam plateau around the sanctum holds the flagstaff (kodimaram), the Malikappuram shrine of the goddess, and shrines to Ayyappa's companions Kaduthaswami and Vavar. The true 'architecture' of Sabarimala, devotees say, is the pilgrimage itself — the river bath at Pamba, the climb up Neelimala, and the ascent of the eighteen steps.",
+    festivals: [
+      { name: "Mandala Pooja", month: "November–December", description: "Concludes the 41-day Mandala season (which opens on the first of Vrischikam, ~17 Nov). The deity is adorned and a grand deeparadhana performed; the vast majority of pilgrims time their trek to this period.", slug: "sabarimala-season" },
+      { name: "Makaravilakku", month: "14 January (Makara Sankranti)", description: "The spiritual climax — the Makara Jyothi star is sighted and the sacred Makaravilakku light appears thrice at Ponnambalamedu, while the Thiruvabharanam ornaments arrive in procession from Pandalam to adorn the idol.", slug: "sabarimala-season" },
+      { name: "Petta Thullal (Erumeli)", month: "During season", description: "An ecstatic ritual dance performed by pilgrims at Erumeli — re-enacting the warriors' hunt for the demoness Mahishi. Pilgrims smear themselves with colour and dance to 'Swamiye Saranam Ayyappa' before continuing the trek." },
+      { name: "Vishu", month: "April", description: "The Malayalam New Year, one of the few occasions outside the main season when the temple opens, with the Vishukkani arrangement before the deity." },
+    ],
+    poojas: [
+      { name: "Neyyabhishekam", time: "Early morning (season)", fee: "Ghee from the pilgrim's own irumudi coconut" },
+      { name: "Udayasthamana Pooja", time: "Dawn to dusk", fee: "Sponsored (book via TDB)" },
+      { name: "Padi Pooja (worship of the 18 steps)", time: "Night, on select days", fee: "Sponsored (long waiting list)" },
+      { name: "Harivarasanam", time: "~11:00 PM (closing)", fee: "Free — the lullaby sung as the sanctum doors close" },
+    ],
+    nearbyTemples: ["padmanabhaswamy-trivandrum", "attukal-bhagavathy"],
+    mythology: {
+      legend:
+        "When the demoness Mahishi — sister of the slain Mahishasura — won a boon that she could be killed only by a child born of both Shiva and Vishnu, the devas turned to the two great gods. Vishnu took the enchanting female form of Mohini, and from his union with Shiva was born a radiant boy bearing a golden bell (mani) around his neck. The infant was left on the banks of the river Pampa, where the childless King Rajasekara of Pandalam found and adopted him, naming him Manikandan. The prince grew into a being of miraculous power and wisdom. When a court intrigue sent him into the forest to fetch tigress's milk for the queen, he returned riding a tigress, and his divinity could no longer be hidden. Manikandan asked the king to build a temple where his arrow fell — at Sabarimala — then shot his arrow, ascended the hill, and merged into the idol of Dharma Sastha, seated forever in yogic stillness facing the eighteen steps.",
+      tirukalyanam:
+        "Ayyappa is a Naishtika Brahmachari — an eternal celibate ascetic — so Sabarimala has no celestial-wedding festival. Instead the lore tells of Malikappurathamma, the goddess in the adjacent shrine, who longs to marry Ayyappa. He promised he would wed her only in the year no Kanni-Swami (a first-time pilgrim) comes to him. Since first-timers arrive every single year, the marriage is forever deferred — and her unfulfilled waiting is honoured in her own sannidhi beside his.",
+      additionalStories: [
+        {
+          title: "The 41-Day Vratham and the Irumudi",
+          content:
+            "A pilgrim becomes an Ayyappan by taking the mala — a string of tulsi or rudraksha beads — and observing 41 days of vratham: celibacy, vegetarian or sattvic food, no alcohol, sleeping on the floor, walking barefoot, controlling anger and speech, and treating every other pilgrim as Ayyappa himself. The penance dissolves rank and ego; a labourer and a millionaire walk identically clad in black. At its end the pilgrim packs the irumudi kettu — a two-pouch cloth bundle carried on the head. The front holds offerings, above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds personal provisions for the trek. No one may climb the eighteen steps without an irumudi on the head.",
+        },
+        {
+          title: "Vavar — the Companion of Ayyappa",
+          content:
+            "Among Ayyappa's closest companions in the war against Mahishi's forces was Vavar, by tradition a Muslim warrior and saint. At Erumeli, where the trek traditionally begins, pilgrims worship at both the Vavar mosque and the Sastha temple before setting out, and a shrine to Vavar (Vavaru Swami) stands beside Ayyappa's own at the Sannidhanam. This shared veneration makes Sabarimala one of India's most powerful living symbols of Hindu–Muslim harmony.",
+        },
+        {
+          title: "The Eighteen Steps (Pathinettam Padi)",
+          content:
+            "The eighteen gold-clad steps are themselves divine and are worshipped. The most common interpretation reads them as the obstacles the soul must transcend: the first five as the five senses (indriyas), the next eight as the eight ragas or passions (kama, krodha, lobha, moha, mada, matsarya, asuya, dambha), the next three as the three gunas (sattva, rajas, tamas), and the final two as vidya and avidya — knowledge and ignorance. Having shed all eighteen, the pilgrim stands before the deity as pure consciousness, realising 'Tatvamasi' — That Thou Art.",
+        },
+        {
+          title: "Makara Jyothi and the Light at Ponnambalamedu",
+          content:
+            "On Makara Sankranti (14 January), as dusk falls, devotees at the Sannidhanam turn toward the distant hill of Ponnambalamedu to behold the Makaravilakku — a sacred light that appears three times — while overhead the Makara Jyothi star rises. The moment coincides with the adorning of the idol in the Thiruvabharanam, the golden ornaments carried on foot in procession from the Pandalam palace. For the assembled millions chanting 'Swamiye Saranam Ayyappa', it is the supreme darshan of the season.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Pathinettam Padi (The 18 Holy Steps)",
+        nameTa: "பதினெட்டாம் படி",
+        type: "other",
+        description: "The eighteen sacred steps leading to the Sreekovil — now clad in gold (panchaloha) and themselves objects of worship. Only a pilgrim carrying the irumudi kettu on the head may ascend them; each step is venerated as a stage in shedding the senses, passions, gunas, and finally knowledge and ignorance, until the soul realises 'Tatvamasi'.",
+        detail: "18 gold-plated steps · irumudi required to climb",
+      },
+      {
+        name: "Sreekovil (Sanctum)",
+        type: "sanctum",
+        description: "The copper-roofed inner sanctum atop the eighteen steps, housing the panchaloha idol of Ayyappa as Dharma Sastha. The deity is seated in a yogic posture — the right hand in chin-mudra, a yogapatta band around the drawn-up knee — gazing eternally down the eighteen steps. The present idol was consecrated after the 1950 fire.",
+        detail: "Ayyappa in yogic posture · reconsecrated 1950",
+      },
+      {
+        name: "Sannidhanam Plateau",
+        type: "other",
+        description: "The temple plateau around the sanctum at roughly 1,260 m, holding the flagstaff (kodimaram), the offering platforms, the shrines of the goddess and Ayyappa's companions, and the spaces where lakhs of pilgrims gather, especially for Makaravilakku. Everything here is reached only on foot.",
+      },
+      {
+        name: "Malikappuram Shrine",
+        type: "other",
+        description: "The shrine of the goddess Malikappurathamma, a short distance from the main sanctum, with its own ritual life — including the nightly procession and the lore of her eternal wait to wed the celibate Ayyappa. A major focus of devotion in its own right.",
+      },
+      {
+        name: "Pamba & Neelimala Ascent",
+        type: "other",
+        description: "Pamba, on the holy river of the same name, is the principal base camp where pilgrims bathe before the climb. From here the path rises steeply up Neelimala and through forest to the Sannidhanam — about 5 km, the final and most demanding stretch of the journey.",
+        detail: "~5 km forest trek from Pamba",
+      },
+      {
+        name: "Ponnambalamedu",
+        type: "other",
+        description: "The distant forested hill, visible from the Sannidhanam, where the sacred Makaravilakku light appears on the evening of 14 January. Access is restricted; for pilgrims it is a point of darshan across the valley rather than a place to visit.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Malikappurathamma",
+        deity: "The Goddess of Sabarimala",
+        description: "The presiding goddess whose shrine stands near the main sanctum. By legend she waits to marry Ayyappa in the year no first-time pilgrim (Kanni-Swami) arrives — a wait renewed every season. Her nightly rituals and procession are central to the Sabarimala experience.",
+      },
+      {
+        name: "Vavaru Swami (Vavar)",
+        deity: "Ayyappa's Muslim companion-saint",
+        description: "A shrine to Vavar, the warrior-saint who fought alongside Ayyappa. Worshipped by all pilgrims — together with the Vavar mosque at Erumeli — as an enduring symbol of inter-faith harmony.",
+      },
+      {
+        name: "Kaduthaswami",
+        deity: "Guardian companion of Ayyappa",
+        description: "A guardian deity and companion of Ayyappa, with a shrine at the Sannidhanam where pilgrims pay respects on arrival.",
+      },
+      {
+        name: "Ganapathi",
+        deity: "Lord Ganesha",
+        description: "The remover of obstacles, worshipped at the outset so the arduous trek and darshan proceed without hindrance.",
+      },
+      {
+        name: "Nagaraja",
+        deity: "The Serpent God",
+        description: "A serpent shrine within the complex, reflecting the forest sanctity of the hill and the older nature-worship strata that underlie the Sastha tradition.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Pathinettam Padi (Main Ascent)", direction: "North", notes: "The eighteen holy steps — the only route to the sanctum for irumudi-bearing pilgrims. Non-irumudi visitors use the separate side approach and cannot climb the steps." },
+      ],
+      cloakRoom: "Pilgrims travel light by design. Footwear is left at Pamba or the foot of the climb; lockers and deposit counters operate at Pamba and the Sannidhanam for valuables. The irumudi is never set down carelessly — it is the pilgrim's sanctified burden until the Neyyabhishekam.",
+      mobilePolicy: "Phones are best left at Pamba lockers or kept switched off. There is limited and unreliable mobile coverage on the hill, and the sanctum area is meant for chanting and darshan, not calls.",
+      cameraPolicy: "Photography is prohibited at and around the sanctum and the eighteen steps. Treat the Sannidhanam as a place of penance, not sightseeing; follow the directions of the police and Devaswom staff, who manage immense crowds.",
+      wheelchairAccess: "The terrain is a steep forest hill reached only on foot, so it is inherently difficult for those with limited mobility. A 'doli' (palanquin carried by porters) service and tractor/ambulance facilities operate between Pamba and the Sannidhanam for the elderly and infirm, for a fee.",
+      seniorCitizenDarshan: "There is no shortcut to the climb, but doli (palanquin) bearers can carry elderly or unwell pilgrims up from Pamba. Medical camps with oxygen and emergency care are stationed along the route and at the Sannidhanam during season — the altitude and exertion cause real strain, so the unwell should consult a doctor before undertaking the trek.",
+      parking: "During season private vehicles are stopped at the Nilackal base camp (~20 km below Pamba); from there KSRTC chain-service buses shuttle pilgrims to Pamba. Plan for long waits at peak times.",
+      restrooms: "Toilets, bathing ghats and changing facilities are provided at Pamba and at intervals on the route and at the Sannidhanam. Facilities are heavily used during season; carry your own essentials.",
+      drinkingWater: "Drinking-water points and Annadanam (free meals) are available at Pamba and the Sannidhanam. Carry water for the climb itself; the trek is strenuous and, despite the altitude, can be hot by midday.",
+    },
+    sevas: [
+      {
+        name: "Neyyabhishekam",
+        description: "The defining ritual of the pilgrimage — the idol is anointed with the ghee carried in the pilgrim's own mudra-coconut from the irumudi. The emptied coconut shells are then offered into the sacred fire. Performed in the early morning during season.",
+        time: "Early morning (season)",
+        fee: "From the pilgrim's irumudi (no separate fee)",
+        type: "daily",
+      },
+      {
+        name: "Udayasthamana Pooja",
+        description: "A full day of poojas sponsored from sunrise to sunset in the devotee's name — among the most sought-after sevas, with a long advance waiting list.",
+        time: "Dawn to dusk",
+        fee: "Sponsored (book via TDB)",
+        type: "special",
+      },
+      {
+        name: "Padi Pooja",
+        description: "Worship of the eighteen holy steps themselves, performed on select nights when the steps are closed to climbers and ritually adorned. Booked years in advance.",
+        time: "Night, select days",
+        fee: "Sponsored (long waiting list)",
+        type: "special",
+      },
+      {
+        name: "Kalabhabhishekam",
+        description: "Anointing of the idol with sandalwood paste (kalabham) — cooling and fragrant, offered on special days.",
+        time: "Special days (season)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Pushpabhishekam",
+        description: "The idol is covered entirely in flowers — a spectacular darshan offered on select occasions during the season.",
+        time: "Select days (season)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Aravana & Appam Prasadam",
+        description: "The famous prasadams of Sabarimala — Aravana (a sweet rice-jaggery payasam) and Appam — prepared at the temple in vast quantities and carried home by pilgrims. Sold in sealed tins at the Sannidhanam.",
+        time: "All day (season)",
+        fee: "Fixed price per tin",
+        type: "daily",
+      },
+      {
+        name: "Harivarasanam",
+        description: "Not a paid seva but the day's tender close — the Harivarasanam lullaby is sung as the lamps are dimmed and the sanctum doors shut for the night, putting Ayyappa to sleep.",
+        time: "~11:00 PM (closing)",
+        fee: "Free",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who can undertake the Sabarimala pilgrimage?",
+        answer:
+          "Sabarimala is famously open to pilgrims of every caste, class and religion, all observing the same vratham and addressed alike as 'Swami'. By long-standing temple tradition, women in the menstruating age group (about 10–50 years) have not undertaken the pilgrimage, owing to the deity's celibate (Naishtika Brahmachari) character. This custom became the subject of a 2018 Supreme Court verdict and subsequent review, and the legal and social position has remained contested. Pilgrims should check the current official guidance from the Travancore Devaswom Board before planning a trip.",
+      },
+      {
+        question: "What is the 41-day vratham?",
+        answer:
+          "It is the penance that turns a person into an 'Ayyappan'. For 41 days before the trek the pilgrim wears the tulsi or rudraksha mala, dresses in black/blue/saffron, walks barefoot, eats sattvic vegetarian food, abstains from alcohol and sensual indulgence, sleeps simply, controls anger and speech, and serves and respects every other pilgrim as Ayyappa. The discipline is meant to dissolve ego and worldly distinction so that all who climb the hill are equal.",
+      },
+      {
+        question: "What is the irumudi kettu and why does it matter?",
+        answer:
+          "The irumudi is a two-compartment cloth bundle carried on the head. The front pouch holds the offerings — above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds the pilgrim's own provisions for the journey. It is filled in a solemn ceremony at the end of the vratham. Crucially, only a pilgrim bearing the irumudi on the head is permitted to climb the eighteen holy steps to the sanctum.",
+      },
+      {
+        question: "How do I actually reach the temple?",
+        answer:
+          "Sabarimala can be reached only on foot. The nearest railhead is Chengannur (~90 km) and the nearest airports are Kochi and Trivandrum. During season private vehicles stop at the Nilackal base camp, from where KSRTC shuttle buses run to Pamba. From Pamba it is a roughly 5 km uphill forest trek to the Sannidhanam. The traditional penance route is a far longer 40+ km forest trek beginning at Erumeli.",
+      },
+      {
+        question: "When is the temple open?",
+        answer:
+          "Sabarimala is not open year-round. It opens for the Mandala–Makaravilakku season (from the first of Vrischikam, ~17 November, to Makaravilakku on 14 January and a few days after), for Vishu in April, and for the first five days of each Malayalam month. Always confirm the exact opening days and book the virtual queue before you travel.",
+      },
+      {
+        question: "What is Makara Jyothi / Makaravilakku?",
+        answer:
+          "On Makara Sankranti (14 January) at dusk, pilgrims at the Sannidhanam witness the Makaravilakku — a sacred light that appears three times on the distant hill of Ponnambalamedu — while the Makara Jyothi star rises overhead. The moment coincides with the adorning of the idol in the Thiruvabharanam ornaments brought in procession from Pandalam. It is the spiritual climax of the season and draws the largest crowds; plan well ahead if you intend to be there.",
+      },
+      {
+        question: "Do I need to book in advance?",
+        answer:
+          "Yes — during season the Travancore Devaswom Board operates a virtual-queue (spot booking) system to manage the enormous crowds, and a daily cap on pilgrim numbers. Book your darshan date online before travelling, and allow generous time, as queues, the Nilackal–Pamba shuttle, and the climb itself can each take hours at peak periods.",
+      },
+      {
+        question: "What prasadam should I bring home?",
+        answer:
+          "The two famous prasadams are Aravana (a rich sweet payasam of rice and jaggery) and Appam, both prepared at the temple and sold in sealed tins at the Sannidhanam. The emptied ghee from your Neyyabhishekam coconut is also taken home as sacred prasadam. Buy only from the official Devaswom counters.",
+      },
+    ],
+  },
 };
 
 // For temples without explicit detail entries, generate a sensible default
