@@ -987,35 +987,261 @@ export const templeDetails: Record<string, TempleDetail> = {
   },
   "ramanathaswamy-rameswaram": {
     slug: "ramanathaswamy-rameswaram",
-    timings: { morning: "5:00 AM – 1:00 PM", evening: "3:00 PM – 9:00 PM", note: "The 22 sacred theertham baths are done in the morning. Start early." },
-    entryFee: "Free. Theertham bath fee: ₹5–15 per well.",
-    dressCode: "Dhoti mandatory for men inside the temple.",
-    bestTime: "October – April",
+    timings: { morning: "5:00 AM – 1:00 PM", evening: "3:00 PM – 9:00 PM", note: "Spatika (crystal) Lingam darshan is at ~5:00 AM (separate ticket). The 22 theertham baths are done in the morning — start early, ideally before 7:00 AM." },
+    entryFee: "Free darshan. Sparisa (touch) darshan and Spatika Lingam darshan are ticketed (₹50–100). Theertham bath: ₹25 ticket for all 22 wells.",
+    dressCode: "Dhoti mandatory for men inside the sanctum (no shirt during abhishekam darshan). Saree/salwar for women. Carry a change of clothes for the theertham bath.",
+    bestTime: "October – April (avoid the May–June heat and the October–December monsoon spells)",
     travelInfo: {
-      byAir: "Madurai Airport (170 km) is the nearest airport.",
-      byTrain: "Rameswaram Railway Station is on Pamban Island. Express trains from Chennai, Madurai, Coimbatore.",
-      byRoad: "Rameswaram is connected via the iconic Pamban Bridge — the first sea bridge in India. Buses from Madurai (170 km), Chennai (570 km).",
+      byAir: "Madurai Airport (170 km) is the nearest. Tuticorin Airport (~140 km) is an alternative; both have connections to Chennai and Bengaluru.",
+      byTrain: "Rameswaram Railway Station (1.5 km from the temple) sits on Pamban Island. Direct trains from Chennai, Madurai, Coimbatore, Tirupati and Kanyakumari. The line crosses the historic Pamban rail bridge.",
+      byRoad: "Reached via the Pamban road bridge over the Palk Strait — the first sea bridge in India. Buses from Madurai (170 km, ~4 hrs), Chennai (570 km), Tiruchendur and Kanyakumari. The new Pamban vertical-lift sea bridge now runs alongside the old one.",
     },
     highlights: [
-      "One of the 12 sacred Jyotirlingas and part of Char Dham pilgrimage",
-      "The world's longest temple corridor at 1,220 meters with 1,212 pillars",
-      "22 sacred theerthams (sacred wells) with healing powers — bathing in all 22 is mandatory",
-      "Located on Pamban Island — separated from mainland by the Palk Strait",
-      "Associated with the Ramayana — Lord Rama is said to have prayed here after defeating Ravana",
+      "One of the 12 sacred Jyotirlingas and one of the four Char Dham — the southern dham of India",
+      "The longest temple corridor in India — the third prakaram runs ~1,220 metres with over 1,200 ornately carved pillars",
+      "22 sacred theerthams (holy wells) inside the temple — bathing in all 22 is the heart of the Rameswaram pilgrimage",
+      "Two lingams in one sanctum — the Ramalingam moulded by Sita and the Vishwalingam brought by Hanuman from Kailash",
+      "The climax of the Kashi–Rameswaram Sethu Yatra — pilgrims bring Ganga water here and carry Rameswaram sand back to the Ganges",
+      "Set on Pamban Island, with Dhanushkodi and the legendary Ram Setu (Adam's Bridge) at its southern tip",
     ],
-    history: "Rameswaram is one of the holiest pilgrimage sites in Hinduism, associated with both Shaivism and Vaishnavism. According to the Ramayana, Lord Rama installed the Shivalingam here to atone for the killing of Ravana (a Brahmin). The present temple was built largely during the 12th–17th centuries by various kings including the Setupatis of Ramanathapuram.",
-    architecture: "The temple is renowned for its magnificent corridors — the longest in any Hindu temple at 1,220 meters. The corridors have a height of 9 meters and are supported by ornate pillars. The gateway towers (gopurams) on the east and west sides rise to 38 meters. The inner sanctum houses the main Shivalingam installed by Rama.",
+    history: "Rameswaram is among the holiest sites in Hinduism — sacred to both Shaivites and Vaishnavites, which is rare. According to the Ramayana, Lord Rama worshipped Shiva here to absolve the sin of Brahmahatya (the killing of Ravana, a learned Brahmin) on his return from Lanka. The temple is one of the 275 Paadal Petra Sthalams glorified in the Tevaram hymns of the Nayanmar saints. While the site's sanctity is ancient, the present stone temple was built and expanded over four centuries (12th–17th c.) chiefly by the Setupati kings of Ramanathapuram, with major additions by the Pandyas, the Jaffna kings of Sri Lanka, and later mercantile patrons. The towering east Rajagopuram was completed only in the 20th century.",
+    architecture: "Ramanathaswamy is the supreme example of Dravidian corridor architecture. Its three concentric prakarams (corridors) culminate in the third — the longest temple corridor in India, around 1,220 metres in total, lined with more than 1,200 granite pillars about 9 metres tall, each carved with bracket figures and rearing yalis. The pillars create a famous receding optical perspective. The temple has a 53-metre east Rajagopuram and a lower western gopuram. Within lie the twin sanctums of Ramanathaswamy (the Ramalingam) and the Vishwalingam, the Parvathavardhini Amman shrine, the Sethu Madhava (Vishnu) shrine, and the 22 theertham wells distributed across the prakarams.",
     festivals: [
-      { name: "Maha Shivaratri", month: "February–March", description: "The grandest festival with all-night celebrations and special abhishekams." },
-      { name: "Brahmotsavam", month: "February–March", description: "10-day festival with processions, music, and cultural events." },
-      { name: "Aadi Amavasai", month: "July–August", description: "Sacred ancestor worship day when thousands take dips in the sea." },
+      { name: "Maha Shivaratri", month: "February–March", description: "The grandest festival — a 10-day celebration with four-prahara night-long abhishekams to the Jyotirlinga, processions of the utsava deities, and thousands taking the Agni Theertham sea bath at dawn.", slug: "maha-shivaratri" },
+      { name: "Thirukalyanam (Vasanthotsavam)", month: "May–June", description: "The celestial wedding of Ramanathaswamy and Parvathavardhini, celebrated over ten days with the deities in splendid procession through the long corridors." },
+      { name: "Ramalinga Pratishtai", month: "May–June (Vaikasi)", description: "Commemorates the original installation of the Ramalingam by Lord Rama — special abhishekam and recitation of the Ramayana." },
+      { name: "Aadi Amavasai & Thai Amavasai", month: "July–Aug / Jan–Feb", description: "New-moon days for ancestor worship (tarpanam) when thousands bathe at Agni Theertham and perform rites for departed forebears." },
+      { name: "Aarudhra Darshan (Thiruvadhirai)", month: "December–January", description: "Sacred to Shiva as Nataraja — special abhishekam and the procession of the Nataraja bronze." },
     ],
     poojas: [
-      { name: "22 Theertham Snanam", time: "Morning (5–10 AM)", fee: "₹5 per theertham" },
-      { name: "Abhishekam", time: "6:00 AM / 6:00 PM", fee: "₹500" },
-      { name: "Sahasranama Archana", time: "All day", fee: "₹250" },
+      { name: "Spatika Lingam Darshan", time: "~5:00 AM", fee: "₹100 (ticketed)" },
+      { name: "22 Theertham Snanam", time: "Morning (5:00–10:00 AM)", fee: "₹25 (single ticket, all wells)" },
+      { name: "Sparisa (Touch) Darshan", time: "5:00 AM / 5:00 PM", fee: "₹50" },
+      { name: "Palliarai (Night Pooja)", time: "8:30 PM", fee: "Free" },
     ],
     nearbyTemples: ["madurai-meenakshi", "tiruchendur-murugan"],
+    mythology: {
+      legend:
+        "After slaying Ravana and rescuing Sita, Lord Rama stood burdened by Brahmahatya dosha — the gravest of sins, for Ravana was a Brahmin and a great devotee of Shiva. On the advice of the sages, Rama resolved to worship Shiva on the shore where his army had crossed to Lanka. He sent Hanuman to Mount Kailash to fetch a lingam, but the auspicious muhurta for installation drew near and Hanuman had not returned. So Sita moulded a lingam from the beach sand with her own hands, and Rama consecrated it — this is the Ramalingam, the principal deity Ramanathaswamy ('the Lord whose master is Rama'). When Hanuman arrived with the lingam from Kailash (the Vishwalingam) and was grieved to find another already installed, Rama consoled him by decreeing that the Vishwalingam — also called Kasilingam — would always be worshipped first, before the Ramalingam. That order of worship is honoured in the temple to this very day.",
+      tirukalyanam:
+        "The celestial marriage of Lord Ramanathaswamy and Goddess Parvathavardhini is re-enacted each year at Vasanthotsavam (May–June). The processional bronzes of the divine couple are borne in splendour through the temple's vast corridors, recalling the eternal union of Shiva and Shakti that the lingam at Rameswaram embodies.",
+      additionalStories: [
+        {
+          title: "Hanuman, the Well of Atonement, and the Order of Worship",
+          content:
+            "Hanuman's lingam from Kailash could not be moved once Sita's sand lingam was installed — by one account he tried to uproot the Ramalingam with his tail and failed, the mark of his tail still shown on it. Rama's decree that the Vishwalingam be worshipped first turned a moment of disappointment into an everlasting honour for Hanuman. Both lingams stand together in the sanctum, and the temple is thus sacred to the bhakti of the greatest devotee as much as to the penance of the avatar himself.",
+        },
+        {
+          title: "The Sethu — the Bridge of Floating Stones",
+          content:
+            "From the southern tip of the island at Dhanushkodi, Rama's vanara army built the Sethu (Ram Setu / Adam's Bridge) of floating stones to cross to Lanka, the stones bearing Rama's name. Bathing at the Sethu and at Dhanushkodi — where the Bay of Bengal meets the Indian Ocean — is part of the Rameswaram pilgrimage. It is said that on his return Rama broke the bridge with the end of his bow (dhanush-kodi, 'the bow's end') so it could never again be crossed.",
+        },
+        {
+          title: "Kashi and Rameswaram — the Two Poles of Pilgrimage",
+          content:
+            "A pilgrimage to Kashi (Varanasi) is held to be incomplete without Rameswaram, and vice-versa. The classic Sethu Yatra binds them: the pilgrim carries Ganga water from Kashi to bathe the Ramalingam at Rameswaram, and carries sand from Rameswaram to immerse in the Ganga. The two shrines — the northern and the southern — are seen as the spiritual poles of the subcontinent, linking the Himalayan Ganga to the southern sea.",
+        },
+        {
+          title: "The Twenty-Two Theerthams",
+          content:
+            "The Skanda Purana and local tradition hold that Rama created the sacred wells by shooting arrows into the earth to draw out the waters of the holy rivers, so his pilgrims would not have to travel to each one. Each of the 22 theerthams is identified with a sacred water or virtue — among them Mahalakshmi, Savitri, Gayatri, Saraswathi, Surya, Chandra, Ganga, Yamuna and the Brahmahatya Vimochana ('release from the sin of Brahmahatya') theertham. Bathing in all 22, well by well, washes away accumulated sins and is the ritual core of the Rameswaram pilgrimage.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Third Prakaram (The Great Corridor)",
+        nameTa: "மூன்றாம் பிரகாரம்",
+        type: "mandapam",
+        description: "The temple's crowning glory and the longest corridor in any Hindu temple — roughly 1,220 metres in total length around the complex, lined with over 1,200 granite pillars rising about 9 metres. The pillars stand on raised platforms with elaborate bracket figures and rearing yalis; the long colonnade produces a celebrated receding optical perspective. Built largely under the Setupati kings in the 17th–18th centuries.",
+        detail: "~1,220 m · 1,200+ pillars · ~9 m high",
+      },
+      {
+        name: "Garbhagriha — Ramalingam & Vishwalingam",
+        type: "sanctum",
+        description: "The inner sanctum houses two lingams: the Ramalingam (Ramanathaswamy), moulded from sand by Sita and the principal deity; and the Vishwalingam (Kasilingam) brought by Hanuman from Kailash, which by Rama's own decree is worshipped first. Abhishekam is performed with Ganga water brought by pilgrims, and the Sparisa darshan allows devotees to touch the lingam at appointed hours.",
+        detail: "Twin lingams · Vishwalingam worshipped first",
+      },
+      {
+        name: "East Rajagopuram",
+        type: "gopuram",
+        description: "The towering eastern gateway rises about 53 metres (126 ft) in nine tiers, the tallest of the temple's towers. Though the temple is centuries old, this great gopuram was completed only in the 20th century, its stucco figures vividly painted. It is the first sight of the temple for pilgrims arriving from the railway station and the sea.",
+        detail: "~53 m · 9 tiers",
+      },
+      {
+        name: "West Gopuram",
+        type: "gopuram",
+        description: "The western gateway, lower than the east tower, opens toward the Setu Madhava shrine side of the complex. Together the two main gopurams and the inner gopurams frame the long axis along which the corridors run.",
+      },
+      {
+        name: "Nandi Mandapam",
+        type: "mandapam",
+        description: "A large monolithic Nandi about 5.5 metres long and 3.6 metres tall faces the sanctum from the eastern approach, set in its own pillared hall. As at every Shiva temple, devotees offer prayers to Nandi before approaching the lingam.",
+        detail: "Nandi ~5.5 m long",
+      },
+      {
+        name: "The 22 Theertham Wells",
+        type: "tank",
+        description: "Distributed across the prakarams are 22 sacred wells (theerthams), each named for a holy water or virtue. Temple attendants draw water in buckets and pour it over pilgrims well by well; by tradition the bath begins at Agni Theertham — the sea itself, a short walk to the east — and proceeds through all 22 within the temple. The waters taste noticeably different from well to well despite their proximity.",
+        detail: "22 wells + Agni Theertham (the sea)",
+      },
+      {
+        name: "Sethu Madhava (Sweta Madhava) Shrine",
+        type: "other",
+        description: "A shrine to Vishnu within the Shaivite complex — a reminder that Rameswaram is sacred to both great traditions. Its presence reflects the temple's unique standing as a meeting point of Shaiva and Vaishnava devotion and of the Char Dham circuit that Adi Shankara is traditionally said to have established.",
+      },
+      {
+        name: "Sayanagriha & Painted Ceilings",
+        type: "other",
+        description: "The corridors and mandapams retain stretches of colourful painted ceilings and stucco depicting episodes from the Ramayana and the temple's own legends. The Setupati patrons are commemorated in sculpture along the corridors, including statues of the kings and their consorts who funded the great prakaram.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Parvathavardhini Amman",
+        deity: "Goddess Parvati, consort of Ramanathaswamy",
+        description: "The principal goddess of the temple, in her own shrine within the complex. She is the divine mother to whom devotees pray after darshan of the lingam; her annual Thirukalyanam with Ramanathaswamy is among the great festivals here.",
+      },
+      {
+        name: "Vishwalingam (Kasilingam)",
+        deity: "Shiva as the lingam from Kailash",
+        description: "The lingam Hanuman brought from Mount Kailash, installed beside the Ramalingam. By Lord Rama's own decree it receives worship before the main deity — a standing honour to Hanuman's devotion.",
+      },
+      {
+        name: "Vishalakshi & Sethu Madhava",
+        deity: "Goddess Vishalakshi and Lord Vishnu",
+        description: "Shrines that mark Rameswaram's dual Shaiva–Vaishnava sanctity. Sethu Madhava (a form of Vishnu) is venerated alongside the Shiva lingam, and Vishalakshi recalls the Kashi connection, where Vishalakshi is the presiding goddess.",
+      },
+      {
+        name: "Hanuman (Anjaneya)",
+        deity: "Lord Hanuman",
+        description: "Hanuman is specially honoured at Rameswaram for fetching the Vishwalingam from Kailash. His shrine draws devotees who revere him as the supreme servant of Rama and Shiva alike.",
+      },
+      {
+        name: "Mahaganapathy",
+        deity: "Lord Ganesha",
+        description: "The remover of obstacles, worshipped first by pilgrims before they begin the theertham bath and the long corridor circumambulation.",
+      },
+      {
+        name: "Subramanya & Nataraja",
+        deity: "Lord Murugan and Shiva as the Cosmic Dancer",
+        description: "Subordinate shrines along the prakarams. The Nataraja bronze is taken in procession during Aarudhra Darshan, when Shiva's cosmic dance is specially celebrated.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "East Rajagopuram (Main Entrance)", direction: "East", notes: "The principal entrance under the 53 m tower, facing the sea and the railway station side. Security and footwear deposit here; this is where most pilgrims begin." },
+        { name: "West Gopuram", direction: "West", notes: "The secondary entrance toward the Setu Madhava side of the complex." },
+      ],
+      cloakRoom: "Footwear must be left outside — stalls and a temple deposit counter operate near the east gopuram for a small fee. Carry a dry change of clothes and a small towel for after the theertham bath; many lodges near the temple let pilgrims change and store bags.",
+      mobilePolicy: "Mobile phones and cameras are NOT permitted inside the temple — this is strictly enforced, unlike at some other temples. Deposit them at the lockers/stalls outside the gopuram before entering. Keep your theertham and darshan tickets handy.",
+      cameraPolicy: "Photography is prohibited inside the temple complex, including the corridors and sanctums. Cameras must be left at the deposit counters outside. You may photograph the gopurams and the temple exterior, and Agni Theertham (the sea-shore) freely.",
+      wheelchairAccess: "The long corridors are largely level stone and broadly navigable, but the theertham bath involves wet, slippery floors and steps at the wells, which are difficult for wheelchair users. Assistance is informal — ask temple staff or hire a local helper. Senior and differently-abled pilgrims often do a shortened darshan without all 22 baths.",
+      seniorCitizenDarshan: "No formal priority queue on ordinary days, when crowds are manageable. During Maha Shivaratri, Aadi/Thai Amavasai and the Tamil festival season the queues for Sparisa darshan and the theertham bath are long — arrive before 6:00 AM. Sparisa (touch) and Spatika Lingam darshan are ticketed and have their own shorter queues.",
+      parking: "Vehicle parking is available near the temple and along the approach roads; the temple is about 1.5 km from Rameswaram railway station and walkable. Autos and cycle-rickshaws ply between the station, lodges and the temple gopuram.",
+      restrooms: "Basic public restrooms and changing facilities are available near the temple and at the lodges around it. Many pilgrims use their hotel to change after the theertham bath. Carry your own tissue and sanitiser.",
+      drinkingWater: "Drinking water is available within the complex and from stalls outside, but Rameswaram is hot and humid — carry your own bottle, especially if doing the full 22-theertham bath and the long corridor walk. Note: the local groundwater is brackish; buy sealed water for drinking.",
+    },
+    sevas: [
+      {
+        name: "Spatika Lingam Darshan",
+        description: "Darshan of the sacred crystal (spatika) lingam in the early morning before the main poojas — considered especially auspicious. Separate ticket; very limited time window.",
+        time: "Daily, ~5:00 AM",
+        fee: "₹100",
+        type: "daily",
+      },
+      {
+        name: "22 Theertham Snanam",
+        description: "The signature Rameswaram ritual — a guided bath at all 22 sacred wells within the temple, water poured over you well by well by the temple attendants, beginning at Agni Theertham (the sea). The ritual core of the pilgrimage; allow 1–1.5 hours.",
+        time: "Morning, 5:00–10:00 AM",
+        fee: "₹25 (single ticket, all 22 wells)",
+        type: "daily",
+      },
+      {
+        name: "Sparisa (Touch) Darshan",
+        description: "A ticketed darshan that permits devotees to approach and touch the lingam during the abhishekam window — a rare privilege at a Jyotirlinga.",
+        time: "Twice daily, ~5:00 AM and ~5:00 PM",
+        fee: "₹50",
+        type: "daily",
+      },
+      {
+        name: "Ganga Jala Abhishekam",
+        description: "Abhishekam of the Ramalingam with Ganga water that pilgrims carry from Kashi (Varanasi) — the culminating act of the Sethu Yatra. Sangam/temple priests assist; book at the temple office.",
+        time: "Booking required (morning abhishekam)",
+        fee: "Sankalpa fee varies",
+        type: "special",
+      },
+      {
+        name: "Sahasranama Archana",
+        description: "Recitation of the 1,000 names of Shiva (Shiva Sahasranama) in the devotee's name and star, with offering of bilva leaves.",
+        time: "All day on request",
+        fee: "₹250",
+        type: "special",
+      },
+      {
+        name: "Pradosha Abhishekam",
+        description: "Abhishekam performed on Pradosham evenings (Trayodashi tithi, twice a month) between sunset and dusk — one of the most auspicious of Shaivite observances.",
+        time: "Pradosham evenings, ~5:30 PM",
+        fee: "Free / sponsored",
+        type: "monthly",
+      },
+      {
+        name: "Tarpanam / Pitru Karya at Agni Theertham",
+        description: "Ancestral rites (tarpanam, shraddha) performed on the Agni Theertham shore, especially on Amavasai days — Rameswaram is among the foremost places for rites for departed forebears. Arranged through the shore priests.",
+        time: "Mornings, especially Amavasai",
+        fee: "Priest dakshina varies",
+        type: "special",
+      },
+      {
+        name: "Palliarai Pooja",
+        description: "The night 'bed-chamber' pooja, the final ritual of the day, when the utsava deities are ceremonially put to rest. Devotees may attend the evening service.",
+        time: "Daily, ~8:30 PM",
+        fee: "Free",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the right order — sea bath, theerthams, then darshan?",
+        answer:
+          "The traditional sequence is: first bathe in the sea at Agni Theertham (the Bay of Bengal, a short walk east of the east gopuram), then enter the temple and take the 22 theertham bath well by well (a single ₹25 ticket covers all of them, and attendants pour the water over you), and only then proceed for darshan of the Ramalingam — ideally for Sparisa (touch) darshan or after the morning abhishekam. Spatika Lingam darshan, if you want it, is earliest at around 5:00 AM. Carry a dry change of clothes.",
+      },
+      {
+        question: "What are the 22 theerthams and is bathing in all of them necessary?",
+        answer:
+          "The 22 theerthams are sacred wells inside the temple, each named for a holy river or virtue (Mahalakshmi, Savitri, Gayatri, Saraswathi, Surya, Chandra, Ganga, Yamuna, the Brahmahatya Vimochana theertham, and others). Tradition holds that Rama drew these waters with his arrows so pilgrims need not travel to each holy river. Bathing in all 22, in sequence, is the ritual heart of the Rameswaram pilgrimage and is believed to wash away accumulated sins. It is not compulsory, but most pilgrims do the full round; it takes about an hour to ninety minutes.",
+      },
+      {
+        question: "Why are there two lingams, and which is worshipped first?",
+        answer:
+          "The principal lingam, the Ramalingam, was moulded from beach sand by Sita so Rama could complete his worship at the auspicious hour. The second, the Vishwalingam (or Kasilingam), was brought by Hanuman from Mount Kailash. When Hanuman arrived to find the sand lingam already installed, Rama consoled him by decreeing that the Vishwalingam would always be worshipped before the Ramalingam — and that order is followed to this day.",
+      },
+      {
+        question: "Can I take my phone or camera inside?",
+        answer:
+          "No. Unlike some temples, Ramanathaswamy strictly prohibits mobile phones and cameras inside the complex, including the corridors and sanctums. Deposit them at the lockers and stalls outside the east gopuram before entering. You can freely photograph the gopurams, the temple exterior and the Agni Theertham seashore.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "Men must wear a dhoti (veshti) inside the sanctum and are bare-chested during the abhishekam/Sparisa darshan, as at most traditional Shiva temples; women wear saree or salwar. Since you will be doing the theertham bath, wear or carry clothes you do not mind getting soaked, plus a dry change for afterwards. Wet, slippery floors mean it is best to go barefoot carefully.",
+      },
+      {
+        question: "What is the Char Dham / Sethu Yatra significance of Rameswaram?",
+        answer:
+          "Rameswaram is the southern dham of the Char Dham (Badrinath in the north, Dwarka in the west, Puri in the east, Rameswaram in the south), traditionally associated with Adi Shankara's establishment of the four cardinal pilgrimage seats. In the classic Sethu Yatra, pilgrims carry Ganga water from Kashi to bathe the Ramalingam here, and carry Rameswaram sand back to immerse in the Ganga — binding India's northern and southern poles of pilgrimage into one journey.",
+      },
+      {
+        question: "Should I also visit Dhanushkodi and Gandhamadhana Parvatham?",
+        answer:
+          "Yes — they complete the Rameswaram pilgrimage. Dhanushkodi, at the island's southern tip (~18 km away), is where the Ram Setu bridge to Lanka began and where the Bay of Bengal meets the Indian Ocean; the ghost town and the new viewpoint road are worth the trip. Gandhamadhana Parvatham (~3 km), the highest point on the island, has a shrine enshrining Rama's footprint (Ramar Padam) and gives a panoramic view of the temple and the sea. Many pilgrims also visit the Five-faced Hanuman temple and the floating-stone relic nearby.",
+      },
+      {
+        question: "How long should I plan for, and when is the best time to visit?",
+        answer:
+          "Allow at least half a day for the temple alone — the 22-theertham bath plus darshan and a walk through the great corridors takes 3–4 hours, longer on festival days. A full Rameswaram trip including Dhanushkodi, Gandhamadhana and the Pamban bridge is best done over two days. The best season is October to April; avoid the fierce heat of May–June and watch for the northeast monsoon spells (Oct–Dec). Early morning (before 7:00 AM) is the calmest and coolest time for the theertham bath.",
+      },
+    ],
   },
   "kapaleeswarar-mylapore": {
     slug: "kapaleeswarar-mylapore",
