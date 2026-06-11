@@ -164,7 +164,7 @@ export default function TempleQuickCards({ detail, templeName, city, state, coor
             )}
             <li className="flex gap-2">
               <span className="text-orange-600">•</span>
-              <span>Avoid <strong className="text-stone-900">Saturdays, Sundays, public holidays</strong> — queues can extend 2+ hours.</span>
+              <span>Avoid <strong className="text-stone-900">Saturdays, Sundays, public holidays</strong>, as queues can extend 2+ hours.</span>
             </li>
             {detail.festivals.length > 0 && (
               <li className="flex gap-2">

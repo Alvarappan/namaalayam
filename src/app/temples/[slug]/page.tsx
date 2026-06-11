@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const temple = temples.find((t) => t.slug === slug);
   if (!temple) return {};
   return {
-    title: `${temple.name} — History, Timings & Travel Guide`,
+    title: `${temple.name}: History, Timings & Travel Guide`,
     description: temple.description,
     openGraph: { title: temple.name, description: temple.description },
   };

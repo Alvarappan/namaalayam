@@ -96,8 +96,8 @@ export const templeDetails: Record<string, TempleDetail> = {
       "World's most visited religious site with 50,000–100,000 pilgrims daily",
       "Sri Venkateswara's idol adorned with diamond crown and gold jewellery",
       "Tirumala hills (Seshachalam range) at 853 meters elevation",
-      "Annual hair offering (Vastralankara) — over 15 tons of hair donated daily",
-      "TTD runs free annadanam for all pilgrims — one of the world's largest free kitchens",
+      "Annual hair offering (Vastralankara), over 15 tons of hair donated daily",
+      "TTD runs free annadanam for all pilgrims, one of the world's largest free kitchens",
     ],
     history: "The Tirupati Venkateswara Temple, also known as the Tirumala Temple, is a Vaishnavite temple dedicated to Lord Venkateswara (a form of Vishnu). The temple is believed to have been visited by Ramanuja, the 12th-century philosopher who is said to have performed the Anointment of Lord Venkateswara. References to this temple appear in early Tamil literature, including the Divya Prabandha by the Alvars. The Tirumala Tirupati Devasthanams (TTD) trust, established in 1933, now administers the temple and manages the world's largest religious endowment.",
     architecture: "The temple is built in Dravidian architecture style with a distinctive golden Vimana (tower). The Ananda Nilayam (sanctum) is covered in gold plates. The Bangaru Vakili (golden door) leads to the main sanctum. The temple complex includes Hundi (donation box), Ranganayakula Mandapam, and the sacred Pushkarini tank.",
@@ -116,9 +116,9 @@ export const templeDetails: Record<string, TempleDetail> = {
     nearbyTemples: ["govindarajaswamy-tirupati", "srikalahasti-temple"],
     mythology: {
       legend:
-        "Once, sage Bhrigu was sent by a council of rishis to determine the supreme among the Trimurti. Finding Vishnu reclining on Adi Shesha in Vaikuntha, apparently asleep and inattentive, the enraged Bhrigu kicked him in the chest. Vishnu calmly took the sage's foot and gently massaged it — but Goddess Lakshmi, who resides on Vishnu's chest, was deeply insulted by both the kick and the fact that Vishnu had pardoned the offence. She left Vaikuntha for Earth in search of a quieter dwelling, settling at Kolhapur as Mahalakshmi. Vishnu, separated from her, descended to the Venkata hills as Srinivasa — 'the abode of Sri' — to find her.",
+        "Once, sage Bhrigu was sent by a council of rishis to determine the supreme among the Trimurti. Finding Vishnu reclining on Adi Shesha in Vaikuntha, apparently asleep and inattentive, the enraged Bhrigu kicked him in the chest. Vishnu calmly took the sage's foot and gently massaged it, but Goddess Lakshmi, who resides on Vishnu's chest, was deeply insulted by both the kick and the fact that Vishnu had pardoned the offence. She left Vaikuntha for Earth in search of a quieter dwelling, settling at Kolhapur as Mahalakshmi. Vishnu, separated from her, descended to the Venkata hills as Srinivasa, 'the abode of Sri', to find her.",
       tirukalyanam:
-        "On Earth, Srinivasa lived a life of austerity at Tirumala until he encountered the beautiful Princess Padmavathi, daughter of King Akasa Raja, at Narayanavanam. She was an incarnation of Lakshmi herself, born of a lotus from the earth. Srinivasa won her in marriage — but the wedding required vast wealth he did not possess. He borrowed an enormous sum from Kubera, the god of wealth, agreeing to repay only the interest until the end of Kali Yuga; the principal is to be repaid at the dawn of the next yuga. This is why devotees still pour their wealth — money, gold, hair, jewellery — into the temple Hundi: each donation is a token contribution toward Lord Venkateswara's debt to Kubera.",
+        "On Earth, Srinivasa lived a life of austerity at Tirumala until he encountered the beautiful Princess Padmavathi, daughter of King Akasa Raja, at Narayanavanam. She was an incarnation of Lakshmi herself, born of a lotus from the earth. Srinivasa won her in marriage, but the wedding required vast wealth he did not possess. He borrowed an enormous sum from Kubera, the god of wealth, agreeing to repay only the interest until the end of Kali Yuga; the principal is to be repaid at the dawn of the next yuga. This is why devotees still pour their wealth (money, gold, hair and jewellery) into the temple Hundi: each donation is a token contribution toward Lord Venkateswara's debt to Kubera.",
       additionalStories: [
         {
           title: "Why Devotees Offer Their Hair",
@@ -128,7 +128,7 @@ export const templeDetails: Record<string, TempleDetail> = {
         {
           title: "The Seven Sacred Hills (Sapta Giri)",
           content:
-            "Tirumala stands on seven sacred hills, collectively the Seshachalam range — the seven hoods of Adi Shesha, the cosmic serpent on whom Vishnu reclines. Their names are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri and Venkatadri. The Lord's name 'Venkateswara' means the destroyer (eswara) of sins (venkata, from 'vem' = sins and 'kata' = destroyer). The path of Alipiri Mettu, with its 3,550 stone steps, threads through these hills and is the ancient pilgrim route to the temple.",
+            "Tirumala stands on seven sacred hills, collectively the Seshachalam range, the seven hoods of Adi Shesha, the cosmic serpent on whom Vishnu reclines. Their names are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri and Venkatadri. The Lord's name 'Venkateswara' means the destroyer (eswara) of sins (venkata, from 'vem' = sins and 'kata' = destroyer). The path of Alipiri Mettu, with its 3,550 stone steps, threads through these hills and is the ancient pilgrim route to the temple.",
         },
       ],
     },
@@ -137,7 +137,7 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Ananda Nilayam Vimana",
         nameTa: "ఆనంద నిలయం",
         type: "vimana",
-        description: "The three-tiered gilded tower directly above the sanctum, the most sacred element of the temple. The name means 'Abode of Bliss'. Its ~32 m gold-plated surface dominates the Tirumala skyline; the topmost finial holds the famous Vimana Venkateswara — a smaller replica image believed to bestow the same darshan benefit when viewed from outside.",
+        description: "The three-tiered gilded tower directly above the sanctum, the most sacred element of the temple. The name means 'Abode of Bliss'. Its ~32 m gold-plated surface dominates the Tirumala skyline; the topmost finial holds the famous Vimana Venkateswara, a smaller replica image believed to bestow the same darshan benefit when viewed from outside.",
         detail: "Three tiers · ~32 m gold-plated",
       },
       {
@@ -163,7 +163,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Vimana Pradakshinam",
         type: "other",
-        description: "The innermost circumambulatory path around the Ananda Nilayam Vimana. Walking three times around the Vimana is considered equivalent to viewing the deity itself — particularly meaningful on busy darshan days when sanctum-time is brief.",
+        description: "The innermost circumambulatory path around the Ananda Nilayam Vimana. Walking three times around the Vimana is considered equivalent to viewing the deity itself, particularly meaningful on busy darshan days when sanctum-time is brief.",
       },
       {
         name: "Sampangi Pradakshinam",
@@ -173,7 +173,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Snapana Mandapam",
         type: "mandapam",
-        description: "The 'anointing hall' where the daily Snapana Tirumanjanam (abhishekam to the processional Bhoga Srinivasa) is conducted every Friday — the only weekly abhishekam to a form of the main deity that pilgrims may witness.",
+        description: "The 'anointing hall' where the daily Snapana Tirumanjanam (abhishekam to the processional Bhoga Srinivasa) is conducted every Friday, the only weekly abhishekam to a form of the main deity that pilgrims may witness.",
       },
       {
         name: "Kalyana Mandapam",
@@ -189,7 +189,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Sapta Giri (Seven Sacred Hills)",
         type: "other",
-        description: "The temple sits atop the seventh of seven sacred hills — Venkatadri — collectively forming the Seshachalam range, said to be the hoods of Adi Shesha himself. The hills are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri, Venkatadri.",
+        description: "The temple sits atop the seventh of seven sacred hills, Venkatadri, collectively forming the Seshachalam range, said to be the hoods of Adi Shesha himself. The hills are: Seshadri, Neeladri, Garudadri, Anjanadri, Vrishabhadri, Narayanadri, Venkatadri.",
         detail: "853 m elevation · ~22 km from Tirupati town",
       },
     ],
@@ -197,7 +197,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Sri Varahaswamy",
         deity: "Lord Vishnu as Varaha (Boar Incarnation)",
-        description: "On the bank of the Swami Pushkarini, this is the first shrine every pilgrim must visit — Varaha was the original lord of the Venkata hills and is said to have granted the land to Venkateswara on the condition that he be worshipped first. Skipping this darshan is believed to render the Venkateswara visit incomplete.",
+        description: "On the bank of the Swami Pushkarini, this is the first shrine every pilgrim must visit. Varaha was the original lord of the Venkata hills and is said to have granted the land to Venkateswara on the condition that he be worshipped first. Skipping this darshan is believed to render the Venkateswara visit incomplete.",
       },
       {
         name: "Sri Yoga Narasimhaswamy",
@@ -217,7 +217,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Sri Vishvaksena",
         deity: "Commander of Vishnu's Army",
-        description: "Equivalent to Ganesha in Vaishnava tradition — the remover of obstacles and the leader of Vishnu's celestial army. His shrine is invoked at the start of every major temple ritual.",
+        description: "Equivalent to Ganesha in Vaishnava tradition, the remover of obstacles and the leader of Vishnu's celestial army. His shrine is invoked at the start of every major temple ritual.",
       },
       {
         name: "Sri Garuda",
@@ -227,21 +227,21 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Hundi",
         deity: "Sacred Donation Vessel",
-        description: "Not a deity but central to the temple's ritual life: the great hundi (donation receptacle) in front of the Bangaru Vakili is where pilgrims offer money, gold, and jewellery — each gift considered a contribution toward Lord Venkateswara's eternal debt to Kubera.",
+        description: "Not a deity but central to the temple's ritual life: the great hundi (donation receptacle) in front of the Bangaru Vakili is where pilgrims offer money, gold, and jewellery, each gift considered a contribution toward Lord Venkateswara's eternal debt to Kubera.",
       },
     ],
     visitorLogistics: {
       gates: [
         { name: "Mahadwaram (Main Entrance)", direction: "East", notes: "The principal entrance for all darshan queues. Opens onto the inner enclosure via the Sampangi Pradakshinam." },
-        { name: "Vaikuntham Queue Complex (Q-I, Q-II, Q-III)", direction: "North", notes: "The three-building complex that channels all darshan queues — Sarva Darshan (free), Special Darshan (₹300), and Divya Darshan (for trek pilgrims). Air-conditioned, has resting areas and free meals." },
+        { name: "Vaikuntham Queue Complex (Q-I, Q-II, Q-III)", direction: "North", notes: "The three-building complex that channels all darshan queues: Sarva Darshan (free), Special Darshan (₹300), and Divya Darshan (for trek pilgrims). Air-conditioned, has resting areas and free meals." },
         { name: "Sudarshan Token Counters", direction: "North", notes: "Free time-stamped tokens issued from counters at Vishnu Nivasam, Srinivasam, and the bus stand. The token assigns a darshan slot; report at the assigned time to skip the unstamped queue." },
-        { name: "Alipiri / Srivari Mettu Trek Entrance", direction: "South", notes: "Trek pilgrims arriving via the Alipiri Mettu (3,550 steps, ~9 km) or Srivari Mettu (2,388 steps, ~2.5 km) enter via a dedicated Divya Darshan queue at the top — often faster than the Sarva Darshan queue." },
+        { name: "Alipiri / Srivari Mettu Trek Entrance", direction: "South", notes: "Trek pilgrims arriving via the Alipiri Mettu (3,550 steps, ~9 km) or Srivari Mettu (2,388 steps, ~2.5 km) enter via a dedicated Divya Darshan queue at the top, often faster than the Sarva Darshan queue." },
       ],
-      cloakRoom: "Free cloak rooms (luggage and footwear) are available at the Vaikuntham complex, near the Mahadwaram, and at the foot of both trek routes. Tokens are issued — keep them safe. Mobile phones and cameras are deposited separately at the entrance of the queue complex.",
+      cloakRoom: "Free cloak rooms (luggage and footwear) are available at the Vaikuntham complex, near the Mahadwaram, and at the foot of both trek routes. Tokens are issued. Keep them safe. Mobile phones and cameras are deposited separately at the entrance of the queue complex.",
       mobilePolicy: "Mobile phones, smart-watches, cameras, and Bluetooth devices are strictly prohibited inside the temple complex. Free deposit lockers are available at the entrance of the Vaikuntham queue complex and at the cloak rooms near the Mahadwaram. Violations result in immediate confiscation.",
       cameraPolicy: "Photography is completely prohibited inside the temple, the queue complex, and even in the corridors leading to the sanctum. Cameras must be deposited at the cloak room. Photography of the outer gopurams and the Tirumala township is permitted.",
-      wheelchairAccess: "Wheelchairs are available on request at the Vaikuntham complex (refundable deposit). A dedicated wheelchair queue offers near-direct sanctum access for pilgrims with mobility needs, senior citizens above 65, and pregnant women — bring photo ID for age proof.",
-      seniorCitizenDarshan: "Senior citizens (65+), physically challenged persons, and pregnant women may use the Special Privileged Darshan entrance (twice daily — morning and afternoon slots). Photo ID is mandatory. The queue is significantly shorter than the regular Sarva Darshan.",
+      wheelchairAccess: "Wheelchairs are available on request at the Vaikuntham complex (refundable deposit). A dedicated wheelchair queue offers near-direct sanctum access for pilgrims with mobility needs, senior citizens above 65, and pregnant women. Bring photo ID for age proof.",
+      seniorCitizenDarshan: "Senior citizens (65+), physically challenged persons, and pregnant women may use the Special Privileged Darshan entrance (twice daily, morning and afternoon slots). Photo ID is mandatory. The queue is significantly shorter than the regular Sarva Darshan.",
       parking: "TTD operates large free parking lots at Tirumala for pilgrim vehicles. Private vehicles can drive up via the Tirumala Ghat Road; many pilgrims prefer to take TTD's free shuttle buses from the Alipiri toll gate to avoid the climb. Two-wheelers are not permitted on the Ghat Road.",
       restrooms: "Public restrooms and bathing facilities are available at the Vaikuntham complex, at all TTD cottages, at the Alipiri footstep entrance, and at multiple stations along the trek route. Free hot water for bathing is available at the Pushpa Mandapam.",
       drinkingWater: "Free filtered drinking water (Pulipathi) is available throughout the queue complex, along the trek routes, and at all major mandapams. TTD also distributes free buttermilk and snacks during peak hours.",
@@ -249,7 +249,7 @@ export const templeDetails: Record<string, TempleDetail> = {
     sevas: [
       {
         name: "Suprabhata Seva",
-        description: "The first ritual of the day — the deity is gently awakened with the recitation of the Sri Venkateswara Suprabhatam by Ramanuja's disciple Prativadi Bhayankaram Annan. The most sought-after Arjita seva at Tirumala; bookings open 90 days in advance via the TTD online portal.",
+        description: "The first ritual of the day: the deity is gently awakened with the recitation of the Sri Venkateswara Suprabhatam by Ramanuja's disciple Prativadi Bhayankaram Annan. The most sought-after Arjita seva at Tirumala; bookings open 90 days in advance via the TTD online portal.",
         time: "Daily, 2:30 – 3:00 AM",
         fee: "₹120 (Arjita)",
         type: "daily",
@@ -270,7 +270,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Kalyanotsavam",
-        description: "The symbolic re-enactment of the wedding of Srinivasa, Padmavathi and Bhu Devi. Performed daily in the Kalyana Mandapam — sponsors witness the full Vedic ceremony and receive a special wedding cloth, laddus, and a framed photograph of the deities.",
+        description: "The symbolic re-enactment of the wedding of Srinivasa, Padmavathi and Bhu Devi. Performed daily in the Kalyana Mandapam. Sponsors witness the full Vedic ceremony and receive a special wedding cloth, laddus, and a framed photograph of the deities.",
         time: "Daily, 11:00 AM and 2:00 PM",
         fee: "₹1,000 (sponsors a pair)",
         type: "daily",
@@ -298,7 +298,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Vasantotsavam",
-        description: "'Spring festival' performed in the Vasantha Mandapam for the processional deities — Sri Devi, Bhu Devi and Malayappa Swami. Conducted twice weekly.",
+        description: "'Spring festival' performed in the Vasantha Mandapam for the processional deities, Sri Devi, Bhu Devi and Malayappa Swami. Conducted twice weekly.",
         time: "Tuesdays & Saturdays, ~10:30 AM",
         fee: "₹400",
         type: "weekly",
@@ -312,7 +312,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Ekantha Seva",
-        description: "The final seva of the day — the deity is put to bed (palli kondu) in the inner sanctum with a recitation of the Tarigonda Vengamamba's lullabies. The temple closes after this for the night.",
+        description: "The final seva of the day: the deity is put to bed (palli kondu) in the inner sanctum with a recitation of the Tarigonda Vengamamba's lullabies. The temple closes after this for the night.",
         time: "Daily, ~1:30 AM (next morning)",
         fee: "₹120",
         type: "daily",
@@ -322,42 +322,42 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "Do I have to shave my head (mundana) at Tirumala?",
         answer:
-          "No — tonsuring is voluntary, not compulsory. Many devotees offer their hair as fulfilment of a personal vow (mokku) or as a symbolic settlement of their share of Lord Venkateswara's debt to Kubera. TTD operates free tonsure halls (Kalyana Katta) at Tirumala that can accommodate over 600 barbers simultaneously, with separate enclosures for men, women, and children. The shaved hair is donated to TTD, processed, and auctioned globally — a major source of temple revenue.",
+          "No, tonsuring is voluntary, not compulsory. Many devotees offer their hair as fulfilment of a personal vow (mokku) or as a symbolic settlement of their share of Lord Venkateswara's debt to Kubera. TTD operates free tonsure halls (Kalyana Katta) at Tirumala that can accommodate over 600 barbers simultaneously, with separate enclosures for men, women, and children. The shaved hair is donated to TTD, processed, and auctioned globally, a major source of temple revenue.",
       },
       {
         question: "What is the difference between Sarva Darshan, Special Darshan, and VIP Darshan?",
         answer:
-          "Sarva Darshan is the free general darshan with the longest queue (often 6–18 hours during peak season). The free Sudarshan token system assigns a time slot — get a token from Vishnu Nivasam, Srinivasam, or the bus stand to skip the unstamped wait. Special Darshan (Seeghra Darshan, ₹300) provides a faster, ticketed entry — usually 1–3 hour wait. VIP Break Darshan is offered to recommended visitors (MPs, MLAs, religious heads); not bookable by the public. Senior citizens (65+) and physically challenged persons have a separate priority queue.",
+          "Sarva Darshan is the free general darshan with the longest queue (often 6–18 hours during peak season). The free Sudarshan token system assigns a time slot. Get a token from Vishnu Nivasam, Srinivasam, or the bus stand to skip the unstamped wait. Special Darshan (Seeghra Darshan, ₹300) provides a faster, ticketed entry, usually 1–3 hour wait. VIP Break Darshan is offered to recommended visitors (MPs, MLAs, religious heads); not bookable by the public. Senior citizens (65+) and physically challenged persons have a separate priority queue.",
       },
       {
         question: "How far in advance should I book sevas like Suprabhata, Kalyanotsavam, or Brahmotsavam?",
         answer:
-          "TTD opens the Arjita Seva quota 90 days in advance through its official online portal (tirumala.org). Popular sevas like Suprabhata Seva and Kalyanotsavam are typically booked out within minutes. Brahmotsavam-related seva tickets open even earlier and require a separate lottery for many slots. A few same-day current-booking tickets are released at the TTD counters — but availability is uncertain.",
+          "TTD opens the Arjita Seva quota 90 days in advance through its official online portal (tirumala.org). Popular sevas like Suprabhata Seva and Kalyanotsavam are typically booked out within minutes. Brahmotsavam-related seva tickets open even earlier and require a separate lottery for many slots. A few same-day current-booking tickets are released at the TTD counters, but availability is uncertain.",
       },
       {
         question: "Should I take the trek (Alipiri or Srivari Mettu) or the bus?",
         answer:
-          "Trek pilgrims receive a dedicated Divya Darshan queue at the top — often much faster than the regular Sarva Darshan, even after the climb. Alipiri Mettu has 3,550 steps (~9 km, 4–6 hours) and is the traditional pilgrim route; Srivari Mettu is shorter at 2,388 steps (~2.5 km, 2–3 hours) and steeper. Both routes are roofed and lit, with free TTD canteens and medical aid along the way. If you have time and reasonable fitness, the trek is highly recommended — both for the spiritual experience and the faster darshan.",
+          "Trek pilgrims receive a dedicated Divya Darshan queue at the top, often much faster than the regular Sarva Darshan, even after the climb. Alipiri Mettu has 3,550 steps (~9 km, 4–6 hours) and is the traditional pilgrim route; Srivari Mettu is shorter at 2,388 steps (~2.5 km, 2–3 hours) and steeper. Both routes are roofed and lit, with free TTD canteens and medical aid along the way. If you have time and reasonable fitness, the trek is highly recommended, both for the spiritual experience and the faster darshan.",
       },
       {
         question: "What's the famous Tirupati laddu? How many can I get?",
         answer:
-          "The Tirupati Laddu is the temple's signature prasadam — a sweet made of besan, ghee, sugar, cardamom, cashew, and edible camphor, prepared in the Potu kitchen using a closely-guarded recipe. It holds a Geographical Indication (GI) tag (2009), legally restricting its name to the TTD-prepared variant. Every paid darshan ticket includes two free small laddus. Additional Big Laddus (~700g) can be purchased at the Laddu counter for ₹50 each, with a limit of 2 per person per visit. During Brahmotsavam and special occasions, gifting laddus to thousands is a common practice.",
+          "The Tirupati Laddu is the temple's signature prasadam, a sweet made of besan, ghee, sugar, cardamom, cashew, and edible camphor, prepared in the Potu kitchen using a closely-guarded recipe. It holds a Geographical Indication (GI) tag (2009), legally restricting its name to the TTD-prepared variant. Every paid darshan ticket includes two free small laddus. Additional Big Laddus (~700g) can be purchased at the Laddu counter for ₹50 each, with a limit of 2 per person per visit. During Brahmotsavam and special occasions, gifting laddus to thousands is a common practice.",
       },
       {
         question: "Can foreigners and non-Hindus visit the temple?",
         answer:
-          "Foreigners are welcome to the Tirumala township and its outer corridors. However, entry into the main temple sanctum requires devotees to sign a declaration affirming their faith in Lord Venkateswara, which is presented at the entrance for foreigners and non-Hindu Indians. The declaration is a brief written form — no proof is required. Many foreign devotees do darshan annually with this provision.",
+          "Foreigners are welcome to the Tirumala township and its outer corridors. However, entry into the main temple sanctum requires devotees to sign a declaration affirming their faith in Lord Venkateswara, which is presented at the entrance for foreigners and non-Hindu Indians. The declaration is a brief written form. No proof is required. Many foreign devotees do darshan annually with this provision.",
       },
       {
         question: "What is the dress code at Tirumala?",
         answer:
-          "Traditional Indian attire is strictly enforced for the sanctum darshan: dhoti (or panche) with upper cloth for men; saree, half-saree, or salwar kameez (with dupatta) for women. Western dress — jeans, shorts, sleeveless tops, short skirts, ripped clothing — is not permitted beyond the outer corridors. Several cloth-rental counters near the queue complex provide traditional wear; you may also bring your own. Black is traditionally avoided by some devotees, though not strictly prohibited.",
+          "Traditional Indian attire is strictly enforced for the sanctum darshan: dhoti (or panche) with upper cloth for men; saree, half-saree, or salwar kameez (with dupatta) for women. Western dress (jeans, shorts, sleeveless tops, short skirts, ripped clothing) is not permitted beyond the outer corridors. Several cloth-rental counters near the queue complex provide traditional wear; you may also bring your own. Black is traditionally avoided by some devotees, though not strictly prohibited.",
       },
       {
         question: "Where do I stay at Tirumala?",
         answer:
-          "TTD operates extensive pilgrim accommodation at Tirumala (free dormitories and paid cottages at PAC-I, PAC-II, PAC-III, Vishnu Nivasam, Srinivasam, Madhavam) with rates from ₹50 to ₹3,000 per night. Booking via tirumala.org opens 60 days in advance; current-booking counters at Tirumala handle walk-ins subject to availability. Private hotels at Tirumala are limited (TTD has historically restricted commercial development). Many pilgrims stay at private hotels in Tirupati town (22 km below) and travel up by TTD shuttle bus — this is often easier for non-Telugu-speaking visitors.",
+          "TTD operates extensive pilgrim accommodation at Tirumala (free dormitories and paid cottages at PAC-I, PAC-II, PAC-III, Vishnu Nivasam, Srinivasam, Madhavam) with rates from ₹50 to ₹3,000 per night. Booking via tirumala.org opens 60 days in advance; current-booking counters at Tirumala handle walk-ins subject to availability. Private hotels at Tirumala are limited (TTD has historically restricted commercial development). Many pilgrims stay at private hotels in Tirupati town (22 km below) and travel up by TTD shuttle bus. This is often easier for non-Telugu-speaking visitors.",
       },
       {
         question: "When are the busiest days I should try to avoid?",
@@ -365,9 +365,9 @@ export const templeDetails: Record<string, TempleDetail> = {
           "Avoid weekends, public holidays, school vacations (April–June), Vaikunta Ekadasi (Dec–Jan, queues can exceed 24 hours), the nine days of Brahmotsavam (Sep–Oct), and the days around Rathasapthami (Feb). Tuesday, Wednesday, and Thursday in the off-season (Aug, Oct–Nov, Jan–Mar excluding festival weeks) are typically the calmest. Even on those days, expect a minimum 2–4 hour queue for Sarva Darshan.",
       },
       {
-        question: "What about the Annaprasadam — the free meals?",
+        question: "What about the Annaprasadam, the free meals?",
         answer:
-          "TTD's Nitya Annadanam Trust runs one of the world's largest free meal services — over 100,000 pilgrims served daily at the Matrusri Tarigonda Vengamamba Annaprasadam Complex (and ~5x that during festivals). Hot, simple South Indian vegetarian meals (rice, sambar, rasam, curd, pickle, sweet) are served continuously through the day. No coupons or charge — just walk in. The complex is a 5-minute walk from the Vaikuntham queue exit. Donations toward the trust (any amount) can be made at any TTD counter and are tax-exempt.",
+          "TTD's Nitya Annadanam Trust runs one of the world's largest free meal services, over 100,000 pilgrims served daily at the Matrusri Tarigonda Vengamamba Annaprasadam Complex (and ~5x that during festivals). Hot, simple South Indian vegetarian meals (rice, sambar, rasam, curd, pickle, sweet) are served continuously through the day. No coupons or charge. Just walk in. The complex is a 5-minute walk from the Vaikuntham queue exit. Donations toward the trust (any amount) can be made at any TTD counter and are tax-exempt.",
       },
     ],
   },
@@ -395,7 +395,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       { name: "Chithirai Festival", month: "April–May", description: "18-day festival celebrating the divine wedding of Meenakshi and Sundareswarar. Draws over a million devotees.", slug: "chithirai-festival" },
       { name: "Aavani Moolam", month: "August–September", description: "10-day festival re-enacting the 64 sacred sports (Thiruvilayadal) of Lord Sundareswarar. Each evening features a different leela.", slug: "aavani-moolam" },
       { name: "Navaratri Golu", month: "September–October", description: "Nine nights of the Goddess. The temple displays an elaborate golu (doll arrangement) and special alankarams of Meenakshi as the nine forms of Devi.", slug: "navaratri-golu" },
-      { name: "Float Festival (Theppam)", month: "January–February", description: "On Thai Poosam full moon, the deities are taken on an illuminated float across the Mariamman Teppakulam tank — a 1 km tank 5 km from the temple.", slug: "float-festival-madurai" },
+      { name: "Float Festival (Theppam)", month: "January–February", description: "On Thai Poosam full moon, the deities are taken on an illuminated float across the Mariamman Teppakulam tank, a 1 km tank 5 km from the temple.", slug: "float-festival-madurai" },
       { name: "Karthigai Deepam", month: "November–December", description: "The temple is lit with thousands of clay lamps; special abhishekam to Sundareswarar at dusk.", slug: "karthigai-deepam" },
     ],
     poojas: [
@@ -407,19 +407,19 @@ export const templeDetails: Record<string, TempleDetail> = {
     nearbyTemples: ["nataraja-chidambaram", "ramanathaswamy-rameswaram"],
     mythology: {
       legend:
-        "King Malayadhwaja Pandyan and Queen Kanchanamala of Madurai were childless despite years of yagnas and prayers. From the sacred fire of a putrakameshti yagna, a three-year-old girl emerged — with three breasts. A divine voice told the worried king to raise her as his own and as a warrior princess: her third breast would disappear the moment she met the man she was destined to marry. The princess was named Thadathagai. She mastered the 64 arts and shastras, succeeded her father as ruler of Madurai, and embarked on a digvijaya (conquest of the directions). On the slopes of Mount Kailasa she met Lord Shiva — and at that very moment, her third breast vanished. She had met her destined husband. Shiva instructed her to return to Madurai, where he would follow as her groom. There she became Meenakshi — 'she of fish-shaped eyes' — and reigned as Queen of Madurai before her divine wedding.",
+        "King Malayadhwaja Pandyan and Queen Kanchanamala of Madurai were childless despite years of yagnas and prayers. From the sacred fire of a putrakameshti yagna, a three-year-old girl emerged, with three breasts. A divine voice told the worried king to raise her as his own and as a warrior princess: her third breast would disappear the moment she met the man she was destined to marry. The princess was named Thadathagai. She mastered the 64 arts and shastras, succeeded her father as ruler of Madurai, and embarked on a digvijaya (conquest of the directions). On the slopes of Mount Kailasa she met Lord Shiva, and at that very moment, her third breast vanished. She had met her destined husband. Shiva instructed her to return to Madurai, where he would follow as her groom. There she became Meenakshi, 'she of fish-shaped eyes', and reigned as Queen of Madurai before her divine wedding.",
       tirukalyanam:
-        "Shiva arrived in Madurai as Sundareswarar — 'the beautiful lord' — for the wedding. Lord Vishnu, Meenakshi's brother (worshipped at nearby Alagar Kovil as Kallazhagar), travelled from his hill shrine to give the bride away. Brahma performed the ceremony. The wedding was witnessed by all the gods and devas, who assembled in Madurai for the occasion — making Madurai the divine wedding city of Tamil tradition. This Thirukalyanam is re-enacted every year on the ninth day of the Chithirai festival; the chariot procession the following day is one of the largest in South India.",
+        "Shiva arrived in Madurai as Sundareswarar, 'the beautiful lord', for the wedding. Lord Vishnu, Meenakshi's brother (worshipped at nearby Alagar Kovil as Kallazhagar), travelled from his hill shrine to give the bride away. Brahma performed the ceremony. The wedding was witnessed by all the gods and devas, who assembled in Madurai for the occasion, making Madurai the divine wedding city of Tamil tradition. This Thirukalyanam is re-enacted every year on the ninth day of the Chithirai festival; the chariot procession the following day is one of the largest in South India.",
       additionalStories: [
         {
           title: "The 64 Thiruvilayadal (Sacred Sports)",
           content:
-            "Sundareswarar is believed to have performed 64 sacred sports (leelas) in Madurai during his time as king alongside Meenakshi — from selling pearls and gemstones to a poor woman, to teaching Tamil grammar to the sage Agastya, to fighting the Pandyan elephant Madhura Veeran. These 64 leelas are recorded in the Tamil text Thiruvilayadal Puranam by Paranjothi Munivar (17th century) and are re-enacted across 10 evenings during the Aavani Moolam festival.",
+            "Sundareswarar is believed to have performed 64 sacred sports (leelas) in Madurai during his time as king alongside Meenakshi, from selling pearls and gemstones to a poor woman, to teaching Tamil grammar to the sage Agastya, to fighting the Pandyan elephant Madhura Veeran. These 64 leelas are recorded in the Tamil text Thiruvilayadal Puranam by Paranjothi Munivar (17th century) and are re-enacted across 10 evenings during the Aavani Moolam festival.",
         },
         {
           title: "The Origin of the Name Madurai",
           content:
-            "When Shiva, pleased with King Kulashekara Pandyan's devotion, shook drops of nectar (madhu) from his matted hair onto the city below, it became known as Madhurai — 'the city of nectar'. Over centuries the name became Madurai. The temple complex sits at the centre of Madurai's concentric old-city street plan — the Adi, Chithirai, Avani Moola and Masi streets — laid out as a lotus around the goddess.",
+            "When Shiva, pleased with King Kulashekara Pandyan's devotion, shook drops of nectar (madhu) from his matted hair onto the city below, it became known as Madhurai, 'the city of nectar'. Over centuries the name became Madurai. The temple complex sits at the centre of Madurai's concentric old-city street plan, the Adi, Chithirai, Avani Moola and Masi streets, laid out as a lotus around the goddess.",
         },
       ],
     },
@@ -435,7 +435,7 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "East Tower",
         nameTa: "கிழக்கு கோபுரம்",
         type: "gopuram",
-        description: "The original gateway to the Sundareswarar shrine — the main entry for most pilgrims.",
+        description: "The original gateway to the Sundareswarar shrine, the main entry for most pilgrims.",
         detail: "Height ~45 m · built c. 1216 CE by Maravarman Sundara Pandyan",
       },
       {
@@ -456,13 +456,13 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Ashta Shakti Mandapam",
         nameTa: "அஷ்ட சக்தி மண்டபம்",
         type: "mandapam",
-        description: "The entrance hall just inside the East Tower. Its pillars feature exquisite sculptures of the eight Shaktis (forms of the divine feminine) — Brahmi, Vaishnavi, Maheshwari, Indrani, Kaumari, Varahi, Chamundi and Mahalakshmi.",
+        description: "The entrance hall just inside the East Tower. Its pillars feature exquisite sculptures of the eight Shaktis (forms of the divine feminine), Brahmi, Vaishnavi, Maheshwari, Indrani, Kaumari, Varahi, Chamundi and Mahalakshmi.",
       },
       {
         name: "Meenakshi Nayakkar Mandapam",
         nameTa: "மீனாட்சி நாயக்கர் மண்டபம்",
         type: "mandapam",
-        description: "A 16th-century hall named after Visvanatha Nayaka. Famed for its 985 elaborately-sculpted pillars — each a single granite monolith — depicting yalis, deities, and royal patrons.",
+        description: "A 16th-century hall named after Visvanatha Nayaka. Famed for its 985 elaborately-sculpted pillars, each a single granite monolith, depicting yalis, deities, and royal patrons.",
         detail: "985 pillars · Nayak period (1559–1736)",
       },
       {
@@ -476,20 +476,20 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Musical Pillars",
         nameTa: "சங்கீத கம்பங்கள்",
         type: "other",
-        description: "A cluster of monolithic granite pillars near the entrance to the Hall of 1000 Pillars. When struck gently, each pillar produces a different musical note — the seven swaras of Carnatic music. A surviving testament to Nayak-era acoustic engineering.",
+        description: "A cluster of monolithic granite pillars near the entrance to the Hall of 1000 Pillars. When struck gently, each pillar produces a different musical note, the seven swaras of Carnatic music. A surviving testament to Nayak-era acoustic engineering.",
       },
       {
         name: "Pottramarai Kulam (Golden Lotus Tank)",
         nameTa: "பொற்றாமரை குளம்",
         type: "tank",
-        description: "The sacred tank inside the complex, ringed by a colonnade. Believed to be where Indra bathed a golden lotus before worshipping the original Sundareswarar lingam. Tamil literary tradition holds that a Sangam of Tamil poets used to convene on its banks — the manuscripts of accepted compositions floated, while the rejected ones sank.",
+        description: "The sacred tank inside the complex, ringed by a colonnade. Believed to be where Indra bathed a golden lotus before worshipping the original Sundareswarar lingam. Tamil literary tradition holds that a Sangam of Tamil poets used to convene on its banks: the manuscripts of accepted compositions floated, while the rejected ones sank.",
         detail: "~50 m × 36 m",
       },
       {
         name: "Killi (Kilikoondu) Mandapam",
         nameTa: "கிளிக்கூண்டு மண்டபம்",
         type: "mandapam",
-        description: "The 'Parrot Cage' hall, between the second corridor and the goddess's sanctum. Until the late 20th century, hundreds of trained green parrots were kept here — taught to say 'Meenakshi'. The practice was discontinued for the birds' welfare; the cages still stand as a heritage feature.",
+        description: "The 'Parrot Cage' hall, between the second corridor and the goddess's sanctum. Until the late 20th century, hundreds of trained green parrots were kept here, taught to say 'Meenakshi'. The practice was discontinued for the birds' welfare; the cages still stand as a heritage feature.",
       },
       {
         name: "Sundareswarar Vimana",
@@ -538,7 +538,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Natarajar Sabha",
         deity: "Shiva as Cosmic Dancer",
-        description: "A special sabha (dance hall) housing a bronze Nataraja. Unusually, here the dancing pose is reversed — Nataraja's right leg is raised instead of the left — said to be at the request of a Pandyan king who wished to see the cosmic dance from the other side.",
+        description: "A special sabha (dance hall) housing a bronze Nataraja. Unusually, here the dancing pose is reversed: Nataraja's right leg is raised instead of the left, said to be at the request of a Pandyan king who wished to see the cosmic dance from the other side.",
       },
     ],
     visitorLogistics: {
@@ -548,11 +548,11 @@ export const templeDetails: Record<string, TempleDetail> = {
         { name: "West Tower", direction: "West", notes: "Closer to the Meenakshi shrine. Convenient for the Pottramarai Kulam." },
         { name: "North Tower", direction: "North", notes: "Less crowded; opens onto North Avani Moola Street." },
       ],
-      cloakRoom: "Free shoe-and-bag cloak rooms are located just outside each of the four main gates. Mobile phones must also be deposited (see policy below). Keep your tag safe — replacements are charged.",
+      cloakRoom: "Free shoe-and-bag cloak rooms are located just outside each of the four main gates. Mobile phones must also be deposited (see policy below). Keep your tag safe; replacements are charged.",
       mobilePolicy: "Mobile phones, smart-watches and Bluetooth devices are not permitted inside the temple. Deposit them at the cloak room at any of the four gates before entering. The policy is strictly enforced.",
       cameraPolicy: "Photography is prohibited inside the temple complex. Cameras may be left at the cloak room. Photography of the gopurams from outside the temple is freely permitted.",
       wheelchairAccess: "Wheelchairs are available on request at the South and East gates (refundable deposit). Ramp access is provided at the main corridors; the inner sanctum steps are narrow but assistance is offered by temple staff.",
-      seniorCitizenDarshan: "Senior citizens (60+), pregnant women, and persons with disabilities can use the priority darshan queue — enter via the South Tower and request the special queue from the on-duty staff.",
+      seniorCitizenDarshan: "Senior citizens (60+), pregnant women, and persons with disabilities can use the priority darshan queue. Enter via the South Tower and request the special queue from the on-duty staff.",
       parking: "Paid parking is available on East Avani Moola Street and North Chithirai Street (approx ₹30 for two-wheelers, ₹100 for cars). Two-wheeler parking fills up early on weekends; arrive before 8 AM.",
       restrooms: "Public restrooms are available outside the East and West towers. Inside the complex, facilities are limited.",
       drinkingWater: "Drinking water taps are available near the Pottramarai Kulam and at the corridors leading to each sanctum. Carry your own bottle if visiting in summer.",
@@ -560,7 +560,7 @@ export const templeDetails: Record<string, TempleDetail> = {
     sevas: [
       {
         name: "Kalasandhi Pooja",
-        description: "First major pooja of the morning — abhishekam to both Meenakshi and Sundareswarar with milk, curd, honey, sandal, and panchamrutham.",
+        description: "First major pooja of the morning, abhishekam to both Meenakshi and Sundareswarar with milk, curd, honey, sandal, and panchamrutham.",
         time: "Daily, 6:30 AM",
         fee: "₹100",
         type: "daily",
@@ -581,7 +581,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Ardhajama Pooja (Palliyarai Seva)",
-        description: "The night pooja — the deities are taken in procession to the Palliyarai (bedchamber) on a silver palanquin. One of the most cherished darshans for devotees.",
+        description: "The night pooja: the deities are taken in procession to the Palliyarai (bedchamber) on a silver palanquin. One of the most cherished darshans for devotees.",
         time: "Daily, 9:30 PM",
         fee: "₹150",
         type: "daily",
@@ -609,7 +609,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Sahasranama Archana",
-        description: "Recitation of the 1,000 names of Meenakshi with archana — performed at the goddess shrine.",
+        description: "Recitation of the 1,000 names of Meenakshi with archana, performed at the goddess shrine.",
         time: "All day on request",
         fee: "₹250",
         type: "special",
@@ -633,42 +633,42 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "Can foreigners visit Meenakshi Amman Temple?",
         answer:
-          "Yes — foreign visitors of all nationalities are welcome at the temple, free of charge. There is no separate entry for foreigners. The only restriction (which also applies to Hindus from other denominations) is that the innermost sanctums of Meenakshi and Sundareswarar are reserved for Hindu devotees. The corridors, mandapams, gopurams, and the Pottramarai Kulam are open to everyone. Modest dress and basic temple etiquette (no shoes, no leather, no loud conversation) are expected.",
+          "Yes, foreign visitors of all nationalities are welcome at the temple, free of charge. There is no separate entry for foreigners. The only restriction (which also applies to Hindus from other denominations) is that the innermost sanctums of Meenakshi and Sundareswarar are reserved for Hindu devotees. The corridors, mandapams, gopurams, and the Pottramarai Kulam are open to everyone. Modest dress and basic temple etiquette (no shoes, no leather, no loud conversation) are expected.",
       },
       {
         question: "How much time should I allocate for my visit?",
         answer:
-          "A quick darshan can be done in about 1.5 hours if queues are short. To take in the architecture properly — the four gopurams, the Ashta Shakti Mandapam, the Hall of 1000 Pillars (now a museum), the Musical Pillars, and the Pottramarai Kulam — plan for 3–4 hours. A leisurely first visit including both sanctums, the museum, and a snack break easily fills a half-day. On Fridays, festival days, and during the closure window (12:30–4:00 PM), allow extra time for queues.",
+          "A quick darshan can be done in about 1.5 hours if queues are short. To take in the architecture properly, plan for 3–4 hours, enough to see the four gopurams, the Ashta Shakti Mandapam, the Hall of 1000 Pillars (now a museum), the Musical Pillars, and the Pottramarai Kulam. A leisurely first visit including both sanctums, the museum, and a snack break easily fills a half-day. On Fridays, festival days, and during the closure window (12:30–4:00 PM), allow extra time for queues.",
       },
       {
         question: "What is the dress code?",
         answer:
-          "Traditional Indian attire is preferred — saree, half-saree, or salwar kameez for women; dhoti or veshti with shirt for men. Western clothing is permitted as long as it is modest: shoulders and knees should be covered. Shorts, short skirts, sleeveless tops, ripped jeans, and revealing clothing are not allowed. Leather items (belts, wallets, handbags) are also discouraged inside the inner corridors.",
+          "Traditional Indian attire is preferred: saree, half-saree, or salwar kameez for women; dhoti or veshti with shirt for men. Western clothing is permitted as long as it is modest: shoulders and knees should be covered. Shorts, short skirts, sleeveless tops, ripped jeans, and revealing clothing are not allowed. Leather items (belts, wallets, handbags) are also discouraged inside the inner corridors.",
       },
       {
         question: "Are mobile phones, cameras, and bags allowed inside?",
         answer:
-          "Mobile phones, smart-watches, Bluetooth devices, and cameras are not permitted inside the temple complex. Free cloak rooms are located outside each of the four main gates (East, West, North, South) where you must deposit them before entering. Photography of the gopurams from outside the temple is freely permitted. Large bags should also be left at the cloak room — security may not allow them through.",
+          "Mobile phones, smart-watches, Bluetooth devices, and cameras are not permitted inside the temple complex. Free cloak rooms are located outside each of the four main gates (East, West, North, South) where you must deposit them before entering. Photography of the gopurams from outside the temple is freely permitted. Large bags should also be left at the cloak room, security may not allow them through.",
       },
       {
         question: "Is there wheelchair access?",
         answer:
-          "Partially. Wheelchairs are available on a refundable deposit at the South and East gates. The main corridors are wheelchair-accessible. However, the steps leading into the inner sanctums of Meenakshi and Sundareswarar are narrow and not wheelchair-friendly — temple staff will assist visitors with mobility needs. The Hall of 1000 Pillars museum has step access only. Senior citizens, pregnant women, and persons with disabilities can request the priority darshan queue at the South Tower.",
+          "Partially. Wheelchairs are available on a refundable deposit at the South and East gates. The main corridors are wheelchair-accessible. However, the steps leading into the inner sanctums of Meenakshi and Sundareswarar are narrow and not wheelchair-friendly; temple staff will assist visitors with mobility needs. The Hall of 1000 Pillars museum has step access only. Senior citizens, pregnant women, and persons with disabilities can request the priority darshan queue at the South Tower.",
       },
       {
         question: "When is the best time of day to visit?",
         answer:
-          "The early-morning window between 5:30 AM and 7:30 AM is the quietest and the most spiritually charged — the Kalasandhi pooja takes place around 6:30 AM. Mid-morning (8–11 AM) is also good but busier. The temple closes 12:30–4:00 PM for the afternoon break, so plan your visit either side of that window. Friday is the busiest day of the week (Meenakshi's special day); Tuesday and Wednesday tend to be quieter. Weekends and public holidays draw very long queues.",
+          "The early-morning window between 5:30 AM and 7:30 AM is the quietest and the most spiritually charged; the Kalasandhi pooja takes place around 6:30 AM. Mid-morning (8–11 AM) is also good but busier. The temple closes 12:30–4:00 PM for the afternoon break, so plan your visit either side of that window. Friday is the busiest day of the week (Meenakshi's special day); Tuesday and Wednesday tend to be quieter. Weekends and public holidays draw very long queues.",
       },
       {
         question: "Are there food options inside the temple?",
         answer:
-          "Inside the complex, only blessed prasadam is offered — typically curd-rice, tamarind-rice, and sweet pongal at specific times. No commercial food stalls operate within the complex. Just outside the four gates, however, you will find Madurai's famous street-food scene: Murugan Idli, Konar Kadai biryani, Amma Mess kari-dosa, and the iconic jigarthanda (a chilled almond-milk drink with ice cream and china grass) at Famous Jigarthanda on East Masi Street. The temple Annadanam (free meal service) is available to all pilgrims at the East-gate dining hall, typically between 11:30 AM and 1:00 PM.",
+          "Inside the complex, only blessed prasadam is offered, typically curd-rice, tamarind-rice, and sweet pongal at specific times. No commercial food stalls operate within the complex. Just outside the four gates, however, you will find Madurai's famous street-food scene: Murugan Idli, Konar Kadai biryani, Amma Mess kari-dosa, and the iconic jigarthanda (a chilled almond-milk drink with ice cream and china grass) at Famous Jigarthanda on East Masi Street. The temple Annadanam (free meal service) is available to all pilgrims at the East-gate dining hall, typically between 11:30 AM and 1:00 PM.",
       },
       {
         question: "Is there a special quick-darshan ticket?",
         answer:
-          "Yes — the temple offers a paid quick-darshan ticket (around ₹100–₹250 depending on day and time) that allows entry via a shorter queue, especially during peak hours. Tickets are sold at the counters near the South and East gates. On major festival days, quick-darshan may be suspended or extended; the temple administration's announcements at the gates are authoritative.",
+          "Yes, the temple offers a paid quick-darshan ticket (around ₹100–₹250 depending on day and time) that allows entry via a shorter queue, especially during peak hours. Tickets are sold at the counters near the South and East gates. On major festival days, quick-darshan may be suspended or extended; the temple administration's announcements at the gates are authoritative.",
       },
       {
         question: "Where can I stay nearby?",
@@ -678,7 +678,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "What other places should I see in Madurai?",
         answer:
-          "Within Madurai city: the Thirumalai Nayakkar Palace (a 17th-century Indo-Saracenic palace, 1.5 km from the temple), the Mariamman Teppakulam (the 1 km festival tank, 5 km east), the Gandhi Memorial Museum, and the Pudhu Mandapam (the 16th-century pillared market hall built by Thirumalai Nayak directly opposite the East Tower). Day trips from Madurai include Alagar Kovil (20 km north — the brother-deity Vishnu temple), Thirupparankundram (8 km south — one of the six abodes of Murugan), and Kodaikanal (120 km — hill station).",
+          "Within Madurai city: the Thirumalai Nayakkar Palace (a 17th-century Indo-Saracenic palace, 1.5 km from the temple), the Mariamman Teppakulam (the 1 km festival tank, 5 km east), the Gandhi Memorial Museum, and the Pudhu Mandapam (the 16th-century pillared market hall built by Thirumalai Nayak directly opposite the East Tower). Day trips from Madurai include Alagar Kovil (20 km north, the brother-deity Vishnu temple), Thirupparankundram (8 km south, one of the six abodes of Murugan), and Kodaikanal (120 km, hill station).",
       },
     ],
   },
@@ -694,13 +694,13 @@ export const templeDetails: Record<string, TempleDetail> = {
       byRoad: "Thanjavur is 310 km from Chennai. Regular buses from Trichy (56 km), Kumbakonam (36 km).",
     },
     highlights: [
-      "UNESCO World Heritage Site — one of the 'Great Living Chola Temples'",
+      "UNESCO World Heritage Site, one of the 'Great Living Chola Temples'",
       "The 66-meter vimana (tower) is the tallest temple tower of its era (built 1010 CE)",
-      "The shadow of the vimana never falls on the ground — a remarkable architectural feat",
-      "The massive Nandi (bull) monolith — one of the largest in India at 6 meters",
+      "The shadow of the vimana never falls on the ground, a remarkable architectural feat",
+      "The massive Nandi (bull) monolith, one of the largest in India at 6 meters",
       "Exceptional Chola-era frescoes, bronzes, and inscriptions inside",
     ],
-    history: "Built by the great Chola Emperor Raja Raja I between 1003–1010 CE, the Brihadeeswara Temple (also called Peruvudaiyar Kovil) is a testament to the zenith of Chola art and architecture. The temple was built to celebrate military victories and royal power. The inscriptions on the walls — over 400 of them — provide detailed records of the Chola empire's administration, donations, and religious practices.",
+    history: "Built by the great Chola Emperor Raja Raja I between 1003–1010 CE, the Brihadeeswara Temple (also called Peruvudaiyar Kovil) is a testament to the zenith of Chola art and architecture. The temple was built to celebrate military victories and royal power. The inscriptions on the walls, over 400 of them, provide detailed records of the Chola empire's administration, donations, and religious practices.",
     architecture: "Built entirely of granite, the Brihadeeswara is the world's first complete granite temple. The 66-meter vimana consists of 13 tapered tiers. The massive Shivalingam in the sanctum (8.7 meters tall) is the second largest in India. The outer wall is decorated with sculptures of Shiva in various forms (108 Bharata Natyam poses are depicted).",
     festivals: [
       { name: "Maha Shivaratri", month: "February–March", description: "All-night vigil with four prahara abhishekams to the great lingam. Brihadeeswara's vast prakaram is illuminated with thousands of lamps; one of the largest Shivaratri gatherings in Tamil Nadu.", slug: "maha-shivaratri" },
@@ -716,27 +716,27 @@ export const templeDetails: Record<string, TempleDetail> = {
     nearbyTemples: ["sarangapani-kumbakonam", "nataraja-chidambaram"],
     mythology: {
       legend:
-        "Raja Raja Chola I (Arulmozhivarman) had a vision during a military campaign in Sri Lanka — Lord Shiva appeared and instructed him to build a temple worthy of his cosmic stature. Returning to his capital Thanjavur at the height of his empire (he had conquered Kerala, the Pandyan kingdom, parts of Karnataka and northern Sri Lanka), the king resolved to construct a Dakshina Meru — a southern Mount Meru — that would surpass every temple ever built. Construction began in 1003 CE and was completed in 1010 CE: just seven years for a monument of granite weighing over 130,000 tonnes. The temple was consecrated with its main deity named Rajarajeswaram-Udaiyar after the king himself; over the centuries it came to be known by the more universal name Brihadeeswara, 'the Great Lord'.",
+        "Raja Raja Chola I (Arulmozhivarman) had a vision during a military campaign in Sri Lanka: Lord Shiva appeared and instructed him to build a temple worthy of his cosmic stature. Returning to his capital Thanjavur at the height of his empire (he had conquered Kerala, the Pandyan kingdom, parts of Karnataka and northern Sri Lanka), the king resolved to construct a Dakshina Meru, a southern Mount Meru, that would surpass every temple ever built. Construction began in 1003 CE and was completed in 1010 CE: just seven years for a monument of granite weighing over 130,000 tonnes. The temple was consecrated with its main deity named Rajarajeswaram-Udaiyar after the king himself; over the centuries it came to be known by the more universal name Brihadeeswara, 'the Great Lord'.",
       additionalStories: [
         {
           title: "The Consecration of the Great Lingam",
           content:
-            "Raja Raja's choice of the saint Karuvur Devar to perform the consecration is itself the temple's defining legend. When the king brought the great Shivalingam to the sanctum and tried to install it, every method failed — the lingam would not rise. Devars assembled in despair. Karuvur Devar, then a wandering Shaiva saint, was summoned. He sang the Tiruvisaippa — a hymn in praise of Brihadeeswara, composed on the spot — and the lingam rose effortlessly into place. Raja Raja built a small shrine for Karuvurar inside the southern prakaram, where the saint remains in worship to this day.",
+            "Raja Raja's choice of the saint Karuvur Devar to perform the consecration is itself the temple's defining legend. When the king brought the great Shivalingam to the sanctum and tried to install it, every method failed: the lingam would not rise. Devars assembled in despair. Karuvur Devar, then a wandering Shaiva saint, was summoned. He sang the Tiruvisaippa, a hymn in praise of Brihadeeswara, composed on the spot, and the lingam rose effortlessly into place. Raja Raja built a small shrine for Karuvurar inside the southern prakaram, where the saint remains in worship to this day.",
         },
         {
           title: "The Mystery of the Shadow",
           content:
-            "A popular belief holds that the shadow of the temple's 66-metre vimana never falls on the ground — that it 'disappears' at noon. Modern survey work has shown this is partially true and partially mythologised: at midday, the vimana's shadow falls onto its own base rather than extending beyond the temple compound. This is the result of a remarkable architectural calculation by the Chola sthapatis (architects), who designed the tapering pyramid so its centre of mass and shadow geometry align with the base. Whether intentional or accidental, the effect contributes to the structure's mystique — and may have been a deliberate symbolic statement that the king's temple, like the king himself, cast no overshadowing presence on his subjects.",
+            "A popular belief holds that the shadow of the temple's 66-metre vimana never falls on the ground, that it 'disappears' at noon. Modern survey work has shown this is partially true and partially mythologised: at midday, the vimana's shadow falls onto its own base rather than extending beyond the temple compound. This is the result of a remarkable architectural calculation by the Chola sthapatis (architects), who designed the tapering pyramid so its centre of mass and shadow geometry align with the base. Whether intentional or accidental, the effect contributes to the structure's mystique, and may have been a deliberate symbolic statement that the king's temple, like the king himself, cast no overshadowing presence on his subjects.",
         },
         {
           title: "The 80-Tonne Cap Stone",
           content:
-            "At the top of the vimana sits a single 25-tonne (some accounts say 80-tonne) octagonal cap stone (the sikhara), capped with a kalasham. Local tradition holds that the Chola engineers raised this stone using a six-kilometre-long inclined earthen ramp from the village of Sarapallam ('scaffold-pit village') near modern Thanjavur. Elephants and labourers slowly hauled the stone up the ramp on log rollers. After installation, the entire ramp was dismantled. The feat is among the marvels of ancient engineering — the cap stone was raised to 60 metres without modern machinery, only animal power, ropes, and one of history's great experiments in friction physics.",
+            "At the top of the vimana sits a single 25-tonne (some accounts say 80-tonne) octagonal cap stone (the sikhara), capped with a kalasham. Local tradition holds that the Chola engineers raised this stone using a six-kilometre-long inclined earthen ramp from the village of Sarapallam ('scaffold-pit village') near modern Thanjavur. Elephants and labourers slowly hauled the stone up the ramp on log rollers. After installation, the entire ramp was dismantled. The feat is among the marvels of ancient engineering: the cap stone was raised to 60 metres without modern machinery, only animal power, ropes, and one of history's great experiments in friction physics.",
         },
         {
           title: "The Living Bronzes",
           content:
-            "Raja Raja commissioned dozens of bronze processional images for the temple, cast in the cire perdue (lost-wax) method that Chola sthapatis had perfected. The most exquisite is the Rajaraja-Sundara-Choleswara — a Shiva-Parvati pair where Parvati is said to be modelled on the king's queen, Lokamadevi. These bronzes are still in active worship today — taken in procession on festival days, anointed daily, dressed in fresh silks. They are considered among the finest surviving Chola bronzes in the world.",
+            "Raja Raja commissioned dozens of bronze processional images for the temple, cast in the cire perdue (lost-wax) method that Chola sthapatis had perfected. The most exquisite is the Rajaraja-Sundara-Choleswara, a Shiva-Parvati pair where Parvati is said to be modelled on the king's queen, Lokamadevi. These bronzes are still in active worship today, taken in procession on festival days, anointed daily, dressed in fresh silks. They are considered among the finest surviving Chola bronzes in the world.",
         },
       ],
     },
@@ -745,30 +745,30 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Brihad-Vimana (Sri Vimana)",
         nameTa: "ஸ்ரீ விமானம்",
         type: "vimana",
-        description: "The temple's defining feature — a 13-tier granite pyramid rising 66 metres (216 ft) over the sanctum. The tallest temple tower of its era and one of the tallest in India. Each tier diminishes geometrically; the cap stone (sikhara) is a single octagonal granite monolith weighing approximately 25 tonnes.",
+        description: "The temple's defining feature, a 13-tier granite pyramid rising 66 metres (216 ft) over the sanctum. The tallest temple tower of its era and one of the tallest in India. Each tier diminishes geometrically; the cap stone (sikhara) is a single octagonal granite monolith weighing approximately 25 tonnes.",
         detail: "66 m · 13 tiers · 25-tonne cap stone",
       },
       {
         name: "Garbhagriha & Mahalingam",
         type: "sanctum",
-        description: "The square sanctum (~14 m on each side) is two storeys tall internally, housing one of India's largest Shivalingams — an 8.7 m (29 ft) tall granite lingam on a square avudaiyar pedestal. The lingam is so large that priests use specially-built scaffolds to perform abhishekam. The sanctum is unusually deep, allowing devotees to circumambulate the lingam within.",
+        description: "The square sanctum (~14 m on each side) is two storeys tall internally, housing one of India's largest Shivalingams, an 8.7 m (29 ft) tall granite lingam on a square avudaiyar pedestal. The lingam is so large that priests use specially-built scaffolds to perform abhishekam. The sanctum is unusually deep, allowing devotees to circumambulate the lingam within.",
         detail: "Lingam 8.7 m · sanctum two storeys tall",
       },
       {
         name: "Nandi Mandapam",
         type: "mandapam",
-        description: "Houses the colossal monolithic Nandi (sacred bull) facing the sanctum — 6 m long × 2.6 m wide × 3.7 m tall, carved from a single block of granite weighing approximately 25 tonnes. It is the second-largest Nandi in India (after Lepakshi). The mandapam itself was added in the 16th century by the Nayaks.",
+        description: "Houses the colossal monolithic Nandi (sacred bull) facing the sanctum, 6 m long × 2.6 m wide × 3.7 m tall, carved from a single block of granite weighing approximately 25 tonnes. It is the second-largest Nandi in India (after Lepakshi). The mandapam itself was added in the 16th century by the Nayaks.",
         detail: "Nandi: 6 × 2.6 × 3.7 m · ~25 tonnes",
       },
       {
         name: "Keralantakan Tiruvasal",
         type: "gopuram",
-        description: "The outer eastern gateway — named after Raja Raja's conquest of Kerala (his title was Keralantaka, 'destroyer of the Cheras'). Built in the Chola period, the gateway has a single tier with the original Chola sculptures still intact.",
+        description: "The outer eastern gateway, named after Raja Raja's conquest of Kerala (his title was Keralantaka, 'destroyer of the Cheras'). Built in the Chola period, the gateway has a single tier with the original Chola sculptures still intact.",
       },
       {
         name: "Rajarajan Tiruvasal",
         type: "gopuram",
-        description: "The inner gateway, named after the founder himself. A three-tiered gopuram of remarkable proportional balance — its sculptures depict dvarapalakas (gate-guardians), Bhairava forms, and scenes from the Periya Puranam. Unusually for South India, the inner gopuram is taller than the outer.",
+        description: "The inner gateway, named after the founder himself. A three-tiered gopuram of remarkable proportional balance. Its sculptures depict dvarapalakas (gate-guardians), Bhairava forms, and scenes from the Periya Puranam. Unusually for South India, the inner gopuram is taller than the outer.",
       },
       {
         name: "Maha Mandapam & Ardha Mandapam",
@@ -778,18 +778,18 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Karandai Inscriptions",
         type: "other",
-        description: "Over 400 stone inscriptions cover the temple's base mouldings (adhishthana) — the most extensive surviving administrative record from the Chola period. They record gifts of villages, sums of gold, quantities of paddy, lists of dancers, musicians, accountants, watchmen, and ritual specialists endowed by Raja Raja and his nobles. The inscriptions are written in early Tamil with Grantha letters for Sanskrit names.",
+        description: "Over 400 stone inscriptions cover the temple's base mouldings (adhishthana), the most extensive surviving administrative record from the Chola period. They record gifts of villages, sums of gold, quantities of paddy, lists of dancers, musicians, accountants, watchmen, and ritual specialists endowed by Raja Raja and his nobles. The inscriptions are written in early Tamil with Grantha letters for Sanskrit names.",
         detail: "400+ inscriptions · early Tamil + Grantha",
       },
       {
         name: "Chola Frescoes",
         type: "other",
-        description: "Inside the lower corridor of the vimana, the original 11th-century Chola murals were rediscovered in 1930 — preserved under a later Nayak-era overpainting. Both layers are now visible: the deep Chola reds and ochres depict scenes from the life of Sundarar and Nataraja; the Nayak overlay shows lighter palette portraits of saints and donors. The space is dimly-lit; ASI permits only authorised photographers.",
+        description: "Inside the lower corridor of the vimana, the original 11th-century Chola murals were rediscovered in 1930, preserved under a later Nayak-era overpainting. Both layers are now visible: the deep Chola reds and ochres depict scenes from the life of Sundarar and Nataraja; the Nayak overlay shows lighter palette portraits of saints and donors. The space is dimly-lit; ASI permits only authorised photographers.",
       },
       {
         name: "81 Karana Sculptures",
         type: "other",
-        description: "Carved on the niches of the vimana's first storey: 81 of the 108 Bharatanatyam karanas (movement units) described in the Natyashastra. The figures — about 1 m tall, in granite — show the dancer in dynamic mid-pose, accompanied by drummers and singers. They are the earliest complete sculptural catalogue of the karanas anywhere in India.",
+        description: "Carved on the niches of the vimana's first storey: 81 of the 108 Bharatanatyam karanas (movement units) described in the Natyashastra. The figures, about 1 m tall, in granite, show the dancer in dynamic mid-pose, accompanied by drummers and singers. They are the earliest complete sculptural catalogue of the karanas anywhere in India.",
         detail: "81 of 108 Natyashastra karanas",
       },
       {
@@ -801,12 +801,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Subrahmanya Shrine",
         type: "other",
-        description: "A 17th-century Nayak-era addition in the north-western corner of the prakaram. Despite being centuries younger than the main temple, it is considered one of the finest examples of late Nayak granite sculpture — its pillared mandapam is rated by art historians as a miniature masterpiece.",
+        description: "A 17th-century Nayak-era addition in the north-western corner of the prakaram. Despite being centuries younger than the main temple, it is considered one of the finest examples of late Nayak granite sculpture. Its pillared mandapam is rated by art historians as a miniature masterpiece.",
       },
       {
         name: "Karuvurar Shrine",
         type: "other",
-        description: "A small shrine in the southern prakaram dedicated to Karuvur Devar — the wandering Shaiva saint whose Tiruvisaippa hymn enabled the consecration of the main lingam. His installation here, alongside the great deity, is a rare honour granted by Raja Raja himself.",
+        description: "A small shrine in the southern prakaram dedicated to Karuvur Devar, the wandering Shaiva saint whose Tiruvisaippa hymn enabled the consecration of the main lingam. His installation here, alongside the great deity, is a rare honour granted by Raja Raja himself.",
       },
     ],
     subShrines: [
@@ -818,12 +818,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Subrahmanya Swamy",
         deity: "Lord Murugan",
-        description: "A late-Nayak (17th c.) shrine in the north-western corner. The pillared mandapam — with finely detailed yali and Bhairava sculptures — is widely regarded as the artistic high point of late Tamil temple architecture.",
+        description: "A late-Nayak (17th c.) shrine in the north-western corner. The pillared mandapam, with finely detailed yali and Bhairava sculptures, is widely regarded as the artistic high point of late Tamil temple architecture.",
       },
       {
         name: "Chandikeshwara",
         deity: "The Custodian of Shiva Temples",
-        description: "An original Chola-period shrine on the northern wall of the sanctum. Devotees customarily snap their fingers when passing — a gesture to wake Chandikeshwara (who is said to be eternally meditating) and to attest to the truth of the prayers just offered to Shiva.",
+        description: "An original Chola-period shrine on the northern wall of the sanctum. Devotees customarily snap their fingers when passing, a gesture to wake Chandikeshwara (who is said to be eternally meditating) and to attest to the truth of the prayers just offered to Shiva.",
       },
       {
         name: "Ganapathy",
@@ -833,12 +833,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Dakshinamurthy",
         deity: "Shiva as the Cosmic Teacher",
-        description: "Carved into the southern niche of the vimana — a 1.5 m granite sculpture of Shiva as the silent teacher seated under the banyan tree, surrounded by four sages. One of the finest Dakshinamurthy depictions of the Chola period.",
+        description: "Carved into the southern niche of the vimana, a 1.5 m granite sculpture of Shiva as the silent teacher seated under the banyan tree, surrounded by four sages. One of the finest Dakshinamurthy depictions of the Chola period.",
       },
       {
         name: "Lingodbhavar",
         deity: "Shiva as the Infinite Pillar",
-        description: "On the rear (western) niche of the vimana — Shiva emerging from a column of fire whose ends Brahma and Vishnu cannot find, despite their searches as a hamsa and varaha respectively. The scene is rendered with rare iconographic completeness.",
+        description: "On the rear (western) niche of the vimana, Shiva emerging from a column of fire whose ends Brahma and Vishnu cannot find, despite their searches as a hamsa and varaha respectively. The scene is rendered with rare iconographic completeness.",
       },
       {
         name: "Karuvur Devar Shrine",
@@ -852,18 +852,18 @@ export const templeDetails: Record<string, TempleDetail> = {
         { name: "Rajarajan Tiruvasal (Inner Gateway)", direction: "East", notes: "The inner three-tiered gopuram leading into the temple's main courtyard. This is where you first see the great vimana." },
       ],
       cloakRoom: "A small cloak room operates just inside the Keralantakan Tiruvasal for shoes and bags. Mobile phones and cameras are permitted inside the complex (see camera policy). A ₹10 token is sometimes charged.",
-      mobilePolicy: "Mobile phones are permitted inside the complex — but switch to silent mode and avoid taking calls within the sanctum area. The temple is an active place of worship; loud conversation is frowned upon.",
-      cameraPolicy: "Photography is freely permitted inside the temple complex — this is one of the few major South Indian temples that does not restrict cameras. Flash and tripods are prohibited inside the inner sanctum and inside the frescoes corridor (to protect the 11th-century pigments). The ASI sometimes posts additional restrictions on weekends and festival days.",
-      wheelchairAccess: "Wheelchairs are not provided by the temple, but the inner prakaram is wheelchair-friendly — the courtyard is mostly level granite paving. The Nandi Mandapam, Brihannayaki shrine, and Subrahmanya shrine are accessible. The inner sanctum has steps and is not wheelchair-accessible; staff may assist devotees with mobility needs.",
-      seniorCitizenDarshan: "There is no formal priority queue, but the temple is rarely crowded enough to require one. On Mondays, Shivaratri, Karthigai Deepam, and Sadayam day, however, queues do build up — senior citizens may request priority entry from on-duty staff at the inner gateway.",
+      mobilePolicy: "Mobile phones are permitted inside the complex, but switch to silent mode and avoid taking calls within the sanctum area. The temple is an active place of worship; loud conversation is frowned upon.",
+      cameraPolicy: "Photography is freely permitted inside the temple complex. This is one of the few major South Indian temples that does not restrict cameras. Flash and tripods are prohibited inside the inner sanctum and inside the frescoes corridor (to protect the 11th-century pigments). The ASI sometimes posts additional restrictions on weekends and festival days.",
+      wheelchairAccess: "Wheelchairs are not provided by the temple, but the inner prakaram is wheelchair-friendly: the courtyard is mostly level granite paving. The Nandi Mandapam, Brihannayaki shrine, and Subrahmanya shrine are accessible. The inner sanctum has steps and is not wheelchair-accessible; staff may assist devotees with mobility needs.",
+      seniorCitizenDarshan: "There is no formal priority queue, but the temple is rarely crowded enough to require one. On Mondays, Shivaratri, Karthigai Deepam, and Sadayam day, however, queues do build up; senior citizens may request priority entry from on-duty staff at the inner gateway.",
       parking: "Free public parking is available outside the fort wall on West Main Road and Indra Gandhi Road, about 200–300 m from the outer gateway. Two-wheelers can park closer; no vehicle parking is permitted within the fort.",
-      restrooms: "Public restrooms are located near the outer parking area and at the eastern corner of the inner prakaram. Facilities are basic — bring tissues and hand sanitiser.",
-      drinkingWater: "Drinking water taps are available near the Nandi Mandapam and at the eastern entrance to the prakaram. The temple is in a hot, dry zone — carry your own bottle if visiting in summer (April–June).",
+      restrooms: "Public restrooms are located near the outer parking area and at the eastern corner of the inner prakaram. Facilities are basic. Bring tissues and hand sanitiser.",
+      drinkingWater: "Drinking water taps are available near the Nandi Mandapam and at the eastern entrance to the prakaram. The temple is in a hot, dry zone. Carry your own bottle if visiting in summer (April–June).",
     },
     sevas: [
       {
         name: "Thiruvanandal Pooja",
-        description: "The morning waking ritual — abhishekam to the great lingam with milk, panchamrutham, vibhuti and sandal. Performed by climbing the wooden scaffold to reach the lingam's height. Pilgrims watch from the sanctum entrance.",
+        description: "The morning waking ritual, abhishekam to the great lingam with milk, panchamrutham, vibhuti and sandal. Performed by climbing the wooden scaffold to reach the lingam's height. Pilgrims watch from the sanctum entrance.",
         time: "Daily, 6:00 – 6:45 AM",
         fee: "Free",
         type: "daily",
@@ -898,14 +898,14 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Rudra Abhishekam",
-        description: "Eleven-fold recitation of the Sri Rudram with continuous abhishekam — a powerful ritual recommended for relief from doshas and for fulfilment of major vows.",
+        description: "Eleven-fold recitation of the Sri Rudram with continuous abhishekam, a powerful ritual recommended for relief from doshas and for fulfilment of major vows.",
         time: "Booking required, ~6:00 AM",
         fee: "₹1,100",
         type: "special",
       },
       {
         name: "Pradosha Pooja",
-        description: "Performed on Pradosham days (Trayodashi tithi, twice each month). Abhishekam to Shiva between sunset and the first watch of the night — one of the most charged of Shaivite rituals.",
+        description: "Performed on Pradosham days (Trayodashi tithi, twice each month). Abhishekam to Shiva between sunset and the first watch of the night, one of the most charged of Shaivite rituals.",
         time: "Pradosham evenings, ~5:30 PM",
         fee: "Free",
         type: "monthly",
@@ -936,37 +936,37 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "Is entry to Brihadeeswara free?",
         answer:
-          "Yes — entry is completely free for Indian citizens. Foreign nationals are charged ₹250 for entry to the inner prakaram (the Archaeological Survey of India fee for World Heritage Sites). Pooja-related fees are separate and entirely voluntary. The temple is administered jointly by the ASI (for the monument) and the HR&CE department (for the active worship).",
+          "Yes, entry is completely free for Indian citizens. Foreign nationals are charged ₹250 for entry to the inner prakaram (the Archaeological Survey of India fee for World Heritage Sites). Pooja-related fees are separate and entirely voluntary. The temple is administered jointly by the ASI (for the monument) and the HR&CE department (for the active worship).",
       },
       {
         question: "How long should I plan for a visit?",
         answer:
-          "A brisk darshan can be done in about 1 hour, but the temple rewards a longer visit. To appreciate the architecture — the great vimana from multiple angles, the Nandi monolith, the Chola frescoes (in the dimly-lit corridor), the inscriptions, the Subrahmanya shrine, and the Brihannayaki shrine — plan 2.5 to 3 hours. Photographers and architecture enthusiasts often spend half a day. Plan around the temple's 12:30–4:00 PM closure for the afternoon break.",
+          "A brisk darshan can be done in about 1 hour, but the temple rewards a longer visit. To appreciate the architecture, plan 2.5 to 3 hours, enough to take in the great vimana from multiple angles, the Nandi monolith, the Chola frescoes (in the dimly-lit corridor), the inscriptions, the Subrahmanya shrine, and the Brihannayaki shrine. Photographers and architecture enthusiasts often spend half a day. Plan around the temple's 12:30–4:00 PM closure for the afternoon break.",
       },
       {
         question: "Is the legend about the shadow really true?",
         answer:
-          "Partially. The popular belief — that the vimana's shadow never falls on the ground — is more poetic than literal. Modern surveys show that the shadow does fall during most of the day; what is true is that at noon, the shadow folds onto the vimana's own base rather than extending out into the courtyard. The Chola sthapatis appear to have designed the geometry so the structure does not visually 'overshadow' its surroundings at midday. Whether this was intentional or a happy by-product of perfect proportions remains debated among historians.",
+          "Partially. The popular belief, that the vimana's shadow never falls on the ground, is more poetic than literal. Modern surveys show that the shadow does fall during most of the day; what is true is that at noon, the shadow folds onto the vimana's own base rather than extending out into the courtyard. The Chola sthapatis appear to have designed the geometry so the structure does not visually 'overshadow' its surroundings at midday. Whether this was intentional or a happy by-product of perfect proportions remains debated among historians.",
       },
       {
         question: "How did the Cholas raise the 25-tonne cap stone to the top of the vimana?",
         answer:
-          "Local tradition and recent archaeological survey both point to a long, gently-sloped inclined earthen ramp — approximately six kilometres long, beginning near the village of Sarapallam (literally 'scaffold-pit village'). The stone was hauled up by elephants and labourers on greased log rollers, then the entire ramp was dismantled after installation. The feat used no machinery beyond ropes, animal power, and friction — but it required precise mathematical calculation and immense organisational effort. Similar techniques were used to raise the great monoliths at Mahabalipuram and Karnataka temples.",
+          "Local tradition and recent archaeological survey both point to a long, gently-sloped inclined earthen ramp, approximately six kilometres long, beginning near the village of Sarapallam (literally 'scaffold-pit village'). The stone was hauled up by elephants and labourers on greased log rollers, then the entire ramp was dismantled after installation. The feat used no machinery beyond ropes, animal power, and friction, but it required precise mathematical calculation and immense organisational effort. Similar techniques were used to raise the great monoliths at Mahabalipuram and Karnataka temples.",
       },
       {
         question: "Can I take photographs inside the temple?",
         answer:
-          "Yes — Brihadeeswara is one of the few major active South Indian temples that freely permits photography in the courtyards, of the vimana, the Nandi, and most sculptures. Flash and tripods are prohibited inside the inner sanctum (where you should not photograph the lingam) and inside the frescoes corridor (to protect the 11th-century pigments). Drone photography requires prior ASI permission. The temple is exceptionally photogenic at sunrise and sunset.",
+          "Yes, Brihadeeswara is one of the few major active South Indian temples that freely permits photography in the courtyards, of the vimana, the Nandi, and most sculptures. Flash and tripods are prohibited inside the inner sanctum (where you should not photograph the lingam) and inside the frescoes corridor (to protect the 11th-century pigments). Drone photography requires prior ASI permission. The temple is exceptionally photogenic at sunrise and sunset.",
       },
       {
         question: "What is the dress code?",
         answer:
-          "Modest traditional clothing is preferred but not strictly enforced. Saree, salwar, churidar, or skirt below the knee for women; dhoti or pant-shirt for men. Sleeveless tops, shorts, and very short skirts are discouraged. Unlike Tirupati, there is no strict dress-code check — but you may be politely asked to cover up before entering the inner sanctum.",
+          "Modest traditional clothing is preferred but not strictly enforced. Saree, salwar, churidar, or skirt below the knee for women; dhoti or pant-shirt for men. Sleeveless tops, shorts, and very short skirts are discouraged. Unlike Tirupati, there is no strict dress-code check, but you may be politely asked to cover up before entering the inner sanctum.",
       },
       {
         question: "When is the best time of day to visit?",
         answer:
-          "Sunrise (around 6:00–7:30 AM) is the most magical — the granite glows golden, the morning Thiruvanandal pooja is in progress, and crowds are minimal. Avoid mid-day (the granite courtyard becomes very hot, especially March–June). Sunset (around 5:30–6:30 PM) is similarly beautiful and cooler. The temple is closed 12:30–4:00 PM. Mondays and festival days draw the largest crowds.",
+          "Sunrise (around 6:00–7:30 AM) is the most magical: the granite glows golden, the morning Thiruvanandal pooja is in progress, and crowds are minimal. Avoid mid-day (the granite courtyard becomes very hot, especially March–June). Sunset (around 5:30–6:30 PM) is similarly beautiful and cooler. The temple is closed 12:30–4:00 PM. Mondays and festival days draw the largest crowds.",
       },
       {
         question: "What's the connection to UNESCO World Heritage?",
@@ -976,7 +976,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "What's special about the Nandi here?",
         answer:
-          "The Nandi at Brihadeeswara is a single monolith — 6 m long, 2.6 m wide, 3.7 m tall, weighing approximately 25 tonnes. It is the second-largest monolithic Nandi in India (after Lepakshi in Andhra). Unusually, it was added in the 16th century by the Nayaks — five centuries after the main temple — yet harmonises perfectly with the original Chola scale. The mandapam housing it dates from the same period. Devotees touch its feet and whisper their prayers into its ear, in the belief that Nandi conveys them directly to Shiva.",
+          "The Nandi at Brihadeeswara is a single monolith, 6 m long, 2.6 m wide, 3.7 m tall, weighing approximately 25 tonnes. It is the second-largest monolithic Nandi in India (after Lepakshi in Andhra). Unusually, it was added in the 16th century by the Nayaks, five centuries after the main temple, yet harmonises perfectly with the original Chola scale. The mandapam housing it dates from the same period. Devotees touch its feet and whisper their prayers into its ear, in the belief that Nandi conveys them directly to Shiva.",
       },
       {
         question: "What other temples should I see while in Thanjavur?",
@@ -987,31 +987,31 @@ export const templeDetails: Record<string, TempleDetail> = {
   },
   "ramanathaswamy-rameswaram": {
     slug: "ramanathaswamy-rameswaram",
-    timings: { morning: "5:00 AM – 1:00 PM", evening: "3:00 PM – 9:00 PM", note: "Spatika (crystal) Lingam darshan is at ~5:00 AM (separate ticket). The 22 theertham baths are done in the morning — start early, ideally before 7:00 AM." },
+    timings: { morning: "5:00 AM – 1:00 PM", evening: "3:00 PM – 9:00 PM", note: "Spatika (crystal) Lingam darshan is at ~5:00 AM (separate ticket). The 22 theertham baths are done in the morning. Start early, ideally before 7:00 AM." },
     entryFee: "Free darshan. Sparisa (touch) darshan and Spatika Lingam darshan are ticketed (₹50–100). Theertham bath: ₹25 ticket for all 22 wells.",
     dressCode: "Dhoti mandatory for men inside the sanctum (no shirt during abhishekam darshan). Saree/salwar for women. Carry a change of clothes for the theertham bath.",
     bestTime: "October – April (avoid the May–June heat and the October–December monsoon spells)",
     travelInfo: {
       byAir: "Madurai Airport (170 km) is the nearest. Tuticorin Airport (~140 km) is an alternative; both have connections to Chennai and Bengaluru.",
       byTrain: "Rameswaram Railway Station (1.5 km from the temple) sits on Pamban Island. Direct trains from Chennai, Madurai, Coimbatore, Tirupati and Kanyakumari. The line crosses the historic Pamban rail bridge.",
-      byRoad: "Reached via the Pamban road bridge over the Palk Strait — the first sea bridge in India. Buses from Madurai (170 km, ~4 hrs), Chennai (570 km), Tiruchendur and Kanyakumari. The new Pamban vertical-lift sea bridge now runs alongside the old one.",
+      byRoad: "Reached via the Pamban road bridge over the Palk Strait, the first sea bridge in India. Buses from Madurai (170 km, ~4 hrs), Chennai (570 km), Tiruchendur and Kanyakumari. The new Pamban vertical-lift sea bridge now runs alongside the old one.",
     },
     highlights: [
-      "One of the 12 sacred Jyotirlingas and one of the four Char Dham — the southern dham of India",
-      "The longest temple corridor in India — the third prakaram runs ~1,220 metres with over 1,200 ornately carved pillars",
-      "22 sacred theerthams (holy wells) inside the temple — bathing in all 22 is the heart of the Rameswaram pilgrimage",
-      "Two lingams in one sanctum — the Ramalingam moulded by Sita and the Vishwalingam brought by Hanuman from Kailash",
-      "The climax of the Kashi–Rameswaram Sethu Yatra — pilgrims bring Ganga water here and carry Rameswaram sand back to the Ganges",
+      "One of the 12 sacred Jyotirlingas and one of the four Char Dham, the southern dham of India",
+      "The longest temple corridor in India: the third prakaram runs ~1,220 metres with over 1,200 ornately carved pillars",
+      "22 sacred theerthams (holy wells) inside the temple: bathing in all 22 is the heart of the Rameswaram pilgrimage",
+      "Two lingams in one sanctum, the Ramalingam moulded by Sita and the Vishwalingam brought by Hanuman from Kailash",
+      "The climax of the Kashi–Rameswaram Sethu Yatra: pilgrims bring Ganga water here and carry Rameswaram sand back to the Ganges",
       "Set on Pamban Island, with Dhanushkodi and the legendary Ram Setu (Adam's Bridge) at its southern tip",
     ],
-    history: "Rameswaram is among the holiest sites in Hinduism — sacred to both Shaivites and Vaishnavites, which is rare. According to the Ramayana, Lord Rama worshipped Shiva here to absolve the sin of Brahmahatya (the killing of Ravana, a learned Brahmin) on his return from Lanka. The temple is one of the 275 Paadal Petra Sthalams glorified in the Tevaram hymns of the Nayanmar saints. While the site's sanctity is ancient, the present stone temple was built and expanded over four centuries (12th–17th c.) chiefly by the Setupati kings of Ramanathapuram, with major additions by the Pandyas, the Jaffna kings of Sri Lanka, and later mercantile patrons. The towering east Rajagopuram was completed only in the 20th century.",
-    architecture: "Ramanathaswamy is the supreme example of Dravidian corridor architecture. Its three concentric prakarams (corridors) culminate in the third — the longest temple corridor in India, around 1,220 metres in total, lined with more than 1,200 granite pillars about 9 metres tall, each carved with bracket figures and rearing yalis. The pillars create a famous receding optical perspective. The temple has a 53-metre east Rajagopuram and a lower western gopuram. Within lie the twin sanctums of Ramanathaswamy (the Ramalingam) and the Vishwalingam, the Parvathavardhini Amman shrine, the Sethu Madhava (Vishnu) shrine, and the 22 theertham wells distributed across the prakarams.",
+    history: "Rameswaram is among the holiest sites in Hinduism, sacred to both Shaivites and Vaishnavites, which is rare. According to the Ramayana, Lord Rama worshipped Shiva here to absolve the sin of Brahmahatya (the killing of Ravana, a learned Brahmin) on his return from Lanka. The temple is one of the 275 Paadal Petra Sthalams glorified in the Tevaram hymns of the Nayanmar saints. While the site's sanctity is ancient, the present stone temple was built and expanded over four centuries (12th–17th c.) chiefly by the Setupati kings of Ramanathapuram, with major additions by the Pandyas, the Jaffna kings of Sri Lanka, and later mercantile patrons. The towering east Rajagopuram was completed only in the 20th century.",
+    architecture: "Ramanathaswamy is the supreme example of Dravidian corridor architecture. Its three concentric prakarams (corridors) culminate in the third, the longest temple corridor in India, around 1,220 metres in total, lined with more than 1,200 granite pillars about 9 metres tall, each carved with bracket figures and rearing yalis. The pillars create a famous receding optical perspective. The temple has a 53-metre east Rajagopuram and a lower western gopuram. Within lie the twin sanctums of Ramanathaswamy (the Ramalingam) and the Vishwalingam, the Parvathavardhini Amman shrine, the Sethu Madhava (Vishnu) shrine, and the 22 theertham wells distributed across the prakarams.",
     festivals: [
-      { name: "Maha Shivaratri", month: "February–March", description: "The grandest festival — a 10-day celebration with four-prahara night-long abhishekams to the Jyotirlinga, processions of the utsava deities, and thousands taking the Agni Theertham sea bath at dawn.", slug: "maha-shivaratri" },
+      { name: "Maha Shivaratri", month: "February–March", description: "The grandest festival, a 10-day celebration with four-prahara night-long abhishekams to the Jyotirlinga, processions of the utsava deities, and thousands taking the Agni Theertham sea bath at dawn.", slug: "maha-shivaratri" },
       { name: "Thirukalyanam (Vasanthotsavam)", month: "May–June", description: "The celestial wedding of Ramanathaswamy and Parvathavardhini, celebrated over ten days with the deities in splendid procession through the long corridors." },
-      { name: "Ramalinga Pratishtai", month: "May–June (Vaikasi)", description: "Commemorates the original installation of the Ramalingam by Lord Rama — special abhishekam and recitation of the Ramayana." },
+      { name: "Ramalinga Pratishtai", month: "May–June (Vaikasi)", description: "Commemorates the original installation of the Ramalingam by Lord Rama, special abhishekam and recitation of the Ramayana." },
       { name: "Aadi Amavasai & Thai Amavasai", month: "July–Aug / Jan–Feb", description: "New-moon days for ancestor worship (tarpanam) when thousands bathe at Agni Theertham and perform rites for departed forebears." },
-      { name: "Aarudhra Darshan (Thiruvadhirai)", month: "December–January", description: "Sacred to Shiva as Nataraja — special abhishekam and the procession of the Nataraja bronze." },
+      { name: "Aarudhra Darshan (Thiruvadhirai)", month: "December–January", description: "Sacred to Shiva as Nataraja, special abhishekam and the procession of the Nataraja bronze." },
     ],
     poojas: [
       { name: "Spatika Lingam Darshan", time: "~5:00 AM", fee: "₹100 (ticketed)" },
@@ -1022,29 +1022,29 @@ export const templeDetails: Record<string, TempleDetail> = {
     nearbyTemples: ["madurai-meenakshi", "tiruchendur-murugan"],
     mythology: {
       legend:
-        "After slaying Ravana and rescuing Sita, Lord Rama stood burdened by Brahmahatya dosha — the gravest of sins, for Ravana was a Brahmin and a great devotee of Shiva. On the advice of the sages, Rama resolved to worship Shiva on the shore where his army had crossed to Lanka. He sent Hanuman to Mount Kailash to fetch a lingam, but the auspicious muhurta for installation drew near and Hanuman had not returned. So Sita moulded a lingam from the beach sand with her own hands, and Rama consecrated it — this is the Ramalingam, the principal deity Ramanathaswamy ('the Lord whose master is Rama'). When Hanuman arrived with the lingam from Kailash (the Vishwalingam) and was grieved to find another already installed, Rama consoled him by decreeing that the Vishwalingam — also called Kasilingam — would always be worshipped first, before the Ramalingam. That order of worship is honoured in the temple to this very day.",
+        "After slaying Ravana and rescuing Sita, Lord Rama stood burdened by Brahmahatya dosha, the gravest of sins, for Ravana was a Brahmin and a great devotee of Shiva. On the advice of the sages, Rama resolved to worship Shiva on the shore where his army had crossed to Lanka. He sent Hanuman to Mount Kailash to fetch a lingam, but the auspicious muhurta for installation drew near and Hanuman had not returned. So Sita moulded a lingam from the beach sand with her own hands, and Rama consecrated it. This is the Ramalingam, the principal deity Ramanathaswamy ('the Lord whose master is Rama'). When Hanuman arrived with the lingam from Kailash (the Vishwalingam) and was grieved to find another already installed, Rama consoled him by decreeing that the Vishwalingam, also called Kasilingam, would always be worshipped first, before the Ramalingam. That order of worship is honoured in the temple to this very day.",
       tirukalyanam:
         "The celestial marriage of Lord Ramanathaswamy and Goddess Parvathavardhini is re-enacted each year at Vasanthotsavam (May–June). The processional bronzes of the divine couple are borne in splendour through the temple's vast corridors, recalling the eternal union of Shiva and Shakti that the lingam at Rameswaram embodies.",
       additionalStories: [
         {
           title: "Hanuman, the Well of Atonement, and the Order of Worship",
           content:
-            "Hanuman's lingam from Kailash could not be moved once Sita's sand lingam was installed — by one account he tried to uproot the Ramalingam with his tail and failed, the mark of his tail still shown on it. Rama's decree that the Vishwalingam be worshipped first turned a moment of disappointment into an everlasting honour for Hanuman. Both lingams stand together in the sanctum, and the temple is thus sacred to the bhakti of the greatest devotee as much as to the penance of the avatar himself.",
+            "Hanuman's lingam from Kailash could not be moved once Sita's sand lingam was installed; by one account he tried to uproot the Ramalingam with his tail and failed, the mark of his tail still shown on it. Rama's decree that the Vishwalingam be worshipped first turned a moment of disappointment into an everlasting honour for Hanuman. Both lingams stand together in the sanctum, and the temple is thus sacred to the bhakti of the greatest devotee as much as to the penance of the avatar himself.",
         },
         {
-          title: "The Sethu — the Bridge of Floating Stones",
+          title: "The Sethu, the Bridge of Floating Stones",
           content:
-            "From the southern tip of the island at Dhanushkodi, Rama's vanara army built the Sethu (Ram Setu / Adam's Bridge) of floating stones to cross to Lanka, the stones bearing Rama's name. Bathing at the Sethu and at Dhanushkodi — where the Bay of Bengal meets the Indian Ocean — is part of the Rameswaram pilgrimage. It is said that on his return Rama broke the bridge with the end of his bow (dhanush-kodi, 'the bow's end') so it could never again be crossed.",
+            "From the southern tip of the island at Dhanushkodi, Rama's vanara army built the Sethu (Ram Setu / Adam's Bridge) of floating stones to cross to Lanka, the stones bearing Rama's name. Bathing at the Sethu and at Dhanushkodi, where the Bay of Bengal meets the Indian Ocean, is part of the Rameswaram pilgrimage. It is said that on his return Rama broke the bridge with the end of his bow (dhanush-kodi, 'the bow's end') so it could never again be crossed.",
         },
         {
-          title: "Kashi and Rameswaram — the Two Poles of Pilgrimage",
+          title: "Kashi and Rameswaram, the Two Poles of Pilgrimage",
           content:
-            "A pilgrimage to Kashi (Varanasi) is held to be incomplete without Rameswaram, and vice-versa. The classic Sethu Yatra binds them: the pilgrim carries Ganga water from Kashi to bathe the Ramalingam at Rameswaram, and carries sand from Rameswaram to immerse in the Ganga. The two shrines — the northern and the southern — are seen as the spiritual poles of the subcontinent, linking the Himalayan Ganga to the southern sea.",
+            "A pilgrimage to Kashi (Varanasi) is held to be incomplete without Rameswaram, and vice-versa. The classic Sethu Yatra binds them: the pilgrim carries Ganga water from Kashi to bathe the Ramalingam at Rameswaram, and carries sand from Rameswaram to immerse in the Ganga. The two shrines, the northern and the southern, are seen as the spiritual poles of the subcontinent, linking the Himalayan Ganga to the southern sea.",
         },
         {
           title: "The Twenty-Two Theerthams",
           content:
-            "The Skanda Purana and local tradition hold that Rama created the sacred wells by shooting arrows into the earth to draw out the waters of the holy rivers, so his pilgrims would not have to travel to each one. Each of the 22 theerthams is identified with a sacred water or virtue — among them Mahalakshmi, Savitri, Gayatri, Saraswathi, Surya, Chandra, Ganga, Yamuna and the Brahmahatya Vimochana ('release from the sin of Brahmahatya') theertham. Bathing in all 22, well by well, washes away accumulated sins and is the ritual core of the Rameswaram pilgrimage.",
+            "The Skanda Purana and local tradition hold that Rama created the sacred wells by shooting arrows into the earth to draw out the waters of the holy rivers, so his pilgrims would not have to travel to each one. Each of the 22 theerthams is identified with a sacred water or virtue, among them Mahalakshmi, Savitri, Gayatri, Saraswathi, Surya, Chandra, Ganga, Yamuna and the Brahmahatya Vimochana ('release from the sin of Brahmahatya') theertham. Bathing in all 22, well by well, washes away accumulated sins and is the ritual core of the Rameswaram pilgrimage.",
         },
       ],
     },
@@ -1053,11 +1053,11 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Third Prakaram (The Great Corridor)",
         nameTa: "மூன்றாம் பிரகாரம்",
         type: "mandapam",
-        description: "The temple's crowning glory and the longest corridor in any Hindu temple — roughly 1,220 metres in total length around the complex, lined with over 1,200 granite pillars rising about 9 metres. The pillars stand on raised platforms with elaborate bracket figures and rearing yalis; the long colonnade produces a celebrated receding optical perspective. Built largely under the Setupati kings in the 17th–18th centuries.",
+        description: "The temple's crowning glory and the longest corridor in any Hindu temple, roughly 1,220 metres in total length around the complex, lined with over 1,200 granite pillars rising about 9 metres. The pillars stand on raised platforms with elaborate bracket figures and rearing yalis; the long colonnade produces a celebrated receding optical perspective. Built largely under the Setupati kings in the 17th–18th centuries.",
         detail: "~1,220 m · 1,200+ pillars · ~9 m high",
       },
       {
-        name: "Garbhagriha — Ramalingam & Vishwalingam",
+        name: "Garbhagriha, Ramalingam & Vishwalingam",
         type: "sanctum",
         description: "The inner sanctum houses two lingams: the Ramalingam (Ramanathaswamy), moulded from sand by Sita and the principal deity; and the Vishwalingam (Kasilingam) brought by Hanuman from Kailash, which by Rama's own decree is worshipped first. Abhishekam is performed with Ganga water brought by pilgrims, and the Sparisa darshan allows devotees to touch the lingam at appointed hours.",
         detail: "Twin lingams · Vishwalingam worshipped first",
@@ -1082,13 +1082,13 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "The 22 Theertham Wells",
         type: "tank",
-        description: "Distributed across the prakarams are 22 sacred wells (theerthams), each named for a holy water or virtue. Temple attendants draw water in buckets and pour it over pilgrims well by well; by tradition the bath begins at Agni Theertham — the sea itself, a short walk to the east — and proceeds through all 22 within the temple. The waters taste noticeably different from well to well despite their proximity.",
+        description: "Distributed across the prakarams are 22 sacred wells (theerthams), each named for a holy water or virtue. Temple attendants draw water in buckets and pour it over pilgrims well by well; by tradition the bath begins at Agni Theertham, the sea itself, a short walk to the east, and proceeds through all 22 within the temple. The waters taste noticeably different from well to well despite their proximity.",
         detail: "22 wells + Agni Theertham (the sea)",
       },
       {
         name: "Sethu Madhava (Sweta Madhava) Shrine",
         type: "other",
-        description: "A shrine to Vishnu within the Shaivite complex — a reminder that Rameswaram is sacred to both great traditions. Its presence reflects the temple's unique standing as a meeting point of Shaiva and Vaishnava devotion and of the Char Dham circuit that Adi Shankara is traditionally said to have established.",
+        description: "A shrine to Vishnu within the Shaivite complex, a reminder that Rameswaram is sacred to both great traditions. Its presence reflects the temple's unique standing as a meeting point of Shaiva and Vaishnava devotion and of the Char Dham circuit that Adi Shankara is traditionally said to have established.",
       },
       {
         name: "Sayanagriha & Painted Ceilings",
@@ -1105,7 +1105,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Vishwalingam (Kasilingam)",
         deity: "Shiva as the lingam from Kailash",
-        description: "The lingam Hanuman brought from Mount Kailash, installed beside the Ramalingam. By Lord Rama's own decree it receives worship before the main deity — a standing honour to Hanuman's devotion.",
+        description: "The lingam Hanuman brought from Mount Kailash, installed beside the Ramalingam. By Lord Rama's own decree it receives worship before the main deity, a standing honour to Hanuman's devotion.",
       },
       {
         name: "Vishalakshi & Sethu Madhava",
@@ -1133,40 +1133,40 @@ export const templeDetails: Record<string, TempleDetail> = {
         { name: "East Rajagopuram (Main Entrance)", direction: "East", notes: "The principal entrance under the 53 m tower, facing the sea and the railway station side. Security and footwear deposit here; this is where most pilgrims begin." },
         { name: "West Gopuram", direction: "West", notes: "The secondary entrance toward the Setu Madhava side of the complex." },
       ],
-      cloakRoom: "Footwear must be left outside — stalls and a temple deposit counter operate near the east gopuram for a small fee. Carry a dry change of clothes and a small towel for after the theertham bath; many lodges near the temple let pilgrims change and store bags.",
-      mobilePolicy: "Mobile phones and cameras are NOT permitted inside the temple — this is strictly enforced, unlike at some other temples. Deposit them at the lockers/stalls outside the gopuram before entering. Keep your theertham and darshan tickets handy.",
+      cloakRoom: "Footwear must be left outside; stalls and a temple deposit counter operate near the east gopuram for a small fee. Carry a dry change of clothes and a small towel for after the theertham bath; many lodges near the temple let pilgrims change and store bags.",
+      mobilePolicy: "Mobile phones and cameras are NOT permitted inside the temple. This is strictly enforced, unlike at some other temples. Deposit them at the lockers/stalls outside the gopuram before entering. Keep your theertham and darshan tickets handy.",
       cameraPolicy: "Photography is prohibited inside the temple complex, including the corridors and sanctums. Cameras must be left at the deposit counters outside. You may photograph the gopurams and the temple exterior, and Agni Theertham (the sea-shore) freely.",
-      wheelchairAccess: "The long corridors are largely level stone and broadly navigable, but the theertham bath involves wet, slippery floors and steps at the wells, which are difficult for wheelchair users. Assistance is informal — ask temple staff or hire a local helper. Senior and differently-abled pilgrims often do a shortened darshan without all 22 baths.",
-      seniorCitizenDarshan: "No formal priority queue on ordinary days, when crowds are manageable. During Maha Shivaratri, Aadi/Thai Amavasai and the Tamil festival season the queues for Sparisa darshan and the theertham bath are long — arrive before 6:00 AM. Sparisa (touch) and Spatika Lingam darshan are ticketed and have their own shorter queues.",
+      wheelchairAccess: "The long corridors are largely level stone and broadly navigable, but the theertham bath involves wet, slippery floors and steps at the wells, which are difficult for wheelchair users. Assistance is informal. Ask temple staff or hire a local helper. Senior and differently-abled pilgrims often do a shortened darshan without all 22 baths.",
+      seniorCitizenDarshan: "No formal priority queue on ordinary days, when crowds are manageable. During Maha Shivaratri, Aadi/Thai Amavasai and the Tamil festival season the queues for Sparisa darshan and the theertham bath are long. Arrive before 6:00 AM. Sparisa (touch) and Spatika Lingam darshan are ticketed and have their own shorter queues.",
       parking: "Vehicle parking is available near the temple and along the approach roads; the temple is about 1.5 km from Rameswaram railway station and walkable. Autos and cycle-rickshaws ply between the station, lodges and the temple gopuram.",
       restrooms: "Basic public restrooms and changing facilities are available near the temple and at the lodges around it. Many pilgrims use their hotel to change after the theertham bath. Carry your own tissue and sanitiser.",
-      drinkingWater: "Drinking water is available within the complex and from stalls outside, but Rameswaram is hot and humid — carry your own bottle, especially if doing the full 22-theertham bath and the long corridor walk. Note: the local groundwater is brackish; buy sealed water for drinking.",
+      drinkingWater: "Drinking water is available within the complex and from stalls outside, but Rameswaram is hot and humid. Carry your own bottle, especially if doing the full 22-theertham bath and the long corridor walk. Note: the local groundwater is brackish; buy sealed water for drinking.",
     },
     sevas: [
       {
         name: "Spatika Lingam Darshan",
-        description: "Darshan of the sacred crystal (spatika) lingam in the early morning before the main poojas — considered especially auspicious. Separate ticket; very limited time window.",
+        description: "Darshan of the sacred crystal (spatika) lingam in the early morning before the main poojas, considered especially auspicious. Separate ticket; very limited time window.",
         time: "Daily, ~5:00 AM",
         fee: "₹100",
         type: "daily",
       },
       {
         name: "22 Theertham Snanam",
-        description: "The signature Rameswaram ritual — a guided bath at all 22 sacred wells within the temple, water poured over you well by well by the temple attendants, beginning at Agni Theertham (the sea). The ritual core of the pilgrimage; allow 1–1.5 hours.",
+        description: "The signature Rameswaram ritual, a guided bath at all 22 sacred wells within the temple, water poured over you well by well by the temple attendants, beginning at Agni Theertham (the sea). The ritual core of the pilgrimage; allow 1–1.5 hours.",
         time: "Morning, 5:00–10:00 AM",
         fee: "₹25 (single ticket, all 22 wells)",
         type: "daily",
       },
       {
         name: "Sparisa (Touch) Darshan",
-        description: "A ticketed darshan that permits devotees to approach and touch the lingam during the abhishekam window — a rare privilege at a Jyotirlinga.",
+        description: "A ticketed darshan that permits devotees to approach and touch the lingam during the abhishekam window, a rare privilege at a Jyotirlinga.",
         time: "Twice daily, ~5:00 AM and ~5:00 PM",
         fee: "₹50",
         type: "daily",
       },
       {
         name: "Ganga Jala Abhishekam",
-        description: "Abhishekam of the Ramalingam with Ganga water that pilgrims carry from Kashi (Varanasi) — the culminating act of the Sethu Yatra. Sangam/temple priests assist; book at the temple office.",
+        description: "Abhishekam of the Ramalingam with Ganga water that pilgrims carry from Kashi (Varanasi), the culminating act of the Sethu Yatra. Sangam/temple priests assist; book at the temple office.",
         time: "Booking required (morning abhishekam)",
         fee: "Sankalpa fee varies",
         type: "special",
@@ -1180,14 +1180,14 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Pradosha Abhishekam",
-        description: "Abhishekam performed on Pradosham evenings (Trayodashi tithi, twice a month) between sunset and dusk — one of the most auspicious of Shaivite observances.",
+        description: "Abhishekam performed on Pradosham evenings (Trayodashi tithi, twice a month) between sunset and dusk, one of the most auspicious of Shaivite observances.",
         time: "Pradosham evenings, ~5:30 PM",
         fee: "Free / sponsored",
         type: "monthly",
       },
       {
         name: "Tarpanam / Pitru Karya at Agni Theertham",
-        description: "Ancestral rites (tarpanam, shraddha) performed on the Agni Theertham shore, especially on Amavasai days — Rameswaram is among the foremost places for rites for departed forebears. Arranged through the shore priests.",
+        description: "Ancestral rites (tarpanam, shraddha) performed on the Agni Theertham shore, especially on Amavasai days. Rameswaram is among the foremost places for rites for departed forebears. Arranged through the shore priests.",
         time: "Mornings, especially Amavasai",
         fee: "Priest dakshina varies",
         type: "special",
@@ -1202,9 +1202,9 @@ export const templeDetails: Record<string, TempleDetail> = {
     ],
     faqs: [
       {
-        question: "What is the right order — sea bath, theerthams, then darshan?",
+        question: "What is the right order, sea bath, theerthams, then darshan?",
         answer:
-          "The traditional sequence is: first bathe in the sea at Agni Theertham (the Bay of Bengal, a short walk east of the east gopuram), then enter the temple and take the 22 theertham bath well by well (a single ₹25 ticket covers all of them, and attendants pour the water over you), and only then proceed for darshan of the Ramalingam — ideally for Sparisa (touch) darshan or after the morning abhishekam. Spatika Lingam darshan, if you want it, is earliest at around 5:00 AM. Carry a dry change of clothes.",
+          "The traditional sequence is: first bathe in the sea at Agni Theertham (the Bay of Bengal, a short walk east of the east gopuram), then enter the temple and take the 22 theertham bath well by well (a single ₹25 ticket covers all of them, and attendants pour the water over you), and only then proceed for darshan of the Ramalingam, ideally for Sparisa (touch) darshan or after the morning abhishekam. Spatika Lingam darshan, if you want it, is earliest at around 5:00 AM. Carry a dry change of clothes.",
       },
       {
         question: "What are the 22 theerthams and is bathing in all of them necessary?",
@@ -1214,7 +1214,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "Why are there two lingams, and which is worshipped first?",
         answer:
-          "The principal lingam, the Ramalingam, was moulded from beach sand by Sita so Rama could complete his worship at the auspicious hour. The second, the Vishwalingam (or Kasilingam), was brought by Hanuman from Mount Kailash. When Hanuman arrived to find the sand lingam already installed, Rama consoled him by decreeing that the Vishwalingam would always be worshipped before the Ramalingam — and that order is followed to this day.",
+          "The principal lingam, the Ramalingam, was moulded from beach sand by Sita so Rama could complete his worship at the auspicious hour. The second, the Vishwalingam (or Kasilingam), was brought by Hanuman from Mount Kailash. When Hanuman arrived to find the sand lingam already installed, Rama consoled him by decreeing that the Vishwalingam would always be worshipped before the Ramalingam, and that order is followed to this day.",
       },
       {
         question: "Can I take my phone or camera inside?",
@@ -1229,17 +1229,17 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "What is the Char Dham / Sethu Yatra significance of Rameswaram?",
         answer:
-          "Rameswaram is the southern dham of the Char Dham (Badrinath in the north, Dwarka in the west, Puri in the east, Rameswaram in the south), traditionally associated with Adi Shankara's establishment of the four cardinal pilgrimage seats. In the classic Sethu Yatra, pilgrims carry Ganga water from Kashi to bathe the Ramalingam here, and carry Rameswaram sand back to immerse in the Ganga — binding India's northern and southern poles of pilgrimage into one journey.",
+          "Rameswaram is the southern dham of the Char Dham (Badrinath in the north, Dwarka in the west, Puri in the east, Rameswaram in the south), traditionally associated with Adi Shankara's establishment of the four cardinal pilgrimage seats. In the classic Sethu Yatra, pilgrims carry Ganga water from Kashi to bathe the Ramalingam here, and carry Rameswaram sand back to immerse in the Ganga, binding India's northern and southern poles of pilgrimage into one journey.",
       },
       {
         question: "Should I also visit Dhanushkodi and Gandhamadhana Parvatham?",
         answer:
-          "Yes — they complete the Rameswaram pilgrimage. Dhanushkodi, at the island's southern tip (~18 km away), is where the Ram Setu bridge to Lanka began and where the Bay of Bengal meets the Indian Ocean; the ghost town and the new viewpoint road are worth the trip. Gandhamadhana Parvatham (~3 km), the highest point on the island, has a shrine enshrining Rama's footprint (Ramar Padam) and gives a panoramic view of the temple and the sea. Many pilgrims also visit the Five-faced Hanuman temple and the floating-stone relic nearby.",
+          "Yes. They complete the Rameswaram pilgrimage. Dhanushkodi, at the island's southern tip (~18 km away), is where the Ram Setu bridge to Lanka began and where the Bay of Bengal meets the Indian Ocean; the ghost town and the new viewpoint road are worth the trip. Gandhamadhana Parvatham (~3 km), the highest point on the island, has a shrine enshrining Rama's footprint (Ramar Padam) and gives a panoramic view of the temple and the sea. Many pilgrims also visit the Five-faced Hanuman temple and the floating-stone relic nearby.",
       },
       {
         question: "How long should I plan for, and when is the best time to visit?",
         answer:
-          "Allow at least half a day for the temple alone — the 22-theertham bath plus darshan and a walk through the great corridors takes 3–4 hours, longer on festival days. A full Rameswaram trip including Dhanushkodi, Gandhamadhana and the Pamban bridge is best done over two days. The best season is October to April; avoid the fierce heat of May–June and watch for the northeast monsoon spells (Oct–Dec). Early morning (before 7:00 AM) is the calmest and coolest time for the theertham bath.",
+          "Allow at least half a day for the temple alone: the 22-theertham bath plus darshan and a walk through the great corridors takes 3–4 hours, longer on festival days. A full Rameswaram trip including Dhanushkodi, Gandhamadhana and the Pamban bridge is best done over two days. The best season is October to April; avoid the fierce heat of May–June and watch for the northeast monsoon spells (Oct–Dec). Early morning (before 7:00 AM) is the calmest and coolest time for the theertham bath.",
       },
     ],
   },
@@ -1251,11 +1251,11 @@ export const templeDetails: Record<string, TempleDetail> = {
     bestTime: "Year-round. March–April for Arubathumoovar festival.",
     travelInfo: {
       byAir: "Chennai International Airport (15 km).",
-      byTrain: "Mylapore is well connected by Chennai MRTS (Light Rail) — Mylapore station. Also accessible by Chennai Metro.",
+      byTrain: "Mylapore is well connected by Chennai MRTS (Light Rail) at the Mylapore station. Also accessible by Chennai Metro.",
       byRoad: "Located in the heart of Mylapore, Chennai. Auto-rickshaws and buses readily available.",
     },
     highlights: [
-      "The anchor temple of Mylapore — Chennai's cultural and spiritual heart",
+      "The anchor temple of Mylapore, Chennai's cultural and spiritual heart",
       "The magnificent 37-meter rajagopuram completed in 1906",
       "The 63 Nayanmars (Tamil Shaivite saints) are depicted in life-size bronze statues",
       "The sacred tank (Kapali Theertham) within the complex",
@@ -1287,16 +1287,16 @@ export const templeDetails: Record<string, TempleDetail> = {
       byRoad: "200 km from Chennai. Buses from Chennai, Villupuram, Vellore, Bangalore. Well-connected by NH 79.",
     },
     highlights: [
-      "One of the Pancha Bhuta Stalas — represents the Fire (Agni) element",
+      "One of the Pancha Bhuta Stalas, representing the Fire (Agni) element",
       "The sacred Arunachala hill itself is considered a manifestation of Lord Shiva",
-      "Karthigai Deepam — a massive beacon lit atop the hill visible for 30 km around",
-      "Girivalam (pradakshina) — 14 km circumambulation of the Arunachala hill on full moon days",
+      "Karthigai Deepam, a massive beacon lit atop the hill visible for 30 km around",
+      "Girivalam (pradakshina), a 14 km circumambulation of the Arunachala hill on full moon days",
       "Sri Ramana Maharshi's ashram is located at the foot of Arunachala",
     ],
     history: "The Arunachaleswarar Temple is one of the largest temple complexes in India, spread over 25 acres. The Arunachala hill (also called Annamalai) is believed to be a manifestation of Shiva as a column of fire. The temple's history spans over 2,000 years with references in ancient Tamil Sangam literature. Significant construction was done during the Vijayanagara and Hoysala periods.",
     architecture: "The temple has four magnificent gopurams facing each cardinal direction, with the eastern tower (Raja Gopuram) being one of the tallest in Tamil Nadu at 66 meters. The complex contains multiple mandapams and shrines. The innermost sanctum houses the Agni Lingam (fire lingam).",
     festivals: [
-      { name: "Karthigai Deepam", month: "November–December", description: "A massive beacon (deepam) is lit atop the Arunachala hill — visible for miles. Millions of devotees gather." },
+      { name: "Karthigai Deepam", month: "November–December", description: "A massive beacon (deepam) is lit atop the Arunachala hill, visible for miles. Millions of devotees gather." },
       { name: "Girivalam", month: "Every full moon", description: "Devotees circumambulate the 14 km path around the Arunachala hill barefoot, especially on full moon days." },
       { name: "Brahmotsavam", month: "December–January", description: "10-day festival with chariot procession and special rituals." },
     ],
@@ -1319,54 +1319,54 @@ export const templeDetails: Record<string, TempleDetail> = {
       byRoad: "During season, private vehicles park at the Nilackal base camp; KSRTC shuttle buses ferry pilgrims the last ~20 km to Pamba. From Pamba it is a ~5 km uphill forest trek to the Sannidhanam. The traditional penance route is a 40+ km forest trek from Erumeli via Azhutha, Karimala and Peruvazhi.",
     },
     highlights: [
-      "Shrine of Lord Ayyappa (Dharma Sastha) — Hariharaputra, born of Shiva and Vishnu (as Mohini)",
-      "Among the largest annual pilgrimages on earth — over 50 million devotees in the two-month season",
-      "The 41-day vratham — the most demanding fast-and-discipline observance in the Hindu calendar; all pilgrims are equal and called 'Swami'",
-      "Pathinettam Padi — 18 gold-plated holy steps, climbable only while carrying the irumudi kettu",
-      "Makaravilakku & Makara Jyothi (14 January) — the sacred light at Ponnambalamedu and the Thiruvabharanam procession from Pandalam",
-      "A forest hilltop shrine inside the Periyar Tiger Reserve — reachable only on foot",
-      "'Tatvamasi' ('That Thou Art') — the Upanishadic Mahavakya inscribed at the shrine; radical inclusivity across caste and religion",
+      "Shrine of Lord Ayyappa (Dharma Sastha), Hariharaputra, born of Shiva and Vishnu (as Mohini)",
+      "Among the largest annual pilgrimages on earth, over 50 million devotees in the two-month season",
+      "The 41-day vratham, the most demanding fast-and-discipline observance in the Hindu calendar; all pilgrims are equal and called 'Swami'",
+      "Pathinettam Padi: 18 gold-plated holy steps, climbable only while carrying the irumudi kettu",
+      "Makaravilakku & Makara Jyothi (14 January), the sacred light at Ponnambalamedu and the Thiruvabharanam procession from Pandalam",
+      "A forest hilltop shrine inside the Periyar Tiger Reserve, reachable only on foot",
+      "'Tatvamasi' ('That Thou Art'), the Upanishadic Mahavakya inscribed at the shrine; radical inclusivity across caste and religion",
     ],
-    history: "Sabarimala is the forest shrine of Lord Ayyappa, also called Dharma Sastha — a deity venerated as Hariharaputra, the son of Hari (Vishnu in his Mohini form) and Hara (Shiva). The hill is named for Sabari, the elderly devotee of the Ramayana who awaited Rama in these forests. The shrine's roots are ancient, woven through the history of the Pandalam royal family, who by tradition raised Ayyappa as the prince Manikandan and to whom the Thiruvabharanam (sacred ornaments) still belong. After a fire in 1950 the sanctum was rebuilt and the panchaloha idol reconsecrated. The temple is administered by the Travancore Devaswom Board. What distinguishes Sabarimala above all is its ethos: pilgrims of every caste, class and religion observe the same vratham, wear the same austere black, and are addressed alike as 'Swami' — a living embodiment of the Mahavakya 'Tatvamasi'.",
-    architecture: "Unlike the grand Dravidian temples, Sabarimala is a deliberately austere forest shrine. Its heart is the Sreekovil (sanctum) atop the Pathinettam Padi — the eighteen sacred, now gold-plated, steps. Within the copper-roofed sanctum the idol of Ayyappa is seated in a yogic posture, the right hand in chin-mudra, a band (yogapatta) around the drawn-up knee. The Sannidhanam plateau around the sanctum holds the flagstaff (kodimaram), the Malikappuram shrine of the goddess, and shrines to Ayyappa's companions Kaduthaswami and Vavar. The true 'architecture' of Sabarimala, devotees say, is the pilgrimage itself — the river bath at Pamba, the climb up Neelimala, and the ascent of the eighteen steps.",
+    history: "Sabarimala is the forest shrine of Lord Ayyappa, also called Dharma Sastha, a deity venerated as Hariharaputra, the son of Hari (Vishnu in his Mohini form) and Hara (Shiva). The hill is named for Sabari, the elderly devotee of the Ramayana who awaited Rama in these forests. The shrine's roots are ancient, woven through the history of the Pandalam royal family, who by tradition raised Ayyappa as the prince Manikandan and to whom the Thiruvabharanam (sacred ornaments) still belong. After a fire in 1950 the sanctum was rebuilt and the panchaloha idol reconsecrated. The temple is administered by the Travancore Devaswom Board. What distinguishes Sabarimala above all is its ethos: pilgrims of every caste, class and religion observe the same vratham, wear the same austere black, and are addressed alike as 'Swami', a living embodiment of the Mahavakya 'Tatvamasi'.",
+    architecture: "Unlike the grand Dravidian temples, Sabarimala is a deliberately austere forest shrine. Its heart is the Sreekovil (sanctum) atop the Pathinettam Padi, the eighteen sacred, now gold-plated, steps. Within the copper-roofed sanctum the idol of Ayyappa is seated in a yogic posture, the right hand in chin-mudra, a band (yogapatta) around the drawn-up knee. The Sannidhanam plateau around the sanctum holds the flagstaff (kodimaram), the Malikappuram shrine of the goddess, and shrines to Ayyappa's companions Kaduthaswami and Vavar. The true 'architecture' of Sabarimala, devotees say, is the pilgrimage itself, the river bath at Pamba, the climb up Neelimala, and the ascent of the eighteen steps.",
     festivals: [
       { name: "Mandala Pooja", month: "November–December", description: "Concludes the 41-day Mandala season (which opens on the first of Vrischikam, ~17 Nov). The deity is adorned and a grand deeparadhana performed; the vast majority of pilgrims time their trek to this period.", slug: "sabarimala-season" },
-      { name: "Makaravilakku", month: "14 January (Makara Sankranti)", description: "The spiritual climax — the Makara Jyothi star is sighted and the sacred Makaravilakku light appears thrice at Ponnambalamedu, while the Thiruvabharanam ornaments arrive in procession from Pandalam to adorn the idol.", slug: "sabarimala-season" },
-      { name: "Petta Thullal (Erumeli)", month: "During season", description: "An ecstatic ritual dance performed by pilgrims at Erumeli — re-enacting the warriors' hunt for the demoness Mahishi. Pilgrims smear themselves with colour and dance to 'Swamiye Saranam Ayyappa' before continuing the trek." },
+      { name: "Makaravilakku", month: "14 January (Makara Sankranti)", description: "The spiritual climax: the Makara Jyothi star is sighted and the sacred Makaravilakku light appears thrice at Ponnambalamedu, while the Thiruvabharanam ornaments arrive in procession from Pandalam to adorn the idol.", slug: "sabarimala-season" },
+      { name: "Petta Thullal (Erumeli)", month: "During season", description: "An ecstatic ritual dance performed by pilgrims at Erumeli, re-enacting the warriors' hunt for the demoness Mahishi. Pilgrims smear themselves with colour and dance to 'Swamiye Saranam Ayyappa' before continuing the trek." },
       { name: "Vishu", month: "April", description: "The Malayalam New Year, one of the few occasions outside the main season when the temple opens, with the Vishukkani arrangement before the deity." },
     ],
     poojas: [
       { name: "Neyyabhishekam", time: "Early morning (season)", fee: "Ghee from the pilgrim's own irumudi coconut" },
       { name: "Udayasthamana Pooja", time: "Dawn to dusk", fee: "Sponsored (book via TDB)" },
       { name: "Padi Pooja (worship of the 18 steps)", time: "Night, on select days", fee: "Sponsored (long waiting list)" },
-      { name: "Harivarasanam", time: "~11:00 PM (closing)", fee: "Free — the lullaby sung as the sanctum doors close" },
+      { name: "Harivarasanam", time: "~11:00 PM (closing)", fee: "Free, the lullaby sung as the sanctum doors close" },
     ],
     nearbyTemples: ["padmanabhaswamy-trivandrum", "attukal-bhagavathy"],
     mythology: {
       legend:
-        "When the demoness Mahishi — sister of the slain Mahishasura — won a boon that she could be killed only by a child born of both Shiva and Vishnu, the devas turned to the two great gods. Vishnu took the enchanting female form of Mohini, and from his union with Shiva was born a radiant boy bearing a golden bell (mani) around his neck. The infant was left on the banks of the river Pampa, where the childless King Rajasekara of Pandalam found and adopted him, naming him Manikandan. The prince grew into a being of miraculous power and wisdom. When a court intrigue sent him into the forest to fetch tigress's milk for the queen, he returned riding a tigress, and his divinity could no longer be hidden. Manikandan asked the king to build a temple where his arrow fell — at Sabarimala — then shot his arrow, ascended the hill, and merged into the idol of Dharma Sastha, seated forever in yogic stillness facing the eighteen steps.",
+        "When the demoness Mahishi, sister of the slain Mahishasura, won a boon that she could be killed only by a child born of both Shiva and Vishnu, the devas turned to the two great gods. Vishnu took the enchanting female form of Mohini, and from his union with Shiva was born a radiant boy bearing a golden bell (mani) around his neck. The infant was left on the banks of the river Pampa, where the childless King Rajasekara of Pandalam found and adopted him, naming him Manikandan. The prince grew into a being of miraculous power and wisdom. When a court intrigue sent him into the forest to fetch tigress's milk for the queen, he returned riding a tigress, and his divinity could no longer be hidden. Manikandan asked the king to build a temple where his arrow fell, at Sabarimala, then shot his arrow, ascended the hill, and merged into the idol of Dharma Sastha, seated forever in yogic stillness facing the eighteen steps.",
       tirukalyanam:
-        "Ayyappa is a Naishtika Brahmachari — an eternal celibate ascetic — so Sabarimala has no celestial-wedding festival. Instead the lore tells of Malikappurathamma, the goddess in the adjacent shrine, who longs to marry Ayyappa. He promised he would wed her only in the year no Kanni-Swami (a first-time pilgrim) comes to him. Since first-timers arrive every single year, the marriage is forever deferred — and her unfulfilled waiting is honoured in her own sannidhi beside his.",
+        "Ayyappa is a Naishtika Brahmachari, an eternal celibate ascetic, so Sabarimala has no celestial-wedding festival. Instead the lore tells of Malikappurathamma, the goddess in the adjacent shrine, who longs to marry Ayyappa. He promised he would wed her only in the year no Kanni-Swami (a first-time pilgrim) comes to him. Since first-timers arrive every single year, the marriage is forever deferred, and her unfulfilled waiting is honoured in her own sannidhi beside his.",
       additionalStories: [
         {
           title: "The 41-Day Vratham and the Irumudi",
           content:
-            "A pilgrim becomes an Ayyappan by taking the mala — a string of tulsi or rudraksha beads — and observing 41 days of vratham: celibacy, vegetarian or sattvic food, no alcohol, sleeping on the floor, walking barefoot, controlling anger and speech, and treating every other pilgrim as Ayyappa himself. The penance dissolves rank and ego; a labourer and a millionaire walk identically clad in black. At its end the pilgrim packs the irumudi kettu — a two-pouch cloth bundle carried on the head. The front holds offerings, above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds personal provisions for the trek. No one may climb the eighteen steps without an irumudi on the head.",
+            "A pilgrim becomes an Ayyappan by taking the mala, a string of tulsi or rudraksha beads, and observing 41 days of vratham: celibacy, vegetarian or sattvic food, no alcohol, sleeping on the floor, walking barefoot, controlling anger and speech, and treating every other pilgrim as Ayyappa himself. The penance dissolves rank and ego; a labourer and a millionaire walk identically clad in black. At its end the pilgrim packs the irumudi kettu, a two-pouch cloth bundle carried on the head. The front holds offerings, above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds personal provisions for the trek. No one may climb the eighteen steps without an irumudi on the head.",
         },
         {
-          title: "Vavar — the Companion of Ayyappa",
+          title: "Vavar, the Companion of Ayyappa",
           content:
             "Among Ayyappa's closest companions in the war against Mahishi's forces was Vavar, by tradition a Muslim warrior and saint. At Erumeli, where the trek traditionally begins, pilgrims worship at both the Vavar mosque and the Sastha temple before setting out, and a shrine to Vavar (Vavaru Swami) stands beside Ayyappa's own at the Sannidhanam. This shared veneration makes Sabarimala one of India's most powerful living symbols of Hindu–Muslim harmony.",
         },
         {
           title: "The Eighteen Steps (Pathinettam Padi)",
           content:
-            "The eighteen gold-clad steps are themselves divine and are worshipped. The most common interpretation reads them as the obstacles the soul must transcend: the first five as the five senses (indriyas), the next eight as the eight ragas or passions (kama, krodha, lobha, moha, mada, matsarya, asuya, dambha), the next three as the three gunas (sattva, rajas, tamas), and the final two as vidya and avidya — knowledge and ignorance. Having shed all eighteen, the pilgrim stands before the deity as pure consciousness, realising 'Tatvamasi' — That Thou Art.",
+            "The eighteen gold-clad steps are themselves divine and are worshipped. The most common interpretation reads them as the obstacles the soul must transcend: the first five as the five senses (indriyas), the next eight as the eight ragas or passions (kama, krodha, lobha, moha, mada, matsarya, asuya, dambha), the next three as the three gunas (sattva, rajas, tamas), and the final two as vidya and avidya, knowledge and ignorance. Having shed all eighteen, the pilgrim stands before the deity as pure consciousness, realising 'Tatvamasi', That Thou Art.",
         },
         {
           title: "Makara Jyothi and the Light at Ponnambalamedu",
           content:
-            "On Makara Sankranti (14 January), as dusk falls, devotees at the Sannidhanam turn toward the distant hill of Ponnambalamedu to behold the Makaravilakku — a sacred light that appears three times — while overhead the Makara Jyothi star rises. The moment coincides with the adorning of the idol in the Thiruvabharanam, the golden ornaments carried on foot in procession from the Pandalam palace. For the assembled millions chanting 'Swamiye Saranam Ayyappa', it is the supreme darshan of the season.",
+            "On Makara Sankranti (14 January), as dusk falls, devotees at the Sannidhanam turn toward the distant hill of Ponnambalamedu to behold the Makaravilakku, a sacred light that appears three times, while overhead the Makara Jyothi star rises. The moment coincides with the adorning of the idol in the Thiruvabharanam, the golden ornaments carried on foot in procession from the Pandalam palace. For the assembled millions chanting 'Swamiye Saranam Ayyappa', it is the supreme darshan of the season.",
         },
       ],
     },
@@ -1375,13 +1375,13 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Pathinettam Padi (The 18 Holy Steps)",
         nameTa: "பதினெட்டாம் படி",
         type: "other",
-        description: "The eighteen sacred steps leading to the Sreekovil — now clad in gold (panchaloha) and themselves objects of worship. Only a pilgrim carrying the irumudi kettu on the head may ascend them; each step is venerated as a stage in shedding the senses, passions, gunas, and finally knowledge and ignorance, until the soul realises 'Tatvamasi'.",
+        description: "The eighteen sacred steps leading to the Sreekovil, now clad in gold (panchaloha) and themselves objects of worship. Only a pilgrim carrying the irumudi kettu on the head may ascend them; each step is venerated as a stage in shedding the senses, passions, gunas, and finally knowledge and ignorance, until the soul realises 'Tatvamasi'.",
         detail: "18 gold-plated steps · irumudi required to climb",
       },
       {
         name: "Sreekovil (Sanctum)",
         type: "sanctum",
-        description: "The copper-roofed inner sanctum atop the eighteen steps, housing the panchaloha idol of Ayyappa as Dharma Sastha. The deity is seated in a yogic posture — the right hand in chin-mudra, a yogapatta band around the drawn-up knee — gazing eternally down the eighteen steps. The present idol was consecrated after the 1950 fire.",
+        description: "The copper-roofed inner sanctum atop the eighteen steps, housing the panchaloha idol of Ayyappa as Dharma Sastha. The deity is seated in a yogic posture, the right hand in chin-mudra, a yogapatta band around the drawn-up knee, gazing eternally down the eighteen steps. The present idol was consecrated after the 1950 fire.",
         detail: "Ayyappa in yogic posture · reconsecrated 1950",
       },
       {
@@ -1392,12 +1392,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Malikappuram Shrine",
         type: "other",
-        description: "The shrine of the goddess Malikappurathamma, a short distance from the main sanctum, with its own ritual life — including the nightly procession and the lore of her eternal wait to wed the celibate Ayyappa. A major focus of devotion in its own right.",
+        description: "The shrine of the goddess Malikappurathamma, a short distance from the main sanctum, with its own ritual life, including the nightly procession and the lore of her eternal wait to wed the celibate Ayyappa. A major focus of devotion in its own right.",
       },
       {
         name: "Pamba & Neelimala Ascent",
         type: "other",
-        description: "Pamba, on the holy river of the same name, is the principal base camp where pilgrims bathe before the climb. From here the path rises steeply up Neelimala and through forest to the Sannidhanam — about 5 km, the final and most demanding stretch of the journey.",
+        description: "Pamba, on the holy river of the same name, is the principal base camp where pilgrims bathe before the climb. From here the path rises steeply up Neelimala and through forest to the Sannidhanam, about 5 km, the final and most demanding stretch of the journey.",
         detail: "~5 km forest trek from Pamba",
       },
       {
@@ -1410,12 +1410,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Malikappurathamma",
         deity: "The Goddess of Sabarimala",
-        description: "The presiding goddess whose shrine stands near the main sanctum. By legend she waits to marry Ayyappa in the year no first-time pilgrim (Kanni-Swami) arrives — a wait renewed every season. Her nightly rituals and procession are central to the Sabarimala experience.",
+        description: "The presiding goddess whose shrine stands near the main sanctum. By legend she waits to marry Ayyappa in the year no first-time pilgrim (Kanni-Swami) arrives, a wait renewed every season. Her nightly rituals and procession are central to the Sabarimala experience.",
       },
       {
         name: "Vavaru Swami (Vavar)",
         deity: "Ayyappa's Muslim companion-saint",
-        description: "A shrine to Vavar, the warrior-saint who fought alongside Ayyappa. Worshipped by all pilgrims — together with the Vavar mosque at Erumeli — as an enduring symbol of inter-faith harmony.",
+        description: "A shrine to Vavar, the warrior-saint who fought alongside Ayyappa. Worshipped by all pilgrims, together with the Vavar mosque at Erumeli, as an enduring symbol of inter-faith harmony.",
       },
       {
         name: "Kaduthaswami",
@@ -1435,13 +1435,13 @@ export const templeDetails: Record<string, TempleDetail> = {
     ],
     visitorLogistics: {
       gates: [
-        { name: "Pathinettam Padi (Main Ascent)", direction: "North", notes: "The eighteen holy steps — the only route to the sanctum for irumudi-bearing pilgrims. Non-irumudi visitors use the separate side approach and cannot climb the steps." },
+        { name: "Pathinettam Padi (Main Ascent)", direction: "North", notes: "The eighteen holy steps, the only route to the sanctum for irumudi-bearing pilgrims. Non-irumudi visitors use the separate side approach and cannot climb the steps." },
       ],
-      cloakRoom: "Pilgrims travel light by design. Footwear is left at Pamba or the foot of the climb; lockers and deposit counters operate at Pamba and the Sannidhanam for valuables. The irumudi is never set down carelessly — it is the pilgrim's sanctified burden until the Neyyabhishekam.",
+      cloakRoom: "Pilgrims travel light by design. Footwear is left at Pamba or the foot of the climb; lockers and deposit counters operate at Pamba and the Sannidhanam for valuables. The irumudi is never set down carelessly. It is the pilgrim's sanctified burden until the Neyyabhishekam.",
       mobilePolicy: "Phones are best left at Pamba lockers or kept switched off. There is limited and unreliable mobile coverage on the hill, and the sanctum area is meant for chanting and darshan, not calls.",
       cameraPolicy: "Photography is prohibited at and around the sanctum and the eighteen steps. Treat the Sannidhanam as a place of penance, not sightseeing; follow the directions of the police and Devaswom staff, who manage immense crowds.",
       wheelchairAccess: "The terrain is a steep forest hill reached only on foot, so it is inherently difficult for those with limited mobility. A 'doli' (palanquin carried by porters) service and tractor/ambulance facilities operate between Pamba and the Sannidhanam for the elderly and infirm, for a fee.",
-      seniorCitizenDarshan: "There is no shortcut to the climb, but doli (palanquin) bearers can carry elderly or unwell pilgrims up from Pamba. Medical camps with oxygen and emergency care are stationed along the route and at the Sannidhanam during season — the altitude and exertion cause real strain, so the unwell should consult a doctor before undertaking the trek.",
+      seniorCitizenDarshan: "There is no shortcut to the climb, but doli (palanquin) bearers can carry elderly or unwell pilgrims up from Pamba. Medical camps with oxygen and emergency care are stationed along the route and at the Sannidhanam during season; the altitude and exertion cause real strain, so the unwell should consult a doctor before undertaking the trek.",
       parking: "During season private vehicles are stopped at the Nilackal base camp (~20 km below Pamba); from there KSRTC chain-service buses shuttle pilgrims to Pamba. Plan for long waits at peak times.",
       restrooms: "Toilets, bathing ghats and changing facilities are provided at Pamba and at intervals on the route and at the Sannidhanam. Facilities are heavily used during season; carry your own essentials.",
       drinkingWater: "Drinking-water points and Annadanam (free meals) are available at Pamba and the Sannidhanam. Carry water for the climb itself; the trek is strenuous and, despite the altitude, can be hot by midday.",
@@ -1449,14 +1449,14 @@ export const templeDetails: Record<string, TempleDetail> = {
     sevas: [
       {
         name: "Neyyabhishekam",
-        description: "The defining ritual of the pilgrimage — the idol is anointed with the ghee carried in the pilgrim's own mudra-coconut from the irumudi. The emptied coconut shells are then offered into the sacred fire. Performed in the early morning during season.",
+        description: "The defining ritual of the pilgrimage: the idol is anointed with the ghee carried in the pilgrim's own mudra-coconut from the irumudi. The emptied coconut shells are then offered into the sacred fire. Performed in the early morning during season.",
         time: "Early morning (season)",
         fee: "From the pilgrim's irumudi (no separate fee)",
         type: "daily",
       },
       {
         name: "Udayasthamana Pooja",
-        description: "A full day of poojas sponsored from sunrise to sunset in the devotee's name — among the most sought-after sevas, with a long advance waiting list.",
+        description: "A full day of poojas sponsored from sunrise to sunset in the devotee's name, among the most sought-after sevas, with a long advance waiting list.",
         time: "Dawn to dusk",
         fee: "Sponsored (book via TDB)",
         type: "special",
@@ -1470,28 +1470,28 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Kalabhabhishekam",
-        description: "Anointing of the idol with sandalwood paste (kalabham) — cooling and fragrant, offered on special days.",
+        description: "Anointing of the idol with sandalwood paste (kalabham), cooling and fragrant, offered on special days.",
         time: "Special days (season)",
         fee: "Sponsored",
         type: "special",
       },
       {
         name: "Pushpabhishekam",
-        description: "The idol is covered entirely in flowers — a spectacular darshan offered on select occasions during the season.",
+        description: "The idol is covered entirely in flowers, a spectacular darshan offered on select occasions during the season.",
         time: "Select days (season)",
         fee: "Sponsored",
         type: "special",
       },
       {
         name: "Aravana & Appam Prasadam",
-        description: "The famous prasadams of Sabarimala — Aravana (a sweet rice-jaggery payasam) and Appam — prepared at the temple in vast quantities and carried home by pilgrims. Sold in sealed tins at the Sannidhanam.",
+        description: "The famous prasadams of Sabarimala, Aravana (a sweet rice-jaggery payasam) and Appam, prepared at the temple in vast quantities and carried home by pilgrims. Sold in sealed tins at the Sannidhanam.",
         time: "All day (season)",
         fee: "Fixed price per tin",
         type: "daily",
       },
       {
         name: "Harivarasanam",
-        description: "Not a paid seva but the day's tender close — the Harivarasanam lullaby is sung as the lamps are dimmed and the sanctum doors shut for the night, putting Ayyappa to sleep.",
+        description: "Not a paid seva but the day's tender close: the Harivarasanam lullaby is sung as the lamps are dimmed and the sanctum doors shut for the night, putting Ayyappa to sleep.",
         time: "~11:00 PM (closing)",
         fee: "Free",
         type: "daily",
@@ -1511,7 +1511,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "What is the irumudi kettu and why does it matter?",
         answer:
-          "The irumudi is a two-compartment cloth bundle carried on the head. The front pouch holds the offerings — above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds the pilgrim's own provisions for the journey. It is filled in a solemn ceremony at the end of the vratham. Crucially, only a pilgrim bearing the irumudi on the head is permitted to climb the eighteen holy steps to the sanctum.",
+          "The irumudi is a two-compartment cloth bundle carried on the head. The front pouch holds the offerings, above all the mudra-coconut filled with ghee for the Neyyabhishekam; the rear holds the pilgrim's own provisions for the journey. It is filled in a solemn ceremony at the end of the vratham. Crucially, only a pilgrim bearing the irumudi on the head is permitted to climb the eighteen holy steps to the sanctum.",
       },
       {
         question: "How do I actually reach the temple?",
@@ -1526,12 +1526,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "What is Makara Jyothi / Makaravilakku?",
         answer:
-          "On Makara Sankranti (14 January) at dusk, pilgrims at the Sannidhanam witness the Makaravilakku — a sacred light that appears three times on the distant hill of Ponnambalamedu — while the Makara Jyothi star rises overhead. The moment coincides with the adorning of the idol in the Thiruvabharanam ornaments brought in procession from Pandalam. It is the spiritual climax of the season and draws the largest crowds; plan well ahead if you intend to be there.",
+          "On Makara Sankranti (14 January) at dusk, pilgrims at the Sannidhanam witness the Makaravilakku, a sacred light that appears three times on the distant hill of Ponnambalamedu, while the Makara Jyothi star rises overhead. The moment coincides with the adorning of the idol in the Thiruvabharanam ornaments brought in procession from Pandalam. It is the spiritual climax of the season and draws the largest crowds; plan well ahead if you intend to be there.",
       },
       {
         question: "Do I need to book in advance?",
         answer:
-          "Yes — during season the Travancore Devaswom Board operates a virtual-queue (spot booking) system to manage the enormous crowds, and a daily cap on pilgrim numbers. Book your darshan date online before travelling, and allow generous time, as queues, the Nilackal–Pamba shuttle, and the climb itself can each take hours at peak periods.",
+          "Yes, during season the Travancore Devaswom Board operates a virtual-queue (spot booking) system to manage the enormous crowds, and a daily cap on pilgrim numbers. Book your darshan date online before travelling, and allow generous time, as queues, the Nilackal–Pamba shuttle, and the climb itself can each take hours at peak periods.",
       },
       {
         question: "What prasadam should I bring home?",
@@ -1544,7 +1544,7 @@ export const templeDetails: Record<string, TempleDetail> = {
     slug: "ranganathaswamy-srirangam",
     timings: { morning: "6:00 AM – 1:00 PM", evening: "3:15 PM – 9:00 PM", note: "Viswaroopa Darshan (the first darshan of the reclining Lord) is around 6:45 AM and is especially auspicious. The sanctum closes for short intervals between poojas." },
     entryFee: "Free darshan. Quick/special darshan ticket ~₹250. Separate tickets for the Viswaroopa darshan, the Aayiram Kaal (1000-pillar) hall, and the temple museum.",
-    dressCode: "Traditional attire — dhoti/veshti or pyjama-kurta for men, saree/salwar for women. No shorts, sleeveless tops, or Bermudas inside.",
+    dressCode: "Traditional attire: dhoti/veshti or pyjama-kurta for men, saree/salwar for women. No shorts, sleeveless tops, or Bermudas inside.",
     bestTime: "October – March. Vaikunta Ekadasi (December–January) is the spiritual peak but the most crowded.",
     travelInfo: {
       byAir: "Tiruchirapalli (Trichy) International Airport (~13 km) is the nearest, with domestic flights and Gulf/Southeast-Asia connections.",
@@ -1552,20 +1552,20 @@ export const templeDetails: Record<string, TempleDetail> = {
       byRoad: "Srirangam is an island town just north of Trichy, between the Cauvery and Kollidam rivers. City buses and autos run constantly from Trichy (~10 km). Chennai is ~330 km, Madurai ~140 km, Thanjavur ~55 km.",
     },
     highlights: [
-      "The largest functioning Hindu temple complex in the world — 156 acres, seven concentric prakarams, 21 gopurams",
-      "The Rajagopuram is the tallest temple tower in Asia at ~73 m (236 ft), 13 tiers — completed in 1987",
-      "The foremost of the 108 Divya Desams — 'Bhoolokha Vaikuntham', heaven on earth; the only Divya Desam praised by all 12 Alvars",
+      "The largest functioning Hindu temple complex in the world: 156 acres, seven concentric prakarams, 21 gopurams",
+      "The Rajagopuram is the tallest temple tower in Asia at ~73 m (236 ft), 13 tiers, completed in 1987",
+      "The foremost of the 108 Divya Desams, 'Bhoolokha Vaikuntham', heaven on earth; the only Divya Desam praised by all 12 Alvars",
       "Lord Ranganatha reclines on the serpent Adisesha, facing south toward Lanka to bless Vibhishana",
       "The gold-plated Sri Ranga Vimana over the sanctum is shaped like the sacred 'Om' (Pranavakara)",
-      "The spiritual home of Sri Ramanuja — whose preserved body (Thirumeni) is enshrined here",
+      "The spiritual home of Sri Ramanuja, whose preserved body (Thirumeni) is enshrined here",
       "UNESCO Asia-Pacific Award of Merit (2017) for heritage conservation",
     ],
-    history: "Sri Ranganathaswamy is the greatest of the Vaishnava temples and the largest functioning temple complex on earth, spread across 156 acres on an island in the Cauvery near Tiruchirapalli. Its sanctity is recorded in the Sangam-era Tamil classic Silappathikaram and glorified by all twelve Alvar poet-saints (7th–9th centuries). Successive dynasties — Cholas, Pandyas, Hoysalas, the Vijayanagara emperors, the Nayaks of Madurai and the Marathas — each added prakarams, gopurams and mandapams over a thousand years, producing the vast concentric town-temple seen today. The 11th–12th century philosopher Sri Ramanuja made Srirangam the headquarters of Sri Vaishnavism and reorganised its worship; his enshrined body remains a focus of pilgrimage. The temple endured the trauma of the 1311 CE invasion by Malik Kafur, when the festival deity was carried into hiding for some sixty years and thousands of devotees died defending the shrine. The towering Rajagopuram, begun in the Vijayanagara era and left unfinished for centuries, was finally completed only in 1987.",
-    architecture: "Srirangam is built as seven rectangular concentric enclosures (prakarams) around the sanctum, the outermost forming a living temple-town of streets, homes and shops, the inner four reserved for worship. Twenty-one gopurams punctuate the walls, crowned by the 73-metre Rajagopuram on the south — the tallest temple tower in Asia. Over the sanctum rises the gold-plated Sri Ranga Vimana, uniquely shaped like the Pranava ('Om'), sheltering the reclining Ranganatha on Adisesha. The complex is a museum of South Indian sculpture across dynasties: the Sesharaya Mandapam with its rearing-horse (yali) war-horse pillars, the Garuda Mandapam, the Venugopala shrine's exquisite maidens, and the 'Aayiram Kaal' thousand-pillared hall (actually 953 granite pillars). The temple's conservation won a UNESCO award in 2017.",
+    history: "Sri Ranganathaswamy is the greatest of the Vaishnava temples and the largest functioning temple complex on earth, spread across 156 acres on an island in the Cauvery near Tiruchirapalli. Its sanctity is recorded in the Sangam-era Tamil classic Silappathikaram and glorified by all twelve Alvar poet-saints (7th–9th centuries). Successive dynasties (Cholas, Pandyas, Hoysalas, the Vijayanagara emperors, the Nayaks of Madurai and the Marathas) each added prakarams, gopurams and mandapams over a thousand years, producing the vast concentric town-temple seen today. The 11th–12th century philosopher Sri Ramanuja made Srirangam the headquarters of Sri Vaishnavism and reorganised its worship; his enshrined body remains a focus of pilgrimage. The temple endured the trauma of the 1311 CE invasion by Malik Kafur, when the festival deity was carried into hiding for some sixty years and thousands of devotees died defending the shrine. The towering Rajagopuram, begun in the Vijayanagara era and left unfinished for centuries, was finally completed only in 1987.",
+    architecture: "Srirangam is built as seven rectangular concentric enclosures (prakarams) around the sanctum, the outermost forming a living temple-town of streets, homes and shops, the inner four reserved for worship. Twenty-one gopurams punctuate the walls, crowned by the 73-metre Rajagopuram on the south, the tallest temple tower in Asia. Over the sanctum rises the gold-plated Sri Ranga Vimana, uniquely shaped like the Pranava ('Om'), sheltering the reclining Ranganatha on Adisesha. The complex is a museum of South Indian sculpture across dynasties: the Sesharaya Mandapam with its rearing-horse (yali) war-horse pillars, the Garuda Mandapam, the Venugopala shrine's exquisite maidens, and the 'Aayiram Kaal' thousand-pillared hall (actually 953 granite pillars). The temple's conservation won a UNESCO award in 2017.",
     festivals: [
-      { name: "Vaikunta Ekadasi & Adhyayana Utsavam", month: "December–January (Margazhi)", description: "The grandest festival — a 21-day Pagal Pathu and Ra Pathu celebration centred on the opening of the Paramapada Vasal ('Gateway to Heaven'). The deity is brought to the thousand-pillared hall and the entire Nalayira Divya Prabandham is recited, including the unique Araiyar Sevai. Lakhs pass through the Heaven's Gate.", slug: "vaikunta-ekadasi-tirupati" },
+      { name: "Vaikunta Ekadasi & Adhyayana Utsavam", month: "December–January (Margazhi)", description: "The grandest festival, a 21-day Pagal Pathu and Ra Pathu celebration centred on the opening of the Paramapada Vasal ('Gateway to Heaven'). The deity is brought to the thousand-pillared hall and the entire Nalayira Divya Prabandham is recited, including the unique Araiyar Sevai. Lakhs pass through the Heaven's Gate.", slug: "vaikunta-ekadasi-tirupati" },
       { name: "Chithirai Brahmotsavam", month: "April–May", description: "The annual ten-day Brahmotsavam with the Lord processed daily on different vahanas through the prakarams, culminating in the grand car (ther) festival." },
-      { name: "Panguni Uttiram (Serthi Utsavam)", month: "March–April", description: "The one day of the year Ranganatha and Sri Ranganayaki Thayar give joint darshan (Serthi) on the same dais — a rare and deeply cherished sight, as Thayar otherwise stays in her own shrine." },
+      { name: "Panguni Uttiram (Serthi Utsavam)", month: "March–April", description: "The one day of the year Ranganatha and Sri Ranganayaki Thayar give joint darshan (Serthi) on the same dais, a rare and deeply cherished sight, as Thayar otherwise stays in her own shrine." },
       { name: "Jyeshtabhishekam", month: "June–July (Aani)", description: "A three-day summer ritual in which the deity's golden armour and ornaments are removed and a grand abhishekam performed to cool and cleanse the Lord." },
       { name: "Andal Thirukalyanam", month: "July–August (Aadi Pooram)", description: "The celestial wedding of Andal, the Alvar-saint who longed only for Ranganatha, celebrated with great devotion." },
     ],
@@ -1578,14 +1578,14 @@ export const templeDetails: Record<string, TempleDetail> = {
     nearbyTemples: ["brihadeeswara-thanjavur", "sarangapani-kumbakonam"],
     mythology: {
       legend:
-        "The Sri Ranga Vimana — the shrine of the reclining Vishnu — is said to be self-manifest, first worshipped by Brahma himself, who passed it to the Sun dynasty (Ikshvaku) of Ayodhya. There it was venerated by generations of kings, including Lord Rama. After Rama's coronation, in gratitude for his devotion, he gifted the vimana and its deity to Vibhishana, the righteous brother of Ravana, to carry home and worship in Lanka. As Vibhishana journeyed south he rested on the island of Srirangam in the Cauvery and set the vimana down on the riverbank. When he tried to lift it again, it would not move — the Lord had chosen this island, between the two arms of the sacred river, as his eternal resting place. Ranganatha consented to remain at Srirangam but, to honour Vibhishana's devotion, turned to recline facing south — toward Lanka — so that he might bless his devotee forever. To this day the Lord lies gazing south, and Vibhishana is believed to come each night to worship.",
+        "The Sri Ranga Vimana, the shrine of the reclining Vishnu, is said to be self-manifest, first worshipped by Brahma himself, who passed it to the Sun dynasty (Ikshvaku) of Ayodhya. There it was venerated by generations of kings, including Lord Rama. After Rama's coronation, in gratitude for his devotion, he gifted the vimana and its deity to Vibhishana, the righteous brother of Ravana, to carry home and worship in Lanka. As Vibhishana journeyed south he rested on the island of Srirangam in the Cauvery and set the vimana down on the riverbank. When he tried to lift it again, it would not move: the Lord had chosen this island, between the two arms of the sacred river, as his eternal resting place. Ranganatha consented to remain at Srirangam but, to honour Vibhishana's devotion, turned to recline facing south, toward Lanka, so that he might bless his devotee forever. To this day the Lord lies gazing south, and Vibhishana is believed to come each night to worship.",
       tirukalyanam:
-        "Sri Ranganatha's consort is Sri Ranganayaki, called Thayar ('Divine Mother'). Uniquely, the two share a joint darshan (Serthi) only once a year, at Panguni Uttiram — for Thayar, as the supreme mediatrix between the soul and the Lord, keeps to her own shrine the rest of the year. The temple also celebrates the Thirukalyanam of Andal, the girl-saint of Srivilliputhur who vowed to marry none but Ranganatha and, by tradition, merged into him at Srirangam itself.",
+        "Sri Ranganatha's consort is Sri Ranganayaki, called Thayar ('Divine Mother'). Uniquely, the two share a joint darshan (Serthi) only once a year, at Panguni Uttiram, for Thayar, as the supreme mediatrix between the soul and the Lord, keeps to her own shrine the rest of the year. The temple also celebrates the Thirukalyanam of Andal, the girl-saint of Srivilliputhur who vowed to marry none but Ranganatha and, by tradition, merged into him at Srirangam itself.",
       additionalStories: [
         {
           title: "Thiruppaan Alvar and the Lord's Command",
           content:
-            "Thiruppaan Alvar, a saint of humble birth, would stand on the far bank of the Cauvery singing to Ranganatha, never daring to enter the temple. One morning the temple priest Lokasaranga Muni, going to fetch water, ordered the saint out of the path and, when he did not stir from his trance, struck him with a stone. That night the Lord appeared to the priest in a dream and commanded him to carry Thiruppaan Alvar into the sanctum on his own shoulders. Borne to the very sanctum, the saint poured out the ten verses of the Amalanadipiran in praise of the Lord from foot to crown — and, completing them, merged into the deity before the eyes of all. The episode gave the saint his name 'Munivahana' (carried on the sage's shoulders) and remains the temple's parable of devotion above birth.",
+            "Thiruppaan Alvar, a saint of humble birth, would stand on the far bank of the Cauvery singing to Ranganatha, never daring to enter the temple. One morning the temple priest Lokasaranga Muni, going to fetch water, ordered the saint out of the path and, when he did not stir from his trance, struck him with a stone. That night the Lord appeared to the priest in a dream and commanded him to carry Thiruppaan Alvar into the sanctum on his own shoulders. Borne to the very sanctum, the saint poured out the ten verses of the Amalanadipiran in praise of the Lord from foot to crown, and, completing them, merged into the deity before the eyes of all. The episode gave the saint his name 'Munivahana' (carried on the sage's shoulders) and remains the temple's parable of devotion above birth.",
         },
         {
           title: "Sri Ramanuja, the Master of Srirangam",
@@ -1609,18 +1609,18 @@ export const templeDetails: Record<string, TempleDetail> = {
         name: "Rajagopuram",
         nameTa: "ராஜகோபுரம்",
         type: "gopuram",
-        description: "The southern gateway tower — at about 73 metres (236 ft) and 13 tiers, the tallest temple gopuram in Asia. Its base was laid in the Vijayanagara period but the tower stood as an unfinished stump for over four centuries; it was completed in white-and-gold stucco only in 1987 under the 44th Jeeyar of the Ahobila Mutt. It is visible for miles across the Cauvery plain.",
+        description: "The southern gateway tower, at about 73 metres (236 ft) and 13 tiers, the tallest temple gopuram in Asia. Its base was laid in the Vijayanagara period but the tower stood as an unfinished stump for over four centuries; it was completed in white-and-gold stucco only in 1987 under the 44th Jeeyar of the Ahobila Mutt. It is visible for miles across the Cauvery plain.",
         detail: "~73 m · 13 tiers · completed 1987",
       },
       {
         name: "Sri Ranga Vimana (Pranavakara Vimana)",
         nameTa: "ஸ்ரீ ரங்க விமானம்",
         type: "vimana",
-        description: "The gold-plated tower directly over the sanctum, shaped like the sacred syllable 'Om' (Pranava) — hence Pranavakara Vimana. Considered self-manifest and beyond ordinary construction, it shelters the reclining Ranganatha and is the holiest point of the entire complex.",
+        description: "The gold-plated tower directly over the sanctum, shaped like the sacred syllable 'Om' (Pranava), hence Pranavakara Vimana. Considered self-manifest and beyond ordinary construction, it shelters the reclining Ranganatha and is the holiest point of the entire complex.",
         detail: "Gold-plated · shaped like 'Om'",
       },
       {
-        name: "Garbhagriha — Ranganatha on Adisesha",
+        name: "Garbhagriha, Ranganatha on Adisesha",
         type: "sanctum",
         description: "The inner sanctum houses the colossal reclining form of Lord Ranganatha stretched upon the coils of the serpent Adisesha, his head to the west and feet to the east, face turned south toward Lanka. The Moolavar (immovable deity) here is the heart of the temple; the festival image, Azhagiya Manavalan, processes outside on his behalf.",
         detail: "Reclining Vishnu, facing south",
@@ -1634,36 +1634,36 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Sesharaya Mandapam",
         type: "mandapam",
-        description: "A Vijayanagara-era hall on the fourth prakaram famous for its monolithic war-horse pillars — rearing yalis and cavalrymen carved leaping from single granite blocks, among the masterpieces of 16th-century Nayaka sculpture.",
+        description: "A Vijayanagara-era hall on the fourth prakaram famous for its monolithic war-horse pillars, rearing yalis and cavalrymen carved leaping from single granite blocks, among the masterpieces of 16th-century Nayaka sculpture.",
       },
       {
         name: "Aayiram Kaal Mandapam (Thousand-Pillar Hall)",
         nameTa: "ஆயிரம் கால் மண்டபம்",
         type: "mandapam",
-        description: "The great hall of (nominally) a thousand pillars — in fact 953 granite columns arranged in ordered rows — built in the Chola–Vijayanagara periods. It is the setting for the climactic rituals of the Adhyayana Utsavam during Vaikunta Ekadasi.",
+        description: "The great hall of (nominally) a thousand pillars, in fact 953 granite columns arranged in ordered rows, built in the Chola–Vijayanagara periods. It is the setting for the climactic rituals of the Adhyayana Utsavam during Vaikunta Ekadasi.",
         detail: "953 pillars",
       },
       {
         name: "Venugopala Shrine",
         type: "other",
-        description: "A shrine in the south-western part of the complex celebrated for the sensuous perfection of its carvings — gopis and dancers around Krishna playing the flute, rated among the finest figural sculpture in any Tamil temple.",
+        description: "A shrine in the south-western part of the complex celebrated for the sensuous perfection of its carvings, gopis and dancers around Krishna playing the flute, rated among the finest figural sculpture in any Tamil temple.",
       },
       {
         name: "Paramapada Vasal (Gateway to Heaven)",
         type: "other",
-        description: "The 'Sorga Vasal' — a normally-sealed doorway opened only for the ten days around Vaikunta Ekadasi, through which devotees pass behind the festival deity in the belief that it grants liberation (moksha). The single most sought-after passage in the Srivaishnava year.",
+        description: "The 'Sorga Vasal', a normally-sealed doorway opened only for the ten days around Vaikunta Ekadasi, through which devotees pass behind the festival deity in the belief that it grants liberation (moksha). The single most sought-after passage in the Srivaishnava year.",
       },
     ],
     subShrines: [
       {
         name: "Sri Ranganayaki Thayar",
         deity: "Goddess Lakshmi, consort of Ranganatha",
-        description: "The Divine Mother in her own large shrine within the complex — so central that the temple is as much hers as the Lord's. She gives joint darshan with Ranganatha only on Panguni Uttiram; the rest of the year devotees approach her separately as the compassionate mediatrix who carries the soul's plea to the Lord.",
+        description: "The Divine Mother in her own large shrine within the complex, so central that the temple is as much hers as the Lord's. She gives joint darshan with Ranganatha only on Panguni Uttiram; the rest of the year devotees approach her separately as the compassionate mediatrix who carries the soul's plea to the Lord.",
       },
       {
         name: "Udayavar (Sri Ramanuja)",
         deity: "The Acharya Sri Ramanuja",
-        description: "The shrine enshrining the preserved body of Sri Ramanuja, seated as in life. Revered as 'Thaan Ana Thirumeni' — the form that is the master himself — and venerated by every pilgrim as the founder of the temple's living tradition.",
+        description: "The shrine enshrining the preserved body of Sri Ramanuja, seated as in life. Revered as 'Thaan Ana Thirumeni', the form that is the master himself, and venerated by every pilgrim as the founder of the temple's living tradition.",
       },
       {
         name: "Chakkarathazhwar (Sudarshana)",
@@ -1673,12 +1673,12 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Thiruppaan Alvar & the Alvars",
         deity: "The twelve Alvar poet-saints",
-        description: "Srirangam, praised by all twelve Alvars, honours them with shrines — most movingly Thiruppaan Alvar, the humble singer who merged into the deity. Their Nalayira Divya Prabandham is recited here daily.",
+        description: "Srirangam, praised by all twelve Alvars, honours them with shrines, most movingly Thiruppaan Alvar, the humble singer who merged into the deity. Their Nalayira Divya Prabandham is recited here daily.",
       },
       {
         name: "Thulukka Nachiyar (Bibi Nachiyar)",
         deity: "The Sultan's daughter devoted to the Lord",
-        description: "The shrine remembering the princess who loved the festival deity during its sojourn in the north. The Lord is offered chapati and butter in her honour — a unique custom born of the temple's medieval history.",
+        description: "The shrine remembering the princess who loved the festival deity during its sojourn in the north. The Lord is offered chapati and butter in her honour, a unique custom born of the temple's medieval history.",
       },
       {
         name: "Dhanvantari",
@@ -1688,7 +1688,7 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         name: "Andal & Garuda",
         deity: "Andal and the eagle-mount of Vishnu",
-        description: "Andal, the girl-saint who wished only for Ranganatha, and Garuda, the Lord's vahana before whom devotees first offer prayers — both with shrines along the prakarams.",
+        description: "Andal, the girl-saint who wished only for Ranganatha, and Garuda, the Lord's vahana before whom devotees first offer prayers, both with shrines along the prakarams.",
       },
     ],
     visitorLogistics: {
@@ -1699,16 +1699,16 @@ export const templeDetails: Record<string, TempleDetail> = {
       cloakRoom: "Footwear must be removed before the inner prakarams; stalls and a deposit counter operate near the main gates. The outer prakarams are public streets where footwear is allowed, so note where the sacred boundary begins.",
       mobilePolicy: "Mobile phones are generally allowed in the outer prakarams but should be silenced; switch them off near the sanctum. Follow staff instructions, especially during the heavy Vaikunta Ekadasi crowds.",
       cameraPolicy: "Photography is prohibited inside the inner prakarams and the sanctum. The gopurams, the outer streets and the mandapams are often photographable; the temple museum and the thousand-pillar hall may have separate camera rules and tickets.",
-      wheelchairAccess: "The vast complex involves long walks across several enclosures, but the ground is largely flat and broad. Wheelchairs can manage most outer and middle prakarams; the inner sanctum approach has steps and tighter spaces. Assistance is informal — ask temple staff.",
-      seniorCitizenDarshan: "A special/quick darshan ticket (~₹250) considerably shortens the wait and is well worth it for seniors, especially given the distances involved. During Vaikunta Ekadasi the queues for the Paramapada Vasal are immense — plan for several hours and arrive very early.",
+      wheelchairAccess: "The vast complex involves long walks across several enclosures, but the ground is largely flat and broad. Wheelchairs can manage most outer and middle prakarams; the inner sanctum approach has steps and tighter spaces. Assistance is informal. Ask temple staff.",
+      seniorCitizenDarshan: "A special/quick darshan ticket (~₹250) considerably shortens the wait and is well worth it for seniors, especially given the distances involved. During Vaikunta Ekadasi the queues for the Paramapada Vasal are immense. Plan for several hours and arrive very early.",
       parking: "Parking is available near the main gopuram and around the temple town; autos and city buses run frequently from Trichy and Srirangam station. The inner streets are best covered on foot.",
       restrooms: "Public restrooms and drinking-water points are available near the main entrances and within the outer prakarams. Facilities are stretched on festival days; carry your own essentials.",
-      drinkingWater: "Drinking water and Annadanam (free prasadam meals on many days) are available within the complex. The Cauvery-island climate is hot for much of the year — carry water, particularly April–June.",
+      drinkingWater: "Drinking water and Annadanam (free prasadam meals on many days) are available within the complex. The Cauvery-island climate is hot for much of the year. Carry water, particularly April–June.",
     },
     sevas: [
       {
         name: "Viswaroopa Seva",
-        description: "The first darshan of the day, when the sanctum opens to reveal the reclining Lord in his full 'cosmic' form (Viswaroopam) before the day's adornment — considered an especially blessed sight.",
+        description: "The first darshan of the day, when the sanctum opens to reveal the reclining Lord in his full 'cosmic' form (Viswaroopam) before the day's adornment, considered an especially blessed sight.",
         time: "Daily, ~6:45 AM",
         fee: "Ticketed",
         type: "daily",
@@ -1729,14 +1729,14 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
       {
         name: "Unjal (Swing) Seva",
-        description: "The festival deities are seated on a decorated swing and gently rocked to the singing of Prabandham hymns — performed on Fridays and festival occasions.",
+        description: "The festival deities are seated on a decorated swing and gently rocked to the singing of Prabandham hymns, performed on Fridays and festival occasions.",
         time: "Fridays / festivals",
         fee: "Sponsored",
         type: "weekly",
       },
       {
         name: "Araiyar Sevai",
-        description: "A rare hereditary art surviving chiefly at Srirangam — the Araiyars sing and enact the Nalayira Divya Prabandham with hand-gestures and cymbals before the deity, above all during the Adhyayana Utsavam of Margazhi.",
+        description: "A rare hereditary art surviving chiefly at Srirangam: the Araiyars sing and enact the Nalayira Divya Prabandham with hand-gestures and cymbals before the deity, above all during the Adhyayana Utsavam of Margazhi.",
         time: "Adhyayana Utsavam (Dec–Jan)",
         fee: "Free to witness",
         type: "special",
@@ -1753,37 +1753,37 @@ export const templeDetails: Record<string, TempleDetail> = {
       {
         question: "Why does Lord Ranganatha face south?",
         answer:
-          "By the temple's central legend, Vibhishana — Ravana's righteous brother — was carrying the self-manifest Sri Ranga Vimana, gifted by Lord Rama, home to Lanka. He rested it on the Cauvery island at Srirangam and found he could not lift it again, for the Lord had chosen the spot as his eternal home. To honour Vibhishana's devotion, Ranganatha agreed to stay but turned to recline facing south, toward Lanka, so he could bless his devotee forever. The Lord lies gazing south to this day.",
+          "By the temple's central legend, Vibhishana, Ravana's righteous brother, was carrying the self-manifest Sri Ranga Vimana, gifted by Lord Rama, home to Lanka. He rested it on the Cauvery island at Srirangam and found he could not lift it again, for the Lord had chosen the spot as his eternal home. To honour Vibhishana's devotion, Ranganatha agreed to stay but turned to recline facing south, toward Lanka, so he could bless his devotee forever. The Lord lies gazing south to this day.",
       },
       {
         question: "Is Srirangam really the largest temple in the world?",
         answer:
-          "It is the largest functioning Hindu temple complex in the world — about 156 acres, enclosed by seven concentric prakarams with 21 gopurams and an outer perimeter of roughly 4 km. Angkor Wat in Cambodia covers more ground but is no longer an active temple, so Srirangam holds the distinction among living temples.",
+          "It is the largest functioning Hindu temple complex in the world, about 156 acres, enclosed by seven concentric prakarams with 21 gopurams and an outer perimeter of roughly 4 km. Angkor Wat in Cambodia covers more ground but is no longer an active temple, so Srirangam holds the distinction among living temples.",
       },
       {
         question: "What is the significance of Vaikunta Ekadasi here?",
         answer:
-          "Vaikunta Ekadasi (Margazhi, Dec–Jan) is Srirangam's greatest festival, the climax of the 21-day Adhyayana Utsavam (Pagal Pathu and Ra Pathu). Its heart is the opening of the Paramapada Vasal, the 'Gateway to Heaven', normally sealed all year. Devotees who pass through behind the festival deity during its ten open days believe they receive a vision of liberation. The entire Nalayira Divya Prabandham is recited and the unique Araiyar Sevai is performed. Expect enormous crowds — arrive very early.",
+          "Vaikunta Ekadasi (Margazhi, Dec–Jan) is Srirangam's greatest festival, the climax of the 21-day Adhyayana Utsavam (Pagal Pathu and Ra Pathu). Its heart is the opening of the Paramapada Vasal, the 'Gateway to Heaven', normally sealed all year. Devotees who pass through behind the festival deity during its ten open days believe they receive a vision of liberation. The entire Nalayira Divya Prabandham is recited and the unique Araiyar Sevai is performed. Expect enormous crowds. Arrive very early.",
       },
       {
         question: "Who was Sri Ramanuja and why is he enshrined here?",
         answer:
-          "Sri Ramanuja (traditionally 1017–1137) was the great acharya of Vishishtadvaita philosophy and the organiser of Sri Vaishnavism, who made Srirangam his headquarters. He reformed the temple's worship and administration and taught his Sri Bhashya here. By tradition his body was preserved after death and is enshrined, seated as in life, in the Ramanuja sannidhi — venerated as 'the form that is the master himself' and a required stop for every pilgrim.",
+          "Sri Ramanuja (traditionally 1017–1137) was the great acharya of Vishishtadvaita philosophy and the organiser of Sri Vaishnavism, who made Srirangam his headquarters. He reformed the temple's worship and administration and taught his Sri Bhashya here. By tradition his body was preserved after death and is enshrined, seated as in life, in the Ramanuja sannidhi, venerated as 'the form that is the master himself' and a required stop for every pilgrim.",
       },
       {
         question: "Can I see the Goddess and the Lord together?",
         answer:
-          "Only once a year. Sri Ranganayaki Thayar keeps to her own shrine throughout the year as the soul's mediatrix; she and Ranganatha give joint darshan (Serthi) together only on Panguni Uttiram (March–April). The rest of the year you have darshan of each separately — and Thayar's shrine is itself one of the most beloved in the complex.",
+          "Only once a year. Sri Ranganayaki Thayar keeps to her own shrine throughout the year as the soul's mediatrix; she and Ranganatha give joint darshan (Serthi) together only on Panguni Uttiram (March–April). The rest of the year you have darshan of each separately, and Thayar's shrine is itself one of the most beloved in the complex.",
       },
       {
         question: "Why is the Lord offered chapati and butter?",
         answer:
-          "This honours Thulukka Nachiyar (Bibi Nachiyar), the Delhi Sultan's daughter who, by legend, became devoted to the festival deity during its sojourn in the north after the 1311 invasion and followed it back to Srirangam. Her shrine is within the temple, and the Lord is offered north-Indian chapati and butter and dressed in her memory — a moving record of the temple's medieval history and a rare instance of such inclusive custom.",
+          "This honours Thulukka Nachiyar (Bibi Nachiyar), the Delhi Sultan's daughter who, by legend, became devoted to the festival deity during its sojourn in the north after the 1311 invasion and followed it back to Srirangam. Her shrine is within the temple, and the Lord is offered north-Indian chapati and butter and dressed in her memory, a moving record of the temple's medieval history and a rare instance of such inclusive custom.",
       },
       {
         question: "How much time should I plan, and is special darshan worth it?",
         answer:
-          "Given the sheer scale — seven prakarams, the Thayar shrine, the Ramanuja sannidhi, the thousand-pillar hall and the sculpture mandapams — allow at least 2–3 hours, more if you want to appreciate the art. The quick/special darshan ticket (~₹250) meaningfully shortens the queue and is worth it, especially on weekends and festival days. Take the Viswaroopa darshan in the early morning if you can.",
+          "Given the sheer scale (seven prakarams, the Thayar shrine, the Ramanuja sannidhi, the thousand-pillar hall and the sculpture mandapams), allow at least 2–3 hours, more if you want to appreciate the art. The quick/special darshan ticket (~₹250) meaningfully shortens the queue and is worth it, especially on weekends and festival days. Take the Viswaroopa darshan in the early morning if you can.",
       },
       {
         question: "What's the dress code?",
