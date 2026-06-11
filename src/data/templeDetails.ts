@@ -1540,6 +1540,258 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
     ],
   },
+  "ranganathaswamy-srirangam": {
+    slug: "ranganathaswamy-srirangam",
+    timings: { morning: "6:00 AM – 1:00 PM", evening: "3:15 PM – 9:00 PM", note: "Viswaroopa Darshan (the first darshan of the reclining Lord) is around 6:45 AM and is especially auspicious. The sanctum closes for short intervals between poojas." },
+    entryFee: "Free darshan. Quick/special darshan ticket ~₹250. Separate tickets for the Viswaroopa darshan, the Aayiram Kaal (1000-pillar) hall, and the temple museum.",
+    dressCode: "Traditional attire — dhoti/veshti or pyjama-kurta for men, saree/salwar for women. No shorts, sleeveless tops, or Bermudas inside.",
+    bestTime: "October – March. Vaikunta Ekadasi (December–January) is the spiritual peak but the most crowded.",
+    travelInfo: {
+      byAir: "Tiruchirapalli (Trichy) International Airport (~13 km) is the nearest, with domestic flights and Gulf/Southeast-Asia connections.",
+      byTrain: "Srirangam Railway Station (~2 km) is on the Trichy line; Tiruchirapalli Junction (~9 km) is a major hub with trains from Chennai, Madurai, Bengaluru and beyond.",
+      byRoad: "Srirangam is an island town just north of Trichy, between the Cauvery and Kollidam rivers. City buses and autos run constantly from Trichy (~10 km). Chennai is ~330 km, Madurai ~140 km, Thanjavur ~55 km.",
+    },
+    highlights: [
+      "The largest functioning Hindu temple complex in the world — 156 acres, seven concentric prakarams, 21 gopurams",
+      "The Rajagopuram is the tallest temple tower in Asia at ~73 m (236 ft), 13 tiers — completed in 1987",
+      "The foremost of the 108 Divya Desams — 'Bhoolokha Vaikuntham', heaven on earth; the only Divya Desam praised by all 12 Alvars",
+      "Lord Ranganatha reclines on the serpent Adisesha, facing south toward Lanka to bless Vibhishana",
+      "The gold-plated Sri Ranga Vimana over the sanctum is shaped like the sacred 'Om' (Pranavakara)",
+      "The spiritual home of Sri Ramanuja — whose preserved body (Thirumeni) is enshrined here",
+      "UNESCO Asia-Pacific Award of Merit (2017) for heritage conservation",
+    ],
+    history: "Sri Ranganathaswamy is the greatest of the Vaishnava temples and the largest functioning temple complex on earth, spread across 156 acres on an island in the Cauvery near Tiruchirapalli. Its sanctity is recorded in the Sangam-era Tamil classic Silappathikaram and glorified by all twelve Alvar poet-saints (7th–9th centuries). Successive dynasties — Cholas, Pandyas, Hoysalas, the Vijayanagara emperors, the Nayaks of Madurai and the Marathas — each added prakarams, gopurams and mandapams over a thousand years, producing the vast concentric town-temple seen today. The 11th–12th century philosopher Sri Ramanuja made Srirangam the headquarters of Sri Vaishnavism and reorganised its worship; his enshrined body remains a focus of pilgrimage. The temple endured the trauma of the 1311 CE invasion by Malik Kafur, when the festival deity was carried into hiding for some sixty years and thousands of devotees died defending the shrine. The towering Rajagopuram, begun in the Vijayanagara era and left unfinished for centuries, was finally completed only in 1987.",
+    architecture: "Srirangam is built as seven rectangular concentric enclosures (prakarams) around the sanctum, the outermost forming a living temple-town of streets, homes and shops, the inner four reserved for worship. Twenty-one gopurams punctuate the walls, crowned by the 73-metre Rajagopuram on the south — the tallest temple tower in Asia. Over the sanctum rises the gold-plated Sri Ranga Vimana, uniquely shaped like the Pranava ('Om'), sheltering the reclining Ranganatha on Adisesha. The complex is a museum of South Indian sculpture across dynasties: the Sesharaya Mandapam with its rearing-horse (yali) war-horse pillars, the Garuda Mandapam, the Venugopala shrine's exquisite maidens, and the 'Aayiram Kaal' thousand-pillared hall (actually 953 granite pillars). The temple's conservation won a UNESCO award in 2017.",
+    festivals: [
+      { name: "Vaikunta Ekadasi & Adhyayana Utsavam", month: "December–January (Margazhi)", description: "The grandest festival — a 21-day Pagal Pathu and Ra Pathu celebration centred on the opening of the Paramapada Vasal ('Gateway to Heaven'). The deity is brought to the thousand-pillared hall and the entire Nalayira Divya Prabandham is recited, including the unique Araiyar Sevai. Lakhs pass through the Heaven's Gate.", slug: "vaikunta-ekadasi-tirupati" },
+      { name: "Chithirai Brahmotsavam", month: "April–May", description: "The annual ten-day Brahmotsavam with the Lord processed daily on different vahanas through the prakarams, culminating in the grand car (ther) festival." },
+      { name: "Panguni Uttiram (Serthi Utsavam)", month: "March–April", description: "The one day of the year Ranganatha and Sri Ranganayaki Thayar give joint darshan (Serthi) on the same dais — a rare and deeply cherished sight, as Thayar otherwise stays in her own shrine." },
+      { name: "Jyeshtabhishekam", month: "June–July (Aani)", description: "A three-day summer ritual in which the deity's golden armour and ornaments are removed and a grand abhishekam performed to cool and cleanse the Lord." },
+      { name: "Andal Thirukalyanam", month: "July–August (Aadi Pooram)", description: "The celestial wedding of Andal, the Alvar-saint who longed only for Ranganatha, celebrated with great devotion." },
+    ],
+    poojas: [
+      { name: "Viswaroopa Darshan", time: "~6:45 AM", fee: "Ticketed" },
+      { name: "Sahasranama / Thirumanjanam (Abhishekam)", time: "Morning", fee: "Sponsored" },
+      { name: "Special (Quick) Darshan", time: "Through the day", fee: "₹250" },
+      { name: "Aravanai / Ekantha Seva (Night)", time: "~8:45 PM", fee: "Free" },
+    ],
+    nearbyTemples: ["brihadeeswara-thanjavur", "sarangapani-kumbakonam"],
+    mythology: {
+      legend:
+        "The Sri Ranga Vimana — the shrine of the reclining Vishnu — is said to be self-manifest, first worshipped by Brahma himself, who passed it to the Sun dynasty (Ikshvaku) of Ayodhya. There it was venerated by generations of kings, including Lord Rama. After Rama's coronation, in gratitude for his devotion, he gifted the vimana and its deity to Vibhishana, the righteous brother of Ravana, to carry home and worship in Lanka. As Vibhishana journeyed south he rested on the island of Srirangam in the Cauvery and set the vimana down on the riverbank. When he tried to lift it again, it would not move — the Lord had chosen this island, between the two arms of the sacred river, as his eternal resting place. Ranganatha consented to remain at Srirangam but, to honour Vibhishana's devotion, turned to recline facing south — toward Lanka — so that he might bless his devotee forever. To this day the Lord lies gazing south, and Vibhishana is believed to come each night to worship.",
+      tirukalyanam:
+        "Sri Ranganatha's consort is Sri Ranganayaki, called Thayar ('Divine Mother'). Uniquely, the two share a joint darshan (Serthi) only once a year, at Panguni Uttiram — for Thayar, as the supreme mediatrix between the soul and the Lord, keeps to her own shrine the rest of the year. The temple also celebrates the Thirukalyanam of Andal, the girl-saint of Srivilliputhur who vowed to marry none but Ranganatha and, by tradition, merged into him at Srirangam itself.",
+      additionalStories: [
+        {
+          title: "Thiruppaan Alvar and the Lord's Command",
+          content:
+            "Thiruppaan Alvar, a saint of humble birth, would stand on the far bank of the Cauvery singing to Ranganatha, never daring to enter the temple. One morning the temple priest Lokasaranga Muni, going to fetch water, ordered the saint out of the path and, when he did not stir from his trance, struck him with a stone. That night the Lord appeared to the priest in a dream and commanded him to carry Thiruppaan Alvar into the sanctum on his own shoulders. Borne to the very sanctum, the saint poured out the ten verses of the Amalanadipiran in praise of the Lord from foot to crown — and, completing them, merged into the deity before the eyes of all. The episode gave the saint his name 'Munivahana' (carried on the sage's shoulders) and remains the temple's parable of devotion above birth.",
+        },
+        {
+          title: "Sri Ramanuja, the Master of Srirangam",
+          content:
+            "The 11th–12th century acharya Sri Ramanuja (traditionally 1017–1137) made Srirangam the world centre of Sri Vaishnavism and of his Vishishtadvaita philosophy. He systematised the temple's daily worship, its festival calendar and its administration, dividing duties among the temple servitors in arrangements still partly followed. By tradition his body was preserved after death and enshrined within the temple, seated as in life; the Ramanuja sannidhi, with its 'Thaan Ana Thirumeni' ('the body that is himself'), is venerated by every pilgrim. His Sri Bhashya commentary, taught here, shaped the devotional theology of South India.",
+        },
+        {
+          title: "Thulukka Nachiyar and the Lord's Journey to Delhi",
+          content:
+            "When Malik Kafur's army sacked Srirangam in 1311, the festival deity Azhagiya Manavalan was spirited away and, by one account, ended up in the Delhi Sultanate's court, where the Sultan's daughter grew devoted to the beautiful image and kept it with her. Srivaishnava devotees journeyed north to recover it; the princess, by the legend, followed the Lord south and, unable to be parted, attained him at Srirangam. She is enshrined as Thulukka Nachiyar (Bibi Nachiyar), and to this day the Lord is offered chapati and butter and is dressed in a manner honouring her, a striking testament to the temple's memory of that turbulent age.",
+        },
+        {
+          title: "The Defence of the Lord and the Hidden Sanctum",
+          content:
+            "During the invasions, the Srivaishnava acharyas walled up the inner sanctum to conceal the immovable Moolavar (root deity) and led the festival deity to safety across the Deccan, even to Tirupati. Tradition holds that thousands of devotees laid down their lives defending the shrine, and that the deity was away for some sixty years before being ceremonially restored. The episode is remembered each year, and the temple's later fortifications and the long-unfinished Rajagopuram are read by devotees as scars and renewals of that history.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Rajagopuram",
+        nameTa: "ராஜகோபுரம்",
+        type: "gopuram",
+        description: "The southern gateway tower — at about 73 metres (236 ft) and 13 tiers, the tallest temple gopuram in Asia. Its base was laid in the Vijayanagara period but the tower stood as an unfinished stump for over four centuries; it was completed in white-and-gold stucco only in 1987 under the 44th Jeeyar of the Ahobila Mutt. It is visible for miles across the Cauvery plain.",
+        detail: "~73 m · 13 tiers · completed 1987",
+      },
+      {
+        name: "Sri Ranga Vimana (Pranavakara Vimana)",
+        nameTa: "ஸ்ரீ ரங்க விமானம்",
+        type: "vimana",
+        description: "The gold-plated tower directly over the sanctum, shaped like the sacred syllable 'Om' (Pranava) — hence Pranavakara Vimana. Considered self-manifest and beyond ordinary construction, it shelters the reclining Ranganatha and is the holiest point of the entire complex.",
+        detail: "Gold-plated · shaped like 'Om'",
+      },
+      {
+        name: "Garbhagriha — Ranganatha on Adisesha",
+        type: "sanctum",
+        description: "The inner sanctum houses the colossal reclining form of Lord Ranganatha stretched upon the coils of the serpent Adisesha, his head to the west and feet to the east, face turned south toward Lanka. The Moolavar (immovable deity) here is the heart of the temple; the festival image, Azhagiya Manavalan, processes outside on his behalf.",
+        detail: "Reclining Vishnu, facing south",
+      },
+      {
+        name: "Seven Prakarams",
+        type: "other",
+        description: "Seven concentric rectangular enclosures wrap the sanctum, named (from outermost inward) Chitra, Thiruvikrama, Akalanka, Alinadan, Kulasekaran, Rajamahendran and Dharmavarman. The outer enclosures form a populated temple-town of streets and houses; only past the fourth wall does worship space begin. The total outer perimeter runs about 4 km.",
+        detail: "7 enclosures · ~4 km outer perimeter",
+      },
+      {
+        name: "Sesharaya Mandapam",
+        type: "mandapam",
+        description: "A Vijayanagara-era hall on the fourth prakaram famous for its monolithic war-horse pillars — rearing yalis and cavalrymen carved leaping from single granite blocks, among the masterpieces of 16th-century Nayaka sculpture.",
+      },
+      {
+        name: "Aayiram Kaal Mandapam (Thousand-Pillar Hall)",
+        nameTa: "ஆயிரம் கால் மண்டபம்",
+        type: "mandapam",
+        description: "The great hall of (nominally) a thousand pillars — in fact 953 granite columns arranged in ordered rows — built in the Chola–Vijayanagara periods. It is the setting for the climactic rituals of the Adhyayana Utsavam during Vaikunta Ekadasi.",
+        detail: "953 pillars",
+      },
+      {
+        name: "Venugopala Shrine",
+        type: "other",
+        description: "A shrine in the south-western part of the complex celebrated for the sensuous perfection of its carvings — gopis and dancers around Krishna playing the flute, rated among the finest figural sculpture in any Tamil temple.",
+      },
+      {
+        name: "Paramapada Vasal (Gateway to Heaven)",
+        type: "other",
+        description: "The 'Sorga Vasal' — a normally-sealed doorway opened only for the ten days around Vaikunta Ekadasi, through which devotees pass behind the festival deity in the belief that it grants liberation (moksha). The single most sought-after passage in the Srivaishnava year.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Sri Ranganayaki Thayar",
+        deity: "Goddess Lakshmi, consort of Ranganatha",
+        description: "The Divine Mother in her own large shrine within the complex — so central that the temple is as much hers as the Lord's. She gives joint darshan with Ranganatha only on Panguni Uttiram; the rest of the year devotees approach her separately as the compassionate mediatrix who carries the soul's plea to the Lord.",
+      },
+      {
+        name: "Udayavar (Sri Ramanuja)",
+        deity: "The Acharya Sri Ramanuja",
+        description: "The shrine enshrining the preserved body of Sri Ramanuja, seated as in life. Revered as 'Thaan Ana Thirumeni' — the form that is the master himself — and venerated by every pilgrim as the founder of the temple's living tradition.",
+      },
+      {
+        name: "Chakkarathazhwar (Sudarshana)",
+        deity: "The Discus of Vishnu",
+        description: "The fierce form of the Lord's Sudarshana chakra, worshipped on the reverse face with Narasimha. A powerful shrine sought for protection and the removal of evil.",
+      },
+      {
+        name: "Thiruppaan Alvar & the Alvars",
+        deity: "The twelve Alvar poet-saints",
+        description: "Srirangam, praised by all twelve Alvars, honours them with shrines — most movingly Thiruppaan Alvar, the humble singer who merged into the deity. Their Nalayira Divya Prabandham is recited here daily.",
+      },
+      {
+        name: "Thulukka Nachiyar (Bibi Nachiyar)",
+        deity: "The Sultan's daughter devoted to the Lord",
+        description: "The shrine remembering the princess who loved the festival deity during its sojourn in the north. The Lord is offered chapati and butter in her honour — a unique custom born of the temple's medieval history.",
+      },
+      {
+        name: "Dhanvantari",
+        deity: "The Divine Physician",
+        description: "A rare shrine to Dhanvantari, the physician of the gods; the theertham (sacred water) given here is taken by devotees as medicine for health and healing.",
+      },
+      {
+        name: "Andal & Garuda",
+        deity: "Andal and the eagle-mount of Vishnu",
+        description: "Andal, the girl-saint who wished only for Ranganatha, and Garuda, the Lord's vahana before whom devotees first offer prayers — both with shrines along the prakarams.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Rajagopuram (South Main Entrance)", direction: "South", notes: "The principal entrance beneath Asia's tallest gopuram, opening onto the long axis of streets leading inward through successive gateways to the sanctum." },
+        { name: "Vellai Gopuram approach", direction: "North", notes: "The northern gateways connect toward the Cauvery; pilgrims combining a river bath often enter from this side." },
+      ],
+      cloakRoom: "Footwear must be removed before the inner prakarams; stalls and a deposit counter operate near the main gates. The outer prakarams are public streets where footwear is allowed, so note where the sacred boundary begins.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer prakarams but should be silenced; switch them off near the sanctum. Follow staff instructions, especially during the heavy Vaikunta Ekadasi crowds.",
+      cameraPolicy: "Photography is prohibited inside the inner prakarams and the sanctum. The gopurams, the outer streets and the mandapams are often photographable; the temple museum and the thousand-pillar hall may have separate camera rules and tickets.",
+      wheelchairAccess: "The vast complex involves long walks across several enclosures, but the ground is largely flat and broad. Wheelchairs can manage most outer and middle prakarams; the inner sanctum approach has steps and tighter spaces. Assistance is informal — ask temple staff.",
+      seniorCitizenDarshan: "A special/quick darshan ticket (~₹250) considerably shortens the wait and is well worth it for seniors, especially given the distances involved. During Vaikunta Ekadasi the queues for the Paramapada Vasal are immense — plan for several hours and arrive very early.",
+      parking: "Parking is available near the main gopuram and around the temple town; autos and city buses run frequently from Trichy and Srirangam station. The inner streets are best covered on foot.",
+      restrooms: "Public restrooms and drinking-water points are available near the main entrances and within the outer prakarams. Facilities are stretched on festival days; carry your own essentials.",
+      drinkingWater: "Drinking water and Annadanam (free prasadam meals on many days) are available within the complex. The Cauvery-island climate is hot for much of the year — carry water, particularly April–June.",
+    },
+    sevas: [
+      {
+        name: "Viswaroopa Seva",
+        description: "The first darshan of the day, when the sanctum opens to reveal the reclining Lord in his full 'cosmic' form (Viswaroopam) before the day's adornment — considered an especially blessed sight.",
+        time: "Daily, ~6:45 AM",
+        fee: "Ticketed",
+        type: "daily",
+      },
+      {
+        name: "Thirumanjanam (Abhishekam)",
+        description: "The sacred bathing of the deity with milk, curds, honey, sandal and holy water amid Vedic and Prabandham recitation. Sponsored on chosen days.",
+        time: "Morning (select days)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Sahasranama Archana",
+        description: "Recitation of the Vishnu Sahasranama (the 1,000 names) in the devotee's name and star, with offering of tulsi.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Unjal (Swing) Seva",
+        description: "The festival deities are seated on a decorated swing and gently rocked to the singing of Prabandham hymns — performed on Fridays and festival occasions.",
+        time: "Fridays / festivals",
+        fee: "Sponsored",
+        type: "weekly",
+      },
+      {
+        name: "Araiyar Sevai",
+        description: "A rare hereditary art surviving chiefly at Srirangam — the Araiyars sing and enact the Nalayira Divya Prabandham with hand-gestures and cymbals before the deity, above all during the Adhyayana Utsavam of Margazhi.",
+        time: "Adhyayana Utsavam (Dec–Jan)",
+        fee: "Free to witness",
+        type: "special",
+      },
+      {
+        name: "Ekantha Seva (Night Rest)",
+        description: "The final ritual of the day, when the Lord is put to rest with lullabies; devotees may witness the close of the temple's daily cycle.",
+        time: "Daily, ~8:45 PM",
+        fee: "Free",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why does Lord Ranganatha face south?",
+        answer:
+          "By the temple's central legend, Vibhishana — Ravana's righteous brother — was carrying the self-manifest Sri Ranga Vimana, gifted by Lord Rama, home to Lanka. He rested it on the Cauvery island at Srirangam and found he could not lift it again, for the Lord had chosen the spot as his eternal home. To honour Vibhishana's devotion, Ranganatha agreed to stay but turned to recline facing south, toward Lanka, so he could bless his devotee forever. The Lord lies gazing south to this day.",
+      },
+      {
+        question: "Is Srirangam really the largest temple in the world?",
+        answer:
+          "It is the largest functioning Hindu temple complex in the world — about 156 acres, enclosed by seven concentric prakarams with 21 gopurams and an outer perimeter of roughly 4 km. Angkor Wat in Cambodia covers more ground but is no longer an active temple, so Srirangam holds the distinction among living temples.",
+      },
+      {
+        question: "What is the significance of Vaikunta Ekadasi here?",
+        answer:
+          "Vaikunta Ekadasi (Margazhi, Dec–Jan) is Srirangam's greatest festival, the climax of the 21-day Adhyayana Utsavam (Pagal Pathu and Ra Pathu). Its heart is the opening of the Paramapada Vasal, the 'Gateway to Heaven', normally sealed all year. Devotees who pass through behind the festival deity during its ten open days believe they receive a vision of liberation. The entire Nalayira Divya Prabandham is recited and the unique Araiyar Sevai is performed. Expect enormous crowds — arrive very early.",
+      },
+      {
+        question: "Who was Sri Ramanuja and why is he enshrined here?",
+        answer:
+          "Sri Ramanuja (traditionally 1017–1137) was the great acharya of Vishishtadvaita philosophy and the organiser of Sri Vaishnavism, who made Srirangam his headquarters. He reformed the temple's worship and administration and taught his Sri Bhashya here. By tradition his body was preserved after death and is enshrined, seated as in life, in the Ramanuja sannidhi — venerated as 'the form that is the master himself' and a required stop for every pilgrim.",
+      },
+      {
+        question: "Can I see the Goddess and the Lord together?",
+        answer:
+          "Only once a year. Sri Ranganayaki Thayar keeps to her own shrine throughout the year as the soul's mediatrix; she and Ranganatha give joint darshan (Serthi) together only on Panguni Uttiram (March–April). The rest of the year you have darshan of each separately — and Thayar's shrine is itself one of the most beloved in the complex.",
+      },
+      {
+        question: "Why is the Lord offered chapati and butter?",
+        answer:
+          "This honours Thulukka Nachiyar (Bibi Nachiyar), the Delhi Sultan's daughter who, by legend, became devoted to the festival deity during its sojourn in the north after the 1311 invasion and followed it back to Srirangam. Her shrine is within the temple, and the Lord is offered north-Indian chapati and butter and dressed in her memory — a moving record of the temple's medieval history and a rare instance of such inclusive custom.",
+      },
+      {
+        question: "How much time should I plan, and is special darshan worth it?",
+        answer:
+          "Given the sheer scale — seven prakarams, the Thayar shrine, the Ramanuja sannidhi, the thousand-pillar hall and the sculpture mandapams — allow at least 2–3 hours, more if you want to appreciate the art. The quick/special darshan ticket (~₹250) meaningfully shortens the queue and is worth it, especially on weekends and festival days. Take the Viswaroopa darshan in the early morning if you can.",
+      },
+      {
+        question: "What's the dress code?",
+        answer:
+          "Traditional attire is expected in the inner prakarams: dhoti/veshti or pyjama-kurta for men, saree or salwar for women. Shorts, Bermudas, and sleeveless tops are not permitted inside. As at most Vaishnava temples, you'll go barefoot beyond the sacred boundary, so be prepared for hot stone in summer.",
+      },
+    ],
+  },
 };
 
 // For temples without explicit detail entries, generate a sensible default
