@@ -1792,6 +1792,1063 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
     ],
   },
+  "padmanabhaswamy-trivandrum": {
+    slug: "padmanabhaswamy-trivandrum",
+    timings: { morning: "3:30 AM – 12:00 PM", evening: "5:00 PM – 7:20 PM", note: "Darshan runs in fixed slots: roughly 3:30–4:45 AM, 6:30–7:00 AM, 8:30–10:00 AM, 10:30–11:10 AM, 11:45 AM–12:00 PM, then 5:00–6:15 PM and 6:45–7:20 PM. Slots shift on festival days; confirm before visiting." },
+    entryFee: "Free darshan. A 'Sheeghra Darshanam' quick ticket (~₹100–₹250) shortens the queue. Strict dress code enforced; only Hindus are permitted inside.",
+    dressCode: "Men must remove the shirt/vest and wear a mundu (dhoti); a towel/angavastram over the torso is allowed. Women wear saree, set-mundu, or half-saree; salwar-kameez is generally allowed but skirts/trousers are not. Dhotis can be rented/bought at the entrance.",
+    bestTime: "September – February (pleasant weather). Painkuni (March–April) and Alpasi (October–November) festivals are the spiritual peaks; the once-in-six-years Laksha Deepam is the rarest spectacle.",
+    travelInfo: {
+      byAir: "Thiruvananthapuram International Airport (~6 km) with domestic flights and Gulf/Southeast-Asia connections; among the closest airports to any major temple in India.",
+      byTrain: "Thiruvananthapuram Central Railway Station (~1 km) is a major terminus with trains from Chennai, Bengaluru, Mumbai, Delhi and across Kerala.",
+      byRoad: "The temple sits in the East Fort (Kizhakke Kotta) area in the heart of the capital. KSRTC buses, city buses, autos and taxis run constantly. Kanyakumari is ~90 km, Kollam ~70 km, Kochi ~200 km.",
+    },
+    highlights: [
+      "Widely regarded as the wealthiest place of worship in the world, after the 2011 inventory of its underground vaults revealed treasures valued in the tens of billions of dollars",
+      "Lord Padmanabha reclines on the great serpent Anantha in the Anantha-Shayanam pose, viewable only through three separate doors",
+      "The principal idol is fashioned from 12,008 saligrama stones brought from the Gandaki river in Nepal, bound with the herbal 'katu-sarkara-yogam' plaster",
+      "One of the 108 Divya Desams ('Thiru-Anantha-Puram'); the city itself is named after the deity",
+      "The Travancore royal family rules as 'Sree Padmanabha Dasa' (servant of Padmanabha) since Marthanda Varma dedicated the kingdom to the Lord in 1750",
+      "A unique fusion of Kerala and Dravidian architecture, crowned by a 100-ft, seven-tier eastern gopuram (1566)",
+      "The Ottakkal Mandapam, carved from a single massive granite slab, fronts the sanctum",
+    ],
+    history: "Sree Padmanabhaswamy Temple is among the oldest and most venerated Vishnu shrines in India, its sanctity sung by the Alvar saints Nammalvar and Kulasekara Alvar (8th–9th centuries), which makes it one of the 108 Divya Desams. The reclining deity gives the Kerala capital its name: Thiru-Anantha-Puram, 'the sacred city of Ananta'. While legends place its origins in deep antiquity, the temple acquired its present grandeur under the kings of Travancore. In 1750 CE, Anizham Thirunal Marthanda Varma performed the 'Thrippadi-danam', formally surrendering his entire kingdom to Lord Padmanabha and thereafter ruling, with all his successors, merely as the Lord's regent or 'Sree Padmanabha Dasa'. The royal family rebuilt and expanded the temple, commissioned the great gopuram and the long corridors, and entrenched a tradition of royal service that survives to this day. The temple returned to world attention in 2011, when, following litigation, the Supreme Court of India ordered an inventory of its sealed underground vaults (Kallaras), uncovering an astonishing hoard of gold, jewels, idols and ancient coins and confirming its reputation as the richest temple on earth.",
+    architecture: "The temple is a striking synthesis of the indigenous Kerala style and the Tamil Dravidian tradition. Its most visible landmark is the 100-foot, seven-storeyed eastern Rajagopuram, raised in 1566, fronted by a temple tank (Padma Theertham, the 'lotus spring'). Beyond it stretch the Sheevelippura corridors lined with hundreds of carved granite pillars and a flagstaff (Dwajasthambham) plated in gold. Before the sanctum lies the Ottakkal Mandapam, a ceremonial hall hewn from a single immense slab of granite. Within the garbhagriha reclines the colossal Padmanabha on Anantha; because of his great length the deity is revealed through three doorways, the first showing the face and chest with Brahma rising on a lotus from the navel, the second the central body, and the third the feet. The underground Kallaras (treasure vaults), lettered A through F (with later additions), lie beneath the temple and store the accumulated offerings of centuries; the sealed Vault B remains famously unopened.",
+    festivals: [
+      { name: "Painkuni Utsavam", month: "March–April (Meenam)", description: "A grand ten-day spring festival ending in the Aarattu (sacred immersion) procession, when the deities are carried to the Shankhumukham beach for a ritual sea-bath, escorted on foot by the Travancore Maharaja bearing a sword." },
+      { name: "Alpasi Utsavam", month: "October–November (Thulam)", description: "The autumn counterpart of Painkuni, another ten-day festival likewise concluding with the Aarattu procession to the sea at Shankhumukham." },
+      { name: "Laksha Deepam", month: "Once every six years (Jan)", description: "The temple's rarest and most dazzling event: the lighting of one lakh (100,000) oil lamps across the complex, held after 56 days of continuous Vedic recitation known as the Murajapam. The next occurrences fall in this six-year cycle." },
+      { name: "Navaratri", month: "September–October", description: "The nine-night festival of the Goddess, during which the Saraswati idol and the deities of the Navaratri Mandapam are worshipped, accompanied by the celebrated Swathi Sangeetholsavam classical music festival." },
+    ],
+    poojas: [
+      { name: "Usha Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Pantheeradi Pooja", time: "Mid-morning", fee: "Sponsored" },
+      { name: "Ucha Pooja (Noon)", time: "~11:30 AM", fee: "Sponsored" },
+      { name: "Deeparadhana", time: "Evening (~6:45 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["attukal-bhagavathy", "guruvayur-krishna"],
+    mythology: {
+      legend:
+        "The temple's origin legend centres on the sage Divakara Muni Vilvamangalam, a devotee of Vishnu. The Lord, wishing to test and reward him, appeared as a mischievous little boy who played about the sage's hermitage and disturbed his worship. One day the boy defiled the saligrama the sage was venerating, and the angry Vilvamangalam pushed him away. The child vanished, declaring that if the sage wished to see him again he must seek him in 'Ananthankadu', the forest of Ananta. Stricken with remorse, the sage wandered until, at Ananthankadu, he saw the boy merge into an enormous illupa (Indian butter) tree, which crashed down and took the form of Vishnu reclining on the serpent Anantha, stretching for miles. The sage begged the vast form to condense to a size he could worship; the Lord shrank to roughly eighteen feet, still so long that he must be seen through three doors. The spot became the sanctum, and the city around it took the deity's name.",
+      additionalStories: [
+        {
+          title: "The Three Doors and Anantha-Shayanam",
+          content:
+            "Lord Padmanabha ('the lotus-naveled one') reclines in the Yoga-nidra posture on the thousand-hooded serpent Anantha (Adi Sesha), his right hand resting over a Shiva-linga, signalling the unity of Vishnu and Shiva. From his navel rises a lotus bearing four-faced Brahma, the creator. Because the image is so long, no single doorway can take it in; the devotee receives darshan through three separate doors, beholding in turn the face and chest, the navel with Brahma, and the sacred feet. The arrangement is itself a teaching: the worshipper must move and bow to see the whole, never grasping the infinite Lord in a single glance.",
+        },
+        {
+          title: "The Kingdom Given to God: Thrippadi-danam",
+          content:
+            "In 1750, King Anizham Thirunal Marthanda Varma, founder of modern Travancore, performed the Thrippadi-danam, laying his sword and his entire conquered kingdom at the feet of Lord Padmanabha and declaring himself and all future kings to be merely 'Sree Padmanabha Dasa', the servant of Padmanabha. Thereafter the rulers governed not as sovereigns in their own right but as stewards acting in the Lord's name, depositing the realm's wealth as offerings to the deity. This vow explains both the immense treasures gathered in the temple vaults and the royal family's enduring, intimate role in its rituals.",
+        },
+        {
+          title: "The Saligrama Idol and Katu-Sarkara-Yogam",
+          content:
+            "Unlike most temple idols of stone or metal, Padmanabha's image is built from 12,008 saligramas, the naturally fossil-marked sacred stones gathered from the bed of the Gandaki river in Nepal and, by tradition, carried south on elephant-back. These are bound and shaped with 'katu-sarkara-yogam', a hardened ayurvedic plaster of herbs, jaggery and other ingredients, over which the form is finished. Because of this fragile composition, no oil or water abhishekam is poured directly on the moolavar; worship is offered with special care, and the idol is periodically renewed by experts in the ancient technique.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Eastern Rajagopuram",
+        type: "gopuram",
+        description: "The temple's defining silhouette: a seven-tiered eastern gateway tower rising about 100 feet, built in 1566 in the Pandya–Dravidian manner and ornamented with stucco figures from the Puranas. It overlooks the Padma Theertham tank and is among the most photographed landmarks of Thiruvananthapuram.",
+        detail: "~100 ft · 7 tiers · built 1566",
+      },
+      {
+        name: "Garbhagriha — Anantha-Shayanam",
+        type: "sanctum",
+        description: "The inner sanctum holding the great reclining form of Padmanabha on the serpent Anantha, fashioned from 12,008 saligramas. Owing to its length the deity is revealed through three doors. The right hand rests above a Shiva-linga and Brahma rises on a lotus from the navel, uniting the Trimurti in one image.",
+        detail: "Reclining Vishnu · seen through 3 doors",
+      },
+      {
+        name: "Ottakkal Mandapam",
+        type: "mandapam",
+        description: "A ceremonial pavilion in front of the sanctum carved from a single colossal slab of granite (its name means 'single-stone hall'). It is here that the king and chief devotees perform key rituals; entry onto it is restricted.",
+        detail: "Hewn from one granite slab",
+      },
+      {
+        name: "Sheeveli Corridors & Gold Flagstaff",
+        type: "other",
+        description: "Long pillared corridors (the Sheevelippura) wrap the sanctum, lined with hundreds of intricately carved granite columns. The Dwajasthambham (flagstaff) before the sanctum is plated in gold, raised on a base of granite.",
+        detail: "Gold-plated Dwajasthambham",
+      },
+      {
+        name: "Kallaras (Underground Vaults)",
+        type: "other",
+        description: "A series of sealed subterranean chambers, lettered A to F (with later-designated G–J), holding the offerings of centuries: gold ornaments, gem-set idols, ceremonial vessels, and antique coins. Vaults opened under court order in 2011 confirmed the temple as the richest on earth. Vault B remains unopened.",
+        detail: "Vaults A–F · Vault B sealed",
+      },
+      {
+        name: "Padma Theertham",
+        type: "tank",
+        description: "The 'lotus spring', the temple's sacred tank lying just outside the eastern gopuram, where devotees traditionally bathe before darshan. Its still water mirrors the great tower.",
+      },
+      {
+        name: "Navaratri Mandapam",
+        type: "mandapam",
+        description: "A finely sculpted hall used during the Navaratri festival, associated with the Travancore composer-king Swathi Thirunal and the annual Swathi Sangeetholsavam, a festival of Carnatic music held in the deity's presence.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Thekkedom — Narasimha",
+        deity: "Lord Narasimha (man-lion avatar of Vishnu)",
+        description: "The fierce Narasimha shrine to the south of the main sanctum, one of the temple's principal sub-deities, sought by devotees for protection and the destruction of evil.",
+      },
+      {
+        name: "Ugra Narasimha & Krishna Swamy",
+        deity: "Vishnu in his Narasimha and Krishna forms",
+        description: "Additional shrines within the complex venerating the Lord's avatars, with Krishna Swamy worshipped in his own sannidhi alongside the reclining Padmanabha.",
+      },
+      {
+        name: "Sastha (Ayyappa)",
+        deity: "Lord Ayyappa / Dharma Sastha",
+        description: "A shrine to Sastha within the temple, linking Padmanabhaswamy to the wider Kerala devotional landscape of which Sabarimala is the heart.",
+      },
+      {
+        name: "Ganapathy & Garuda",
+        deity: "Lord Ganesha and the eagle-mount of Vishnu",
+        description: "Ganapathy, invoked first to remove obstacles, and Garuda, the vahana of Vishnu, both honoured along the temple's prakaram for the devotee's preliminary prayers.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Eastern Gopuram (Main Entrance)", direction: "East", notes: "The principal entrance beneath the great seven-tier tower, facing the Padma Theertham tank. Most pilgrims enter here." },
+        { name: "Western / Northern entrances", direction: "West", notes: "Secondary gateways used for specific queues and during heavy festival crowds; follow the posted directions and staff guidance." },
+      ],
+      cloakRoom: "Footwear, bags and prohibited items must be deposited at counters near the entrance before you go barefoot beyond the sacred boundary. Dhotis (mundu) for the dress code are sold and rented near the gate.",
+      mobilePolicy: "Mobile phones, cameras and electronic devices are not permitted inside and must be left at the deposit counter. Security is strict; do not attempt to carry them in.",
+      cameraPolicy: "Photography is strictly prohibited inside the temple. Cameras and phones are surrendered at the cloak counter. You may photograph the gopuram and tank from outside.",
+      wheelchairAccess: "The temple has steps and traditional level changes, and the dress code requires the mundu, so assistance may be needed. Wheelchairs can be arranged informally; ask temple staff and plan for help on the inner approach.",
+      seniorCitizenDarshan: "A Sheeghra (quick) darshan ticket considerably shortens the wait and is advisable for seniors. Darshan runs only in fixed time-slots, so arrive aligned to a slot rather than between them, and allow for queue time on festival days.",
+      parking: "Parking is limited in the busy East Fort area; use the public lots nearby or arrive by auto/taxi. The temple is central and walkable from Thiruvananthapuram Central station and the city bus stands.",
+      restrooms: "Basic restrooms and drinking-water points are available near the temple and around the East Fort precinct. Facilities are stretched during festivals; carry essentials.",
+      drinkingWater: "Drinking water is available near the entrance and tank. Kerala's coastal climate is warm and humid year-round; carry water, especially in the March–May summer.",
+    },
+    sevas: [
+      {
+        name: "Sheeghra Darshanam",
+        description: "The quick-darshan privilege that lets the devotee bypass the general queue for a faster view of the Lord through the three doors, valuable on festival days and weekends.",
+        time: "During darshan slots",
+        fee: "~₹100–₹250",
+        type: "daily",
+      },
+      {
+        name: "Archana (Pushpanjali)",
+        description: "Offering of flowers and recitation of the deity's names in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Bhagavati Seva / Pushpanjali",
+        description: "Special floral and lamp worship sponsored by devotees for family welfare, prosperity and the removal of difficulties.",
+        time: "Select days",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Niramala & Deeparadhana",
+        description: "The evening lamp ceremony (Deeparadhana) when the deity is worshipped amid rows of oil lamps, a serene daily highlight open to all worshippers.",
+        time: "Evening (~6:45 PM)",
+        fee: "Free to witness",
+        type: "daily",
+      },
+      {
+        name: "Murajapam & Laksha Deepam",
+        description: "The great six-yearly cycle of 56 days of continuous Vedic chanting (Murajapam) culminating in the lighting of one lakh lamps (Laksha Deepam) across the temple, the rarest seva-spectacle of the year.",
+        time: "Once every six years",
+        fee: "Free to witness",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is Padmanabhaswamy called the richest temple in the world?",
+        answer:
+          "Beneath the temple lie sealed vaults (Kallaras) holding the accumulated offerings of centuries, vastly enlarged after the Travancore kings dedicated their kingdom and its wealth to the deity in 1750. When the Supreme Court of India ordered an inventory in 2011, the opened vaults (A and C–F) revealed gold ornaments, gem-encrusted idols, ceremonial vessels and antique coins valued in the tens of billions of dollars, confirming it as the wealthiest place of worship on earth. Vault B remains unopened.",
+      },
+      {
+        question: "What is the mystery of Vault B (Bharatakkon Kallara)?",
+        answer:
+          "Vault B is the one chamber that was not opened during the 2011 inventory. Its outer door bears carved images of serpents (nagas), and temple tradition holds that it is sealed by a sacred 'Naga Bandham' and should not be disturbed, with warnings of calamity if forced. The matter became part of the Supreme Court proceedings, and the court has so far deferred opening it. Whether it holds further treasure, ritual objects, or is largely symbolic remains, officially, unknown, which is exactly why it captures the public imagination.",
+      },
+      {
+        question: "Why is the deity seen through three separate doors?",
+        answer:
+          "Lord Padmanabha reclines in the Anantha-Shayanam pose on the serpent Anantha, and the idol is so long (about eighteen feet) that no single doorway can frame it. Devotees take darshan through three doors in sequence: the first reveals the face and chest with Brahma seated on a lotus rising from the navel, the second the central body, and the third the sacred feet. By tradition the Lord shrank to this size at the request of the sage Vilvamangalam, who could not worship his original, miles-long form.",
+      },
+      {
+        question: "Can non-Hindus enter the temple?",
+        answer:
+          "No. Like several traditional Kerala temples, Sree Padmanabhaswamy admits only Hindus. The rule is enforced at the entrance. Visitors of all faiths may, however, view and photograph the great eastern gopuram and the Padma Theertham tank from outside the temple.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "It is strict and traditional. Men must remove the shirt and upper garment and wear a mundu (dhoti) wrapped around the waist; an angavastram over the shoulders is permitted. Women wear a saree, set-mundu or half-saree; salwar-kameez is generally allowed, but trousers, skirts, shorts and similar western wear are not. Mundus can be bought or rented at the entrance. Everyone goes barefoot inside.",
+      },
+      {
+        question: "What are the temple's main festivals?",
+        answer:
+          "Two grand ten-day festivals dominate the calendar, Painkuni (March–April) and Alpasi (October–November), each ending with the spectacular Aarattu procession in which the deities are carried to the sea at Shankhumukham beach for a holy bath, escorted on foot by the Travancore Maharaja with a drawn sword. Rarest of all is the Laksha Deepam, held once every six years, when one lakh oil lamps are lit after 56 days of Vedic chanting. Navaratri brings the famed Swathi Sangeetholsavam music festival.",
+      },
+      {
+        question: "How is the Travancore royal family connected to the temple?",
+        answer:
+          "In 1750, King Marthanda Varma performed the Thrippadi-danam, surrendering his entire kingdom to Lord Padmanabha and ruling thereafter only as 'Sree Padmanabha Dasa', the Lord's servant. Every Travancore ruler since has held the same title, and the family continues to play a central role in the temple's administration and rituals to this day, a role affirmed by the Supreme Court in its 2020 judgment on the temple's management.",
+      },
+      {
+        question: "How much time should I plan, and when is darshan available?",
+        answer:
+          "Darshan is offered in fixed slots through the morning (roughly 3:30 AM to noon) and evening (about 5:00 to 7:20 PM), not continuously, so time your arrival to a slot. Allow 1–2 hours including the queue, security, changing into the mundu and depositing phones; longer on festival days. A Sheeghra (quick) darshan ticket meaningfully reduces the wait.",
+      },
+    ],
+  },
+  "guruvayur-krishna": {
+    slug: "guruvayur-krishna",
+    timings: { morning: "3:00 AM – 1:15 PM", evening: "4:30 PM – 9:15 PM", note: "The day opens with the Nirmalya Darshanam around 3:00 AM (the Lord seen in the previous night's flowers) and closes after the Thripuka and Olavayana around 9:15 PM. Slots and timings shift on festival days and during the Ekadasi season." },
+    entryFee: "Free darshan. A 'Sheeghra Darshanam' quick ticket shortens the queue. Strict dress code enforced; only Hindus are permitted inside.",
+    dressCode: "Men and boys must be bare-chested, wearing only a mundu (dhoti); shirts and vests are not allowed inside. Women wear saree, set-mundu or half-saree; salwar-kameez (churidar) is permitted but trousers, skirts and shorts are not. Mundus can be bought or rented near the temple.",
+    bestTime: "September – February (pleasant weather). Guruvayur Ekadasi (November–December) and the ten-day Utsavam (February–March) are the spiritual peaks; both bring grand elephant processions.",
+    travelInfo: {
+      byAir: "Cochin International Airport, Nedumbassery (~80 km) is the nearest; Calicut (Kozhikode) International Airport is ~100 km. Both have wide domestic and Gulf connections.",
+      byTrain: "Guruvayur Railway Station (~600 m) is a terminus with trains to Thrissur, Chennai and beyond. Thrissur Junction (~30 km) is the major hub on the main line.",
+      byRoad: "Guruvayur is in Thrissur district. KSRTC and private buses run constantly from Thrissur (~30 km), Kochi/Ernakulam (~90 km), Kozhikode (~100 km) and Palakkad. Autos and taxis serve the temple town.",
+    },
+    highlights: [
+      "Kerala's most important Krishna pilgrimage, revered as 'Bhuloka Vaikunta' (Vishnu's earthly abode) and the 'Dwarka of the South'",
+      "The four-armed deity Guruvayurappan holds the conch, discus, mace and lotus — the very form of Mahavishnu that Krishna revealed to his parents at birth",
+      "The idol is carved from the rare and sacred 'Patala-anjanam', a black stone considered far more than ordinary stone",
+      "Installed, by legend, by Guru (Brihaspati, preceptor of the gods) and Vayu (the wind god), whose names give the town its name",
+      "Birthplace of the Narayaneeyam, the 1,034-verse devotional masterpiece composed here by Melpathur Narayana Bhattathiri in 1586",
+      "Home to a long tradition of temple elephants, housed at the Punnathur Kotta sanctuary nearby — the legendary Guruvayur Keshavan among them",
+      "A 33.5-metre gold-plated flagstaff (Dwajasthambham) and a seven-tiered pillar of lamps (Deepasthambham) frame the sanctum",
+    ],
+    history: "Sree Krishna Temple at Guruvayur is the foremost Krishna shrine of Kerala and one of the most visited temples in South India. Tradition holds the deity to be extraordinarily ancient — first worshipped by Vishnu himself and passed down through Brahma, the sages, and Krishna's parents, before Krishna installed it in his city of Dwarka. When Dwarka was destined to be swallowed by the sea at the close of the Dwapara Yuga, Krishna (through his devotee Uddhava) entrusted the idol's rescue to Guru, the preceptor of the gods, and Vayu, the wind god, who bore it south and, guided by Lord Shiva, enshrined it at a lotus-filled tank where Shiva and Parvati were themselves worshipping. The place took the name of its divine founders: Guru-Vayu-ur. The temple's recorded history runs deep through the medieval period; it suffered raids and a major fire in 1970 but was rebuilt, and it flourished under the patronage of the Zamorins of Calicut and generations of devotees. It is woven into Kerala's cultural memory through the poet-saints Melpathur and Poonthanam and the temple dance-drama Krishnanattam.",
+    architecture: "Guruvayur is built in the classic Kerala temple style: a square, gold-roofed sanctum (sreekovil) set within two concentric prakaram enclosures, with the principal entrances to the east and west. The east-facing sreekovil houses the standing four-armed Mahavishnu. Before it rise two of the temple's signal landmarks — the Dwajasthambham, a flagstaff about 33.5 metres tall sheathed in gold, and the Deepasthambham, a seven-storeyed pillar carrying thirteen circular tiers of oil lamps that blaze on festival nights. The temple tank, Rudratheertham, lies to the north and is the setting for the festival Aarattu. The inner walls and the Vilakkumadam (the surrounding frame of lamps) are illuminated to spectacular effect during the chuttuvilakku. Across from Guruvayur stands the Mammiyur Mahadeva temple, where, by legend, Shiva moved to make room for Krishna, and a Guruvayur pilgrimage is traditionally completed with a visit there.",
+    festivals: [
+      { name: "Guruvayur Ekadasi", month: "November–December (Vrishchikam)", description: "The temple's holiest day, commemorating Krishna's delivery of the Bhagavad Gita. The night blazes with the chuttuvilakku illumination and an Udayasthamana pooja; the preceding day features the famous Aanayottam (elephant race), and the Ekadasi Vilakku procession is a vast draw." },
+      { name: "Utsavam", month: "February–March (Kumbham)", description: "The grand ten-day annual festival, opening with the Aanayottam elephant race and the Kodiyettam (flag hoisting) and closing with the Aarattu, when the deity is taken in procession to the Rudratheertham tank for a ceremonial bath." },
+      { name: "Ashtami Rohini (Krishna Janmashtami)", month: "August–September", description: "The birthday of Lord Krishna, celebrated with great devotion, special abhishekams, the Uriyadi (pot-breaking) and offerings, marking the advent of the Lord whose form the deity embodies." },
+      { name: "Kuchela Dinam", month: "December–January (Dhanu)", description: "Commemorates the poor devotee Kuchela (Sudama), Krishna's childhood friend, who offered a humble handful of beaten rice (aval) and was blessed with abundance — a celebration of devotion above wealth. Aval is offered at the temple." },
+    ],
+    poojas: [
+      { name: "Nirmalya Darshanam", time: "~3:00 AM", fee: "Free to witness" },
+      { name: "Usha Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Ucha Pooja (Noon)", time: "~12:30 PM", fee: "Sponsored" },
+      { name: "Athazha Pooja & Deeparadhana", time: "Evening / night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["padmanabhaswamy-trivandrum", "attukal-bhagavathy"],
+    mythology: {
+      legend:
+        "The idol of Guruvayurappan is said to be among the most ancient of all, fashioned of the rare Patala-anjanam stone and worshipped first by Mahavishnu in Vaikuntha. It passed to Brahma, then through the sages Sutapas and the divine couple who would be reborn as Krishna's parents, and finally to Vasudeva and Devaki, in whose home Krishna was born. Krishna himself worshipped this very image in Dwarka. As his earthly mission ended and the sea prepared to claim Dwarka, Krishna told his devotee Uddhava that the idol must be saved and a new home found for it. Guru, the guru of the gods (Brihaspati), and Vayu, the wind god, recovered the image from the waters and carried it across the land seeking the right spot. Guided by Lord Shiva, they came to a beautiful lotus tank in Kerala where Shiva and Parvati were at worship. Shiva declared the place supremely holy and graciously shifted to the opposite bank so that Krishna might be installed there. The shrine was named Guru-Vayu-ur for the two who established it, and Shiva's new abode became the Mammiyur temple.",
+      additionalStories: [
+        {
+          title: "Melpathur, Poonthanam, and the Narayaneeyam",
+          content:
+            "Two devotee-poets define Guruvayur's spiritual fame. Melpathur Narayana Bhattathiri, a great Sanskrit scholar, is said to have taken upon himself the paralysis of his ailing guru and, crippled, came to Guruvayur. There, on the advice of the saint-poet Thunchaththu Ezhuthachan to 'begin with the fish' (the Matsya avatar), he composed the Narayaneeyam — 1,034 verses condensing the entire Bhagavata Purana — completing one canto a day for a hundred days. On the final day in 1586 the Lord granted him a vision and cured him. The other was Poonthanam Nambudiri, an unlettered but supremely devoted poet who wrote the Malayalam Jnanappana ('Song of Wisdom'). When the learned Melpathur once slighted Poonthanam's simple verses, the Lord himself is said to have rebuked him, declaring that Poonthanam's pure devotion (bhakti) was dearer to him than Melpathur's scholarship (vibhakti) — a parable still cherished across Kerala.",
+        },
+        {
+          title: "Krishnanattam, the Lord's Own Dance-Drama",
+          content:
+            "In the 17th century Manaveda, the Zamorin of Calicut and a great Krishna devotee, composed the Krishnagiti and created Krishnanattam, a cycle of eight dance-dramas depicting Krishna's life from birth to ascension. By legend Manaveda was granted a vision of the child Krishna under the elanji tree at Guruvayur. Krishnanattam is performed at the temple as a votive offering — devotees sponsor specific plays for specific blessings (the 'Swargarohanam' on the marriage of a daughter, and so on) — and it is regarded as a forerunner of Kerala's celebrated Kathakali.",
+        },
+        {
+          title: "The Elephants of Guruvayur and Keshavan",
+          content:
+            "Devotees have for centuries offered elephants to the Lord, and Guruvayur maintains a large herd housed a few kilometres away at the Punnathur Kotta (Anakkotta), a former palace grounds turned elephant sanctuary. The most beloved was Guruvayur Keshavan (1904–1976), an elephant of legendary devotion and dignity who, it is said, would bow before the deity and who died on Guruvayur Ekadasi day facing the temple. His statue stands before the eastern entrance, and the herd remains central to the temple's grand festival processions and the Aanayottam races.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Sreekovil (Sanctum)",
+        type: "sanctum",
+        description: "The square, copper-and-gold roofed inner sanctum housing the standing four-armed Mahavishnu carved of Patala-anjanam, holding the conch (Panchajanya), discus (Sudarshana), mace (Kaumodaki) and lotus. East-facing, it is the heart of the temple; the deity is adorned freshly each session, from the bare Nirmalya darshan at dawn to full ornament through the day.",
+        detail: "Gold-roofed · east-facing · Mahavishnu",
+      },
+      {
+        name: "Dwajasthambham (Gold Flagstaff)",
+        type: "other",
+        description: "The towering flagstaff before the sanctum, about 33.5 metres tall and sheathed in gold, one of the tallest temple flagstaffs in the region. The festival flag (kodi) is hoisted on it to inaugurate the annual Utsavam.",
+        detail: "~33.5 m · gold-plated",
+      },
+      {
+        name: "Deepasthambham (Pillar of Lamps)",
+        type: "other",
+        description: "A seven-storeyed lamp-pillar carrying thirteen circular tiers of oil lamps. When lit during festivals and special offerings, it becomes a blazing column of fire, among the temple's most striking sights.",
+        detail: "7 tiers · 13 lamp-rings",
+      },
+      {
+        name: "Vilakkumadam & Chuttuvilakku",
+        type: "other",
+        description: "The frame of lamps mounted along the inner prakaram walls. On Ekadasi and festival nights every wick is lit (the chuttuvilakku), ringing the sanctum in a continuous line of flame — the temple's signature illumination.",
+      },
+      {
+        name: "Rudratheertham",
+        type: "tank",
+        description: "The temple's sacred tank to the north, named for Shiva (Rudra), who by legend worshipped here before yielding the site to Krishna. It is the destination of the festival Aarattu, the ceremonial bath of the deity that closes the Utsavam.",
+      },
+      {
+        name: "Koothambalam & East/West Gopurams",
+        type: "mandapam",
+        description: "The temple's performance hall (Koothambalam) and its eastern and western gateway towers. The Koothambalam and the area before the eastern gopuram host the daily Krishnanattam and other votive arts.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Ganapathy",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first by devotees as they enter, with his shrine within the temple precinct.",
+      },
+      {
+        name: "Sastha (Ayyappa)",
+        deity: "Lord Ayyappa / Dharma Sastha",
+        description: "A shrine to Sastha within the complex, connecting Guruvayur to the broader Kerala devotional fabric centred on Sabarimala.",
+      },
+      {
+        name: "Bhagavathy / Edathedathu Kavil",
+        deity: "The Goddess",
+        description: "The Devi shrine associated with the temple, worshipped by devotees for protection and family welfare alongside the principal deity.",
+      },
+      {
+        name: "Mammiyur Mahadeva (across the road)",
+        deity: "Lord Shiva",
+        description: "Though a separate temple opposite Guruvayur, Mammiyur is bound to it by legend — the abode to which Shiva moved to give Krishna the holy site. A Guruvayur pilgrimage is traditionally held incomplete without darshan here.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Eastern Gopuram (Main Entrance)", direction: "East", notes: "The principal entrance facing the Dwajasthambham and the statue of Guruvayur Keshavan; most pilgrims enter here for darshan." },
+        { name: "Western Gopuram", direction: "West", notes: "The western gateway, used for specific queues and exits and during heavy festival crowds." },
+      ],
+      cloakRoom: "Footwear, bags and electronics must be deposited at the counters before you go barefoot beyond the sacred boundary. Mundus for the dress code are sold and rented near the temple gates.",
+      mobilePolicy: "Mobile phones and electronic devices are not permitted inside and must be left at the deposit counter. Security is strict, especially during festivals.",
+      cameraPolicy: "Photography is prohibited inside the temple; cameras and phones are surrendered at the cloak counter. The exterior, gopurams and Keshavan statue may be photographed from outside.",
+      wheelchairAccess: "The temple involves steps and traditional level changes and the bare-chest mundu dress code, so assistance may be needed on the inner approach. Wheelchairs can be arranged informally; ask temple staff and plan ahead, particularly on festival days.",
+      seniorCitizenDarshan: "A Sheeghra (quick) darshan ticket considerably shortens the wait and is advisable for seniors. Arrive early; queues are long on weekends, Ekadasi and during the Utsavam and Janmashtami.",
+      parking: "Parking is available in lots around the temple town, which can fill quickly on festival days. Guruvayur is compact and the temple is a short walk from the railway station and bus stand.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and at the Devaswom guest houses and queue complexes. Facilities are stretched on festival days; carry essentials.",
+      drinkingWater: "Drinking water is available near the entrances and queue areas; the Devaswom also runs Annadanam (free meals) on many days. Kerala's coastal climate is warm and humid; carry water in summer.",
+    },
+    sevas: [
+      {
+        name: "Nirmalya Darshanam",
+        description: "The first and most coveted darshan of the day, when the sanctum opens to reveal the Lord still adorned with the previous night's flowers and sandal, before the day's fresh decoration — considered an especially blessed sight.",
+        time: "Daily, ~3:00 AM",
+        fee: "Free to witness",
+        type: "daily",
+      },
+      {
+        name: "Thulabharam",
+        description: "The devotee is weighed on a great balance against an offering — bananas, sugar, jaggery, coconuts or even gold — equal to their own weight, the offering then given to the Lord. A classic Guruvayur vow for fulfilment of prayers.",
+        time: "Daily on request",
+        fee: "Cost of the offering",
+        type: "special",
+      },
+      {
+        name: "Udayasthamana Pooja",
+        description: "A grand 'dawn-to-dusk' worship in which the full cycle of the day's poojas is sponsored by a single devotee or family — among the most elaborate and sought-after offerings, booked long in advance.",
+        time: "Full day (booked ahead)",
+        fee: "Sponsored (advance booking)",
+        type: "special",
+      },
+      {
+        name: "Choroonu (Annaprasanam)",
+        description: "The first feeding of cooked rice to an infant, performed in the Lord's presence as an auspicious beginning to the child's life; Guruvayur is one of the most popular venues in Kerala for this rite.",
+        time: "On booking",
+        fee: "Prescribed fee",
+        type: "special",
+      },
+      {
+        name: "Krishnanattam Offering",
+        description: "Sponsorship of a Krishnanattam play as a votive offering, each of the eight episodes traditionally sought for a particular blessing (e.g. Swayamvaram for marriage, Kaliyamardanam for relief from troubles).",
+        time: "As scheduled",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Tholappoli / Ezhuthiniruthu (Vidyarambham)",
+        description: "Initiation of children into learning, traditionally performed at Guruvayur on Vijayadasami, when the child writes the first letters guided into the rice — a deeply popular start to formal education.",
+        time: "Vijayadasami / on booking",
+        fee: "Prescribed fee",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is Guruvayurappan, and how is the deity depicted?",
+        answer:
+          "Guruvayurappan is Lord Krishna worshipped in the full four-armed form of Mahavishnu — holding the conch (Panchajanya), discus (Sudarshana), mace (Kaumodaki) and lotus. This is the very cosmic form the newborn Krishna is said to have revealed to his parents Vasudeva and Devaki before appearing as an ordinary infant. So although the Lord here is loved as Krishna, the icon itself is Vishnu, carved from the rare black Patala-anjanam stone.",
+      },
+      {
+        question: "How did Guruvayur get its name?",
+        answer:
+          "From the two who, by legend, founded it: Guru, the preceptor of the gods (Brihaspati), and Vayu, the wind god. When Dwarka was about to sink into the sea after Krishna's departure, these two recovered Krishna's worshipped idol and, guided by Lord Shiva, enshrined it at a lotus tank in Kerala. The place was named Guru-Vayu-ur, 'the town of Guru and Vayu'. Shiva moved to the opposite bank, now the Mammiyur temple.",
+      },
+      {
+        question: "What is the Narayaneeyam and its connection to Guruvayur?",
+        answer:
+          "The Narayaneeyam is a 1,034-verse Sanskrit devotional poem condensing the Bhagavata Purana, composed at Guruvayur in 1586 by Melpathur Narayana Bhattathiri. Having taken on his guru's paralysis, Bhattathiri came to the Lord and composed one canto a day for a hundred days; on completion the Lord granted him a vision and cured him. Each canto ends with a prayer to Guruvayurappan, and the work is recited at the temple to this day, especially for health.",
+      },
+      {
+        question: "Can non-Hindus enter the temple?",
+        answer:
+          "No. Like many traditional Kerala temples, Guruvayur admits only Hindus, and the rule is enforced at the entrance. Visitors of other faiths may view the temple exterior, the gold flagstaff and the statue of Guruvayur Keshavan from outside, and can visit the nearby Punnathur Kotta elephant sanctuary.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "It is strict and traditional. Men and boys must be bare-chested and wear a mundu (dhoti) — shirts and vests are not allowed inside. Women wear a saree, set-mundu or half-saree; salwar-kameez (churidar) is permitted, but trousers, skirts and shorts are not. Mundus can be bought or rented near the temple, and everyone goes barefoot inside.",
+      },
+      {
+        question: "What is the significance of Guruvayur Ekadasi?",
+        answer:
+          "Guruvayur Ekadasi (in the month of Vrishchikam, Nov–Dec) is the temple's most important day, commemorating Krishna's delivery of the Bhagavad Gita. Devotees fast and stay awake; the temple and its Vilakkumadam are lit in the dazzling chuttuvilakku, an Udayasthamana pooja is performed, and grand processions including the Ekadasi Vilakku and, the day before, the Aanayottam elephant race draw enormous crowds. It is regarded as a day on which any worship offered yields immense merit.",
+      },
+      {
+        question: "Why are elephants so closely associated with Guruvayur?",
+        answer:
+          "Devotees have long offered elephants to Guruvayurappan, and the temple keeps a large herd at the Punnathur Kotta (Anakkotta) sanctuary a few kilometres away. Elephants lead the temple's festival processions and the famous Aanayottam races. The most revered was Guruvayur Keshavan (1904–1976), celebrated for his devotion and said to have died on Ekadasi day facing the temple; his statue stands at the eastern entrance.",
+      },
+      {
+        question: "What are Thulabharam and the other popular offerings here?",
+        answer:
+          "Thulabharam — being weighed on a balance against an offering equal to one's body weight (bananas, sugar, jaggery, coconut or gold) — is among Guruvayur's most popular vows. The temple is also one of Kerala's favourite venues for Choroonu (a baby's first rice-feeding), weddings, Vidyarambham (a child's initiation into learning on Vijayadasami), and the elaborate Udayasthamana (dawn-to-dusk) pooja, which is booked well in advance.",
+      },
+    ],
+  },
+  "nataraja-chidambaram": {
+    slug: "nataraja-chidambaram",
+    timings: { morning: "6:00 AM – 12:00 PM", evening: "5:00 PM – 10:00 PM", note: "The Dikshitar priests perform six poojas a day. The night Palliyarai (Ardha Jama) pooja, when the Lord is ceremonially put to rest, is a much-loved closing ritual around 9:00–10:00 PM." },
+    entryFee: "Free darshan. Special abhishekam, archana and the climb to the Kanaka Sabha may carry a fee; men must be bare-chested to enter the inner golden halls.",
+    dressCode: "Traditional attire. Men typically remove the shirt and wear a dhoti/veshti to approach the inner sanctum and the Kanaka Sabha; women wear saree or salwar. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March. The two grand abhishekam festivals — Margazhi Thiruvadirai/Arudra Darshanam (December–January) and Aani Thirumanjanam (June–July) — and the Natyanjali dance festival at Maha Shivaratri are the high points.",
+    travelInfo: {
+      byAir: "Puducherry Airport (~70 km) is closest for limited flights; Tiruchirapalli International Airport (~165 km) and Chennai (~235 km) are the main airheads.",
+      byTrain: "Chidambaram Railway Station (~1 km) lies on the Chennai–Tiruchirapalli/Thanjavur line, with frequent trains and a short walk or auto ride to the temple.",
+      byRoad: "Chidambaram is in Cuddalore district on the East Coast corridor. Buses run from Chennai (~235 km), Puducherry (~70 km), Kumbakonam (~70 km) and Thanjavur (~100 km).",
+    },
+    highlights: [
+      "The only temple where Shiva is enshrined and worshipped as Nataraja, the cosmic dancer, in the Ananda Tandava pose codified here",
+      "The Akasha (Sky/Space) sthalam among the Pancha Bhoota Sthalams — Shiva worshipped as formless ether",
+      "Home of the Chidambara Rahasyam: behind a curtain in the Chit Sabha lies empty space, the formless (Nirguna) divine — the temple's 'secret'",
+      "A rare temple sacred to both Shaivites and Vaishnavites: it enshrines Govindaraja Perumal (reclining Vishnu), making it one of the 108 Divya Desams as well",
+      "The golden Chit Sabha roof is laid with 21,600 gold tiles fixed by 72,000 gold nails — symbolising the breaths and nadis of the human body",
+      "The East Gopuram's inner walls carve all 108 karanas — the fundamental units of classical Bharatanatyam from the Natya Shastra",
+      "Administered for centuries by the hereditary Dikshitar priests (the 'Thillai Moovayiravar', the 3,000), independent of state control",
+    ],
+    history: "The Thillai Nataraja Temple at Chidambaram is one of the most sacred and architecturally significant of all Shiva temples, the very place where Shiva's identity as Nataraja, lord of the cosmic dance, was crystallised. Its ancient name, Thillai, comes from the mangrove forest (Thillai Vanam) that once surrounded it; 'Chidambaram' derives from 'Chit-Ambaram', the 'atmosphere (sky) of consciousness'. Glorified in the Tamil Shaiva canon — by the Nayanmars Appar, Sambandar, Sundarar and by Manikkavasagar, who composed the Tiruvasagam here — and developed across the Pallava, Chola, Pandya and Vijayanagara eras, it became the spiritual heart of Tamil Shaivism. The imperial Cholas treated Nataraja as their tutelary deity and lavished gold on the Chit Sabha. Uniquely, the temple has been administered through its entire history by the Dikshitars, a hereditary community of priest-trustees who trace themselves to 3,000 sages said to have come from Kailash; their independence from government control was reaffirmed by the Supreme Court of India in 2014.",
+    architecture: "Chidambaram is laid out as a vast walled complex of about 40 acres entered through four towering gopurams facing the cardinal directions, each rising roughly 45 metres in nine tiers. The eastern and western gopurams are celebrated for sculpting the complete set of 108 karanas, the postural 'building blocks' of classical dance described in Bharata's Natya Shastra. At the heart of the temple stand its five sabhas (halls): the Chit Sabha (Ponnambalam), the innermost gold-roofed sanctum where Nataraja dances beside Sivakami, with the Chidambara Rahasyam to its side; the adjoining Kanaka Sabha; the chariot-shaped Nritta Sabha (Natya Sabha) of 56 pillars, scene of the Shiva–Kali dance contest; the Deva Sabha; and the great Raja Sabha or thousand-pillared hall. The Chit Sabha's roof of gold tiles, nine kalasams, the Sivaganga tank, and the separate shrine of Govindaraja Perumal (reclining Vishnu) complete a complex that is at once a Shaiva supreme shrine and a Vaishnava Divya Desam.",
+    festivals: [
+      { name: "Margazhi Thiruvadirai (Arudra Darshanam)", month: "December–January (Margazhi)", description: "The greatest festival, celebrating the Ananda Tandava on the Arudra (Thiruvadirai) star. A grand abhishekam bathes the bronze Nataraja, the deities are drawn through the streets on the great temple car (ther), and lakhs of devotees gather for the dawn darshan of the dancing Lord." },
+      { name: "Aani Thirumanjanam", month: "June–July (Aani)", description: "The second of the temple's two grandest abhishekam festivals, on the Uttiram star of Aani, with a ceremonial car festival and the sacred bathing of Nataraja in the Raja Sabha — equal in importance to Arudra Darshanam." },
+      { name: "Natyanjali Dance Festival", month: "February–March (Maha Shivaratri)", description: "A five-day festival in which Bharatanatyam and other classical dancers from across India perform before Nataraja as a devotional offering — 'anjali' (homage) through 'natya' (dance) — in the temple of the cosmic dancer himself." },
+      { name: "Maha Shivaratri", month: "February–March (Masi)", description: "The Great Night of Shiva, observed with one of the temple's six annual abhishekams and night-long worship of the Lord of the Dance.", slug: "maha-shivaratri" },
+    ],
+    poojas: [
+      { name: "Kalasanthi Pooja", time: "Morning", fee: "Free to witness" },
+      { name: "Uchikalam Pooja (Noon)", time: "~12:00 PM", fee: "Free to witness" },
+      { name: "Sayaratchai / Deeparadhana", time: "Evening", fee: "Free to witness" },
+      { name: "Ardha Jama (Palliyarai) Pooja", time: "~9:00–10:00 PM", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["vaitheeswaran-kovil", "sarangapani-kumbakonam"],
+    mythology: {
+      legend:
+        "The temple's defining event is the Ananda Tandava, Shiva's 'dance of bliss', performed in the Thillai forest for two great sages. Patanjali — the sage of the Yoga Sutras, born in serpent form — and Vyaghrapada, the 'tiger-footed' sage who had been granted tiger's claws and eyes so he could climb the Thillai trees before dawn and gather flowers untouched by bees or men, both longed to behold Shiva's cosmic dance. Pleased by their austerity, Shiva appeared with Sivakami (Parvati) and danced the Ananda Tandava in the golden hall, the very dance now fixed in the bronze Nataraja. In that posture every cosmic function is held in a single form: the drum (damaru) in the upper right hand sounds creation; the fire (agni) in the upper left is dissolution; the lower right hand in abhaya gives protection; the lower left points to the raised foot, the refuge of grace; and beneath the planted foot is crushed Apasmara (Muyalagan), the dwarf of ignorance. Behind it all, the Chidambara Rahasyam — empty space — reveals the formless absolute.",
+      additionalStories: [
+        {
+          title: "The Dance Contest with Kali (Urdhva Tandava)",
+          content:
+            "The fierce goddess Kali ruled the Thillai forest and would not yield it. To win the ground for his dance, Shiva challenged her to a contest of dance, step for step, in the Nritta Sabha. The two matched each other through every movement until Shiva performed the Urdhva Tandava — lifting one leg straight up toward the sky (in one telling, to retrieve a fallen earring with his toe). Out of modesty Kali, as a woman, would not raise her leg in the same way, and so conceded. Pacified, she took her place at the edge of the town as Thillai Kali, where her own temple stands, while Nataraja's blissful dance reigns at the centre. The chariot-shaped Nritta Sabha marks the spot of the contest.",
+        },
+        {
+          title: "The Chidambara Rahasyam — the Secret of Space",
+          content:
+            "Beside the Nataraja idol in the Chit Sabha hangs a curtain; when it is drawn for the devout, there is — by design — nothing behind it but empty space, hung with a garland of golden bilva leaves. This is the Chidambara Rahasyam, the 'secret of Chidambaram'. It teaches that the divine is not only the form one can see but the formless, all-pervading consciousness (Akasha) that fills even emptiness. As the Sky element among the Pancha Bhoota Sthalams, Chidambaram worships Shiva as space itself — the lesson that God is everywhere, including where the eye sees nothing.",
+        },
+        {
+          title: "Shiva and Vishnu Under One Roof",
+          content:
+            "Unusually, Chidambaram is holy to both great streams of Hindu devotion. Within the same complex, the shrine of Govindaraja Perumal enshrines Vishnu reclining on Adisesha, making Chidambaram (as 'Thillai Chithrakoodam') one of the 108 Divya Desams sung by the Vaishnava Alvars, even as Nataraja reigns as the supreme Shaiva deity. Tradition holds that Vishnu witnessed the cosmic dance reclining here. The coexistence has its own storied history, and today devotees of both traditions worship side by side in one of the rare temples sacred to Shaivites and Vaishnavites alike.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Chit Sabha (Ponnambalam)",
+        nameTa: "சிற்சபை / பொன்னம்பலம்",
+        type: "sanctum",
+        description: "The innermost, gold-roofed 'Hall of Consciousness' where Nataraja dances the Ananda Tandava beside Sivakami. Its roof of gold tiles is fixed by 72,000 gold nails over 21,600 tiles — symbolising the body's nadis and daily breaths. To the deity's side hangs the curtain of the Chidambara Rahasyam, concealing the sacred empty space.",
+        detail: "Gold roof · 21,600 tiles · 72,000 nails",
+      },
+      {
+        name: "Kanaka Sabha",
+        type: "mandapam",
+        description: "The golden hall immediately before the Chit Sabha, from which the priests perform the worship and abhishekam of Nataraja. Men remove their shirts to ascend the steps to these inner halls.",
+      },
+      {
+        name: "Nritta Sabha (Natya Sabha)",
+        nameTa: "நிருத்த சபை",
+        type: "mandapam",
+        description: "The 'Hall of Dance', carved in the form of a great chariot with wheels and horses, supported by 56 ornate pillars. It marks the site of the dance contest between Shiva and Kali and contains a sculpture of Shiva in the rare Urdhva Tandava pose.",
+        detail: "Chariot-shaped · 56 pillars",
+      },
+      {
+        name: "East Gopuram (108 Karanas)",
+        nameTa: "கிழக்கு கோபுரம்",
+        type: "gopuram",
+        description: "One of four ~45 m, nine-tiered gateway towers. The passage walls of the eastern (and western) gopuram sculpt the full set of 108 karanas — the codified postures of Bharatanatyam from the Natya Shastra — a unique stone treatise on classical dance.",
+        detail: "~45 m · 9 tiers · 108 karanas carved",
+      },
+      {
+        name: "Raja Sabha (Thousand-Pillar Hall)",
+        type: "mandapam",
+        description: "The great Raja Sabha, the thousand-pillared hall where the deity is seated and bathed during the grand Arudra and Aani abhishekam festivals. A vast Chola-era ceremonial space.",
+        detail: "1,000-pillar hall",
+      },
+      {
+        name: "Sivaganga Tank",
+        type: "tank",
+        description: "The temple's sacred tank within the complex, beside the shrine of Sivakami Amman, where devotees bathe and from which water is drawn for rituals.",
+      },
+      {
+        name: "Govindaraja Perumal Shrine",
+        type: "other",
+        description: "The shrine of reclining Vishnu (Govindaraja) within the complex, a full Divya Desam in its own right, sung by the Alvars — the reason Chidambaram is sacred to Vaishnavites as well as Shaivites.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Sivakami Amman",
+        deity: "Goddess Parvati, consort of Nataraja",
+        description: "The presiding Goddess, who witnesses the Ananda Tandava beside the Lord in the Chit Sabha and has her own large shrine beside the Sivaganga tank, worshipped as the divine mother of the temple.",
+      },
+      {
+        name: "Govindaraja Perumal",
+        deity: "Lord Vishnu, reclining on Adisesha",
+        description: "The Vishnu shrine that makes Chidambaram a Divya Desam (Thillai Chithrakoodam). Govindaraja reclines near the Nataraja sanctum, worshipped by Vaishnavites in the same complex as the Shaiva Lord of the Dance.",
+      },
+      {
+        name: "Thillai Kali",
+        deity: "Goddess Kali",
+        description: "Enshrined at the northern edge of the town after conceding the dance contest to Shiva, Thillai Kaliamman is closely bound to the temple's central legend and visited as part of a full Chidambaram pilgrimage.",
+      },
+      {
+        name: "Mukkuruni Vinayagar & Murugan",
+        deity: "Lord Ganesha and Lord Murugan",
+        description: "The large Mukkuruni Vinayagar (Ganesha) and the shrine of Murugan (Pandya Nayakam) within the complex, worshipped by devotees on the way to the inner halls.",
+      },
+      {
+        name: "Ratnasabhapathi & Crystal Lingam",
+        deity: "Nataraja in ruby; Chandramouleeswarar",
+        description: "A small ruby (Ratnasabhapathi) Nataraja and a crystal (spatika) lingam, Chandramouleeswarar, are brought out for special abhishekams — exquisite forms of the Lord reserved for particular rituals.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "East Gopuram", direction: "East", notes: "The main approach, famed for the 108 karana carvings in its passage; most pilgrims enter here toward the Chit Sabha." },
+        { name: "West Gopuram", direction: "West", notes: "Also carved with the 108 karanas; a common entry from the town side." },
+        { name: "South & North Gopurams", direction: "South", notes: "The southern and northern gateways complete the four cardinal towers; used for processions and additional access." },
+      ],
+      cloakRoom: "Footwear must be left at stalls outside the gopurams before entering barefoot. Men should be prepared to remove their shirt to approach the Kanaka Sabha and Chit Sabha, as the Dikshitars require it in the inner golden halls.",
+      mobilePolicy: "Mobile phones should be silenced; follow the Dikshitars' and staff's instructions near the sanctum, especially during the crowded abhishekam festivals.",
+      cameraPolicy: "Photography is not permitted in the inner sanctum and golden halls. The gopurams, mandapams and outer courtyards are generally photographable; check posted rules.",
+      wheelchairAccess: "The complex is large and largely flat across the outer courtyards, but the inner halls (Kanaka Sabha, Chit Sabha) are reached by steps, making the final approach difficult for wheelchairs. Assistance is informal; ask the temple staff.",
+      seniorCitizenDarshan: "On normal days darshan is manageable, but the Arudra and Aani abhishekams and Natyanjali draw immense crowds; seniors should arrive very early and allow extra time. The steps to the inner halls are the main physical challenge.",
+      parking: "Parking is available around the temple and the town; Chidambaram is compact and the temple is a short ride from the railway station and bus stand. Autos are plentiful.",
+      restrooms: "Basic restrooms and drinking-water points are available near the temple and in the town. Facilities are stretched on festival days; carry your own essentials.",
+      drinkingWater: "Drinking water is available near the entrances and tank. The coastal Tamil Nadu climate is hot for much of the year; carry water, especially March–July.",
+    },
+    sevas: [
+      {
+        name: "Nataraja Abhishekam",
+        description: "The sacred bathing of the bronze Nataraja, performed only six times a year (chiefly at Margazhi Thiruvadirai and Aani Thirumanjanam) because the processional bronze cannot be bathed daily — making each abhishekam a rare and thronged spectacle in the Raja Sabha.",
+        time: "Six festival days a year",
+        fee: "Free to witness",
+        type: "special",
+      },
+      {
+        name: "Archana at the Chit Sabha",
+        description: "Offering of the devotee's name and birth-star with flowers and the recitation of the Lord's names, performed by the Dikshitar priests at the golden hall.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Chidambara Rahasyam Darshan",
+        description: "The drawing of the curtain beside Nataraja to reveal the sacred empty space — the formless divine — at the priests' discretion, especially during the deeparadhana, the most contemplative moment of a Chidambaram visit.",
+        time: "During poojas",
+        fee: "Free to witness",
+        type: "daily",
+      },
+      {
+        name: "Deeparadhana (Lamp Worship)",
+        description: "The waving of camphor and lamps before Nataraja and the Rahasyam, when the gold hall glows and the assembled devotees behold the dancing Lord amid fire and bells.",
+        time: "Daily (morning, noon, evening, night poojas)",
+        fee: "Free to witness",
+        type: "daily",
+      },
+      {
+        name: "Ardha Jama (Palliyarai) Pooja",
+        description: "The final worship of the day, when the Lord is ceremonially escorted to rest with lullabies — a gentle, intimate close to the temple's daily cycle.",
+        time: "Daily, ~9:00–10:00 PM",
+        fee: "Free to witness",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the Chidambara Rahasyam (the 'secret of Chidambaram')?",
+        answer:
+          "It is the temple's central mystery: beside the Nataraja idol in the Chit Sabha hangs a curtain, and when it is drawn there is deliberately nothing behind it but empty space, marked only by a garland of golden bilva leaves. This 'space' is the formless, all-pervading divine — Akasha, the Sky element. Chidambaram is the Sky (Akasha) sthalam of the Pancha Bhoota Sthalams, teaching that God is not only the form we can see but the infinite consciousness that fills even emptiness. That is the secret: the divine is everywhere, even where the eye sees nothing.",
+      },
+      {
+        question: "Why is Shiva worshipped as Nataraja here, and what does the dance mean?",
+        answer:
+          "Chidambaram is the place where Shiva performed the Ananda Tandava, the cosmic 'dance of bliss', for the sages Patanjali and Vyaghrapada, and it is the only temple where he is enshrined and primarily worshipped in this dancing form. Every element of the Nataraja icon is meaningful: the drum sounds creation, the fire is dissolution, the abhaya hand grants protection, the raised foot offers refuge and liberation, and the dwarf Apasmara crushed underfoot is ignorance. The dance is the rhythm of the entire cosmos — creation, preservation, destruction, concealment and grace — held in a single still bronze.",
+      },
+      {
+        question: "Why is Chidambaram one of the Pancha Bhoota Sthalams?",
+        answer:
+          "The five Pancha Bhoota Sthalams are Shiva temples each representing one of the five great elements. Chidambaram represents Akasha (Sky/Space/Ether), expressed through the formless empty space of the Chidambara Rahasyam, rather than a physical lingam. The others are Ekambareswarar at Kanchipuram (Earth), Jambukeswarar at Thiruvanaikaval (Water), Arunachaleswarar at Thiruvannamalai (Fire), and Srikalahasti (Air/Wind).",
+      },
+      {
+        question: "Is Chidambaram a Shiva temple or a Vishnu temple?",
+        answer:
+          "Both — which is rare. Nataraja, the dancing Shiva, is the supreme deity of the temple, making it one of the holiest Shaiva shrines. But the same complex enshrines Govindaraja Perumal, Vishnu reclining on Adisesha, which makes Chidambaram (as Thillai Chithrakoodam) one of the 108 Divya Desams sung by the Vaishnava Alvars. Devotees of both Shiva and Vishnu worship in the one complex.",
+      },
+      {
+        question: "Who are the Dikshitars who run the temple?",
+        answer:
+          "The Dikshitars (the 'Thillai Moovayiravar', or 'three thousand') are the hereditary community of Brahmin priest-trustees who have performed the worship and administered Chidambaram throughout its history, by tradition descended from 3,000 sages who came with Shiva from Kailash. They are recognisable by the tuft of hair worn at the front of the head. Their right to administer the temple independently, without state (HR&CE) control, was upheld by the Supreme Court of India in 2014.",
+      },
+      {
+        question: "What is the dress code, and do men need to remove their shirts?",
+        answer:
+          "Traditional attire is expected. To approach the inner golden halls (the Kanaka Sabha and Chit Sabha) men are required to remove the shirt and upper cloth and wear a dhoti/veshti, as the Dikshitars insist on a bare chest in the sanctum; women wear a saree or salwar. Shorts and sleeveless tops are best avoided. You will go barefoot inside the complex.",
+      },
+      {
+        question: "When are the best festivals to witness the Nataraja abhishekam?",
+        answer:
+          "The bronze Nataraja is bathed only six times a year, so an abhishekam is a special sight. The two grandest are Margazhi Thiruvadirai / Arudra Darshanam (Dec–Jan), celebrating the cosmic dance on the Arudra star with the great temple-car procession, and Aani Thirumanjanam (June–July). For lovers of classical art, the Natyanjali festival at Maha Shivaratri (Feb–March) brings dancers from across India to perform before the Lord of the Dance.",
+      },
+    ],
+  },
+  "tiruchendur-murugan": {
+    slug: "tiruchendur-murugan",
+    timings: { morning: "5:00 AM – 1:00 PM", evening: "4:00 PM – 9:00 PM", note: "The day opens with the Viswaroopa/Ushakkala darshan around 5:00 AM and closes after the night pooja around 9:00 PM. Timings extend greatly during the Skanda Sashti festival, when the temple stays open through the night." },
+    entryFee: "Free darshan. A quick-darshan (Sheeghra) ticket is available to shorten the queue; separate tickets for special abhishekams and archana.",
+    dressCode: "Traditional attire. Men typically wear a dhoti/veshti (often bare-chested in the sanctum); women wear saree or salwar. Avoid shorts and sleeveless tops. Many pilgrims first take a holy sea-bath in the Bay of Bengal before darshan.",
+    bestTime: "October – March. Skanda Sashti (October–November) with the Soorasamharam is the spiritual peak; Vaikasi Visakam (May–June), Murugan's birth-star festival, and the Masi car festival are also grand.",
+    travelInfo: {
+      byAir: "Tuticorin (Thoothukudi) Airport (~40 km) is nearest; Madurai International Airport (~150 km) and Thiruvananthapuram (~140 km) offer wider connections.",
+      byTrain: "Tiruchendur Railway Station (~1–2 km) is a terminus connected via Tirunelveli (~40 km), itself a major junction with trains from Chennai, Madurai and beyond.",
+      byRoad: "Tiruchendur is in Thoothukudi district on the Bay of Bengal coast. Buses run from Tirunelveli (~40 km), Thoothukudi (~40 km), Madurai (~150 km) and Kanyakumari (~90 km).",
+    },
+    highlights: [
+      "The only one of the six Arupadai Veedu (sacred abodes of Murugan) situated on the seashore — all the others stand on hills",
+      "The site where Lord Murugan worshipped Shiva and then slew the demon Soorapadman on the sixth day of Skanda Sashti (the Soorasamharam)",
+      "The moolavar Senthil Andavar stands as a youthful Murugan in the rare posture of a devotee worshipping Shiva — the warrior-god as worshipper",
+      "Set on a rocky promontory with the waves of the Bay of Bengal breaking at the temple's feet",
+      "The Nazhi Kinaru — a well of sweet drinking water sunk into the seashore sand, yielding fresh water beside the salt sea",
+      "A towering nine-tiered western Rajagopuram (~157 ft / 47 m) visible far across the flat coast",
+      "Famous for the 17th-century recovery of its bronze festival idols from the sea after the Dutch (VOC) carried them off",
+    ],
+    history: "The Arulmigu Subramaniya Swamy Temple at Tiruchendur is among the most revered Murugan shrines in the Tamil world, the second of the six Arupadai Veedu ('six battle camps' / abodes) and the only one by the sea. Its sanctity is sung in the Tamil Sangam-age and bhakti traditions — by the Nayanmars and in Nakkeerar's Tirumurugatruppadai — and it is here, according to the Skanda Purana, that Murugan marshalled the divine army and destroyed the asura Soorapadman. Portions of the sanctum are cut into the living rock of the shore. The temple's most dramatic historical episode came around 1648–1653, when Dutch East India Company forces seized its bronze processional idols; tradition holds that, guided by a vision and a floating lime that marked the spot, the devotee-administrator Vadamalaiyappa Pillai recovered the images from the sea and restored them. Successive Pandya, Nayaka and later patrons expanded the great gopuram, mandapams and corridors that crown the rocky promontory today.",
+    architecture: "Tiruchendur is built on a low rocky promontory facing the Bay of Bengal, an unusual seaside setting for a major Dravidian temple. Its dominant landmark is the nine-storeyed western Mela Gopuram, rising about 157 feet over the flat coastal plain — the temple faces east toward the sea, but the towering gateway stands on the landward (west) side. Beyond it stretch pillared corridors and the Shanmukha Vilasa Mandapam leading to the sanctum, parts of which are hewn from the shore rock. The garbhagriha enshrines Senthil Andavar (Subrahmanya) flanked by shrines to his consorts Valli and Deivanai and to the boy-form Shanmukha. Close to the sea lies the marvel of the Nazhi Kinaru, a sweet-water well in the salt sand, and the shore itself serves as the temple theertham, where pilgrims bathe in the Bay of Bengal before climbing to the Lord.",
+    festivals: [
+      { name: "Skanda Sashti (Soorasamharam)", month: "October–November (Aippasi)", description: "The temple's supreme festival: a six-day vratham re-enacting Murugan's war on Soorapadman, culminating on the sixth day in the spectacular Soorasamharam, the slaying of the demon, before lakhs of devotees on the shore, followed by the Thirukalyanam (the Lord's wedding to Devasena).", slug: "skanda-sashti" },
+      { name: "Vaikasi Visakam", month: "May–June (Vaikasi)", description: "Celebrates Murugan's birth-star, Visakam — one of the holiest days for Murugan devotees — with grand abhishekams, processions and special worship of the six-faced Lord." },
+      { name: "Masi Festival (Brahmotsavam)", month: "February–March (Masi)", description: "A grand annual festival with the deities processed on the great temple car (ther) and a float festival, drawing crowds from across the south." },
+      { name: "Aavani Festival", month: "August–September (Aavani)", description: "Another major Brahmotsavam of processions and abhishekams, marking the temple's busy festival calendar through the Tamil year." },
+    ],
+    poojas: [
+      { name: "Ushakkala Pooja", time: "Early morning (~5:00 AM)", fee: "Free to witness" },
+      { name: "Kalasanthi Pooja", time: "Morning", fee: "Free to witness" },
+      { name: "Uchikkala Pooja (Noon)", time: "~12:00 PM", fee: "Free to witness" },
+      { name: "Sayaratchai & Ardhajama", time: "Evening / night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["madurai-meenakshi", "ramanathaswamy-rameswaram"],
+    mythology: {
+      legend:
+        "When the asura Soorapadman, who had won great boons, tyrannised the devas and imprisoned them, the gods appealed to Shiva. From the spark of Shiva's third eye was born Murugan (Subrahmanya), the six-faced warrior-god, whom Shiva armed with the divine Vel (spear). Leading the celestial army southward, Murugan made his camp at Tiruchendur on the seashore. There, before joining battle, he first worshipped his father Shiva — installing and venerating a lingam — an act that makes Tiruchendur unique: the place where the warrior-god is himself the worshipper, and where he is enshrined in that devout, youthful form. Over six days the great battle raged, until on the sixth, Skanda Sashti, Murugan hurled the Vel and destroyed Soorapadman. In his final moment the repentant demon took the form of a tree that split in two; Murugan transformed the halves into his emblems — the peacock that became his mount (vahana) and the rooster that adorns his battle-flag.",
+      additionalStories: [
+        {
+          title: "The Nazhi Kinaru — Sweet Water in the Salt Sand",
+          content:
+            "Among Tiruchendur's wonders is the Nazhi Kinaru, a small well sunk into the sandy shore only steps from the breaking waves of the Bay of Bengal. Though it lies amid salt sand by a salt sea, it yields sweet, drinkable water — a marvel attributed to the Lord's grace. By tradition the spot is linked to Murugan's army, which needed fresh water on the barren shore. Pilgrims draw and drink its water as theertham, and the well's persistence beside the sea is taken as a standing sign of the god's presence.",
+        },
+        {
+          title: "The Dutch Theft and the Recovery from the Sea",
+          content:
+            "Around the mid-17th century, Dutch East India Company (VOC) forces operating on the Coromandel coast seized the temple's precious bronze processional idols, including the festival image of the Lord. Tradition recounts that the devotee and temple administrator Vadamalaiyappa Pillai was granted a vision revealing that the idols had been cast into or lost to the sea, and that a floating lime (or a hovering bird) would mark the exact spot. Following the sign, divers recovered the images from the waters and bore them back in triumph, and the festival worship was restored — an episode still recounted as proof of the Lord's refusal to abandon his shrine.",
+        },
+        {
+          title: "Why the Sea, and the Holy Bath",
+          content:
+            "Alone among the six Arupadai Veedu, Tiruchendur sits at the ocean's edge rather than on a hill, and the Bay of Bengal itself serves as the temple's sacred theertham. Pilgrims traditionally bathe in the sea before ascending for darshan, washing away impurities in the very waters beside which Murugan won his victory. The sound of the surf against the rock beneath the sanctum is part of the temple's distinctive experience, binding the cosmic battle, the shore, and the act of worship into one.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Mela Gopuram (West Tower)",
+        nameTa: "மேல கோபுரம்",
+        type: "gopuram",
+        description: "The temple's commanding nine-tiered western gateway, rising about 157 feet over the flat coast and visible for miles. Though the temple faces east toward the sea, this great tower stands on the landward side and forms the principal entrance.",
+        detail: "~157 ft · 9 tiers",
+      },
+      {
+        name: "Garbhagriha — Senthil Andavar",
+        type: "sanctum",
+        description: "The inner sanctum, partly cut into the shore rock, enshrining Senthil Andavar (Subrahmanya) as a youthful Murugan in the rare devotional posture of one worshipping Shiva. The holiest point of the temple.",
+        detail: "Rock-cut · Murugan as worshipper",
+      },
+      {
+        name: "Shanmukha Vilasa Mandapam",
+        type: "mandapam",
+        description: "A pillared hall on the approach to the sanctum, named for the six-faced (Shanmukha) form of the Lord, carved with figures from the Murugan legends and leading the devotee inward through the temple.",
+      },
+      {
+        name: "Nazhi Kinaru (Sweet-Water Well)",
+        nameTa: "நாழி கிணறு",
+        type: "tank",
+        description: "The famous well of sweet water sunk into the salt sand of the seashore, only steps from the waves. Its fresh water amid the salt sea is revered as a miracle and taken by pilgrims as theertham.",
+        detail: "Fresh water beside the salt sea",
+      },
+      {
+        name: "Bay of Bengal Theertham (Shore)",
+        type: "tank",
+        description: "The sea itself is the temple's sacred bathing place. Pilgrims take a holy dip in the Bay of Bengal at the foot of the promontory before climbing to the sanctum, a defining ritual of a Tiruchendur visit.",
+      },
+      {
+        name: "Corridors & Shore Mandapams",
+        type: "mandapam",
+        description: "Long pillared corridors and mandapams crown the rocky promontory around the sanctum, several open toward the sea, giving the temple its unique character poised between rock and ocean.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Valli & Deivanai (Devasena)",
+        deity: "The two consorts of Murugan",
+        description: "Valli, the hunter-chieftain's daughter who won the Lord by love, and Deivanai (Devasena), daughter of Indra wedded to him after the victory over Soorapadman, each honoured in their shrines beside the Lord.",
+      },
+      {
+        name: "Shanmukha / Jayanthinathar (Festival Deity)",
+        deity: "The six-faced processional Murugan",
+        description: "The bronze utsava (processional) form of the Lord — among the idols famously recovered from the sea after the Dutch seizure — taken out on the temple car and through the streets during festivals.",
+      },
+      {
+        name: "Shiva Lingam (worshipped by Murugan)",
+        deity: "Lord Shiva",
+        description: "The lingam linked to the legend of Murugan worshipping his father Shiva at Tiruchendur before the battle — the act that defines the temple's unique identity, where the warrior-god is also a devotee.",
+      },
+      {
+        name: "Vinayaka & the Murugan Forms",
+        deity: "Lord Ganesha and the forms of Murugan",
+        description: "Vinayaka (Ganesha), invoked first to remove obstacles, alongside the various forms in which Murugan is venerated through the complex — as boy, warrior, and bridegroom.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Mela Gopuram (West Main Entrance)", direction: "West", notes: "The principal entrance beneath the great nine-tier tower on the landward side; most pilgrims enter here toward the sanctum." },
+        { name: "Shore / Eastern approach", direction: "East", notes: "The seaward side, where pilgrims arrive from the beach after the holy dip in the Bay of Bengal." },
+      ],
+      cloakRoom: "Footwear and deposited items are handled at stalls near the entrance; you go barefoot beyond the boundary. Note that many pilgrims arrive wet from the sea bath, so the shore-side approach can be busy and slippery.",
+      mobilePolicy: "Mobile phones should be silenced and are restricted near the sanctum; follow staff instructions, especially during the enormous Skanda Sashti crowds.",
+      cameraPolicy: "Photography is not permitted inside the sanctum. The gopuram, corridors and the seashore are generally photographable; check posted rules.",
+      wheelchairAccess: "The temple sits on a rocky rise with steps up from the shore, so the approach can be difficult for wheelchairs; assistance is informal. The sea-bath area is sandy and uneven. Ask temple staff for help.",
+      seniorCitizenDarshan: "A quick-darshan ticket helps shorten the wait. During Skanda Sashti and Vaikasi Visakam the crowds are immense and the queues long; seniors should arrive very early and plan for the steps and the shore.",
+      parking: "Parking is available in the town near the temple; Tiruchendur is small and the temple is a short walk or auto ride from the railway station and bus stand. Lots fill quickly on festival days.",
+      restrooms: "Basic restrooms and changing facilities (for the sea bath) and drinking-water points are available near the temple and shore. Facilities are stretched on festival days; carry your own essentials.",
+      drinkingWater: "Drinking water is available near the entrances and the Nazhi Kinaru. The coastal climate is hot and humid much of the year; carry water, especially in the March–June summer.",
+    },
+    sevas: [
+      {
+        name: "Sea Bath & Nazhi Kinaru Theertham",
+        description: "The traditional preparatory ritual of bathing in the Bay of Bengal and drinking the sweet water of the Nazhi Kinaru before darshan — purification in the very waters beside Murugan's battlefield.",
+        time: "Before darshan (daytime)",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Abhishekam to Senthil Andavar",
+        description: "The sacred bathing of the Lord with milk, sandal, panchamrita and holy water amid Vedic and Tamil hymn recitation, sponsored by devotees on chosen days.",
+        time: "Morning (select days)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Archana (Kavacham)",
+        description: "Offering of the devotee's name and birth-star with the recitation of the Lord's names; the Kanda Sashti Kavacham is especially favoured here, the great hymn of protection composed in Murugan's praise.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Kavadi Offering",
+        description: "Devotees carry the kavadi — an arched, decorated burden borne on the shoulders, often fulfilling a vow — to the Lord, especially during Vaikasi Visakam and Skanda Sashti, a hallmark of Murugan worship.",
+        time: "Festival days / on vow",
+        fee: "Devotee's offering",
+        type: "special",
+      },
+      {
+        name: "Soorasamharam & Thirukalyanam (Skanda Sashti)",
+        description: "Witnessing the climactic enactment of Murugan's victory over Soorapadman on the sixth day of Skanda Sashti, followed by the Lord's celestial wedding to Devasena — the most sought-after darshan of the year.",
+        time: "Skanda Sashti (Oct–Nov)",
+        fee: "Free to witness",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "What makes Tiruchendur unique among the Arupadai Veedu?",
+        answer:
+          "Tiruchendur is the only one of Murugan's six sacred abodes (Arupadai Veedu) situated on the seashore — all the others (Palani, Swamimalai, Thiruparankundram, Pazhamudircholai and Thiruthani) stand on hills. It is the place where, by the Skanda Purana, Murugan worshipped Shiva and then destroyed the demon Soorapadman. The Bay of Bengal itself serves as the temple theertham, and the sanctum is partly cut into the shore rock.",
+      },
+      {
+        question: "Why is Murugan shown worshipping Shiva here?",
+        answer:
+          "Before the great battle, Murugan is said to have established and venerated a Shiva lingam at Tiruchendur, worshipping his father for victory. The moolavar Senthil Andavar is therefore enshrined as a youthful Murugan in the posture of a devotee — a rare and beautiful idea, the warrior-god who is also the worshipper. It expresses the devotional heart of the temple: even the mightiest power bows in reverence.",
+      },
+      {
+        question: "What is the Soorasamharam, and when can I see it?",
+        answer:
+          "The Soorasamharam is the dramatic ritual enactment of Murugan slaying the demon Soorapadman, staged on the sixth day of the Skanda Sashti festival (Aippasi, Oct–Nov) on the Tiruchendur shore before hundreds of thousands of devotees. In the demon's final moment he becomes the peacock (Murugan's mount) and the rooster (his flag emblem). The next day, the Thirukalyanam celebrates the Lord's wedding to Devasena. It is the single grandest event in the temple's calendar.",
+      },
+      {
+        question: "What is the Nazhi Kinaru?",
+        answer:
+          "The Nazhi Kinaru is a small well sunk into the sandy seashore only steps from the waves, famous for yielding sweet, drinkable water despite lying amid salt sand beside the salt sea. Revered as a miracle of the Lord's grace and linked by legend to Murugan's army needing fresh water on the barren coast, its water is taken by pilgrims as sacred theertham.",
+      },
+      {
+        question: "Should I take a sea bath before darshan?",
+        answer:
+          "Yes — it is the traditional practice. Because the Bay of Bengal is Tiruchendur's sacred theertham, pilgrims customarily bathe in the sea (and drink from the Nazhi Kinaru) to purify themselves before climbing to the sanctum. Changing facilities are available near the shore. Take care, as the beach can be crowded and slippery, especially on festival days.",
+      },
+      {
+        question: "What is the story of the idols recovered from the sea?",
+        answer:
+          "Around the mid-17th century, Dutch (VOC) forces seized the temple's bronze festival idols. Tradition holds that the devotee-administrator Vadamalaiyappa Pillai was granted a vision that the images lay in the sea and that a floating lime would mark the spot; following the sign, divers recovered the idols from the waters and restored them to worship. The episode is cherished as proof that the Lord would not forsake his seaside shrine.",
+      },
+      {
+        question: "What are the main timings and the best festivals to visit?",
+        answer:
+          "The temple is generally open from about 5:00 AM to 1:00 PM and 4:00 to 9:00 PM, with the day beginning at the early Ushakkala darshan; timings extend through the night during Skanda Sashti. The grandest festivals are Skanda Sashti (Oct–Nov), with the Soorasamharam, and Vaikasi Visakam (May–June), Murugan's birth-star; the Masi and Aavani Brahmotsavams bring the great car festivals.",
+      },
+    ],
+  },
+  "palani-murugan": {
+    slug: "palani-murugan",
+    timings: { morning: "5:30 AM – 1:00 PM", evening: "3:00 PM – 9:00 PM", note: "The day opens with the Viswaroopa darshan around 5:30–6:00 AM and closes after the night Rakkala pooja, when sandal paste is applied to the idol to be removed at dawn as medicinal prasadam. Timings extend greatly during Thaipusam and Panguni Uthiram." },
+    entryFee: "Free darshan. A quick-darshan (Sheeghra) ticket shortens the queue. The hill is reached by steps (free), or by a paid winch (rope train) and rope car (cable car).",
+    dressCode: "Traditional attire. Men typically wear a dhoti/veshti (often bare-chested in the sanctum); women wear saree or salwar. Avoid shorts and sleeveless tops. Many pilgrims climb the hill barefoot, often carrying kavadi.",
+    bestTime: "October – March. Thaipusam (January–February) is the spiritual peak and the greatest kavadi pilgrimage; Panguni Uthiram (March–April) and Vaikasi Visakam (May–June) are also grand.",
+    travelInfo: {
+      byAir: "Coimbatore International Airport (~110 km) is nearest; Madurai (~120 km) and Tiruchirapalli (~150 km) offer wider connections.",
+      byTrain: "Palani Railway Station (~3–4 km) connects to Dindigul, Coimbatore, Madurai and Tiruchirapalli, with onward buses and autos to the hill.",
+      byRoad: "Palani is in Dindigul district on the Dindigul–Pollachi road at the foot of the Western Ghats. Buses run from Dindigul (~60 km), Coimbatore (~110 km), Madurai (~120 km) and the hill station Kodaikanal (~65 km).",
+    },
+    highlights: [
+      "One of the six Arupadai Veedu (sacred abodes of Murugan), crowning the Sivagiri hill above the town of Palani",
+      "Lord Dhandayuthapani is worshipped as a young renunciate — head shaven, clad only in a loincloth, holding a danda (staff) — the god who renounced all after the contest for the fruit of wisdom",
+      "The idol is made of Navapashanam, an amalgam of nine medicinal minerals fashioned by the Siddha sage Bhogar — uniquely, the abhishekam runoff becomes curative prasadam",
+      "Home of the famous Palani Panchamirtham, a GI-tagged five-ingredient sweet prasadam",
+      "The birthplace of the kavadi tradition, born of the legend of Idumban carrying the two hills",
+      "Bhogar, one of the eighteen Siddhars, is enshrined here in jeeva samadhi, having created the idol and remained in yogic repose",
+      "Reached up the hill by ancient stone steps, an electric winch (rope train), or a rope car (cable car)",
+    ],
+    history: "The Arulmigu Dhandayuthapani Swamy Temple at Palani is one of the most visited and beloved of all Murugan shrines, the third of the six Arupadai Veedu, set atop the Sivagiri hill in Dindigul district. Its sanctity is rooted in the Tamil bhakti tradition and the Skanda legends, and it is bound up with the Siddha lineage of Tamil Nadu through the sage Bhogar, who, by tradition, sculpted the deity from nine medicinal substances (Navapashanam) and remains in samadhi within the temple. The town's name itself is held to come from the Lord's story: 'Pazham nee' ('you are the fruit'), the words spoken to console the renunciate Murugan, softened over time into 'Palani'. Across the centuries Pandya, Chera and later rulers and the Siddha tradition shaped the hill shrine, the foot temple of Thiru Avinankudi, and the great steps and gateways that pilgrims climb today. Palani is administered by the Tamil Nadu HR&CE and draws millions, above all at Thaipusam.",
+    architecture: "The temple crowns the Sivagiri hill, about 160 metres above the plain, reached by a long flight of stone steps (the Giri Veedhi) as well as a modern electric winch and a rope car. The hilltop sanctum enshrines Dhandayuthapani — Murugan as the staff-bearing ascetic — in the Navapashanam idol, facing east. Around it run the prakaram, mandapams and the golden-towered gateway, with the Bhogar Sannidhi (the Siddha's samadhi shrine) set within the complex and connected by tradition to an underground passage. Partway up the hill stands the shrine of Idumban, the guardian, and at the very foot of the hill lies the Thiru Avinankudi temple, where Murugan is worshipped with his consorts and peacock — together the 'Adivaram' (base) and hilltop shrines form the sacred whole of Palani. The two hills, Sivagiri and Sakthigiri, are themselves part of the legend of Idumban's burden.",
+    festivals: [
+      { name: "Thaipusam", month: "January–February (Thai)", description: "Palani's greatest festival and the largest kavadi pilgrimage in the Tamil world. Lakhs of devotees walk to the hill, many on foot from distant towns, bearing kavadis and milk-pots (paal kudam) as vows, recalling the gift of the Vel to Murugan. The hill and town overflow day and night." },
+      { name: "Panguni Uthiram", month: "March–April (Panguni)", description: "A grand festival marked by the temple car (ther) procession and the celestial associations of Murugan, drawing vast crowds and kavadi-bearers up the hill." },
+      { name: "Vaikasi Visakam", month: "May–June (Vaikasi)", description: "Celebrates Murugan's birth-star, Visakam, with special abhishekams and processions — among the holiest days for his devotees." },
+      { name: "Skanda Sashti", month: "October–November (Aippasi)", description: "The six-day festival of Murugan's victory over Soorapadman, observed with fasting, processions and devotion at Palani as at the other Arupadai Veedu.", slug: "skanda-sashti" },
+    ],
+    poojas: [
+      { name: "Viswaroopa Darshanam", time: "~5:30–6:00 AM", fee: "Free to witness" },
+      { name: "Kala Santhi Pooja", time: "Morning", fee: "Free to witness" },
+      { name: "Uchikkala Pooja (Noon)", time: "~12:00 PM", fee: "Free to witness" },
+      { name: "Rakkala Pooja (Night Sandal)", time: "Night (~8:00 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["madurai-meenakshi", "tiruchendur-murugan"],
+    mythology: {
+      legend:
+        "The defining legend of Palani is the contest for the fruit of wisdom. The sage Narada brought to Kailash a single divine mango — the Gnana Pazham, the fruit of supreme knowledge — which could not be cut or shared. Shiva and Parvati resolved to give it to whichever of their two sons first circled the world. Murugan at once mounted his peacock and sped off around the earth. But Ganesha, wise and unhurried, simply walked around his parents, declaring that they were his whole world — and so won the fruit. Returning to find himself outwitted and the fruit already given, Murugan felt slighted; renouncing his ornaments and even his clothing, he left Kailash and withdrew to the hill at Palani as a solitary ascetic, clad in a loincloth and holding only a staff (danda). There Shiva and Parvati came to console him, and Parvati (or, by another telling, the poet-saint Avvaiyar) soothed him with the words 'Pazham nee' — 'you yourself are the fruit', the very essence of wisdom — from which the hill takes its name, Palani. The Lord remains there as Dhandayuthapani, 'he who bears the staff as his weapon', the god of renunciation.",
+      additionalStories: [
+        {
+          title: "Idumban and the Birth of the Kavadi",
+          content:
+            "Idumban was an asura who became a devotee of the sage Agastya. Agastya wished to take two hills, Sivagiri and Sakthigiri, to the south, and asked Idumban to carry them. Idumban slung the two hills on either end of a pole across his shoulders — the first kavadi — and bore them south. Reaching Palani, he set them down to rest. When he tried to lift them again, they would not move: a small boy stood upon one hill, claiming it as his own. The two fought, and Idumban was slain — but the boy was Murugan himself, and at the pleading of Idumban's wife (and of the devotees) the Lord restored him to life. The grateful Idumban was made guardian of the hill, his shrine standing partway up. From his act comes the kavadi: every devotee who carries the decorated, arched burden up to Palani re-enacts Idumban's offering, and it is said the Lord grants the wishes of those who bring kavadi with devotion.",
+        },
+        {
+          title: "Bhogar and the Navapashanam Idol",
+          content:
+            "By tradition the Palani idol was not carved from ordinary stone or metal but compounded by the Siddha sage Bhogar (Bhoganathar), one of the eighteen Siddhars, from Navapashanam — nine 'poisons', a secret amalgam of medicinal and mineral substances combined into a single hardened image of immense potency. Because of this, the milk, sandal, panchamrita and other substances poured over the idol in abhishekam absorb its virtue and are revered as curative prasadam. The composition is held to be impossible to replicate and so sacred that no ordinary abhishekam liquid is wasted. Bhogar is believed to have attained jeeva samadhi within the temple and to abide there still in yogic stillness; his shrine is venerated alongside the Lord.",
+        },
+        {
+          title: "The Panchamirtham of Palani",
+          content:
+            "Palani is famous for its Panchamirtham, a sweet, fragrant prasadam made of five chief ingredients — the small Virupatchi hill bananas of the region, jaggery, ghee, honey and cardamom, with dates and sugar candy — pounded into a rich paste. Distributed to pilgrims as the Lord's blessing, it is so distinctive to the temple and its hill-grown bananas that it has been awarded a Geographical Indication (GI) tag. For countless devotees, receiving Palani Panchamirtham is inseparable from the pilgrimage itself.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Hilltop Sanctum — Dhandayuthapani",
+        type: "sanctum",
+        description: "The east-facing inner sanctum atop the Sivagiri hill enshrining the Navapashanam idol of Murugan as Dhandayuthapani, the staff-bearing renunciate. The holiest point of the temple, where the medicinal abhishekam is performed.",
+        detail: "Navapashanam idol · Murugan as ascetic",
+      },
+      {
+        name: "Bhogar Sannidhi (Samadhi Shrine)",
+        type: "other",
+        description: "The shrine of the Siddha sage Bhogar, who by tradition created the idol and attained jeeva samadhi within the temple. Connected by legend to an underground passage, it is venerated by devotees as the abode of the living Siddha.",
+      },
+      {
+        name: "Giri Veedhi Steps, Winch & Rope Car",
+        type: "other",
+        description: "The hill is ascended by an ancient flight of stone steps (the Giri Veedhi), by an electric winch (a rope train running up the slope), and by a rope car (cable car) — the three ways pilgrims reach the summit, the steps climbed barefoot by the most devout.",
+        detail: "Steps · winch · cable car",
+      },
+      {
+        name: "Idumban Shrine",
+        type: "other",
+        description: "The shrine of Idumban, the asura-turned-devotee made guardian of the hill, set partway up the ascent. Kavadi-bearers pause to worship here, honouring the origin of the kavadi tradition.",
+      },
+      {
+        name: "Thiru Avinankudi (Adivaram Temple)",
+        type: "other",
+        description: "The temple at the very foot of the hill, where Murugan is worshipped with his consorts Valli and Deivanai and his peacock. Together with the hilltop shrine it forms the complete sacred whole of Palani.",
+      },
+      {
+        name: "Sivagiri & Sakthigiri Hills",
+        type: "other",
+        description: "The two hills of Palani, by legend the very hills Idumban carried on his kavadi. The Dhandayuthapani temple crowns Sivagiri; the paired hills are part of the landscape sanctity of the shrine.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Bhogar (Siddhar)",
+        deity: "The Siddha sage Bhoganathar",
+        description: "One of the eighteen Siddhars, creator of the Navapashanam idol, enshrined in jeeva samadhi within the temple and worshipped as a living presence who still guards and blesses the shrine.",
+      },
+      {
+        name: "Idumban",
+        deity: "The asura-devotee, guardian of the hill",
+        description: "Slain and restored by Murugan, made the hill's guardian; his shrine partway up the ascent is the spiritual root of the kavadi offering that defines Palani pilgrimage.",
+      },
+      {
+        name: "Valli & Deivanai (at Thiru Avinankudi)",
+        deity: "The two consorts of Murugan",
+        description: "Because Dhandayuthapani on the hill is the solitary renunciate, the Lord is worshipped with his consorts Valli and Deivanai at the foot-of-hill temple of Thiru Avinankudi.",
+      },
+      {
+        name: "Vinayaka",
+        deity: "Lord Ganesha",
+        description: "Murugan's brother and the very figure who won the fruit of wisdom in the central legend, worshipped first by devotees to remove obstacles before the climb and darshan.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Hill Entrance (Steps / Giri Veedhi)", direction: "South", notes: "The traditional ascent on foot up the stone steps; many devotees climb barefoot, often carrying kavadi." },
+        { name: "Winch & Rope Car Stations", direction: "East", notes: "The electric winch (rope train) and the rope car (cable car) carry pilgrims who cannot climb; ticket counters are at the base." },
+      ],
+      cloakRoom: "Footwear and bags are deposited at the base or designated counters before the climb; you go barefoot beyond the boundary. Plan for the ascent before reaching the cloak points.",
+      mobilePolicy: "Mobile phones should be silenced and are restricted near the sanctum; follow staff instructions, especially during the immense Thaipusam crowds.",
+      cameraPolicy: "Photography is not permitted inside the sanctum. The hill, gopuram and views over the plain are generally photographable; check posted rules.",
+      wheelchairAccess: "The hilltop is reached by steps, but the winch and rope car make the summit accessible to seniors and those unable to climb. The sanctum approach still has some steps; assistance is informal. Ask temple staff.",
+      seniorCitizenDarshan: "Use the winch or rope car rather than the steps, and a quick-darshan ticket to shorten the queue. During Thaipusam and Panguni Uthiram the crowds are vast and waits long; arrive very early.",
+      parking: "Parking is available at the foot of the hill near the winch and rope-car stations and in the town; lots fill quickly on festival days. The temple is a short ride from the railway station and bus stand.",
+      restrooms: "Restrooms and drinking-water points are available at the base and on the hill. Facilities are heavily stretched during Thaipusam; carry your own essentials.",
+      drinkingWater: "Drinking water is available at the base and summit. The plain is hot for much of the year and the climb is strenuous; carry water, especially March–June.",
+    },
+    sevas: [
+      {
+        name: "Abhishekam (Navapashanam)",
+        description: "The sacred bathing of the Navapashanam idol with milk, panchamrita, sandal and holy water; because of the idol's medicinal composition the runoff is revered as curative prasadam, sought by devotees for healing.",
+        time: "Morning (select days)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Panchamirtham Prasadam",
+        description: "Receiving the temple's famous GI-tagged Panchamirtham — the sweet paste of hill bananas, jaggery, ghee, honey and cardamom — as the Lord's blessing, inseparable from a Palani pilgrimage.",
+        time: "Daily",
+        fee: "Offering / purchase",
+        type: "daily",
+      },
+      {
+        name: "Kavadi Offering",
+        description: "Carrying the kavadi — the arched, decorated shoulder-burden — up the hill in fulfilment of a vow, re-enacting Idumban's offering. The defining act of devotion at Palani, at its height during Thaipusam.",
+        time: "Festival days / on vow",
+        fee: "Devotee's offering",
+        type: "special",
+      },
+      {
+        name: "Paal Kudam (Milk-Pot Offering)",
+        description: "Bearing pots of milk up to the hilltop to be poured over the Lord in abhishekam, a popular and accessible vow carried by pilgrims of all ages, especially during Thaipusam.",
+        time: "Festival days / on vow",
+        fee: "Cost of the milk",
+        type: "special",
+      },
+      {
+        name: "Mottai (Tonsure / Hair Offering)",
+        description: "The offering of one's hair by tonsuring the head as an act of surrender and the fulfilment of a vow — Palani is one of the major temples where devotees, including children, offer their hair.",
+        time: "Daily on request",
+        fee: "Prescribed fee",
+        type: "special",
+      },
+      {
+        name: "Rakkala Santhanam (Night Sandal)",
+        description: "Sandal paste applied to the idol at the night Rakkala pooja and removed at dawn, by then imbued with the idol's medicinal virtue and distributed to devotees as a prized healing prasadam.",
+        time: "Night to dawn",
+        fee: "Free to receive",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is Murugan worshipped as a renunciate (Dhandayuthapani) at Palani?",
+        answer:
+          "Because of the legend of the fruit of wisdom. When Shiva and Parvati offered a single divine mango to whichever son first circled the world, Murugan raced around the earth on his peacock while Ganesha simply circled his parents — calling them his world — and won the fruit. Feeling slighted, Murugan renounced his ornaments and clothing and withdrew to Palani hill as a solitary ascetic, holding only a staff (danda). He is enshrined there as Dhandayuthapani, 'he who bears the staff as his weapon' — the god of detachment and renunciation. Parvati consoled him with 'Pazham nee' ('you are the fruit'), from which 'Palani' takes its name.",
+      },
+      {
+        question: "What is the Navapashanam idol, and why is the abhishekam special?",
+        answer:
+          "The Palani idol is, by tradition, not carved of ordinary stone or metal but compounded by the Siddha sage Bhogar from Navapashanam — nine medicinal-mineral 'poisons' fused into a single image of great potency. Because of this composition, the milk, sandal, panchamrita and other substances poured over it in abhishekam absorb its curative virtue and are revered as healing prasadam (notably the Rakkala Santhanam, the night sandal removed at dawn). The idol is held to be impossible to replicate.",
+      },
+      {
+        question: "Why do devotees carry kavadi to Palani?",
+        answer:
+          "The kavadi tradition was born here, from the legend of Idumban — an asura-turned-devotee who carried the two hills, Sivagiri and Sakthigiri, slung on a pole across his shoulders (the first kavadi). At Palani he set them down and could not lift them again; he fought the boy-Murugan, was slain, and was restored to life and made the hill's guardian. Ever since, devotees carry the decorated, arched kavadi up the hill in imitation of his offering, believing the Lord grants the wishes of those who bring it with devotion.",
+      },
+      {
+        question: "What is Palani Panchamirtham?",
+        answer:
+          "It is the temple's famous prasadam: a sweet, fragrant paste of five chief ingredients — the small Virupatchi hill bananas of the Palani region, jaggery, ghee, honey and cardamom, with dates and sugar candy. So distinctive to the temple and its hill-grown bananas that it has received a Geographical Indication (GI) tag, it is distributed to pilgrims as the Lord's blessing and is, for many, inseparable from the pilgrimage.",
+      },
+      {
+        question: "How do I get to the temple at the top of the hill?",
+        answer:
+          "The Dhandayuthapani temple crowns the Sivagiri hill (~160 m) and is reached three ways: by climbing the ancient stone steps (the Giri Veedhi), often done barefoot by the devout and by kavadi-bearers; by the electric winch (a rope train up the slope); or by the rope car (cable car). Seniors and those unable to climb usually take the winch or rope car. At the foot of the hill is the Thiru Avinankudi temple, also part of the pilgrimage.",
+      },
+      {
+        question: "When is the best time to visit, and which festival is grandest?",
+        answer:
+          "October to March has the most pleasant weather. The grandest festival by far is Thaipusam (Thai, Jan–Feb), the largest kavadi pilgrimage in the Tamil world, when lakhs walk to Palani bearing kavadis and milk-pots. Panguni Uthiram (March–April) with the car festival and Vaikasi Visakam (May–June), Murugan's birth-star, are also major. Expect enormous crowds and long waits at these times.",
+      },
+      {
+        question: "Who was Bhogar?",
+        answer:
+          "Bhogar (Bhoganathar) was one of the eighteen Siddhars of the Tamil spiritual tradition, a master of medicine, alchemy and yoga. He is credited with creating the Navapashanam idol of Palani and, by tradition, attained jeeva samadhi within the temple, where he is believed to remain in yogic stillness. His shrine (the Bhogar Sannidhi) is venerated alongside the Lord, and he is honoured as a living presence guarding the hill.",
+      },
+    ],
+  },
 };
 
 // For temples without explicit detail entries, generate a sensible default
