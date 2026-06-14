@@ -2849,6 +2849,1006 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
     ],
   },
+  "ekambareswarar-kanchipuram": {
+    slug: "ekambareswarar-kanchipuram",
+    timings: { morning: "6:00 AM – 12:30 PM", evening: "4:00 PM – 8:30 PM", note: "The Prithvi (Earth) lingam is a swayambhu mound of sand and is never bathed with water; it is worshipped instead with a coat of sandal and punugu paste. Timings extend on Pradosham, Maha Shivaratri and during the Panguni Brahmotsavam." },
+    entryFee: "Free darshan. Quick-darshan, archana and special abhishekam/seva tickets are available at the temple counter.",
+    dressCode: "Traditional attire. Men typically wear a dhoti/veshti and may go bare-chested near the sanctum; women wear saree or salwar-kameez. Avoid shorts, short skirts and sleeveless tops.",
+    bestTime: "October – March, when Kanchipuram is pleasant. Panguni Uthiram (March–April), the celestial wedding of Ekambareswarar and the Goddess, and Maha Shivaratri (February–March) are the spiritual peaks.",
+    travelInfo: {
+      byAir: "Chennai International Airport (~75 km) is the nearest, with wide domestic and international connections. Bengaluru is about 280 km away.",
+      byTrain: "Kanchipuram Railway Station (~2 km) has connections via Chengalpattu and Arakkonam (~30–35 km), both major junctions on the Chennai network.",
+      byRoad: "Kanchipuram lies about 75 km southwest of Chennai on the well-served Chennai–Bengaluru corridor. Frequent buses, taxis and autos run from Chennai, Chengalpattu and Vellore; the temple is in the heart of the old town.",
+    },
+    highlights: [
+      "One of the Pancha Bhoota Sthalams, representing the Earth (Prithvi) element; the lingam is a swayambhu mound of sand worshipped without any water abhishekam",
+      "The sacred sthala vruksham, an ancient mango tree said to be over 3,500 years old, whose four branches yield fruit of four tastes, symbolising the four Vedas",
+      "One of the tallest temple towers in South India: the ~59 metre (about 192 ft) Raja Gopuram raised by Krishnadevaraya of Vijayanagara in 1509",
+      "Among the largest temple complexes in Tamil Nadu, spread across roughly 25 acres with five prakarams",
+      "The place where Goddess Kamakshi (Parvati) embraced the sand lingam to shield it from the flooding Vegavathi river, and was wed to Shiva",
+      "Houses the Aayiram Kaal Mandapam (thousand-pillared hall) and a gallery of 1,008 Shiva lingams",
+      "Stands in Kanchipuram, one of the seven Moksha-puris and the 'city of a thousand temples', sacred to both Shiva and Vishnu",
+    ],
+    history: "The Ekambareswarar Temple is the great Shiva shrine of Kanchipuram and the largest in the city, its sanctity sung in the Tevaram hymns of the Nayanmars Appar, Sambandar and Sundarar, which makes it a Paadal Petra Sthalam. Its name derives from 'Eka-Amra-Nathar', the Lord of the single mango tree, the ancient sthala vruksham that still stands behind the sanctum. Kanchipuram itself is one of the seven sacred Moksha-puris of India and the only one revered by Shaivites and Vaishnavites alike, divided by tradition into Shiva Kanchi and Vishnu Kanchi. The shrine is of great antiquity, developed across the Pallava and Chola eras, but it owes its present grandeur largely to the Vijayanagara emperors: Krishnadevaraya raised the towering eastern Raja Gopuram and the great outer wall in 1509, enclosing the vast complex seen today. Through every age the temple has been worshipped as the Prithvi Sthalam, the earth among the five element-temples, where Shiva is venerated in a lingam of sand that legend says the Goddess herself fashioned.",
+    architecture: "Ekambareswarar spreads over about 25 acres within five concentric prakarams, making it one of the largest temple complexes in Tamil Nadu. Its dominant landmark is the eastern Raja Gopuram, rising about 59 metres (some 192 feet) over eleven tiers, built by Krishnadevaraya of Vijayanagara and among the tallest gateway towers in South India. Within, the east-facing sanctum enshrines the Prithvi Lingam, a swayambhu mound of sand which, because of its composition, is never given a water abhishekam but is coated with sandal and punugu paste. Directly behind the sanctum grows the ancient mango tree, the sthala vruksham, sheltering a small shrine. The complex holds the Aayiram Kaal Mandapam (thousand-pillared hall), a gallery of 1,008 carved lingams, long pillared corridors, the Sivaganga tank, and the Nilathingal Thundam Perumal shrine, a Vishnu Divya Desam set within the Shiva temple. The outer walls and mandapams carry the fine Vijayanagara-era sculpture for which Kanchipuram is renowned.",
+    festivals: [
+      { name: "Panguni Uthiram Brahmotsavam", month: "March–April (Panguni)", description: "The grandest festival, a multi-day Brahmotsavam culminating in the Thirukalyanam, the celestial wedding of Ekambareswarar and the Goddess, with the deities taken in splendid procession on various vahanas and the temple car." },
+      { name: "Maha Shivaratri", month: "February–March (Masi)", description: "The great night of Shiva, observed with night-long vigil, special abhishekams to the Prithvi lingam and continuous worship; one of the holiest occasions in the Shaiva calendar.", slug: "maha-shivaratri" },
+      { name: "Aani Thirumanjanam", month: "June–July (Aani)", description: "A ceremonial sacred-bathing festival with special abhishekam and worship of the processional deities, drawing large gatherings to the temple." },
+      { name: "Navaratri", month: "September–October (Purattasi)", description: "The nine-night festival of the Goddess, observed with the kolu, special alankarams and worship of the Devi alongside the principal shrine." },
+    ],
+    poojas: [
+      { name: "Ushathkalam (Dawn)", time: "~6:30 AM", fee: "Free to witness" },
+      { name: "Kalasanthi", time: "~8:30 AM", fee: "Sponsored archana" },
+      { name: "Uchikkalam (Noon)", time: "~12:00 PM", fee: "Sponsored" },
+      { name: "Sayarakshai & Ardhajamam", time: "Evening / night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["kapaleeswarar-mylapore", "arunachaleswarar-thiruvannamalai"],
+    mythology: {
+      legend:
+        "The central legend of Ekambareswarar is the penance of the Goddess beneath the mango tree. Once, in play, Parvati covered the eyes of Shiva on Mount Kailash, and in that instant the light of the worlds was darkened and creation thrown into disorder. To atone, Shiva sent her to the earth to do penance at Kanchipuram. There, on the bank of the Vegavathi (Kampa) river beneath a single great mango tree, Parvati made a lingam of sand and worshipped it with deep devotion. To test her, Shiva sent the river down in a sudden, raging flood. Rather than flee and let the sand lingam dissolve, the Goddess threw her arms around it and held it fast with her whole body, so that the soft lingam took the imprint of her embrace and her bangles. Moved by such love, Shiva appeared, accepted her worship, and married her at Kanchipuram. Because she worshipped him here as a lingam of earth, the shrine became the Prithvi Sthalam, the earth among the five element-temples.",
+      tirukalyanam:
+        "The wedding of Ekambareswarar and the Goddess, the fruit of her penance under the mango tree, is celebrated each year as the climax of the Panguni Uthiram Brahmotsavam, when the divine couple are united before thronging devotees.",
+      additionalStories: [
+        {
+          title: "The Mango Tree and the Four Vedas",
+          content:
+            "The sthala vruksham of Ekambareswarar is a single ancient mango tree, the 'eka amra' from which the Lord takes his name, said to have stood for more than three thousand years. By tradition its four great branches each bear mangoes of a different taste, and the four are taken to represent the four Vedas. The tree sheltered the Goddess during her penance and is venerated to this day; childless couples in particular pray beneath it for the blessing of children, and its fruit is treasured as a token of grace.",
+        },
+        {
+          title: "Why the Earth Lingam Is Never Bathed",
+          content:
+            "Because the lingam here is a Prithvi Lingam, formed of sand by the hands of the Goddess, it cannot be subjected to the water abhishekam given to ordinary stone lingams, for water would wear it away. Instead the deity is worshipped with a careful coat of sandalwood and punugu (civet) paste and adorned with flowers. This unique mode of worship is itself a daily reminder that the Lord here is enshrined in the very element of earth.",
+        },
+        {
+          title: "Prithvi among the Pancha Bhoota Sthalams",
+          content:
+            "Ekambareswarar is one of the five Pancha Bhoota Sthalams, the temples where Shiva is worshipped as each of the five great elements. Here he is the Earth (Prithvi); at Thiruvanaikaval he is Water, at Thiruvannamalai Fire, at Srikalahasti Air, and at Chidambaram Space or Ether. Pilgrims who complete all five are said to grasp that the one Lord pervades the whole material creation, from solid earth to formless sky, and Kanchipuram's sand lingam is the earthly anchor of that great circuit.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Raja Gopuram",
+        type: "gopuram",
+        description: "The soaring eastern gateway tower, about 59 metres tall over eleven tiers, raised by Krishnadevaraya of Vijayanagara in 1509 and ornamented with tier upon tier of stucco figures. It is among the tallest temple towers in South India and the defining silhouette of Kanchipuram.",
+        detail: "~59 m · 11 tiers · built 1509",
+      },
+      {
+        name: "Garbhagriha (Prithvi Lingam)",
+        type: "sanctum",
+        description: "The east-facing inner sanctum holding the swayambhu Earth lingam of sand. Uniquely, it receives no water abhishekam; the Lord is worshipped with sandal and punugu paste, the imprint of the Goddess's embrace remembered in every ritual.",
+        detail: "Swayambhu sand lingam · no water abhishekam",
+      },
+      {
+        name: "The Sacred Mango Tree",
+        type: "other",
+        description: "The sthala vruksham behind the sanctum, the single ancient mango tree said to be over 3,500 years old, its four branches yielding fruit of four tastes for the four Vedas. Couples pray here for children; the tree is the living heart of the temple's legend.",
+        detail: "Said to be 3,500+ years old",
+      },
+      {
+        name: "Aayiram Kaal Mandapam",
+        type: "mandapam",
+        description: "The thousand-pillared hall, a vast ceremonial pavilion of carved granite columns typical of the Vijayanagara building tradition, used for festivals and gatherings.",
+        detail: "Thousand-pillared hall",
+      },
+      {
+        name: "Gallery of 1,008 Lingams",
+        type: "other",
+        description: "A corridor lined with one thousand and eight small Shiva lingams carved in stone, an expression of the infinitude of Shiva and a focus of circumambulatory worship.",
+        detail: "1,008 carved lingams",
+      },
+      {
+        name: "Sivaganga Tank",
+        type: "tank",
+        description: "The temple's sacred tank within the complex, where devotees bathe and which serves the temple's ceremonial needs, mirroring the great gopuram in its waters.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Nilathingal Thundam Perumal",
+        deity: "Lord Vishnu (Chandra Choodaperumal)",
+        description: "A shrine to Vishnu set within the Shiva temple and counted among the 108 Divya Desams, sung by the Alvars. Its presence inside Ekambareswarar embodies Kanchipuram's rare standing as a city holy to Shaivites and Vaishnavites together.",
+      },
+      {
+        name: "Kamakshi (the Goddess)",
+        deity: "Goddess Parvati as Kamakshi / Elavarkuzhali",
+        description: "The Goddess who performed penance under the mango tree and was wed to Ekambareswarar. Kanchipuram's presiding Shakti, Kamakshi, is enshrined principally at her own great temple nearby, completing the pilgrimage to the Lord here.",
+      },
+      {
+        name: "Vinayaka",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first by devotees as they enter, with his shrine in the temple precinct.",
+      },
+      {
+        name: "Murugan (Subramanya)",
+        deity: "Lord Murugan with Valli and Deivanai",
+        description: "The shrine of the six-faced Murugan, son of Shiva and Parvati, honoured along the prakaram as part of the family of the Lord.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Raja Gopuram (Main Entrance)", direction: "East", notes: "The principal entrance beneath the great eleven-tier eastern tower; most pilgrims enter here into the long approach to the sanctum." },
+        { name: "Secondary Gateways", direction: "West", notes: "Side entrances used for specific queues and during festival crowds; follow staff guidance and posted directions." },
+      ],
+      cloakRoom: "Footwear is left at counters outside the temple before entering. Bags and large items can be deposited near the entrance; carry valuables with care.",
+      mobilePolicy: "Mobile phones are generally allowed within the outer prakarams, but their use and photography are restricted at and inside the sanctum. Follow the signs and the instructions of temple staff.",
+      cameraPolicy: "Photography is permitted in the outer corridors, mandapams and around the gopuram, but not of the moolavar in the sanctum. Do not photograph during poojas where prohibited.",
+      wheelchairAccess: "The complex is large and largely level within the prakarams, though there are steps and thresholds near the sanctum. Assistance may be needed; the long corridors mean a fair amount of walking.",
+      seniorCitizenDarshan: "A quick-darshan or archana ticket shortens the wait on busy days. Mornings and the cooler months are easiest for seniors; festival days such as Panguni Uthiram and Maha Shivaratri draw very large crowds.",
+      parking: "Parking is available in lots near the temple in the old town, which fill on festival days. Kanchipuram is compact and the temple is easily reached by auto from the railway and bus stands.",
+      restrooms: "Basic restrooms and drinking-water points are available near the temple and around the precinct. Facilities are stretched during festivals; carry essentials.",
+      drinkingWater: "Drinking water is available near the entrance and tank. Kanchipuram is hot through the summer (April–June); carry water and visit early in the day.",
+    },
+    sevas: [
+      {
+        name: "Archana (Pushpanjali)",
+        description: "Offering of flowers and recitation of the Lord's names in the devotee's name and birth-star, performed by the temple priests at the sanctum.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Sandal & Punugu Alankaram",
+        description: "The special adornment of the Earth lingam with sandalwood and punugu paste in place of a water bath, the characteristic worship of the Prithvi Sthalam, sponsored by devotees.",
+        time: "During daily poojas",
+        fee: "Sponsored",
+        type: "daily",
+      },
+      {
+        name: "Pradosham Abhishekam",
+        description: "The twice-monthly Pradosham worship of Shiva at dusk on the thirteenth lunar day, with abhishekam to the Nataraja and Somaskanda bronzes and special deeparadhana, considered especially auspicious for Shaivites.",
+        time: "Pradosham evenings (Trayodasi)",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Thirukalyanam Seva",
+        description: "Sponsorship of the celestial wedding ritual of Ekambareswarar and the Goddess, the heart of the Panguni Uthiram festival, offered by devotees for marital harmony and family welfare.",
+        time: "Panguni Uthiram / on booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Deeparadhana",
+        description: "The lamp ceremony at which the Lord is worshipped amid rows of oil lamps, a serene daily highlight open to all worshippers.",
+        time: "Morning and evening",
+        fee: "Free to witness",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Which element does Ekambareswarar represent among the Pancha Bhoota Sthalams?",
+        answer:
+          "Ekambareswarar is the Prithvi (Earth) Sthalam, one of the five temples where Shiva is worshipped as a great element. The lingam here is a swayambhu mound of sand, the very earth, said to have been fashioned and worshipped by the Goddess. The other four are Water (Thiruvanaikaval), Fire (Thiruvannamalai), Air (Srikalahasti) and Space or Ether (Chidambaram).",
+      },
+      {
+        question: "Why is the lingam never given a water bath (abhishekam)?",
+        answer:
+          "Because it is a Prithvi Lingam made of sand, water would erode and dissolve it. So instead of the usual water and milk abhishekam, the deity is worshipped with a careful coat of sandalwood and punugu paste and decked with flowers. This unique daily care reflects the temple's identity as the Earth among the five element-shrines.",
+      },
+      {
+        question: "What is the story of the sacred mango tree?",
+        answer:
+          "The temple's name, Eka-Amra-Nathar, means the Lord of the single mango tree. The ancient mango that grows behind the sanctum, said to be over 3,500 years old, sheltered the Goddess during her penance. By tradition its four branches bear fruit of four different tastes, taken to represent the four Vedas. Couples pray beneath it for the blessing of children, and its fruit is cherished as a mark of grace.",
+      },
+      {
+        question: "Why is the temple linked to the marriage of Shiva and Parvati?",
+        answer:
+          "Legend holds that the Goddess did penance here under the mango tree and made a lingam of sand. When Shiva tested her by sending the Vegavathi river in flood, she embraced the lingam to save it, so that it kept the imprint of her arms. Pleased by her devotion, Shiva married her at Kanchipuram. That celestial wedding is re-enacted each year as the climax of the Panguni Uthiram festival.",
+      },
+      {
+        question: "How is Ekambareswarar connected to Kanchipuram's other great temples?",
+        answer:
+          "Kanchipuram is one of the seven Moksha-puris and is unique in being holy to both Shaivites and Vaishnavites, as Shiva Kanchi and Vishnu Kanchi. Ekambareswarar is the chief Shiva temple; the presiding Goddess Kamakshi has her own great temple nearby, and the Varadaraja Perumal temple is the chief Vishnu shrine. Many pilgrims worship at all three, and the city holds more than a hundred temples in all.",
+      },
+      {
+        question: "When is the best time to visit, and which festivals are the biggest?",
+        answer:
+          "October to March is the most pleasant time in Kanchipuram. The greatest festival is the Panguni Uthiram Brahmotsavam (March–April), ending in the celestial wedding of the Lord and the Goddess, and Maha Shivaratri (February–March) is observed with a night-long vigil. Both draw very large crowds; arrive early and allow extra time.",
+      },
+      {
+        question: "How much time should I plan for a visit?",
+        answer:
+          "Allow about one to two hours to take in the great gopuram, walk the long prakarams, see the mango tree and the thousand-pillared hall, and have darshan at the sanctum. On festival days and Pradosham evenings, plan for more time as the queues and crowds grow considerably.",
+      },
+    ],
+  },
+  "vaitheeswaran-kovil": {
+    slug: "vaitheeswaran-kovil",
+    timings: { morning: "6:00 AM – 1:00 PM", evening: "4:00 PM – 8:30 PM", note: "Tuesdays (the day of Mars) and the days of Angaraka (Chevvai) transit are the busiest, when devotees come for relief from Chevvai/Mangal dosham. Timings extend during Skanda Sashti and on festival days." },
+    entryFee: "Free darshan. Archana, abhishekam and special parihara (remedy) poojas, and the various healing offerings, carry their own modest fees at the temple counter.",
+    dressCode: "Traditional attire. Men usually wear a dhoti/veshti and may go bare-chested near the sanctum; women wear saree or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March for pleasant weather. Skanda Sashti (October–November) and Thai Poosam (January–February) are the great festival peaks; Tuesdays and Angaraka transit days are most significant for those seeking the Mars remedy.",
+    travelInfo: {
+      byAir: "Tiruchirapalli International Airport (~130 km) is the nearest; Chennai International Airport is about 250 km away.",
+      byTrain: "Vaitheeswaran Koil has its own railway station (~1 km) on the Mayiladuthurai–Chidambaram line. Mayiladuthurai Junction (~25 km) and Sirkazhi (~7 km) are the larger railheads.",
+      byRoad: "The temple town lies on the Chidambaram–Mayiladuthurai road in the Kaveri delta. Frequent buses, taxis and autos run from Sirkazhi (~7 km), Chidambaram (~27 km) and Mayiladuthurai (~25 km); Kumbakonam is about 45 km away.",
+    },
+    highlights: [
+      "Shiva worshipped as Vaidyanathar, the divine physician who heals disease; one of the most revered healing shrines in the Tamil land",
+      "The Angaraka (Mars / Chevvai) sthalam among the nine Navagraha temples; the parihara shrine sought for Chevvai/Mangal dosham and delayed marriage",
+      "World-famous centre of Naadi astrology, where palm-leaf manuscripts ascribed to ancient rishis are traced and read by a person's thumbprint",
+      "The Siddhamirtham tank, whose waters are believed to be blended with amrita (nectar) and to cure ailments",
+      "Murugan worshipped as Muthukumaraswamy, who by legend received the Vel from his mother here before destroying Soorapadman",
+      "Distinctive healing offerings: jaggery, salt and pepper dissolved in the tank, sacred soil from the anthill, and the medicinal ash called Thiruchandu",
+      "A Paadal Petra Sthalam, sung in the Tevaram hymns of the Nayanmars",
+    ],
+    history: "Vaitheeswaran Koil, the shrine of Vaidyanathaswamy at the town that bears the Lord's name near Sirkazhi, is among the most venerated healing temples of the Tamil country. It stands in the old Chola heartland of the Kaveri delta and is a Paadal Petra Sthalam, glorified in the Tevaram by the Nayanmars Sambandar, Appar and Sundarar. Here Shiva is worshipped as Vaidyanathar, the supreme physician who cures the diseases of body and soul, and his consort as Thaiyalnayaki (Balambika), who holds the medicine. The temple is also one of the nine Navagraha (planetary) temples of the region, the abode of Angaraka, the planet Mars, which makes it the foremost shrine for those seeking relief from Chevvai (Mangal) dosham and obstacles to marriage. Over the centuries the town grew into the great centre of Naadi astrology, where readers consult ancient palm-leaf manuscripts said to have been composed by rishis such as Agastya. Pilgrims have come for generations not only for darshan but for cures, performing the temple's distinctive healing offerings at the Siddhamirtham tank.",
+    architecture: "The temple is a classic Chola-delta shrine, west-facing, entered beneath a five-tiered Rajagopuram, with the large Siddhamirtham tank set before it. Within, the sanctum of Vaidyanathaswamy holds the Lord as the divine physician, with the shrine of the Goddess Thaiyalnayaki (Balambika) nearby. A particularly prominent shrine is that of Muthukumaraswamy (Subramanya), the Murugan of this temple, who holds the Vel; his sannidhi is among the most thronged in the complex. The temple also enshrines Angaraka (Mars) as the presiding planet, along with the Nataraja sabha and other parivara deities. Around the precinct lie the spots tied to the temple's healing legends, including the Jatayu Kundam associated with the Ramayana, while the surrounding streets are lined with the Naadi astrology reading centres for which the town is known.",
+    festivals: [
+      { name: "Skanda Sashti", month: "October–November (Aippasi)", description: "The six-day festival of Murugan, of special importance here through the Muthukumaraswamy shrine, culminating in the Soorasamharam, the enactment of the Lord's victory over Soorapadman, for which he received the Vel.", slug: "skanda-sashti" },
+      { name: "Thai Poosam", month: "January–February (Thai)", description: "The great Murugan festival on the Poosam star, observed with kavadi offerings, special abhishekams and processions of Muthukumaraswamy, drawing large crowds of devotees." },
+      { name: "Angaraka (Chevvai) Days", month: "Tuesdays & Mars transit", description: "Tuesdays, the day of Mars, and the days of Angaraka's transit are observed with special parihara poojas for those afflicted by Chevvai/Mangal dosham and seeking timely marriage and harmony." },
+      { name: "Maha Shivaratri", month: "February–March (Masi)", description: "The great night of Shiva, kept with a night-long vigil, special abhishekams to Vaidyanathar and continuous worship.", slug: "maha-shivaratri" },
+    ],
+    poojas: [
+      { name: "Ushathkalam (Dawn)", time: "~6:30 AM", fee: "Free to witness" },
+      { name: "Kalasanthi", time: "~9:00 AM", fee: "Sponsored archana" },
+      { name: "Uchikkalam (Noon)", time: "~12:00 PM", fee: "Sponsored" },
+      { name: "Sayarakshai & Ardhajamam", time: "Evening / night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["nataraja-chidambaram", "sarangapani-kumbakonam"],
+    mythology: {
+      legend:
+        "Vaitheeswaran Koil is, before all else, the temple of Shiva the divine physician, and its central legend is one of healing. After the long war in which Murugan destroyed the demon Soorapadman, the warriors of the celestial army, and Murugan's commander Veerabahu, were grievously wounded. They came to this place, where Shiva as Vaidyanathar, the lord of medicine, with the Goddess Thaiyalnayaki holding the curative oils and herbs, healed their every wound and restored them whole. From that grace the Lord became known as the divine doctor and the town as Vaitheeswaran Koil, and ever since the afflicted have come here believing that no disease is beyond the physician of physicians. It is also told that Murugan himself worshipped at this shrine and was given the Vel by his mother before going to battle, binding the healing Lord and the warrior son together in the temple's story.",
+      additionalStories: [
+        {
+          title: "Angaraka and the Planet Mars",
+          content:
+            "The temple is one of the nine Navagraha shrines of the Kaveri region, and the planet enshrined here is Angaraka, Mars, called Chevvai or Sevvai in Tamil. By tradition Angaraka was afflicted with disease and worshipped Shiva the physician at this place, and was cured and granted his station among the planets. Because of this, Vaitheeswaran Koil is the great parihara (remedy) shrine for those who suffer from Chevvai or Mangal dosham in their horoscopes, which is held to delay marriage and disturb married life. Devotees worship Angaraka, especially on Tuesdays, the day of Mars, and during his transits, for relief, timely marriage and harmony.",
+        },
+        {
+          title: "Naadi Astrology and the Palm-Leaf Predictions",
+          content:
+            "Vaitheeswaran Koil is the world-renowned home of Naadi Jothidam (Naadi astrology). By tradition, ancient sages such as Agastya inscribed the life-stories and destinies of countless individuals on palm leaves, which have been preserved and copied across generations and are kept by hereditary families of readers in the town. A seeker's leaf is traced using the impression of the right thumb (for men) or left (for women), after which the reader recites details of the person's name, family and future. The town's streets are lined with these reading centres, and many pilgrims combine a Naadi consultation with their worship of the healing Lord.",
+        },
+        {
+          title: "The Offerings That Cure: Jaggery, Salt, Pepper and Thiruchandu",
+          content:
+            "The temple is famous for offerings made specifically for the curing of disease. Devotees dissolve jaggery in the Siddhamirtham tank, and offer salt and pepper, as vows for relief from ailments; the tank's water, believed to carry amrita, is taken and bathed in for its healing virtue. Sufferers of skin disease apply the sacred soil from the temple anthill (puttru mann) and the holy ash. Above all, pilgrims receive the Thiruchandu, a medicinal preparation of sacred ash, which is taken or applied as the physician Lord's own medicine. These living practices make a visit here as much an act of healing as of worship.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Rajagopuram",
+        type: "gopuram",
+        description: "The west-facing five-tiered gateway tower through which pilgrims enter, fronted by the broad Siddhamirtham tank. Its scale is modest beside the great delta temples, but it opens onto one of the most beloved healing shrines of the south.",
+        detail: "West-facing · 5 tiers",
+      },
+      {
+        name: "Garbhagriha (Vaidyanathaswamy)",
+        type: "sanctum",
+        description: "The inner sanctum enshrining Shiva as Vaidyanathar, the divine physician who cures all disease. The Lord is worshipped here as the healer of body and spirit, and the focus of the pilgrims' prayers for health.",
+        detail: "Shiva as the divine physician",
+      },
+      {
+        name: "Muthukumaraswamy (Subramanya) Shrine",
+        type: "sanctum",
+        description: "The prominent shrine of Murugan as Muthukumaraswamy, holding the Vel he received from his mother before the war with Soorapadman. One of the most thronged sannidhis in the temple, central to the Skanda Sashti and Thai Poosam festivals.",
+        detail: "Murugan with the Vel",
+      },
+      {
+        name: "Thaiyalnayaki (Balambika) Shrine",
+        type: "sanctum",
+        description: "The shrine of the Goddess Thaiyalnayaki, who holds the medicinal oil and herbs with which, by legend, the wounds of the celestial army were healed. She is worshipped as the consort who provides the cure alongside the physician Lord.",
+      },
+      {
+        name: "Angaraka (Mars) Shrine",
+        type: "other",
+        description: "The shrine of Angaraka, the planet Mars, the Navagraha presiding here. It is the focus of the Chevvai/Mangal dosham parihara worship, especially on Tuesdays and during the planet's transits.",
+        detail: "The Mars / Chevvai sthalam",
+      },
+      {
+        name: "Siddhamirtham Theertham",
+        type: "tank",
+        description: "The large sacred tank before the temple, believed to be blended with amrita and to possess curative power. Devotees bathe in it, take its water, and make the temple's healing offerings of jaggery, salt and pepper here.",
+        detail: "Healing tank of 'nectar' water",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Muthukumaraswamy (Subramanya)",
+        deity: "Lord Murugan, holding the Vel",
+        description: "The Murugan of Vaitheeswaran Koil, worshipped as Selva Muthukumaraswamy, who received the Vel from his mother before destroying Soorapadman. His shrine is among the most popular in the temple.",
+      },
+      {
+        name: "Thaiyalnayaki (Balambika)",
+        deity: "Goddess Parvati as the healer",
+        description: "The consort Goddess who holds the curative oil and herbs and, with the physician Lord, restored the wounded celestial army to health.",
+      },
+      {
+        name: "Angaraka (Chevvai)",
+        deity: "The planet Mars",
+        description: "The Navagraha presiding at this temple, worshipped for relief from Chevvai/Mangal dosham, timely marriage and marital harmony, especially on Tuesdays.",
+      },
+      {
+        name: "Vinayaka",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first by devotees on entering, with his shrine in the temple precinct.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Entrance (Rajagopuram)", direction: "West", notes: "The principal west-facing entrance beneath the five-tier tower, fronting the Siddhamirtham tank; most pilgrims enter here." },
+        { name: "Side Entrances", direction: "South", notes: "Secondary gateways used for specific queues and during festival crowds; follow staff guidance." },
+      ],
+      cloakRoom: "Footwear is left at stalls outside the temple before entering. Carry valuables with you; deposit larger bags where counters are available.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer areas, but their use and photography are restricted at the sanctum. Follow the signs and temple staff.",
+      cameraPolicy: "Photography is permitted around the gopuram, tank and outer corridors, but not of the deities in the sanctums. Avoid photography during poojas where prohibited.",
+      wheelchairAccess: "The temple is largely at ground level within the prakarams, with some steps and thresholds near the sanctums. Assistance may be needed; the complex is compact and manageable.",
+      seniorCitizenDarshan: "Crowds are heaviest on Tuesdays, Angaraka transit days and during Skanda Sashti and Thai Poosam; weekday mornings are easiest for seniors. Quick-darshan and archana tickets help reduce the wait.",
+      parking: "Parking is available near the temple and tank in the small town; it fills on festival and Mars-transit days. Autos and taxis run from the railway station and bus stand a short distance away.",
+      restrooms: "Basic restrooms and drinking-water points are available near the temple and tank. Facilities are limited on the busiest days; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple. The delta is hot and humid through the summer (April–June); carry water and visit early in the day.",
+    },
+    sevas: [
+      {
+        name: "Angaraka (Chevvai) Dosha Parihara Pooja",
+        description: "The remedy worship offered to Angaraka, the planet Mars, for those afflicted by Chevvai or Mangal dosham, seeking timely marriage and marital harmony. Performed especially on Tuesdays and during the planet's transits.",
+        time: "Tuesdays / Mars transit days",
+        fee: "Prescribed parihara fee",
+        type: "special",
+      },
+      {
+        name: "Thiruchandu (Medicinal Ash) Offering",
+        description: "Receiving the Thiruchandu, the temple's sacred medicinal ash, taken or applied as the physician Lord's own medicine for relief from disease.",
+        time: "Daily",
+        fee: "Offering",
+        type: "daily",
+      },
+      {
+        name: "Jaggery, Salt and Pepper Offering",
+        description: "The temple's distinctive healing vow, in which jaggery is dissolved in the Siddhamirtham tank and salt and pepper are offered, as prayers for the curing of ailments.",
+        time: "Daily, at the tank",
+        fee: "Cost of the offering",
+        type: "daily",
+      },
+      {
+        name: "Archana & Abhishekam",
+        description: "Offering of flowers and the recitation of the Lord's names in the devotee's name and star, and sponsored abhishekam to Vaidyanathar, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest archana / abhishekam fee",
+        type: "daily",
+      },
+      {
+        name: "Vel Worship (Muthukumaraswamy)",
+        description: "Worship of the Vel at the Muthukumaraswamy shrine, especially with kavadi during Skanda Sashti and Thai Poosam, in fulfilment of vows to Murugan.",
+        time: "Festival days / on request",
+        fee: "Sponsored",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is Vaitheeswaran Koil called a healing temple?",
+        answer:
+          "Because Shiva is worshipped here as Vaidyanathar, the divine physician who cures disease. By legend the wounds of Murugan's celestial army were healed at this place by the Lord and the Goddess Thaiyalnayaki, who holds the medicine. For generations the afflicted have come here for cures, taking the sacred Thiruchandu (medicinal ash), bathing in the Siddhamirtham tank and making offerings of jaggery, salt and pepper, in the belief that no illness is beyond the physician of physicians.",
+      },
+      {
+        question: "How is the temple connected to Chevvai (Mangal / Mars) dosham?",
+        answer:
+          "Vaitheeswaran Koil is the Angaraka (Mars) shrine among the nine Navagraha temples. By tradition the planet Mars, called Chevvai or Sevvai, was cured of disease and granted his place among the planets after worshipping Shiva here. So this is the foremost temple for the parihara (remedy) of Chevvai or Mangal dosham, which astrology holds can delay marriage and disturb married life. Devotees worship Angaraka here, especially on Tuesdays and during his transits, for relief, timely marriage and harmony.",
+      },
+      {
+        question: "Is this really the home of Naadi astrology?",
+        answer:
+          "Yes. Vaitheeswaran Koil is the renowned centre of Naadi Jothidam, in which readers consult ancient palm-leaf manuscripts said to have been composed by rishis such as Agastya. A seeker's leaf is traced using a thumb impression, and the reader recites details of the person's life and destiny. The town's streets hold many hereditary Naadi reading centres, and pilgrims often combine a consultation with their worship. Choose a reputable reader, as the quality and authenticity of centres vary.",
+      },
+      {
+        question: "What offerings do devotees make to cure illness?",
+        answer:
+          "The temple has several distinctive healing offerings. Devotees dissolve jaggery in the Siddhamirtham tank and offer salt and pepper as vows against disease; bathe in or take the tank's water, believed to carry amrita; apply the sacred soil from the temple anthill for skin ailments; and receive the Thiruchandu, the medicinal sacred ash, to take or apply as the Lord's own medicine.",
+      },
+      {
+        question: "Who is Muthukumaraswamy at this temple?",
+        answer:
+          "Muthukumaraswamy is Lord Murugan as worshipped here, holding the Vel that, by legend, he received from his mother at this place before going to destroy the demon Soorapadman. His is one of the most popular shrines in the temple, and the Skanda Sashti and Thai Poosam festivals, with their kavadi offerings and the Soorasamharam, centre on him.",
+      },
+      {
+        question: "When is the best time to visit, and why are Tuesdays special?",
+        answer:
+          "October to March is the most pleasant time in the delta. Tuesday is the day of Mars (Angaraka), so it is the most significant day for those seeking the Chevvai dosham remedy, and the temple is busiest then and on Angaraka transit days. The biggest festivals are Skanda Sashti (October–November) and Thai Poosam (January–February). For a quieter darshan, choose a weekday morning that is not a Tuesday.",
+      },
+      {
+        question: "How much time should I plan for a visit?",
+        answer:
+          "Allow about one to two hours for darshan at the Vaidyanathar and Muthukumaraswamy shrines, worship of Angaraka, and the healing offerings at the tank. Add time if you intend to perform a parihara pooja or visit a Naadi astrology centre in the town. On Tuesdays, transit days and festivals, the queues and crowds are considerably larger.",
+      },
+    ],
+  },
+  "sarangapani-kumbakonam": {
+    slug: "sarangapani-kumbakonam",
+    timings: { morning: "6:00 AM – 12:30 PM", evening: "4:00 PM – 8:30 PM", note: "The sanctum is entered through the Uttarayana Vaasal (north door) during the northern course of the sun (mid-January to mid-July) and the Dakshinayana Vaasal (south door) during the southern course (mid-July to mid-January). Timings extend during Brahmotsavam and Vaikunta Ekadasi." },
+    entryFee: "Free darshan. Archana, thirumanjanam (abhishekam) and special sevas carry their own fees at the temple counter.",
+    dressCode: "Traditional attire. Men usually wear a dhoti/veshti and may go bare-chested near the sanctum; women wear saree or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March for pleasant weather. The Chithirai Brahmotsavam (April–May) and Vaikunta Ekadasi (December–January) are the great annual peaks; the Mahamaham, held once every twelve years (the last in 2016, the next due around 2028), is the rarest spectacle.",
+    travelInfo: {
+      byAir: "Tiruchirapalli International Airport (~90 km) is the nearest; Chennai International Airport is about 280 km away.",
+      byTrain: "Kumbakonam Railway Station (~2 km) is well connected, with trains from Chennai, Tiruchirapalli, Thanjavur and Mayiladuthurai.",
+      byRoad: "Kumbakonam lies in Thanjavur district in the Kaveri delta. Frequent buses, taxis and autos run from Thanjavur (~40 km), Tiruchirapalli (~90 km), Mayiladuthurai (~35 km) and Chidambaram (~70 km).",
+    },
+    highlights: [
+      "One of the 108 Divya Desams (Thirukudanthai), sung by the Alvars; the reclining Lord is adored as Aravamudhan, 'the insatiable nectar'",
+      "The sanctum is built in the form of a great chariot, with carved wheels, horses and elephants, recalling the celestial chariot on which Vishnu descended as Sarangapani",
+      "One of the tallest temple towers in the region: the eleven-tiered southern Rajagopuram, rising about 173 feet",
+      "Two entrances used in the two halves of the year: the Uttarayana Vaasal (north) and the Dakshinayana Vaasal (south)",
+      "The anchor temple of the sacred Kumbakonam cluster and a focus of the Mahamaham, held once every twelve years",
+      "One of the Pancharanga Kshetrams, the five great shrines of Vishnu reclining along the course of the Kaveri",
+      "Birthplace of Komalavalli Thayar (Lakshmi), who rose from the Potramarai (golden lotus) tank",
+    ],
+    history: "The Sarangapani Temple at Kumbakonam, known in the Tamil hymns as Thirukudanthai, is among the foremost of the 108 Divya Desams and the largest Vishnu temple in the town. It is glorified in the Nalayira Divya Prabandham by several of the Alvars, who sang of the reclining Lord as Aravamudhan, the nectar of which one can never have enough. Here Vishnu is worshipped as Sarangapani, the wielder of the Sarnga bow, who by legend descended from Vaikuntha on a chariot to wed the Goddess Komalavalli, born of the golden lotus tank. The temple is also one of the Pancharanga Kshetrams, the five sacred shrines of the reclining Ranganatha set along the Kaveri. Developed and endowed across the Chola, Vijayanagara and Nayak eras, it grew into the spiritual anchor of Kumbakonam, the temple-town whose great Mahamaham tank draws millions once every twelve years. Through every age the Lord has reclined here in his chariot-shaped shrine, drawing pilgrims and the poet-saints alike.",
+    architecture: "Sarangapani is a large complex entered through a towering eleven-tiered southern Rajagopuram, about 173 feet high, one of the tallest temple towers in the region. The temple's most striking feature is the central shrine itself, the Thiru Aravamudhan sannidhi, fashioned in the shape of a chariot (ratha): the sanctum is flanked by great carved stone wheels and drawn by sculpted horses and elephants, evoking the celestial car on which Sarangapani came down to marry Komalavalli. The shrine has two doorways, the Uttarayana Vaasal to the north and the Dakshinayana Vaasal to the south, opened in turn for the two halves of the solar year. Within reclines the moolavar Aravamudhan, with the processional Sarangapani as the utsava deity. The Goddess Komalavalli Thayar has her own shrine, and the temple holds the Hema Pushkarani (Potramarai) tank, long pillared mandapams and the fine delta-style sculpture of its successive royal patrons.",
+    festivals: [
+      { name: "Chithirai Brahmotsavam", month: "April–May (Chithirai)", description: "The grand annual festival, spanning many days with the deities taken out on a succession of vahanas and the great temple car (ther), culminating in the celestial wedding of Sarangapani and Komalavalli." },
+      { name: "Vaikunta Ekadasi", month: "December–January (Margazhi)", description: "The holiest Vaishnava day, when the Paramapada Vasal (gate of heaven) is opened and devotees pass through it, with special recitation of the Tiruvaimozhi and grand darshan of the Lord." },
+      { name: "Mahamaham", month: "Once every 12 years (Masi)", description: "The rarest event of the Kumbakonam calendar, when the sacred rivers are believed to converge in the Mahamaham tank and millions gather to bathe; the temple deities, including Sarangapani, process to the tank for the holy immersion.", slug: "mahamaham" },
+      { name: "Float Festival (Theppam)", month: "January–February (Thai)", description: "The deities are taken on an illuminated float across the temple tank on full-moon nights, a serene and much-loved festival of the delta temples." },
+    ],
+    poojas: [
+      { name: "Viswaroopa Darshan", time: "~6:30 AM", fee: "Free to witness" },
+      { name: "Kalasanthi (Morning)", time: "~9:00 AM", fee: "Sponsored archana" },
+      { name: "Uchikkalam (Noon)", time: "~12:00 PM", fee: "Sponsored" },
+      { name: "Sayarakshai & Ardhajamam", time: "Evening / night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["brihadeeswara-thanjavur", "vaitheeswaran-kovil"],
+    mythology: {
+      legend:
+        "The legend of Sarangapani is the story of how Lakshmi came to earth and Vishnu followed to wed her. The sage Hema Rishi longed for the Goddess Lakshmi to be born as his daughter, and performed a long penance on the banks of the golden lotus tank (Potramarai) at Thirukudanthai. Pleased by his devotion, Lakshmi appeared, rising from the lotus tank as a child, and was raised by the sage as Komalavalli. When she came of age, Vishnu himself descended from Vaikuntha to marry her, arriving at Kumbakonam in great splendour upon a celestial chariot drawn by horses and elephants, as Sarangapani, the bearer of the Sarnga bow. The marriage of Sarangapani and Komalavalli was celebrated here, and the central shrine was built in the form of that very chariot to commemorate the Lord's descent. From this union the temple takes its abiding character as a place of auspicious wedding and grace.",
+      tirukalyanam:
+        "The celestial wedding of Sarangapani and Komalavalli Thayar, the climax of the legend, is re-enacted each year as the high point of the Chithirai Brahmotsavam, when the divine couple are united before the gathered devotees.",
+      additionalStories: [
+        {
+          title: "Aravamudhan and the Insatiable Nectar",
+          content:
+            "The reclining moolavar of this temple is adored as Aravamudhan, 'the nectar of which one never has enough'. Nammalvar sang of him in the Tiruvaimozhi with the cry 'Aaravamude', overcome by the sweetness of the Lord. A beloved tradition tells of Thirumazhisai Alvar, who worshipped here with his disciple Kanikannan. When a king banished Kanikannan from the town, the Alvar would not stay without his disciple and bade the reclining Lord himself to roll up his serpent-bed and come away with them. The Lord obeyed and rose, and only when the king relented and the Alvar sang to him again did Aravamudhan return to recline once more. The episode is cherished as a proof of how dear true devotees are to the Lord.",
+        },
+        {
+          title: "The Chariot Sanctum and the Two Doors",
+          content:
+            "Uniquely, the sanctum of Sarangapani is shaped like a chariot, complete with carved stone wheels and teams of horses and elephants, because the Lord is said to have descended on a celestial car to wed Komalavalli. The shrine has two doors. The northern, the Uttarayana Vaasal, is used during the sun's northern course (roughly mid-January to mid-July), and the southern, the Dakshinayana Vaasal, during the southern course (mid-July to mid-January). Pilgrims thus approach the Lord through the door that belongs to the season, a living link between the temple's worship and the turning of the cosmic year.",
+        },
+        {
+          title: "Kumbakonam and the Mahamaham",
+          content:
+            "Kumbakonam takes its name from the legend of the kumbha, the pot. At the great deluge that ends an age, the pot holding the seed of creation and the nectar of life floated upon the waters and came to rest here; when Shiva, as a hunter, pierced it, the nectar spilled and formed the town's sacred tanks, chief among them the Mahamaham tank. Once every twelve years, when Jupiter is in Leo and the Masi star of Magha shines, the waters of all the holy rivers are believed to converge in that tank, and millions come to bathe in the Mahamaham. Sarangapani, as the great Vishnu temple of the town, sends its deities in procession to the tank, joining the other temples of Kumbakonam in this rarest of pilgrimages.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Southern Rajagopuram",
+        type: "gopuram",
+        description: "The towering eleven-tiered southern gateway, rising about 173 feet, among the tallest temple towers in the Kaveri region and the great landmark of the temple, ornamented with tier upon tier of stucco figures.",
+        detail: "~173 ft · 11 tiers",
+      },
+      {
+        name: "Chariot Sanctum (Thiru Aravamudhan)",
+        type: "vimana",
+        description: "The central shrine built in the form of a chariot, flanked by carved stone wheels and drawn by sculpted horses and elephants, recalling the celestial car on which Sarangapani descended. Within reclines the moolavar Aravamudhan.",
+        detail: "Chariot-shaped · wheels, horses, elephants",
+      },
+      {
+        name: "Uttarayana & Dakshinayana Vaasal",
+        type: "other",
+        description: "The two doors of the sanctum, opened in turn for the two halves of the solar year: the northern Uttarayana Vaasal during the sun's northern course, and the southern Dakshinayana Vaasal during the southern course.",
+        detail: "Two seasonal doorways",
+      },
+      {
+        name: "Komalavalli Thayar Shrine",
+        type: "sanctum",
+        description: "The shrine of the Goddess Komalavalli, Lakshmi born of the golden lotus tank and wedded to Sarangapani. Worshipped by devotees for prosperity, auspicious marriage and family welfare.",
+      },
+      {
+        name: "Hema Pushkarani (Potramarai Tank)",
+        type: "tank",
+        description: "The golden lotus tank from which Komalavalli Thayar is said to have risen, named for the sage Hema Rishi whose penance brought the Goddess to earth. A sacred bathing tank within the temple precinct.",
+        detail: "The golden lotus tank",
+      },
+      {
+        name: "Festival Mandapams",
+        type: "mandapam",
+        description: "Long pillared halls and festival pavilions used for the Brahmotsavam, the float festival and the daily processions, carved in the delta style of the temple's Chola, Vijayanagara and Nayak patrons.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Komalavalli Thayar",
+        deity: "Goddess Lakshmi as Komalavalli",
+        description: "The presiding Goddess, born of the golden lotus tank and wedded to Sarangapani, with her own shrine; sought for prosperity, marriage and family welfare.",
+      },
+      {
+        name: "Chakkarathazhwar",
+        deity: "Sudarshana, the discus of Vishnu",
+        description: "The personified discus of the Lord, worshipped for protection and the warding off of evil, with his shrine in the complex.",
+      },
+      {
+        name: "Andal",
+        deity: "Andal, the Alvar Goddess",
+        description: "The girl-saint who sang the Tiruppavai and was united with the Lord, honoured here as in every great Vishnu temple, especially during Margazhi.",
+      },
+      {
+        name: "Hema Rishi & the Alvars",
+        deity: "The sage Hema Rishi and the Alvar poet-saints",
+        description: "Hema Rishi, whose penance brought Komalavalli to earth, and the Alvars who sang of Aravamudhan, are venerated within the temple that their devotion made famous.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Southern Rajagopuram (Main Entrance)", direction: "South", notes: "The principal entrance beneath the great eleven-tier tower; most pilgrims enter here into the approach to the chariot sanctum." },
+        { name: "Northern Entrance", direction: "North", notes: "Used for access aligned to the Uttarayana Vaasal during the sun's northern course and for festival queues; follow staff guidance." },
+      ],
+      cloakRoom: "Footwear is left at stalls outside the temple before entering. Carry valuables with you; deposit larger bags where counters are available.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer areas, but their use and photography are restricted at the sanctum. Follow the signs and temple staff.",
+      cameraPolicy: "Photography is permitted around the gopuram, tank and outer corridors, but not of the moolavar in the sanctum. Avoid photography during poojas where prohibited.",
+      wheelchairAccess: "The complex is large and mostly level within the prakarams, with steps and thresholds near the chariot sanctum. Assistance may be needed; the corridors involve a fair amount of walking.",
+      seniorCitizenDarshan: "Mornings and the cooler months are easiest for seniors. Crowds swell during Brahmotsavam, Vaikunta Ekadasi and, above all, the twelve-yearly Mahamaham. Quick-darshan and archana tickets help reduce the wait.",
+      parking: "Parking is available near the temple in the town, filling on festival days. Kumbakonam is compact and the temple is easily reached by auto from the railway and bus stands.",
+      restrooms: "Basic restrooms and drinking-water points are available near the temple and tank. Facilities are stretched during festivals; carry essentials.",
+      drinkingWater: "Drinking water is available near the entrance and tank. The delta is hot and humid through the summer (April–June); carry water and visit early in the day.",
+    },
+    sevas: [
+      {
+        name: "Thirumanjanam (Abhishekam)",
+        description: "The ceremonial sacred bathing of the processional Lord with milk, sandal, rosewater and other substances, sponsored by devotees and followed by alankaram and deeparadhana.",
+        time: "Select days / on booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Archana (Sahasranama)",
+        description: "Offering of flowers and the recitation of the Lord's names, including the thousand names (Sahasranama), in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Thirukalyana Utsavam",
+        description: "Sponsorship of the celestial wedding ceremony of Sarangapani and Komalavalli, offered by devotees for marital harmony, timely marriage and family welfare.",
+        time: "Brahmotsavam / on booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Vaikunta Ekadasi Darshan",
+        description: "Special darshan on the holiest Vaishnava day, when the Paramapada Vasal (gate of heaven) is opened and devotees pass through it for the Lord's grace.",
+        time: "Vaikunta Ekadasi",
+        fee: "Free to witness",
+        type: "special",
+      },
+      {
+        name: "Deeparadhana",
+        description: "The lamp ceremony at which the Lord is worshipped amid rows of oil lamps, a serene daily highlight open to all worshippers.",
+        time: "Morning and evening",
+        fee: "Free to witness",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is Sarangapani, and why is the Lord called Aravamudhan?",
+        answer:
+          "Sarangapani is Vishnu as the wielder of the Sarnga bow, who by legend descended on a celestial chariot to marry the Goddess Komalavalli at Thirukudanthai (Kumbakonam). The reclining moolavar is adored as Aravamudhan, meaning 'the insatiable nectar', because the Alvars found the sweetness of his form endless; Nammalvar sang of him with the cry 'Aaravamude'. So the same Lord is both the bow-bearing bridegroom Sarangapani and the nectar-like reclining Aravamudhan.",
+      },
+      {
+        question: "Why is the sanctum shaped like a chariot?",
+        answer:
+          "Because Sarangapani is said to have descended from Vaikuntha on a celestial chariot to wed Komalavalli, the central shrine was built in the form of that car. It is flanked by great carved stone wheels and drawn by sculpted horses and elephants, so that the devotee approaches the Lord as though approaching his very chariot, an architectural retelling of the legend.",
+      },
+      {
+        question: "What are the two doors of the temple?",
+        answer:
+          "The sanctum has two doorways used in the two halves of the solar year. The northern door, the Uttarayana Vaasal, is opened during the sun's northern course (about mid-January to mid-July), and the southern door, the Dakshinayana Vaasal, during the southern course (about mid-July to mid-January). Pilgrims approach the Lord through whichever door belongs to the season.",
+      },
+      {
+        question: "What is the Mahamaham, and when is the next one?",
+        answer:
+          "The Mahamaham is Kumbakonam's greatest festival, held once every twelve years, when Jupiter is in Leo and the Magha star shines in the month of Masi. The sacred rivers are believed to converge in the Mahamaham tank, and millions gather to bathe, while the town's temples, including Sarangapani, send their deities in procession to the tank. The last was held in 2016, and the next is due around 2028.",
+      },
+      {
+        question: "How is Sarangapani connected to the other Kumbakonam temples?",
+        answer:
+          "Sarangapani is the great Vishnu temple of Kumbakonam, the anchor of a town dense with shrines, including the Kumbeswarar (Shiva) and Ramaswamy and Chakrapani temples, all of which take part in the Mahamaham. It is also one of the Pancharanga Kshetrams, the five shrines of the reclining Ranganatha along the Kaveri, alongside Srirangam and Srirangapatna, linking it into a wider sacred geography of the river.",
+      },
+      {
+        question: "When is the best time to visit, and how much time should I plan?",
+        answer:
+          "October to March is the most pleasant time in the delta. The biggest annual festivals are the Chithirai Brahmotsavam (April–May) and Vaikunta Ekadasi (December–January). Allow about one to two hours for darshan of Aravamudhan and Komalavalli Thayar, to see the chariot sanctum and the tall gopuram, and to walk the tank and mandapams. Combine the visit with the other Kumbakonam temples nearby; on festival and Mahamaham days, plan for far larger crowds.",
+      },
+    ],
+  },
+  "murudeshwara-karnataka": {
+    slug: "murudeshwara-karnataka",
+    timings: { morning: "6:00 AM – 1:00 PM", evening: "3:00 PM – 8:30 PM", note: "The Raja Gopuram lift to the upper viewing gallery runs separately, roughly 8:00 AM – 6:30 PM, for a small ticket. Timings extend on Maha Shivaratri and during the Karthika festival." },
+    entryFee: "Free temple darshan. The lift to the top of the Raja Gopuram carries a small ticket fee; abhishekam and special sevas have their own fees at the counter.",
+    dressCode: "Decent, traditional attire for the temple; men in dhoti/trousers and women in saree or salwar-kameez. Although it is also a popular beach destination, modest dress is expected within the temple.",
+    bestTime: "October – March, when the Karnataka coast is pleasant and the sea calm. Maha Shivaratri (February–March) is the grandest festival. Avoid the heavy monsoon (June–September), when the sea is rough and rain frequent.",
+    travelInfo: {
+      byAir: "Mangaluru International Airport (~140 km) is the nearest; Hubballi Airport is about 160 km away.",
+      byTrain: "Murudeshwara Railway Station (~2 km) lies on the scenic Konkan Railway, with trains from Mangaluru, Goa and Mumbai.",
+      byRoad: "Murudeshwara is on the NH-66 coastal highway in Bhatkal taluk, Uttara Kannada district. Buses, taxis and autos run from Mangaluru (~140 km), Udupi (~85 km), Gokarna (~70 km) and Bhatkal (~16 km).",
+    },
+    highlights: [
+      "Home to a colossal seated Shiva statue, about 37 metres (123 feet) tall, long regarded as the second tallest Shiva statue in the world, rising above the Arabian Sea",
+      "Built on Kanduka Hill, a promontory surrounded by the sea on three sides, a dramatic coastal setting",
+      "A towering twenty-storey Raja Gopuram, about 76 metres, among the tallest temple gateways in India, with a lift to an upper gallery for panoramic views of the statue and ocean",
+      "One of the places tied to the Atmalinga of the Gokarna legend, where the Lord is worshipped as Mrideshwara",
+      "Large sculptural tableaux around the complex depicting scenes from the epics, including Ravana receiving the Atmalinga and Arjuna's chariot",
+      "The great statue is positioned so the sun lights it through the day, a favourite sight at sunrise and sunset",
+    ],
+    history: "Murudeshwara is an ancient Shiva shrine on the Karnataka coast whose sanctity is rooted in the Ramayana legend of the Atmalinga. The presiding linga is held to be one of the pieces connected with that soul-linga which Ravana carried from Kailash, and the Lord is worshipped here as Mrideshwara. For centuries it was a modest seaside temple on Kanduka Hill. Its present world fame, however, dates to recent decades, when the industrialist and philanthropist R. N. Shetty undertook a vast development of the site: the colossal seated Shiva statue, completed in 2008, and the soaring twenty-storey Raja Gopuram, together with the sculptural gardens that retell the epics. The old shrine, with its linga set below ground level, remains the devotional heart, while the towering statue above the sea has made Murudeshwara one of the most recognisable temple landmarks in India.",
+    architecture: "The temple stands on Kanduka Hill, a rocky promontory ringed by the Arabian Sea on three sides. Its dominant feature is the seated Shiva, about 37 metres tall, shown in serene meditation and gilded to catch the sun, set on a raised plinth above the shore. Before the temple rises the Raja Gopuram, a twenty-storey tower about 76 metres high, flanked at its base by two great sculpted elephants and fitted with a lift that carries visitors to an upper gallery for sweeping views of the statue, the temple and the sea. The original sanctum, holding the Murudeshwara linga, lies below the level of the surrounding courtyard in keeping with its antiquity. Spread across the complex are large painted concrete tableaux depicting episodes from the Ramayana and Mahabharata, chief among them Ravana being granted the Atmalinga and the chariot of Arjuna with Krishna as charioteer.",
+    festivals: [
+      { name: "Maha Shivaratri", month: "February–March (Magha)", description: "The great night of Shiva and the temple's grandest festival, kept with a night-long vigil, continuous abhishekam to the linga, vast crowds and a fair, the statue and gopuram floodlit above the sea.", slug: "maha-shivaratri" },
+      { name: "Karthika Deepotsava", month: "November–December (Karthika)", description: "The festival of lights in the holy month of Karthika, when the temple and the great statue are illuminated with rows of lamps and special worship is offered to Shiva." },
+      { name: "Shivaratri Rathotsava", month: "February–March", description: "The car festival associated with Maha Shivaratri, when the processional deity is taken around the temple precinct on the temple car amid music and devotion." },
+      { name: "Naga Panchami", month: "July–August (Shravana)", description: "The worship of the serpent deities, observed across coastal Karnataka, with offerings at the temple's Naga shrine for family welfare and the removal of doshas." },
+    ],
+    poojas: [
+      { name: "Suprabhata & Morning Pooja", time: "~6:00 AM", fee: "Free to witness" },
+      { name: "Rudrabhisheka", time: "Morning / on request", fee: "Sponsored" },
+      { name: "Maha Pooja (Noon)", time: "~12:30 PM", fee: "Sponsored" },
+      { name: "Evening Deeparadhana", time: "Evening", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["udupi-krishna", "dharmasthala-karnataka"],
+    mythology: {
+      legend:
+        "Murudeshwara's legend belongs to the great Ramayana story of the Atmalinga. The demon king Ravana, seeking to make himself invincible, performed a severe penance to Shiva, who granted him the Atmalinga, the very soul-linga, with the warning that if it were once set upon the ground before reaching Lanka, it would take root there forever. The gods, fearing an undefeatable Ravana, appealed to Vishnu. As Ravana journeyed south, Vishnu veiled the sun so that it seemed to be dusk, and Ravana, a devout brahmin, halted to perform his evening prayers. Ganesha, disguised as a brahmin boy, agreed to hold the linga, but warned that he would call out three times and then set it down. He did so, placing the Atmalinga on the earth at Gokarna, where it became fixed as Mahabaleshwara. Enraged at the trick, Ravana strove in vain to uproot it, and in his fury flung away its casket, its cover and its cloth wrappings, which fell at different places along the coast. The cover, by tradition, fell here, and the Lord became Mrideshwara, worshipped at Murudeshwara on Kanduka Hill.",
+      additionalStories: [
+        {
+          title: "The Cover of the Atmalinga and the Name Mrideshwara",
+          content:
+            "When Ravana could not move the Atmalinga fixed at Gokarna, he hurled away the box and coverings in which it had been wrapped, and these landed at several spots along the Karnataka coast, each becoming a Shiva shrine: Dhareshwara, Gunavanteshwara, Sajjeshwara and Murudeshwara. Here the covering (in some tellings the cloth or the case) of the soul-linga is said to have fallen on Kanduka Hill, and the Lord came to be worshipped as Mrideshwara. The name Murudeshwara is taken to derive from this epithet, binding the seaside temple into the great cycle of the Atmalinga legend centred on Gokarna.",
+        },
+        {
+          title: "Kanduka Hill and the Sea",
+          content:
+            "The temple sits on Kanduka Giri, a small hill that juts into the Arabian Sea and is washed by water on three sides, giving Murudeshwara its striking setting where shrine, statue and ocean meet. The promontory has long been held sacred, and the meeting of land and sea here, with the sun rising and setting over the water, lends the worship of Shiva a natural grandeur that pilgrims and travellers alike come to witness.",
+        },
+        {
+          title: "The Modern Statue and Gopuram",
+          content:
+            "While the shrine is ancient, the monumental form of Murudeshwara today is the work of recent decades. The industrialist and philanthropist R. N. Shetty funded a great expansion of the site, crowning Kanduka Hill with the colossal seated Shiva, completed in 2008 and among the tallest such statues in the world, and raising the twenty-storey Raja Gopuram with its viewing lift. The sculptural gardens that retell scenes from the epics were created in the same spirit, turning an old coastal temple into a landmark drawing visitors from across India.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "The Shiva Statue",
+        type: "other",
+        description: "The colossal seated figure of Shiva in meditation, about 37 metres (123 feet) tall, gilded to catch the light and raised above the shore on Kanduka Hill. Long regarded as the second tallest Shiva statue in the world, it is the temple's defining sight, especially at sunrise and sunset.",
+        detail: "~37 m · seated Shiva · completed 2008",
+      },
+      {
+        name: "Raja Gopuram",
+        type: "gopuram",
+        description: "The soaring twenty-storey gateway tower, about 76 metres high, flanked at its base by two great sculpted elephants. A lift carries visitors to an upper gallery offering panoramic views of the statue, the temple and the surrounding sea.",
+        detail: "~76 m · 20 storeys · viewing lift",
+      },
+      {
+        name: "Garbhagriha (Murudeshwara Linga)",
+        type: "sanctum",
+        description: "The original sanctum, set below the level of the courtyard in keeping with its antiquity, enshrining the Murudeshwara (Mrideshwara) linga tied to the Atmalinga legend. The devotional heart of the temple beneath the towering modern structures.",
+        detail: "Ancient linga · below ground level",
+      },
+      {
+        name: "Sculptural Tableaux",
+        type: "other",
+        description: "Large painted tableaux set around the complex retelling episodes from the Ramayana and Mahabharata, including Ravana receiving the Atmalinga from Shiva and Krishna instructing Arjuna from the chariot, turning the precinct into an open-air gallery of the epics.",
+        detail: "Epic scenes in sculpture",
+      },
+      {
+        name: "Kanduka Hill Promontory",
+        type: "other",
+        description: "The rocky headland on which the temple stands, ringed by the Arabian Sea on three sides, giving Murudeshwara its dramatic coastal setting where the shrine and statue rise directly above the waves.",
+        detail: "Sea on three sides",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Ganesha",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first by devotees, and central to the Atmalinga legend in which the boy Ganesha set the soul-linga on the ground at Gokarna.",
+      },
+      {
+        name: "Uma (Parvati)",
+        deity: "Goddess Parvati",
+        description: "The consort of Shiva, worshipped alongside the Lord for family welfare and auspiciousness.",
+      },
+      {
+        name: "Subrahmanya & the Naga shrine",
+        deity: "Lord Subrahmanya / the serpent deities",
+        description: "Murugan and the Naga (serpent) deities so widely venerated along the Karnataka coast, sought for the removal of doshas and for family welfare, especially at Naga Panchami.",
+      },
+      {
+        name: "Nandi",
+        deity: "Nandi, the bull of Shiva",
+        description: "The faithful mount and gatekeeper of Shiva, seated facing the sanctum, worshipped by devotees before they approach the Lord.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Temple Entrance", direction: "East", notes: "The principal entrance to the temple precinct on Kanduka Hill, approached past the Raja Gopuram and toward the great statue and sanctum." },
+        { name: "Gopuram Lift Access", direction: "East", notes: "Access to the lift that climbs the twenty-storey Raja Gopuram is ticketed separately; queues build in the evenings and on holidays." },
+      ],
+      cloakRoom: "Footwear is left at stalls before entering the temple. Carry valuables with you; the site is busy and also draws beach visitors.",
+      mobilePolicy: "Mobile phones are generally allowed around the complex and the gopuram gallery, but their use is restricted at the sanctum. Follow the signs and temple staff.",
+      cameraPolicy: "Photography is freely allowed of the statue, gopuram, sculptures and sea views, including from the gopuram gallery, but not of the deity inside the sanctum.",
+      wheelchairAccess: "Much of the open precinct is accessible and the gopuram has a lift, though the hill setting, steps and the below-ground sanctum mean some assistance may be needed at points.",
+      seniorCitizenDarshan: "The complex is open and walkable; mornings and the cooler months are easiest. Crowds and lift queues are heaviest at weekends, holidays and on Maha Shivaratri.",
+      parking: "Ample parking is available near the temple and beach, filling at weekends and on festival days. Murudeshwara is a short distance from the railway station and the NH-66 bus stops.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and beach area; facilities are stretched at peak times, so carry essentials.",
+      drinkingWater: "Drinking water is available near the temple. The coast is hot and humid much of the year; carry water, and note that the sea is rough and unsafe for bathing during the monsoon.",
+    },
+    sevas: [
+      {
+        name: "Rudrabhisheka",
+        description: "The ceremonial bathing of the Shiva linga with milk, water, honey and other substances to the chanting of the Rudram, the most sought-after worship of Shiva, sponsored by devotees.",
+        time: "Morning / on booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Bilva Archana",
+        description: "Offering of bilva (bael) leaves and the recitation of the Lord's names in the devotee's name and star, performed by the temple priests; bilva is especially dear to Shiva.",
+        time: "Daily on request",
+        fee: "Modest archana fee",
+        type: "daily",
+      },
+      {
+        name: "Maha Shivaratri Seva",
+        description: "Participation in the night-long worship of Maha Shivaratri, with continuous abhishekam to the linga through the four watches of the night, the most auspicious Shaiva observance of the year.",
+        time: "Maha Shivaratri night",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Naga Pooja",
+        description: "Worship of the serpent deities, widely observed along the Karnataka coast, for relief from Naga and other doshas and for family welfare, especially at Naga Panchami.",
+        time: "Naga Panchami / on request",
+        fee: "Prescribed fee",
+        type: "special",
+      },
+      {
+        name: "Deeparadhana",
+        description: "The lamp ceremony at which the Lord is worshipped amid rows of oil lamps, a serene daily highlight open to all worshippers.",
+        time: "Morning and evening",
+        fee: "Free to witness",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is the Murudeshwara statue really the second tallest Shiva statue in the world?",
+        answer:
+          "The seated Shiva at Murudeshwara stands about 37 metres (123 feet) tall and has long been regarded as the second tallest Shiva statue in the world. Completed in 2008 and gilded to catch the sun, it rises above the Arabian Sea on Kanduka Hill and is the temple's most famous sight. Rankings of the very tallest statues shift as new ones are built, but Murudeshwara remains among the tallest and most striking anywhere.",
+      },
+      {
+        question: "What is the legend behind the temple?",
+        answer:
+          "It belongs to the Ramayana story of the Atmalinga. Ravana obtained the soul-linga from Shiva on the condition that he never set it on the ground before reaching Lanka. Vishnu made it appear to be dusk so Ravana paused to pray, and Ganesha, as a brahmin boy, placed the linga on the earth at Gokarna, where it became fixed as Mahabaleshwara. In fury Ravana flung away its coverings, which fell at several coastal spots; the cover is said to have landed here, and the Lord is worshipped as Mrideshwara at Murudeshwara.",
+      },
+      {
+        question: "Can I go up the Raja Gopuram?",
+        answer:
+          "Yes. The twenty-storey Raja Gopuram, about 76 metres high, has a lift that carries visitors to an upper viewing gallery, from which there are sweeping views of the great statue, the temple and the surrounding sea. It runs for a small separate ticket, roughly from morning to early evening; queues build at weekends and holidays, so allow extra time.",
+      },
+      {
+        question: "How is Murudeshwara connected to Gokarna?",
+        answer:
+          "Both belong to the same Atmalinga legend. The soul-linga itself became fixed at Gokarna as Mahabaleshwara, the principal shrine of the story. When Ravana tore away and threw the linga's casket and coverings, they fell at places including Murudeshwara, Dhareshwara, Gunavanteshwara and Sajjeshwara, each becoming a Shiva temple. Many pilgrims visit Gokarna (about 70 km away) and Murudeshwara together as part of the one sacred coastal circuit.",
+      },
+      {
+        question: "When is the best time to visit, and is the sea safe?",
+        answer:
+          "October to March is the best time, when the coast is pleasant and the sea calm. Maha Shivaratri (February–March) is the grandest festival, with the statue and gopuram floodlit and vast crowds. Avoid the monsoon (June–September), when there is heavy rain and the sea is rough and unsafe for bathing. Sunrise and sunset are the loveliest times to see the statue against the water.",
+      },
+      {
+        question: "How much time should I plan for a visit?",
+        answer:
+          "Allow about two to three hours to have darshan at the sanctum, see the great statue and the sculptural tableaux, and ride the lift up the gopuram for the views. Many visitors add time for the adjoining beach. On weekends, holidays and Maha Shivaratri, plan for larger crowds and longer lift queues.",
+      },
+    ],
+  },
+  "udupi-krishna": {
+    slug: "udupi-krishna",
+    timings: { morning: "4:30 AM – 1:30 PM", evening: "3:00 PM – 9:00 PM", note: "The day runs through a fixed sequence of poojas, opening with the Nirmalya Visarjana and Suprabhata before dawn and closing after the night pooja when the Lord is put to rest. Darshan is traditionally taken through the Kanakana Kindi window; timings extend during Janmashtami and the Paryaya." },
+    entryFee: "Free darshan. The temple is renowned for its free meals (annadana) served to all. Sponsored sevas and poojas carry their own fees at the matha office.",
+    dressCode: "Traditional attire. Men are required to remove the shirt and upper garment and wear a dhoti to enter the inner precinct, as is the custom in coastal Karnataka temples; women wear saree or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March, when the coast is pleasant. Sri Krishna Janmashtami (August–September) and the two-yearly Paryaya (January, on Makara Sankranti) are the great peaks. Avoid the heavy monsoon (June–September).",
+    travelInfo: {
+      byAir: "Mangaluru International Airport (~60 km) is the nearest, with domestic and Gulf connections.",
+      byTrain: "Udupi Railway Station (~3 km) lies on the Konkan Railway, with trains from Mangaluru, Goa and Mumbai.",
+      byRoad: "Udupi is on the NH-66 coastal highway. Buses, taxis and autos run from Mangaluru (~60 km), Murudeshwara (~85 km) and across the coast; Malpe beach is about 5 km away, and Bengaluru roughly 400 km via the Shiradi ghat.",
+    },
+    highlights: [
+      "Founded by the great Dvaita philosopher Sri Madhvacharya in the 13th century; the spiritual seat of the eight Ashta Mathas",
+      "The idol of Bala Krishna, the child Krishna holding a churning rod and rope, worshipped facing west and taken from a ball of sacred gopichandana clay",
+      "The Kanakana Kindi, the silver, nine-holed window through which the Lord is traditionally viewed, opened by his grace for the devotee Kanakadasa",
+      "The Paryaya, the grand ceremony every two years when the temple's worship passes to the next of the eight mathas",
+      "The Madhva Sarovara tank, and the ancient Chandramouleshwara and Anantheshwara shrines beside the matha",
+      "Famed for annadana (free meals) and as the home of the celebrated Udupi cuisine",
+    ],
+    history: "The Sri Krishna Matha at Udupi was founded in the thirteenth century by Sri Madhvacharya (born 1238), the great saint and philosopher who established the Dvaita (dualist) school of Vedanta. By tradition Madhva obtained the idol of Krishna from a ball of gopichandana clay that had served as ballast on a merchant ship he saved from a storm off the Malpe coast; within the clay was concealed an image of the child Krishna said to have been worshipped long before in Dwaraka. Madhva carried it to Udupi and installed it, and around the temple grew the eight monasteries, the Ashta Mathas, each founded by one of his chief disciples, to whom he entrusted the worship of the Lord in turn. For some eight centuries the matha has been a centre of Madhva Vaishnavism and learning, its worship governed by strict tradition, its kitchens famous for feeding all who come. The temple's most beloved story, of the deity turning west to grant darshan to the devotee Kanakadasa, has made the Kanakana Kindi window the very emblem of grace shown to pure devotion.",
+    architecture: "The Krishna Matha is built in the Tulunadu coastal style, its halls roofed against the heavy monsoon and arranged around the west-facing sanctum. Unusually, the Lord is worshipped facing west, and the principal darshan is taken not through a great doorway but through the Kanakana Kindi, a small silver-plated window pierced with nine apertures (the navagraha kindi) set in the western wall. Within stands the idol of Bala Krishna, carved of saligrama stone, holding the churning rod and rope of the butter-thieving child, richly adorned with gold and jewels. Before the temple lies the Madhva Sarovara tank, where pilgrims bathe before worship, and beside it stand the ancient Chandramouleshwara and Anantheshwara temples linked to Madhva's own life. Encircling the Krishna Matha are the eight Ashta Mathas, whose swamis administer the temple by rotation, their car streets and the Rajangana courtyard filling with the great festival processions.",
+    festivals: [
+      { name: "Sri Krishna Janmashtami", month: "August–September (Shravana)", description: "The birth of Krishna, the temple's holiest day, observed with fasting, midnight worship and elaborate alankaram, followed the next day by Vittla Pindi (Mosaru Kudike), the pot-breaking, with the colourful Huli Vesha (tiger dance) through the streets." },
+      { name: "Paryaya Mahotsava", month: "Every 2 years (January)", description: "The grand handover ceremony, on Makara Sankranti, when the right to worship the Lord passes from the outgoing swami to the next of the eight Ashta Mathas, in a celebration that draws devotees and scholars from across the Madhva world." },
+      { name: "Madhva Navami", month: "January–February (Magha)", description: "Commemorates the day Sri Madhvacharya is believed to have left Udupi for Badari to be with Vyasa, observed with special worship and discourses honouring the founder." },
+      { name: "Saptotsava & Rathotsava", month: "January (Makara Sankranti)", description: "A seven-day festival around Makara Sankranti with daily processions and the great car festival (Rathotsava), when the Lord is taken in splendour around the car streets of Udupi." },
+    ],
+    poojas: [
+      { name: "Nirmalya Visarjana & Suprabhata", time: "~4:30 AM", fee: "Free to witness" },
+      { name: "Usha Kala & Akshaya Patra Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Maha Pooja (Noon)", time: "~12:00 PM", fee: "Sponsored" },
+      { name: "Ratri Pooja & Shayanotsava", time: "Night (~9:00 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["murudeshwara-karnataka", "dharmasthala-karnataka"],
+    mythology: {
+      legend:
+        "The idol of Udupi came to Madhvacharya from the sea. A merchant ship sailing the Arabian coast off Malpe was caught in a violent storm and in danger of sinking, when Madhva, watching from the shore, calmed it by a sign of his hand (in some tellings by waving his upper cloth). The grateful captain offered the saint any cargo he wished, but Madhva asked only for two lumps of gopichandana, the sacred clay used for the Vaishnava tilak, that the ship carried as ballast. As the clay was carried ashore one ball broke open, and within it was found a beautiful image of the child Krishna, holding the churning rod and rope, said to have been fashioned long before and worshipped by Rukmini in Dwaraka. Recognising the Lord he had longed to serve, Madhva bore the idol to Udupi, bathed it in the temple tank, and installed it as Sri Krishna, founding there the matha that has worshipped him ever since.",
+      additionalStories: [
+        {
+          title: "Kanakadasa and the Window of Grace",
+          content:
+            "The most beloved legend of Udupi is that of Kanakadasa, a saint of humble birth and boundless devotion who was kept from entering the temple. Undeterred, he stood at the western wall behind the sanctum and poured out his heart in song. So moved was the Lord by this pure devotion that the idol, which faced east, turned of its own accord to face west, and the wall cracked open to reveal him. Ever since, the Lord of Udupi faces west and is worshipped through that very window, the Kanakana Kindi, 'Kanakadasa's window', pierced with nine small openings. That the principal darshan of the temple is taken through a devotee's window is a standing lesson that the Lord answers love, not rank.",
+        },
+        {
+          title: "Madhvacharya and the Dvaita Faith",
+          content:
+            "Sri Madhvacharya, born near Udupi in 1238, was the founder of the Dvaita or Tattvavada school of Vedanta, which teaches a real and eternal distinction between the soul and the supreme Lord Vishnu. Tradition reveres him as the third incarnation of Vayu, the wind god, after Hanuman and Bhima. He established the Krishna Matha and entrusted its worship to eight of his disciples, founding the Ashta Mathas, and ordained that they should serve the Lord by turns. He is believed not to have died but to have departed Udupi for Badari in the Himalayas to remain with the sage Vyasa, and his teachings continue to shape the devotional life of coastal Karnataka.",
+        },
+        {
+          title: "The Sacred Meal of Udupi",
+          content:
+            "Udupi is as renowned for its food as for its faith. The matha has for centuries kept the tradition of annadana, the free feeding of every pilgrim, regarding the meal itself as a form of worship, served as the prasad of the Lord. From the temple's kitchens grew the celebrated Udupi cuisine, the vegetarian cooking that has carried the town's name to restaurants across India and the world. To eat in the temple hall at Udupi is to share in a sacrament of hospitality as old as the matha itself.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Kanakana Kindi",
+        type: "other",
+        description: "The silver-plated window of nine openings set in the western wall, through which the Lord is traditionally given darshan. By legend it opened when Krishna turned west to grace the devotee Kanakadasa, and it remains the emblem of the temple.",
+        detail: "Nine-holed western window",
+      },
+      {
+        name: "Garbhagriha (Bala Krishna)",
+        type: "sanctum",
+        description: "The west-facing sanctum enshrining the saligrama idol of the child Krishna, holding the churning rod and rope, installed by Madhvacharya and adorned daily in gold and jewels. The heart of the matha's strict cycle of worship.",
+        detail: "West-facing · child Krishna with churn",
+      },
+      {
+        name: "Madhva Sarovara",
+        type: "tank",
+        description: "The sacred temple tank before the matha, where Madhva is said to have bathed the idol and where pilgrims bathe before darshan. By tradition its waters are linked to the holy rivers brought by the saint.",
+      },
+      {
+        name: "The Ashta Mathas",
+        type: "other",
+        description: "The eight monasteries founded by Madhva's chief disciples, encircling the Krishna Matha, whose swamis administer the temple's worship by rotation. Their seats and car streets frame the temple precinct and host the great festivals.",
+        detail: "Eight monasteries · rotating worship",
+      },
+      {
+        name: "Chandramouleshwara & Anantheshwara",
+        type: "other",
+        description: "The two ancient Shiva temples that stand beside the Krishna Matha, older than it and bound to Madhva's own life; Anantheshwara is associated by tradition with his final discourse before departing Udupi.",
+        detail: "Ancient Shiva shrines",
+      },
+      {
+        name: "Rajangana Courtyard",
+        type: "mandapam",
+        description: "The broad central courtyard before the temple where festival processions gather, discourses are held and the Paryaya and car festivals unfold before the assembled devotees.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Mukhyaprana (Hanuman)",
+        deity: "Vayu as Hanuman, the chief of breath",
+        description: "Mukhyaprana, the wind god worshipped as Hanuman, is central to the Madhva tradition (which reveres Madhva himself as an incarnation of Vayu) and is venerated within the temple precinct.",
+      },
+      {
+        name: "Chandramouleshwara",
+        deity: "Lord Shiva",
+        description: "An ancient Shiva shrine beside the Krishna Matha, worshipped by pilgrims as part of the sacred complex of Udupi.",
+      },
+      {
+        name: "Anantheshwara",
+        deity: "Lord Shiva (and Vishnu as Ananta)",
+        description: "The old and revered shrine linked to Madhvacharya, associated by tradition with his final teaching at Udupi before his departure for Badari.",
+      },
+      {
+        name: "Subrahmanya / Naga",
+        deity: "Lord Subrahmanya and the serpent deities",
+        description: "Murugan and the Naga deities venerated along the Karnataka coast, honoured in the precinct for family welfare and the removal of doshas.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Entrance (Car Street)", direction: "East", notes: "The principal entrance from the Rajangana courtyard and car streets; pilgrims proceed toward the western darshan of the Lord." },
+        { name: "Kanakana Kindi (Darshan Window)", direction: "West", notes: "The western window through which the traditional darshan of Krishna is taken; queues form here, longest during festivals." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Men should be ready to remove the upper garment to go inside; deposit bags where counters are available and carry valuables with care.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer areas, but their use and photography are restricted at the sanctum and the darshan window. Follow the signs and matha staff.",
+      cameraPolicy: "Photography is permitted around the courtyard, tank and car streets, but not of the deity at the Kanakana Kindi or within the sanctum. Avoid photography during poojas where prohibited.",
+      wheelchairAccess: "The precinct is largely at ground level and walkable, with some steps and thresholds near the sanctum and the darshan window. Assistance may be needed at the window during busy times.",
+      seniorCitizenDarshan: "Mornings and the cooler months are easiest for seniors. Crowds swell at Janmashtami, during the Paryaya and Makara Sankranti car festival; allow extra time at the Kanakana Kindi queue.",
+      parking: "Parking is available near the temple and car streets in the town, filling on festival days. Udupi is compact and the temple is a short distance from the railway and bus stands.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and the dining hall. Facilities are stretched during festivals; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the meal hall, where free meals are served. The coast is hot and humid much of the year; carry water in the warmer months.",
+    },
+    sevas: [
+      {
+        name: "Darshan at the Kanakana Kindi",
+        description: "The traditional darshan of Sri Krishna taken through the silver, nine-holed western window opened by the Lord's grace for Kanakadasa, the central act of worship for every pilgrim.",
+        time: "During darshan hours",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Annadana (Free Meals)",
+        description: "The temple's age-old tradition of feeding every pilgrim a wholesome vegetarian meal as the prasad of the Lord, the very tradition from which Udupi cuisine grew.",
+        time: "Midday and evening",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Ranga Pooja & Alankara Seva",
+        description: "Sponsored adornment and special worship of the Lord, in which the idol is decked in fine ornaments and flowers and worshipped on the devotee's behalf.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Tulabhara",
+        description: "The devotee or a child is weighed on a balance against an offering (grain, jaggery, fruit or other items) equal to their weight, the offering given to the Lord, a classic vow of thanksgiving.",
+        time: "On request",
+        fee: "Cost of the offering",
+        type: "special",
+      },
+      {
+        name: "Hari Seva / Archana",
+        description: "Offering of worship and the recitation of the Lord's names in the devotee's name and birth-star, performed by the matha's priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who founded the Udupi Krishna temple, and what is Dvaita?",
+        answer:
+          "The temple was founded in the thirteenth century by Sri Madhvacharya (born 1238), the saint who established the Dvaita or Tattvavada school of Vedanta, which holds that the individual soul and the supreme Lord Vishnu are eternally distinct. He is revered as an incarnation of Vayu, the wind god. Madhva installed the Krishna idol and entrusted its worship to eight disciples, founding the Ashta Mathas that serve the Lord to this day.",
+      },
+      {
+        question: "What is the Kanakana Kindi, and why does the deity face west?",
+        answer:
+          "The Kanakana Kindi is the silver window of nine openings in the western wall, through which the Lord is traditionally seen. By legend the devotee Kanakadasa, denied entry, sang in devotion at the western wall, and Krishna turned from facing east to face west and opened the wall so that he could have darshan. Ever since, the Lord of Udupi faces west and is worshipped through Kanakadasa's window, a lasting sign that the Lord honours pure devotion above all rank.",
+      },
+      {
+        question: "What is the Paryaya festival?",
+        answer:
+          "The Paryaya is the ceremony, held once every two years on Makara Sankranti in January, when the right to worship the Lord passes from the outgoing swami to the next of the eight Ashta Mathas. Each of the eight swamis serves a two-year term, so the full cycle takes sixteen years. The Paryaya Mahotsava is a grand event drawing devotees and scholars from across the Madhva world to Udupi.",
+      },
+      {
+        question: "How did Madhvacharya obtain the idol?",
+        answer:
+          "By tradition Madhva saved a merchant ship from a storm off the Malpe coast and asked the grateful captain only for two balls of gopichandana, the sacred clay carried as ballast. When one ball broke open, it revealed an image of the child Krishna holding a churning rod and rope, said to have been worshipped earlier in Dwaraka. Madhva carried it to Udupi, bathed it in the temple tank and installed it as Sri Krishna.",
+      },
+      {
+        question: "Is there free food at the temple?",
+        answer:
+          "Yes. The Krishna Matha is famous for annadana, the free feeding of every pilgrim with a wholesome vegetarian meal served as the Lord's prasad, a tradition kept for centuries. It is from these temple kitchens that the celebrated Udupi cuisine spread across India. Eating in the temple hall is regarded as part of the pilgrimage itself.",
+      },
+      {
+        question: "What is the dress code, and how much time should I plan?",
+        answer:
+          "Men are required to remove the shirt and upper garment and wear a dhoti to enter the inner precinct, as is the coastal Karnataka custom; women wear a saree or salwar-kameez, and shorts and sleeveless tops should be avoided. Allow about one to two hours for darshan at the Kanakana Kindi, a walk around the tank and the neighbouring shrines, and a meal in the dining hall; plan for larger crowds at Janmashtami and during the Paryaya.",
+      },
+    ],
+  },
 };
 
 // For temples without explicit detail entries, generate a sensible default
