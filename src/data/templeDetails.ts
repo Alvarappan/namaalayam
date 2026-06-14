@@ -3849,6 +3849,1164 @@ export const templeDetails: Record<string, TempleDetail> = {
       },
     ],
   },
+  "dharmasthala-karnataka": {
+    slug: "dharmasthala-karnataka",
+    timings: { morning: "6:30 AM – 2:30 PM", evening: "5:00 PM – 8:30 PM", note: "Darshan of Lord Manjunatha runs through the day's cycle of poojas, with the principal worship at midday. Free meals are served at the Annapoorna hall around noon and at night. Timings extend during the November Laksha Deepotsava and on festival days." },
+    entryFee: "Free darshan. Sponsored sevas and special darshan tokens are arranged at the temple office. The temple is celebrated for its free meals (annadana) served to every visitor without charge.",
+    dressCode: "Traditional attire. Men are required to remove the shirt and upper garment and wear a dhoti to enter the inner precinct, as is the custom in coastal Karnataka temples; women wear a saree or salwar-kameez. Shorts and sleeveless tops should be avoided.",
+    bestTime: "October – March, when the Tulunadu coast and Western Ghats are cool and green. The five-day Laksha Deepotsava (November–December) is the great annual peak. Avoid the heavy monsoon (June–September), though the Netravati river and surrounding hills are at their most beautiful then.",
+    travelInfo: {
+      byAir: "Mangaluru International Airport (~75 km) is the nearest, with domestic and Gulf connections.",
+      byTrain: "Mangaluru (Mangalore Central / Junction, ~75 km) is the nearest major railhead, on the Konkan and West Coast lines. Subrahmanya Road and Bantwal are smaller stations within reach.",
+      byRoad: "Dharmasthala lies inland from Mangaluru on the Ujire road, about 8 km from Ujire. Frequent buses, taxis and autos run from Mangaluru (~75 km) and across Dakshina Kannada; Bengaluru is roughly 290–300 km away via Hassan and the Charmadi ghat. Udupi is about 110 km up the coast.",
+    },
+    highlights: [
+      "An ~800-year-old temple administered by a Jain family, the Heggades, with worship by Madhva Vaishnava priests of a Shiva deity, a living symbol of religious harmony",
+      "Lord Manjunatha, a form of Shiva, worshipped in the sanctum; the linga is traditionally said to have been brought from Kadri and re-consecrated by Sri Vadiraja Tirtha of Udupi",
+      "Renowned for annadana, free meals served to tens of thousands of pilgrims every day in the vast Annapoorna dining hall",
+      "The four Dharma Daivas (guardian spirits) whose shrines surround the temple and whose oath before Manjunatha is sought for justice and the settling of disputes",
+      "The 39-foot monolithic statue of Bahubali (Gomateshwara) on Ratnagiri hill, installed in 1973, reflecting the family's Jain heritage",
+      "The five-day Laksha Deepotsava in November–December, with a lakh of lamps, an inter-faith meet and a literary conference",
+      "The Manjusha museum of antiquities and the vintage car museum maintained by the temple",
+    ],
+    history: "Dharmasthala, set on the banks of the Netravati in Dakshina Kannada, is believed to be some eight hundred years old. By tradition it began at a house called Nelliadi Beedu in a village then known as Kuduma (Mallarmadi), the home of a Jain chieftain named Birmanna Pergade and his wife Ammu Ballalthi. The guardian spirits of dharma, seeking a place from which charity and righteousness might be spread, came to the house in the guise of travellers and were received with such hospitality that they chose it for their abode. They appeared to Pergade and asked him to give over his house, build them shrines and dedicate his life to dharma. He did so, installing the four Dharma Daivas, and at their bidding the deity Annappa is said to have brought a Shiva linga from Kadri near Mangaluru, which was enshrined as Manjunatha. Centuries later the great Madhva saint Sri Vadiraja Tirtha of Udupi re-consecrated the deity according to Vaishnava agama and conferred on the family the title of Heggade, ordaining that they should continue as the hereditary Dharmadhikaris (custodians of dharma). The temple has remained in the family's care ever since; the village was renamed Dharmasthala, the 'abode of dharma'. Under successive Heggades, and especially the present Dharmadhikari Sri Veerendra Heggade (in office since 1968), it has grown into one of the largest charitable institutions in the region, sustaining the fivefold gift of food, medicine, education, shelter and the assurance of justice.",
+    architecture: "The Manjunatha temple is built in the coastal Tulunadu style, its sanctum and halls roofed against the heavy monsoon and ringed by the shrines of the Dharma Daivas. Within the garbhagriha is the Shiva linga of Manjunatha, worshipped daily with abhishekam and adornment by Madhva Vaishnava priests, while the Jain Heggade family administers the temple as its Dharmadhikaris. The precinct has been renovated and expanded over the years in stone and timber, with spacious mandapams to receive the great crowds. Beyond the temple stand the institutions that make Dharmasthala unusual: the immense Annapoorna hall where free meals are served, the Sri Chandranatha Swamy Basadi (a Jain temple), and on the hill of Ratnagiri the 39-foot monolithic image of Bahubali. The temple also keeps the Manjusha museum, a collection of antiquities and artefacts gathered by the Heggades, and a museum of vintage cars. The Netravati river below, where pilgrims bathe before worship, completes a setting that joins Shaiva, Vaishnava and Jain traditions in a single sacred town.",
+    festivals: [
+      { name: "Laksha Deepotsava", month: "November–December (Karthika)", description: "The temple's great five-day festival, the offering of a lakh of lamps, when Dharmasthala is illuminated by a hundred thousand oil lamps. It is famed for the Sarva Dharma Sammelana (an all-religions inter-faith meet) and a literary conference (Sahitya Sammelana) held alongside the worship, embodying the temple's spirit of harmony." },
+      { name: "Maha Shivaratri", month: "February–March (Magha)", description: "The great night of Shiva, observed with night-long worship, abhishekam and vigil at the Manjunatha sanctum, drawing large numbers of devotees.", slug: "maha-shivaratri" },
+      { name: "Navaratri & Vijayadashami", month: "September–October (Ashwin)", description: "Nine nights honouring the Goddess, observed in the precinct with special poojas and culminating in Vijayadashami." },
+      { name: "Deepavali", month: "October–November (Karthika)", description: "The festival of lights celebrated through the town, leading into the season of the Laksha Deepotsava." },
+    ],
+    poojas: [
+      { name: "Usha Kala Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Madhyahna (Noon) Maha Pooja", time: "~12:30 PM", fee: "Sponsored" },
+      { name: "Ranga Pooja / Special Seva", time: "On booking", fee: "Sponsored" },
+      { name: "Ratri (Night) Pooja", time: "Night (~8:30 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["udupi-krishna", "murudeshwara-karnataka"],
+    mythology: {
+      legend:
+        "Long ago, in a village called Kuduma near Mallarmadi, there lived a Jain chieftain named Birmanna Pergade and his wife Ammu Ballalthi at a house called Nelliadi Beedu. The Dharma Daivas, the guardian spirits of righteousness, were searching the earth for a household pure enough to become a fountainhead of charity. They came to the Pergade house in the form of travellers and were welcomed and feasted with such open-hearted hospitality that they resolved to dwell there. That night they appeared to Pergade and asked him to vacate his house for them, to build them shrines and to give his life to the cause of dharma, the feeding of the hungry, the care of the sick and the giving of justice. Pergade obeyed, and the spirits in turn promised the family their protection and prosperity so long as they kept the dharma. He installed the four Dharma Daivas, and the place became known as Dharmasthala, the abode of dharma.",
+      additionalStories: [
+        {
+          title: "How Manjunatha Came to Dharmasthala",
+          content:
+            "When the Dharma Daivas were established and Brahmin priests invited to conduct their worship, the priests asked that a Shiva linga be installed so that the rites could be performed with full sanctity. At the bidding of the daivas, Annappa Swamy, one of the guardian spirits, is said to have journeyed to Kadri near Mangaluru and brought from there the linga of Manjunatha, a form of Lord Shiva, which was enshrined at Dharmasthala. Centuries later the celebrated Madhva saint Sri Vadiraja Tirtha of Udupi visited and, finding the worship not performed according to proper agama, re-consecrated the deity in due Vaishnava rite. In gratitude the head of the family received from him the honorific title of Heggade, with the charge that the family should remain forever the Dharmadhikaris, the custodians of dharma at the shrine.",
+        },
+        {
+          title: "A Temple of Three Faiths",
+          content:
+            "Dharmasthala is cherished as a rare meeting of traditions. The deity is Manjunatha, a form of Shiva worshipped in the Shaiva manner; the priests who serve him are Madhva Vaishnava Brahmins of the school of Madhvacharya; and the family that owns and administers the temple, the Heggades, are Jains who also keep the Chandranatha Basadi and raised the great Bahubali statue on Ratnagiri hill. That a Jain family should for centuries maintain a Shiva temple served by Vaishnava priests, and that all should flourish together, has made Dharmasthala a standing emblem of religious harmony, expressed each year when the Laksha Deepotsava hosts an inter-faith assembly of scholars from many traditions.",
+        },
+        {
+          title: "The Oath Before Manjunatha",
+          content:
+            "Dharmasthala is known across Karnataka as a place of justice. Because the very purpose of the temple is dharma, people in dispute have long come here to swear an oath before Lord Manjunatha and the Dharma Daivas, and the Heggade, as Dharmadhikari, has traditionally heard grievances and arbitrated quarrels. An oath taken at Dharmasthala is held in great awe, and the temple's reputation for truth and fair dealing draws those seeking the resolution of conflicts as much as those seeking darshan.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Garbhagriha (Sri Manjunatha)",
+        type: "sanctum",
+        description: "The sanctum enshrining the Shiva linga of Manjunatha, brought by tradition from Kadri and re-consecrated by Sri Vadiraja Tirtha. It is worshipped daily with abhishekam and adornment by Madhva Vaishnava priests, the heart of the temple's worship.",
+        detail: "Shiva linga of Manjunatha",
+      },
+      {
+        name: "Shrines of the Dharma Daivas",
+        type: "other",
+        description: "The shrines of the four guardian spirits of dharma, Kalarahu, Kalarkayi, Kumaraswamy and Kanyakumari, which surround the temple. It is before these daivas and Manjunatha that oaths are sworn and justice is sought.",
+        detail: "Four guardian deities",
+      },
+      {
+        name: "Annapoorna Dining Hall",
+        type: "mandapam",
+        description: "The vast modern hall where free meals (annadana) are served to tens of thousands of pilgrims every day, one of the largest free-feeding operations of any temple in India and central to Dharmasthala's mission of charity.",
+        detail: "Free meals for tens of thousands daily",
+      },
+      {
+        name: "Bahubali Statue, Ratnagiri",
+        type: "other",
+        description: "A 39-foot monolithic image of Bahubali (Gomateshwara) standing on the hill of Ratnagiri, carved by the sculptor Ranjala Gopalakrishna Shenoy and installed in 1973, reflecting the Jain heritage of the Heggade family.",
+        detail: "39 ft monolith · installed 1973",
+      },
+      {
+        name: "Sri Chandranatha Basadi",
+        type: "other",
+        description: "The Jain temple of Chandranatha kept by the Heggade family within the town, standing alongside the Shaiva and Vaishnava worship of Manjunatha as part of the unique fabric of Dharmasthala.",
+        detail: "Jain temple",
+      },
+      {
+        name: "Manjusha Museum & Car Museum",
+        type: "other",
+        description: "The Manjusha museum holds a large collection of antiquities, manuscripts, sculptures and artefacts gathered by the Heggades, and a separate museum displays a collection of vintage cars, both maintained by the temple for visitors.",
+      },
+      {
+        name: "Netravati River Ghats",
+        type: "tank",
+        description: "The river Netravati flowing below the town, where pilgrims bathe before darshan. The riverside setting amid the foothills of the Western Ghats frames the sacred town.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "The Four Dharma Daivas",
+        deity: "Kalarahu, Kalarkayi, Kumaraswamy and Kanyakumari",
+        description: "The guardian spirits of dharma for whom the temple was first established, worshipped in their shrines around the precinct. They are invoked for protection, justice and the keeping of vows.",
+      },
+      {
+        name: "Annappa Swamy",
+        deity: "Annappa, the daiva who brought the linga",
+        description: "The guardian spirit revered as the one who fetched the Manjunatha linga from Kadri. Annappa is held in particular devotion at Dharmasthala and honoured within the sacred complex.",
+      },
+      {
+        name: "Ammanavaru (the Goddess)",
+        deity: "The Mother Goddess",
+        description: "The Goddess venerated in the precinct alongside Manjunatha, worshipped for the welfare and protection of devotees and their families.",
+      },
+      {
+        name: "Chandranatha Swamy (Jain)",
+        deity: "Tirthankara Chandranatha",
+        description: "The Jain Tirthankara worshipped at the Chandranatha Basadi kept by the Heggade family, marking the Jain dimension of the town's worship.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Temple Entrance", direction: "East", notes: "The principal entrance to the Manjunatha sanctum; queues form here and lengthen greatly during the Laksha Deepotsava and on festival days." },
+        { name: "Annapoorna Hall Entrance", direction: "South", notes: "Entrance to the free-meals dining hall, where annadana is served to all; expect large but well-organised crowds at meal times." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Men should be ready to remove the upper garment to go inside the sanctum; cloak and luggage facilities are available for those arriving by bus or staying overnight, and valuables should be carried with care.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer areas, but their use and photography are restricted at and near the sanctum. Follow the posted signs and the instructions of temple staff.",
+      cameraPolicy: "Photography is permitted around the town, the Bahubali statue, the museums and the river, but not of the deity within the sanctum. Avoid photography during poojas where it is prohibited.",
+      wheelchairAccess: "The temple precinct and the dining hall are largely accessible at ground level, with some steps near the sanctum; the Bahubali statue stands on Ratnagiri hill and involves a climb. Assistance may be needed at busy times.",
+      seniorCitizenDarshan: "Mornings and the cooler months are easiest for seniors. Crowds swell greatly during the Laksha Deepotsava, Shivaratri and weekends; allow extra time and use the regular darshan queue, which is generally well managed.",
+      parking: "Ample parking is available in the town, with designated lots for buses and cars that fill on festival days. Dharmasthala is geared to receive very large numbers of pilgrims, with extensive free and paid accommodation run by the temple.",
+      restrooms: "Restrooms and drinking-water points are available near the temple, the dining hall and the lodging houses. Facilities are stretched during the great festival; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the Annapoorna hall, where free meals are served. The region is hot and humid for much of the year; carry water when visiting the Bahubali hill or the river.",
+    },
+    sevas: [
+      {
+        name: "Darshan of Sri Manjunatha",
+        description: "Worship of Lord Manjunatha (Shiva) in the sanctum, the central act of every pilgrim's visit, with special darshan tokens arranged at the temple office.",
+        time: "During darshan hours",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Annadana (Free Meals)",
+        description: "The temple's renowned tradition of feeding every visitor a full vegetarian meal without charge in the great Annapoorna hall, the heart of Dharmasthala's mission of charity.",
+        time: "Midday and night",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Ranga Pooja / Special Pooja",
+        description: "Sponsored special worship and adornment of the Lord, performed on the devotee's behalf by the temple priests.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Tulabhara",
+        description: "The devotee or a child is weighed on a balance against an offering equal to their weight, which is given to the temple, a classic vow of thanksgiving.",
+        time: "On request",
+        fee: "Cost of the offering",
+        type: "special",
+      },
+      {
+        name: "Sashwata / Vow Offerings",
+        description: "Offerings and vows made to Lord Manjunatha and the Dharma Daivas, including those who come to swear an oath or to give thanks for justice received.",
+        time: "Daily on request",
+        fee: "Varies",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is a Shiva temple run by a Jain family?",
+        answer:
+          "Dharmasthala is famous precisely for this harmony. By tradition the temple began at the home of a Jain chieftain, Birmanna Pergade, whom the guardian spirits of dharma chose for his hospitality and charged with spreading righteousness. His descendants, the Heggade family, are Jains who have administered the temple for some eight hundred years as its hereditary Dharmadhikaris, while the deity is Lord Manjunatha, a form of Shiva, worshipped by Madhva Vaishnava priests. A Jain family maintaining a Shiva temple served by Vaishnava priests has made Dharmasthala a standing emblem of inter-religious harmony.",
+      },
+      {
+        question: "Who is Lord Manjunatha and how did the linga come here?",
+        answer:
+          "Manjunatha is a form of Lord Shiva, worshipped as a linga in the sanctum. By tradition the deity Annappa Swamy, one of the Dharma Daivas, brought the linga from Kadri near Mangaluru at the request of the priests, and it was enshrined at Dharmasthala. Centuries later the Madhva saint Sri Vadiraja Tirtha of Udupi re-consecrated the deity according to proper Vaishnava agama and gave the family the title of Heggade.",
+      },
+      {
+        question: "Is there free food at the temple?",
+        answer:
+          "Yes. Dharmasthala is renowned for annadana, the free feeding of every visitor with a full vegetarian meal served in the vast Annapoorna hall. It is one of the largest free-meal operations of any temple in India, feeding tens of thousands of pilgrims every day, and the temple regards this charity as central to its purpose.",
+      },
+      {
+        question: "Why do people come to Dharmasthala to take an oath?",
+        answer:
+          "Because the temple exists for dharma, it has long been a place of justice. People in dispute come to swear an oath before Lord Manjunatha and the Dharma Daivas, and the Heggade, as Dharmadhikari, has traditionally heard grievances and settled quarrels. An oath taken at Dharmasthala is held in great awe, and many come seeking the resolution of conflicts as well as darshan.",
+      },
+      {
+        question: "What is the Laksha Deepotsava?",
+        answer:
+          "The Laksha Deepotsava is the temple's great annual festival, a five-day offering of a lakh (a hundred thousand) of lamps held in November or December, when Dharmasthala is illuminated by countless oil lamps. It is distinguished by the Sarva Dharma Sammelana, an all-religions inter-faith meet, and a literary conference held alongside the worship, expressing the temple's spirit of harmony.",
+      },
+      {
+        question: "What else can I see at Dharmasthala?",
+        answer:
+          "Besides the Manjunatha temple, visitors climb Ratnagiri hill to the 39-foot monolithic statue of Bahubali, installed in 1973, and may see the Sri Chandranatha Jain temple, the Manjusha museum of antiquities and a museum of vintage cars, all maintained by the temple. Pilgrims also bathe in the Netravati river below the town. Allow a few hours to a half day to take in the temple, a meal in the Annapoorna hall and the surrounding sites.",
+      },
+    ],
+  },
+  "srikalahasti-temple": {
+    slug: "srikalahasti-temple",
+    timings: { morning: "6:00 AM – 12:30 PM", evening: "5:00 PM – 9:00 PM", note: "The temple is open through the day for darshan; the Rahu-Ketu Sarpa Dosha Nivarana pooja is performed in batches from early morning. Timings extend greatly during the Maha Shivaratri Brahmotsavam and on Rahu Kalam hours, which are considered most auspicious for the Rahu-Ketu pooja." },
+    entryFee: "Free darshan. Special-entry darshan and the various Rahu-Ketu, Kala Sarpa and other doshanivarana poojas carry their own fees and are booked at the temple counters or online.",
+    dressCode: "Traditional attire. Men wear dhoti or formal clothes; women wear saree or salwar-kameez. Those performing the Rahu-Ketu pooja are usually asked to bathe and wear clean traditional clothes before the ritual. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March, when the weather is pleasant. Maha Shivaratri (February–March) is the great annual peak, with a twelve-day Brahmotsavam. For the Rahu-Ketu pooja, devotees often choose the Rahu Kalam hours of the day; weekdays are calmer than weekends and festival days.",
+    travelInfo: {
+      byAir: "Tirupati (Renigunta) Airport is the nearest, about 30 km away, with flights from Chennai, Hyderabad and Bengaluru.",
+      byTrain: "Srikalahasti Railway Station is within the town, a few kilometres from the temple, on the Chennai–Tirupati–Mumbai line; Renigunta Junction (~25 km) is a larger railhead.",
+      byRoad: "Srikalahasti lies about 36 km east of Tirupati on the route to Chennai (~120 km). Frequent buses, taxis and autos run from Tirupati and Renigunta; the town is well connected across the Tirupati district.",
+    },
+    highlights: [
+      "One of the Pancha Bhoota Sthalams, the five temples of the great elements, representing Vayu (Air or Wind); the Vayu Linga is worshipped here",
+      "The lamp flames in the windless inner sanctum flicker constantly, taken as the living sign of the air element; the main linga is never touched by human hands",
+      "The foremost temple in India for the Rahu-Ketu Sarpa Dosha Nivarana pooja, drawing devotees from across the country and the world",
+      "The sacred ground of Kannappa Nayanar, the hunter-saint who offered his own eyes to the bleeding linga, one of the most beloved stories of bhakti",
+      "Named for three devotees, Sri (the spider), Kala (the serpent) and Hasti (the elephant), who worshipped Shiva here and attained liberation",
+      "A Paadal Petra Sthalam sung in the Tamil Thevaram, set on the Swarnamukhi river between the Durgambika and Kannappa hills",
+      "The towering Rajagopuram of Krishnadevaraya and the underground Patala Ganapati shrine reached by a steep descent",
+    ],
+    history: "Srikalahasti, on the banks of the Swarnamukhi river in the Tirupati district of Andhra Pradesh, is one of the most ancient and revered Shiva temples of the south. Its origins reach into legend, but the temple as it stands was greatly expanded by the Chola kings and by the rulers of Vijayanagara; the great Rajagopuram and the hundred-pillar mandapam are credited to Krishnadevaraya in the early sixteenth century (around 1516). The temple is celebrated as the Vayu Sthalam among the Pancha Bhoota Sthalams, the five temples in which Shiva is worshipped as one of the five great elements, and here he is the linga of Air. It is a Paadal Petra Sthalam, hymned by the Tamil Nayanmar saints in the Thevaram, and above all it is bound to the memory of Kannappa Nayanar, the hunter whose total devotion made it one of the holiest places of Shaiva bhakti. In more recent centuries the temple has become the great national centre for the Rahu-Ketu Sarpa Dosha pooja, the remedy for serpent and planetary afflictions in the horoscope, and pilgrims come in their thousands every day to perform it.",
+    architecture: "The temple is built in Dravidian style at the very foot of the hills, set so close against the rock that the inner shrines have the feeling of a cave temple carved into the mountain. The great Rajagopuram, raised by Krishnadevaraya, rises over the entrance, while a separate gateway and the hundred-pillar mandapam stand along the approach (a section of the main gopuram collapsed in 2010 and was rebuilt). Within, the sanctum enshrines the white Vayu Linga of Kalahasteeswara, before which two lamps burn with a flame that flickers without cease though no breath of wind reaches the windless chamber; the priests perform abhishekam without ever touching the linga directly. The shrine of the Goddess Gnana Prasunamba stands within the complex, and a steep flight of steps descends to the underground Patala Ganapati. The temple lies between the Durgambika hill and the Kannappa hill, with the Swarnamukhi river flowing below, the setting that earns it the name Dakshina Kailasam, the Kailash of the South.",
+    festivals: [
+      { name: "Maha Shivaratri Brahmotsavam", month: "February–March (Magha)", description: "The temple's greatest festival, a twelve-day Brahmotsavam around Maha Shivaratri, with night-long worship, abhishekam, processions of the deities on various vahanas and the great Rathotsavam (car festival).", slug: "maha-shivaratri" },
+      { name: "Karthika Deepam", month: "November–December (Karthika)", description: "The festival of lights sacred to Shiva, observed with deepa aradhana and special worship through the holy month of Karthika.", slug: "karthigai-deepam" },
+      { name: "Sri Gnana Prasunamba Festivals", month: "Varies", description: "Special celebrations and Navaratri worship honouring the Goddess Gnana Prasunamba, consort of Kalahasteeswara." },
+      { name: "Annual Theppotsavam", month: "Varies", description: "The float festival, when the processional deities are taken on a decorated float, celebrated on the temple tank or river during the festival season." },
+    ],
+    poojas: [
+      { name: "Rahu-Ketu Sarpa Dosha Nivarana Pooja", time: "From early morning, in batches", fee: "By type (booked at counters)" },
+      { name: "Abhishekam to Kalahasteeswara", time: "Morning", fee: "Sponsored" },
+      { name: "Archana", time: "All day", fee: "Modest seva fee" },
+      { name: "Sahasranama / Special Pooja", time: "On booking", fee: "Sponsored" },
+    ],
+    nearbyTemples: ["tirupati-venkateswara", "ekambareswarar-kanchipuram", "nataraja-chidambaram"],
+    mythology: {
+      legend:
+        "Srikalahasti takes its very name from three humble creatures whose devotion won them liberation at this shrine. Sri, a spider, wove an intricate canopy over the linga to shelter it and worshipped the Lord with the only art he had. Kala, a serpent, brought precious gems and laid them upon the linga in worship. Hasti, an elephant, came each day to the river, drew up water in his trunk and bathed the linga, sweeping away with it whatever the others had offered, so that each thought his worship spoiled by the next. In time the spider and the elephant came to blows and all three were on the point of destroying one another, when Shiva, moved by the pure devotion of each, appeared before them, saved them and granted them moksha. He decreed that the temple should bear their names together, Sri-Kala-Hasti, so that none would be remembered without the others, a lesson that the Lord measures only the love behind an offering.",
+      additionalStories: [
+        {
+          title: "Kannappa Nayanar, Who Gave His Eyes",
+          content:
+            "The most beloved story of Srikalahasti is that of Kannappa, a hunter of the forest tribes whose love for the Lord knew no rule or refinement. Each day he worshipped the linga in the only ways he knew, bathing it with water carried in his mouth, offering wild meat and adorning it with forest flowers, while a learned Brahmin priest, scandalised by these untrained rites, watched in dismay. To test which devotion the Lord preferred, Shiva caused the linga to bleed from one eye. The Brahmin fled in fear, but Kannappa, distraught, gouged out his own eye with an arrow and pressed it to the linga, and the bleeding stopped. When the other eye too began to bleed, Kannappa set his foot on the linga to mark the spot and began to pluck out his second eye. At that moment Shiva seized his hand, restored his sight and took him to himself, naming him Kannappa, 'the one who gave his eyes'. He is counted among the sixty-three Nayanmar saints and is the very emblem of devotion that asks nothing of learning or caste.",
+        },
+        {
+          title: "The Temple of the Air Element",
+          content:
+            "Srikalahasti is the Vayu Sthalam among the five Pancha Bhoota Sthalams, the temples in which Shiva is worshipped as the five great elements: Earth at Ekambareswarar in Kanchipuram, Water at Jambukeswarar in Thiruvanaikaval, Fire at Arunachaleswarar in Thiruvannamalai, Air here at Srikalahasti, and Space or Ether at Chidambaram. The proof of the element is shown in the sanctum itself, where the flame of the lamps flickers and sways constantly although the inner chamber is sealed from any draught, the breath of Vayu stirring before the Lord. In keeping with this, the linga is regarded as too sacred and subtle to be touched, and worship is offered to it without the hand ever resting upon it.",
+        },
+        {
+          title: "Markandeya, Bharadwaja and the Rahu-Ketu Remedy",
+          content:
+            "Srikalahasti is associated with sages and seekers who found the Lord's grace here, and it has become above all the great place of the Rahu-Ketu Sarpa Dosha pooja. Those whose horoscopes are afflicted by the shadow-planets Rahu and Ketu, or by Kala Sarpa and Sarpa Dosha, who face delays in marriage, childlessness, illness or obstacles in their work, come to Srikalahasti to perform the dosha-nivarana rituals before Kalahasteeswara, the Lord who is master even of Kala (time and the serpent). The remedy performed here is held to be the most powerful of its kind, and the temple draws devotees from across the world for it.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Garbhagriha (Vayu Linga)",
+        type: "sanctum",
+        description: "The cave-like inner sanctum enshrining the white Vayu Linga of Kalahasteeswara. Before it two lamps burn with a flame that never stops flickering though the chamber is windless, the sign of the air element. The linga is worshipped without ever being touched by human hands.",
+        detail: "Vayu (Air) element · linga untouched",
+      },
+      {
+        name: "Rajagopuram",
+        type: "gopuram",
+        description: "The towering main gateway raised by the Vijayanagara emperor Krishnadevaraya in the early sixteenth century. A section of the great gopuram collapsed in 2010 and was subsequently rebuilt; it remains the soaring landmark of the temple town.",
+        detail: "Built by Krishnadevaraya, c. 1516",
+      },
+      {
+        name: "Hundred-Pillar Mandapam",
+        type: "mandapam",
+        description: "The pillared hall of the Vijayanagara period, its columns carved with deities and yali figures, standing along the approach to the temple and used for festival gatherings.",
+      },
+      {
+        name: "Gnana Prasunamba Shrine",
+        type: "other",
+        description: "The shrine of the Goddess Gnana Prasunamba (also called Gnanaprasunambika), consort of Kalahasteeswara, worshipped within the complex for wisdom and grace.",
+      },
+      {
+        name: "Patala Ganapati",
+        type: "other",
+        description: "An underground shrine of Ganesha reached by a steep, narrow descent of steps below the temple. Devotees go down to worship Ganapati in the cool, lamp-lit cavern before proceeding to the main darshan.",
+        detail: "Underground Ganesha shrine",
+      },
+      {
+        name: "Setting Between the Hills",
+        type: "other",
+        description: "The temple is built at the foot of the rock between the Durgambika hill and the Kannappa hill, with the Swarnamukhi river flowing below, a dramatic setting that earns it the name Dakshina Kailasam, the Kailash of the South.",
+      },
+      {
+        name: "Swarnamukhi River",
+        type: "tank",
+        description: "The sacred river flowing past the temple, in which pilgrims bathe before worship. Its name means 'golden-faced', and it is integral to the temple's rituals and to the legend of the elephant Hasti who bathed the linga with its water.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Gnana Prasunamba",
+        deity: "The Goddess, consort of Kalahasteeswara",
+        description: "The principal Goddess of the temple, worshipped for knowledge, wisdom and grace, with her own shrine and festivals within the complex.",
+      },
+      {
+        name: "Patala Ganapati",
+        deity: "Lord Ganesha",
+        description: "Ganesha enshrined in an underground cavern reached by a steep flight of steps, worshipped by descending pilgrims for the removal of obstacles before the main darshan.",
+      },
+      {
+        name: "Kannappa Nayanar",
+        deity: "The hunter-saint Kannappa",
+        description: "The devotee who offered his eyes to the Lord is honoured at the temple and on the Kannappa hill above, his story recited as the height of selfless bhakti.",
+      },
+      {
+        name: "Dakshinamurthy & the Nayanmars",
+        deity: "Shiva as the teacher, with the Shaiva saints",
+        description: "Shiva worshipped as Dakshinamurthy and the Nayanmar saints venerated in the precinct, marking the temple's place in the Tamil Shaiva devotional tradition.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Rajagopuram (Main Entrance)", direction: "South", notes: "The principal entrance beneath the great gopuram; the regular darshan queue forms from here." },
+        { name: "Pooja / Special-Entry Gate", direction: "East", notes: "Entrance used for those who have booked the Rahu-Ketu and special poojas; tokens and timings are issued at the counters." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Cloak facilities for bags are available near the temple; carry valuables with care, especially on busy pooja days.",
+      mobilePolicy: "Mobile phones are generally allowed in the outer areas, but their use and photography are restricted at and near the sanctum. Follow the posted signs and temple staff.",
+      cameraPolicy: "Photography is permitted around the gopuram and outer precincts, but not of the deity within the sanctum or during poojas where prohibited.",
+      wheelchairAccess: "The main temple is largely accessible at ground level, but the Patala Ganapati shrine involves a steep, narrow descent of steps that is difficult for those with limited mobility. Assistance may be needed at busy times.",
+      seniorCitizenDarshan: "Mornings and weekdays are easiest. The Patala Ganapati descent is strenuous; seniors may prefer to skip it. Crowds peak at Maha Shivaratri and on weekends and during Rahu Kalam pooja hours; allow extra time.",
+      parking: "Parking is available near the temple and in the town, filling on festival days and busy weekends. Srikalahasti is compact and the temple is close to the bus stand and railway station.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and the pooja halls. Facilities are stretched during festivals and heavy pooja days; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the Swarnamukhi river ghats. The region is hot for much of the year; carry water, especially if waiting for a pooja batch.",
+    },
+    sevas: [
+      {
+        name: "Rahu-Ketu Sarpa Dosha Nivarana Pooja",
+        description: "The temple's most famous ritual, performed before Kalahasteeswara to remedy the afflictions of Rahu and Ketu, Kala Sarpa and Sarpa Dosha in the horoscope, sought for delays in marriage, childlessness, illness and obstacles. Conducted in batches through the day, with the Rahu Kalam hours considered most potent.",
+        time: "From early morning, in batches",
+        fee: "By type (booked at counters / online)",
+        type: "daily",
+      },
+      {
+        name: "Abhishekam to Kalahasteeswara",
+        description: "Sponsored ritual bathing and worship of the Vayu Linga, performed by the priests without the linga being touched by hand, as is the custom of this shrine.",
+        time: "Morning",
+        fee: "Sponsored",
+        type: "daily",
+      },
+      {
+        name: "Archana & Sahasranama",
+        description: "Offering of worship and recitation of the Lord's names in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+      {
+        name: "Kalyanotsavam / Special Pooja",
+        description: "Sponsored special worship and the symbolic celestial wedding of the Lord and Goddess, performed on the devotee's behalf.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is Srikalahasti called the temple of the Air element?",
+        answer:
+          "Srikalahasti is the Vayu Sthalam, one of the five Pancha Bhoota Sthalams in which Shiva is worshipped as a great element: Earth at Kanchipuram, Water at Thiruvanaikaval, Fire at Thiruvannamalai, Air here at Srikalahasti, and Space at Chidambaram. The proof is in the sanctum, where the lamp flames flicker constantly although the inner chamber is sealed from any wind, the breath of Vayu stirring before the Lord. The main linga is regarded as too sacred to touch and is worshipped without the hand ever resting on it.",
+      },
+      {
+        question: "What does the name Srikalahasti mean?",
+        answer:
+          "The name comes from three devoted creatures who worshipped Shiva here and attained liberation: Sri, a spider who spun a canopy over the linga; Kala, a serpent who adorned it with gems; and Hasti, an elephant who bathed it with river water. The Lord, moved by the pure love of each, granted them moksha and decreed the temple bear all their names together, Sri-Kala-Hasti.",
+      },
+      {
+        question: "What is the Rahu-Ketu pooja and who should perform it?",
+        answer:
+          "Srikalahasti is the foremost temple in India for the Rahu-Ketu Sarpa Dosha Nivarana pooja, the remedy for afflictions of the shadow-planets Rahu and Ketu and for Kala Sarpa and Sarpa Dosha in the horoscope. It is performed by those facing delays in marriage, childlessness, persistent illness or obstacles in work and life. The pooja is conducted in batches through the day, and the Rahu Kalam hours are considered especially auspicious; tokens and fees vary by the type of pooja chosen.",
+      },
+      {
+        question: "Who was Kannappa Nayanar?",
+        answer:
+          "Kannappa was a forest hunter whose devotion to the Lord of Srikalahasti was so total that, when the linga began to bleed from an eye as a test, he gouged out his own eye to staunch it, and was about to give the second when Shiva stopped him, restored his sight and took him to grace. He is counted among the sixty-three Nayanmar saints and is honoured as the very image of devotion that needs no learning or rank, his story among the most beloved at the temple.",
+      },
+      {
+        question: "What is the Patala Ganapati?",
+        answer:
+          "Patala Ganapati is an underground shrine of Ganesha reached by a steep, narrow flight of steps below the temple. Devotees descend into the cool, lamp-lit cavern to worship Ganapati for the removal of obstacles, usually before the main darshan. The descent is strenuous and may be difficult for elderly or less mobile visitors.",
+      },
+      {
+        question: "How far is Srikalahasti from Tirupati, and how much time should I plan?",
+        answer:
+          "Srikalahasti is about 36 km east of Tirupati, an easy trip by bus or taxi, and many pilgrims combine the two. Allow two to three hours for darshan, the Patala Ganapati and a walk through the temple; if you are performing the Rahu-Ketu pooja, plan for additional time, as it is done in batches and queues can be long on weekends and festival days.",
+      },
+    ],
+  },
+  "govindarajaswamy-tirupati": {
+    slug: "govindarajaswamy-tirupati",
+    timings: { morning: "5:30 AM – 1:00 PM", evening: "4:30 PM – 9:00 PM", note: "The day runs through the usual cycle of poojas, with Suprabhatam before dawn and the closing pooja at night. Being in the heart of Tirupati town, the temple is often the first or last darshan for pilgrims to and from Tirumala. Timings extend during the annual Brahmotsavam and Vaikunta Ekadasi." },
+    entryFee: "Free darshan. Special-entry darshan, sevas and arjita poojas are arranged and ticketed through the Tirumala Tirupati Devasthanams (TTD) counters and online.",
+    dressCode: "Traditional attire. Men wear dhoti or formal clothes; women wear saree or salwar-kameez. Western and casual wear is discouraged, as in all TTD temples. Avoid shorts and sleeveless tops.",
+    bestTime: "September – February, when Tirupati is pleasant and most pilgrims combine the visit with Tirumala. The annual Brahmotsavam and Vaikunta Ekadasi (December–January) are the great peaks. The temple is busy year-round as the principal temple of Tirupati town.",
+    travelInfo: {
+      byAir: "Tirupati (Renigunta) Airport is about 15 km away, with flights from Chennai, Hyderabad, Bengaluru and other cities.",
+      byTrain: "Tirupati Railway Station is very close, within walking distance of the temple in the heart of the town; the temple gopuram is a landmark beside the station.",
+      byRoad: "The temple stands in central Tirupati, the base town for the pilgrimage to Tirumala. Buses, taxis and autos run throughout the town and to the Tirumala ghat road; Tirumala is about 20 km uphill, and Srikalahasti about 36 km away.",
+    },
+    highlights: [
+      "The principal temple of Tirupati town, enshrining Lord Govindaraja in the reclining posture on the serpent Adisesha",
+      "Revered as the elder brother of Lord Venkateswara of Tirumala, who reclines in yoga nidra after arranging his younger brother's celestial wedding",
+      "Consecrated by the great Vaishnava acharya Sri Ramanuja in 1130 CE; tied to the Govindaraja Perumal of Chidambaram (the Thillai Chithrakoodam Divya Desam)",
+      "A towering Rajagopuram that is one of the great landmarks of Tirupati, rising beside the railway station",
+      "Houses the Sri Venkateswara Museum of temple art and history, maintained by the TTD",
+      "Shrines to Pundarikavalli Thayar, Andal, Sri Krishna (Parthasarathy) and the acharya Ramanuja within the complex",
+      "Administered by the Tirumala Tirupati Devasthanams (TTD), with free annadanam for pilgrims",
+    ],
+    history: "The Govindarajaswamy temple stands at the heart of Tirupati, the base town for the great pilgrimage to Tirumala, and is its most important temple. Its consecration is credited to Sri Ramanuja, the eleventh- and twelfth-century philosopher of the Vishishtadvaita school, who is said to have installed Govindaraja here in 1130 CE. The deity is closely linked to the Govindaraja Perumal of Chidambaram: by tradition, when the reclining Vishnu was removed from the Chidambaram temple during a period of sectarian persecution, Ramanuja re-established the worship of Govindaraja at Tirupati, giving the growing temple town its presiding Vaishnava shrine. Around it the lower town of Tirupati developed, and for centuries it has served as the temple where pilgrims worship before ascending to, or after returning from, Lord Venkateswara on the Tirumala hills. Today it is administered by the Tirumala Tirupati Devasthanams along with the hill temple, and its complex also houses the Sri Venkateswara Museum.",
+    architecture: "The temple is built in the Dravidian style, dominated by its tall, ornate Rajagopuram, one of the most recognisable landmarks of Tirupati town, rising in tiers above the streets beside the railway station. Within, the sanctum enshrines Lord Govindaraja in the bhujanga sayana posture, reclining at full length upon the coils of the serpent Adisesha, a large and serene image worshipped as the elder brother of Venkateswara. The complex holds separate shrines for the Goddess Pundarikavalli Thayar, for Andal, for Sri Krishna as Parthasarathy, and for the acharya Sri Ramanuja, set around pillared mandapams and prakaram corridors in the manner of a great Vaishnava temple. The Sri Venkateswara Museum within the precinct displays sculpture, temple art and the history of the Tirumala-Tirupati shrines, and the temple maintains its own kalyana mandapam and halls for festivals and the daily round of worship.",
+    festivals: [
+      { name: "Annual Brahmotsavam", month: "Varies (festival season)", description: "The grand annual festival of the temple, when Govindaraja is taken in procession through the streets of Tirupati on a succession of vahanas, with the great Rathotsavam (car festival) and Garuda Seva drawing large crowds." },
+      { name: "Vaikunta Ekadasi", month: "December–January (Margazhi)", description: "The sacred Vaishnava day when the Vaikunta Dwaram (Gate of Heaven) is opened and devotees pass through it for darshan, observed with fasting and special worship.", slug: "vaikunta-ekadasi-tirupati" },
+      { name: "Sri Krishna Janmashtami", month: "August–September (Shravana)", description: "The birth of Krishna celebrated at the Parthasarathy shrine with night worship, alankaram and festivities." },
+      { name: "Sri Rama Navami", month: "March–April (Chaitra)", description: "The birth of Lord Rama observed with special poojas and recitation, a major festival in the Vaishnava calendar of the temple." },
+    ],
+    poojas: [
+      { name: "Suprabhatam", time: "Early morning", fee: "Sponsored (TTD)" },
+      { name: "Archana", time: "All day", fee: "Modest seva fee" },
+      { name: "Sahasranamarchana", time: "Morning", fee: "Sponsored" },
+      { name: "Ekanta Seva (Night)", time: "Night (~9:00 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["tirupati-venkateswara", "srikalahasti-temple"],
+    mythology: {
+      legend:
+        "Govindaraja is beloved at Tirupati as the elder brother of Lord Venkateswara of Tirumala. When Srinivasa (Venkateswara) descended to the Venkata hills and was to wed Princess Padmavathi, he had no wealth for so grand a celestial wedding and borrowed an enormous sum from Kubera, the lord of riches. It fell to his elder brother Govindaraja to arrange the wedding and to keep the accounts of all that was spent and owed. So great was the labour of managing his younger brother's marriage that Govindaraja, exhausted, lay down to rest, and he reclines still in yoga nidra upon the serpent Adisesha, watching over the affairs of the family. This is why the Lord at Tirupati town is worshipped in the sleeping posture, the tireless elder brother resting after his work, while Venkateswara stands on the hill above receiving the wealth that settles the debt.",
+      additionalStories: [
+        {
+          title: "Ramanuja and the Govindaraja of Chidambaram",
+          content:
+            "The deity is bound by tradition to the Govindaraja Perumal of Chidambaram, where Vishnu reclines in the same complex as Nataraja, making Chidambaram (as Thillai Chithrakoodam) one of the 108 Divya Desams. By the account preserved in the Vaishnava tradition, during a time of sectarian conflict the reclining image of Govindaraja was removed from Chidambaram. The great acharya Sri Ramanuja, champion of the Vishishtadvaita faith, then established the worship of Govindaraja at Tirupati, consecrating the temple in 1130 CE and giving the pilgrim town its presiding Vishnu shrine. The temple has remained ever since a centre of the Sri Vaishnava tradition that Ramanuja shaped.",
+        },
+        {
+          title: "The Temple at the Foot of the Hills",
+          content:
+            "Tirupati town grew around the Govindarajaswamy temple, at the foot of the seven hills crowned by Tirumala. For the countless pilgrims who come to see Lord Venkateswara, Govindaraja is the Lord of the town below, and it is the custom of many to worship him before climbing to the hill and again on returning. As the elder brother who keeps the household and its accounts, he is felt to preside over the worldly affairs of the pilgrimage, while his younger brother grants the great darshan above. The two temples, now both under the Tirumala Tirupati Devasthanams, are worshipped as one family.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Rajagopuram",
+        type: "gopuram",
+        description: "The towering, richly carved main gateway that rises in tiers over the temple and is one of the great landmarks of Tirupati town, standing beside the railway station and visible across the lower town.",
+        detail: "Landmark gateway of Tirupati town",
+      },
+      {
+        name: "Garbhagriha (Govindaraja)",
+        type: "sanctum",
+        description: "The sanctum enshrining Lord Govindaraja reclining at full length on the coils of the serpent Adisesha (bhujanga sayana), worshipped as the elder brother of Venkateswara resting after arranging his wedding.",
+        detail: "Reclining Vishnu on Adisesha",
+      },
+      {
+        name: "Pundarikavalli Thayar Shrine",
+        type: "other",
+        description: "The shrine of the Goddess Pundarikavalli (Lakshmi), consort of Govindaraja, with her own worship and festivals within the complex.",
+      },
+      {
+        name: "Parthasarathy (Krishna) Shrine",
+        type: "other",
+        description: "The shrine of Sri Krishna as Parthasarathy within the temple, where Krishna Janmashtami and related festivals are celebrated.",
+      },
+      {
+        name: "Ramanuja Shrine",
+        type: "other",
+        description: "The shrine honouring Sri Ramanuja, the acharya who consecrated the temple, reflecting its place in the Sri Vaishnava tradition.",
+      },
+      {
+        name: "Sri Venkateswara Museum",
+        type: "other",
+        description: "The TTD museum within the temple complex, displaying sculpture, temple art, ritual objects and the history of the Tirumala and Tirupati shrines.",
+        detail: "Temple art & history museum",
+      },
+      {
+        name: "Mandapams & Prakarams",
+        type: "mandapam",
+        description: "The pillared halls and circumambulatory corridors of the complex, used for the daily worship, festival processions and the gathering of pilgrims.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Pundarikavalli Thayar",
+        deity: "Goddess Lakshmi, consort of Govindaraja",
+        description: "The principal Goddess of the temple, worshipped for prosperity and grace, with her own shrine and festivals.",
+      },
+      {
+        name: "Andal",
+        deity: "Andal (Goda Devi), the Alvar saint-poetess",
+        description: "The only woman among the twelve Alvars, worshipped as a consort of Vishnu, honoured with her own shrine and the recitation of her Tiruppavai.",
+      },
+      {
+        name: "Parthasarathy (Krishna)",
+        deity: "Lord Krishna as the charioteer of Arjuna",
+        description: "Sri Krishna enshrined in the complex, worshipped especially at Janmashtami and through the festival calendar.",
+      },
+      {
+        name: "Ramanuja",
+        deity: "Sri Ramanujacharya",
+        description: "The acharya who established the temple's worship, venerated within the precinct as the founder of the Sri Vaishnava tradition here.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Rajagopuram (Main Entrance)", direction: "East", notes: "The principal entrance beneath the great gopuram, near the railway station; the regular darshan queue forms here." },
+        { name: "Special-Entry / Seva Gate", direction: "South", notes: "Entrance for those holding special darshan or seva tickets issued through the TTD; follow the counters for timings." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Cloak facilities for bags are available near the temple; mobile phones and bags are restricted inside, so carry valuables with care and use the lockers where provided.",
+      mobilePolicy: "As in all TTD temples, mobile phones are not permitted inside the temple and must be deposited or left outside. Photography of the deity is not allowed.",
+      cameraPolicy: "Photography is not permitted inside the temple or of the deity. Cameras and phones should be left at the cloak counters before entering.",
+      wheelchairAccess: "The temple is largely accessible at ground level, with some steps and thresholds near the sanctum. Assistance may be needed during busy darshan times; the temple is on level ground in the town, unlike the hill at Tirumala.",
+      seniorCitizenDarshan: "TTD provides special and senior-citizen darshan arrangements; mornings and weekdays are easiest. Crowds swell at Brahmotsavam and Vaikunta Ekadasi and when Tirumala pilgrim traffic is heavy.",
+      parking: "Parking is available in the town near the temple and the railway and bus stands, filling on festival days. The temple is central and within easy reach of Tirupati's transport hubs.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and the annadanam hall. Facilities are stretched during festivals; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the dining hall, where free annadanam is served to pilgrims. The region is warm much of the year; carry water.",
+    },
+    sevas: [
+      {
+        name: "Darshan of Sri Govindaraja",
+        description: "Worship of Lord Govindaraja reclining on Adisesha, the central darshan for every pilgrim, with free and special-entry queues arranged through the TTD.",
+        time: "During darshan hours",
+        fee: "Free (special entry ticketed)",
+        type: "daily",
+      },
+      {
+        name: "Archana & Sahasranamarchana",
+        description: "Offering of worship and the recitation of the Lord's thousand names in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+      {
+        name: "Kalyanotsavam",
+        description: "The symbolic celestial wedding of the Lord and Goddess, performed on the devotee's behalf, a popular sponsored seva in TTD temples.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Annadanam (Free Meals)",
+        description: "Free meals served to pilgrims as the prasad of the Lord, in keeping with the annadanam tradition of the TTD temples.",
+        time: "Midday",
+        fee: "Free",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why does Lord Govindaraja recline, and how is he related to Venkateswara?",
+        answer:
+          "Govindaraja is worshipped as the elder brother of Lord Venkateswara of Tirumala. By tradition, when Srinivasa (Venkateswara) was to wed Padmavathi, he borrowed an enormous sum from Kubera, and it fell to his elder brother Govindaraja to arrange the wedding and keep its accounts. Worn out by the labour, Govindaraja lay down to rest and reclines still in yoga nidra on the serpent Adisesha, which is why the Lord of Tirupati town is worshipped in the sleeping posture.",
+      },
+      {
+        question: "Who consecrated the temple?",
+        answer:
+          "The temple's consecration is credited to Sri Ramanuja, the great acharya of the Vishishtadvaita school, who is said to have installed Govindaraja at Tirupati in 1130 CE. The deity is linked to the Govindaraja Perumal of Chidambaram; by tradition Ramanuja re-established the worship at Tirupati after the image was removed from Chidambaram during a period of sectarian conflict.",
+      },
+      {
+        question: "Is this the same as the Tirumala (Venkateswara) temple?",
+        answer:
+          "No. The Govindarajaswamy temple is in the heart of Tirupati town at the foot of the hills, while the Venkateswara temple is on the Tirumala hills about 20 km uphill. Both are administered by the Tirumala Tirupati Devasthanams, and many pilgrims worship Govindaraja in the town before or after their darshan of Venkateswara on the hill.",
+      },
+      {
+        question: "Can I carry my mobile phone inside?",
+        answer:
+          "No. As in all TTD temples, mobile phones are not permitted inside and must be deposited at the cloak counters or left outside, and photography of the deity is not allowed. Carry as little as possible and use the lockers and cloak facilities near the temple.",
+      },
+      {
+        question: "What else can I see at the temple?",
+        answer:
+          "The complex houses the Sri Venkateswara Museum of temple art and history, maintained by the TTD, as well as shrines to the Goddess Pundarikavalli Thayar, to Andal, to Sri Krishna as Parthasarathy and to the acharya Ramanuja. Free annadanam is served to pilgrims, and the towering Rajagopuram beside the railway station is a landmark of the town.",
+      },
+      {
+        question: "How much time should I plan, and when is it busiest?",
+        answer:
+          "Allow about one to two hours for darshan and a walk through the shrines and the museum. The temple is busy year-round because of the Tirumala pilgrim traffic, and especially crowded during the annual Brahmotsavam and at Vaikunta Ekadasi; mornings and weekdays are generally calmer.",
+      },
+    ],
+  },
+  "simhachalam-visakhapatnam": {
+    slug: "simhachalam-visakhapatnam",
+    timings: { morning: "4:00 AM – 4:00 PM", evening: "6:00 PM – 9:00 PM", note: "The day opens with the Suprabhata Seva before dawn and runs through the round of poojas. For all but one day of the year the deity is covered in sandalwood paste; the original form is seen only on Chandanotsavam (Akshaya Tritiya). Confirm timings, which change on festival days." },
+    entryFee: "Free darshan. Special-entry darshan, the Nijarupa Darshanam on Chandanotsavam, and the various sevas and kalyanam are ticketed at the temple counters and online.",
+    dressCode: "Traditional attire. Men wear dhoti or formal clothes; women wear saree or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March, when the coast and the hill are pleasant. Chandanotsavam on Akshaya Tritiya (April–May) is the one day the deity's true form is revealed and the greatest peak of the year, though intensely crowded. Avoid the heavy monsoon.",
+    travelInfo: {
+      byAir: "Visakhapatnam International Airport is about 25 km away, with domestic flights and some international connections.",
+      byTrain: "Simhachalam has a railway station at the foot of the hill; Visakhapatnam Junction (~16 km) is the major railhead with trains from across India.",
+      byRoad: "The temple stands on Simhachalam hill about 16 km from the centre of Visakhapatnam (Vizag). A ghat road climbs the hill, and APSRTC buses, taxis and autos run from the city; pilgrims may also climb the long flight of stone steps.",
+    },
+    highlights: [
+      "A hill-top temple to Lord Varaha Lakshmi Narasimha, the rare combined form of Vishnu's Boar (Varaha) and Man-Lion (Narasimha) avatars",
+      "The deity is covered in sandalwood paste (chandanam) all year, so the true form is hidden from view",
+      "On Chandanotsavam (Akshaya Tritiya) alone the paste is removed and the original Nijarupa form is revealed for the day",
+      "A blend of Kalinga (Odishan) and Dravidian (Chola) architecture, with the shrine facing west",
+      "Sacred to the story of Prahlada, the boy-devotee saved by Narasimha from his father Hiranyakashipu",
+      "Renovated and endowed by the Eastern Ganga and Gajapati kings and visited by Sri Krishnadevaraya of Vijayanagara",
+      "The Kalyana Mandapam of many pillars and the temple tanks (Gangadhara, Akasha Ganga) on the wooded hill",
+    ],
+    history: "The Sri Varaha Lakshmi Narasimha Swamy temple crowns the Simhachalam hill (Simhadri), some 300 metres above the Vizag plain in Andhra Pradesh. Its origins are bound to the legend of Prahlada, who is said to have raised the first shrine to the Lord who saved him, but the temple as it stands took shape under the dynasties of the Kalinga coast. Inscriptions record extensive building and endowment by the Eastern Ganga kings, especially Narasimhadeva I in the thirteenth century, and later by the Gajapati rulers of Odisha; the Vijayanagara emperor Sri Krishnadevaraya visited and made rich gifts after his Kalinga campaigns. The temple thus joins the Kalinga and the Dravidian worlds in both its history and its architecture. Its most distinctive tradition is the covering of the deity in sandalwood paste throughout the year, the form revealed only on Chandanotsavam, a custom traced to the kings and sages who re-established the worship. Today the temple is administered by its devasthanam and remains one of the most important Narasimha shrines of the south.",
+    architecture: "Simhachalam is a striking blend of the Kalinga (Odishan) style of the Eastern Ganga and Gajapati builders and the Dravidian style of the Chola south, the two traditions meeting in its towers, halls and carving. Unusually, the main shrine faces west rather than east. The deity within is worshipped in a near-cylindrical mound of sandalwood paste for all but one day of the year, beneath which is the stone image of Varaha Narasimha in tribhanga posture, the boar-headed and lion-formed Lord combined. The complex includes a finely carved Kalyana Mandapam of many pillars, the Natya Mandapam, and prakaram corridors rich with sculpture of the Kalinga school. On the wooded hill stand the sacred tanks, the Gangadhara and the Akasha Ganga spring, where pilgrims bathe, and the long stone stairway and ghat road that climb to the temple from the plain below.",
+    festivals: [
+      { name: "Chandanotsavam (Chandana Yatra)", month: "April–May (Akshaya Tritiya)", description: "The temple's greatest festival and the one day the deity's true form is seen. The year's coat of sandalwood paste is removed for the Nijarupa Darshanam, the original image is revealed for the day, and fresh chandanam is then applied. Lakhs of devotees come for this single darshan." },
+      { name: "Kalyanotsavam", month: "March–April (Chaitra)", description: "The celestial wedding of Lord Narasimha and the Goddess, celebrated over several days with processions and festivities before Chandanotsavam." },
+      { name: "Narasimha Jayanti", month: "May (Vaisakha)", description: "The appearance day of Lord Narasimha, observed with special abhishekam, worship and recitation of the Narasimha story." },
+      { name: "Giri Pradakshina & Kamadahanam", month: "Varies", description: "Circumambulation of the sacred hill and the seasonal festivals of the temple calendar, observed by devotees through the year." },
+    ],
+    poojas: [
+      { name: "Suprabhata Seva", time: "~4:00 AM", fee: "Sponsored" },
+      { name: "Abhishekam (to the chandanam form)", time: "Morning", fee: "Sponsored" },
+      { name: "Archana", time: "All day", fee: "Modest seva fee" },
+      { name: "Sahasranama / Special Pooja", time: "On booking", fee: "Sponsored" },
+    ],
+    nearbyTemples: ["srikalahasti-temple", "tirupati-venkateswara"],
+    mythology: {
+      legend:
+        "The Lord of Simhachalam is Varaha Narasimha, the union of two of Vishnu's avatars, and his story is the story of Prahlada. The demon king Hiranyakashipu, having won a boon that he could not be slain by man or beast, by day or night, indoors or out, grew so proud that he forbade the worship of Vishnu throughout his realm. Yet his own son Prahlada was a devotee of Vishnu from birth and would not cease to praise him. Enraged, the king tried again and again to kill the boy, and by one account had him bound to a great stone and cast from the Simhachalam hill into the sea. Vishnu as Varaha, the boar, raised him from the waters and set him safe upon the hill, and there Prahlada built a shrine. When Hiranyakashipu at last challenged the boy to show him Vishnu, the Lord burst forth as Narasimha, neither man nor beast but both, at the threshold that is neither inside nor out, at dusk that is neither day nor night, and slew the demon, fulfilling the boon even as he broke its pride. At Simhachalam the two forms are worshipped as one, Varaha Narasimha, the Lord who both rescued and avenged his devotee.",
+      additionalStories: [
+        {
+          title: "Why the Lord Is Covered in Sandalwood",
+          content:
+            "Narasimha, who tore apart Hiranyakashipu in his fury, is said to carry still the heat of that wrath, and so the deity of Simhachalam is kept cooled and soothed beneath a thick coat of sandalwood paste through all the year. By tradition the buried image was rediscovered and re-established by a king of old (the lunar king Pururavas in many tellings), who was instructed by a divine voice to cover the Lord with chandanam to calm his ferocity, and to reveal the bare form only on a single day. Ever since, the deity is seen by devotees as a smooth mound of fragrant paste, and only on Chandanotsavam, the day of Akshaya Tritiya, is the sandalwood removed for the Nijarupa Darshanam, the sight of the true form, before a fresh coat is laid on for the year to come.",
+        },
+        {
+          title: "The Combined Form of Varaha and Narasimha",
+          content:
+            "Simhachalam is rare among temples in worshipping not one avatar but two joined in a single image. Varaha, the boar, is the third avatar of Vishnu, who lifted the earth from the cosmic waters; Narasimha, the man-lion, is the fourth, who saved Prahlada. The deity here unites them, with the face of the boar and the form of the lion-man, a theological statement that the saving and the world-upholding power of the Lord are one. The combination ties the temple both to the rescue of Prahlada from the sea (the work of Varaha) and to the slaying of Hiranyakashipu (the work of Narasimha), the two halves of a single deliverance.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Garbhagriha (Varaha Narasimha)",
+        type: "sanctum",
+        description: "The west-facing sanctum enshrining the stone image of Varaha Narasimha in tribhanga posture, the combined boar and man-lion form, hidden for all but one day a year beneath its coat of sandalwood paste.",
+        detail: "West-facing · sandalwood-covered deity",
+      },
+      {
+        name: "Kalinga–Dravidian Towers",
+        type: "vimana",
+        description: "The towers and superstructure of the temple, blending the Kalinga (Odishan) style of the Eastern Ganga and Gajapati builders with the Dravidian style of the Chola south, a meeting of two great traditions.",
+        detail: "Blended Kalinga & Dravidian style",
+      },
+      {
+        name: "Kalyana Mandapam",
+        type: "mandapam",
+        description: "The finely carved wedding hall of many pillars, sculpted in the Kalinga manner, where the Kalyanotsavam and other festival rituals are performed.",
+      },
+      {
+        name: "Natya Mandapam",
+        type: "mandapam",
+        description: "The hall of dance and music within the complex, its pillars worked with sculpture, used for festival performances and gatherings.",
+      },
+      {
+        name: "Gangadhara & Akasha Ganga",
+        type: "tank",
+        description: "The sacred tanks and the Akasha Ganga spring on the wooded Simhachalam hill, where pilgrims bathe before darshan; their waters are held holy and used in the temple's rituals.",
+      },
+      {
+        name: "Stone Stairway & Ghat Road",
+        type: "other",
+        description: "The long flight of stone steps and the winding ghat road that climb the hill from the plain, by which pilgrims ascend on foot or by vehicle to the temple some 300 metres above Vizag.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Simhavalli Thayar (Lakshmi)",
+        deity: "Goddess Lakshmi, consort of the Lord",
+        description: "The Goddess Lakshmi worshipped as the consort of Varaha Lakshmi Narasimha, honoured with her own shrine and central to the Kalyanotsavam.",
+      },
+      {
+        name: "Prahlada",
+        deity: "Prahlada, the boy-devotee",
+        description: "The devotee whose love of Vishnu brought forth Narasimha and who is said to have raised the first shrine, venerated within the temple of the Lord he served.",
+      },
+      {
+        name: "Andal & the Alvars",
+        deity: "Andal and the Vaishnava saints",
+        description: "The saint-poetess Andal and the Alvars honoured in the precinct, in keeping with the Vaishnava devotional tradition of the temple.",
+      },
+      {
+        name: "Garuda",
+        deity: "Garuda, the mount of Vishnu",
+        description: "The eagle-mount of Vishnu, worshipped facing the sanctum as the Lord's vahana, as in Vaishnava temples generally.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Entrance", direction: "West", notes: "The principal entrance to the west-facing shrine; the regular darshan queue forms here and lengthens hugely on Chandanotsavam." },
+        { name: "Special-Entry / Seva Gate", direction: "North", notes: "Entrance for those holding special darshan, seva or kalyanam tickets issued at the counters." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Cloak facilities for bags are available near the temple; carry valuables with care, especially on festival days.",
+      mobilePolicy: "Mobile phones are generally restricted at and near the sanctum; follow the posted signs and temple staff. Photography of the deity is not permitted.",
+      cameraPolicy: "Photography is permitted around the hill and outer precincts but not of the deity within the sanctum or during poojas where prohibited.",
+      wheelchairAccess: "The temple sits atop the hill, reached by a ghat road or a long stairway; the upper precinct has steps and thresholds. Vehicles can take visitors up the ghat road, easing access for the less mobile, though help may be needed near the sanctum.",
+      seniorCitizenDarshan: "Use the ghat road rather than the stairway. Mornings and weekdays are easiest; the crowds on Chandanotsavam are enormous, so seniors should plan carefully or choose another day.",
+      parking: "Parking is available near the temple on the hill and at the foot, filling on festival days. Buses and taxis run up the ghat road from Vizag.",
+      restrooms: "Restrooms and drinking-water points are available near the temple and the tanks. Facilities are stretched during Chandanotsavam; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the sacred tanks. The coast and the climb can be hot; carry water, especially in the warmer months.",
+    },
+    sevas: [
+      {
+        name: "Darshan of Varaha Narasimha",
+        description: "Worship of the Lord in his sandalwood-covered form, the daily darshan for every pilgrim, with free and special-entry queues.",
+        time: "During darshan hours",
+        fee: "Free (special entry ticketed)",
+        type: "daily",
+      },
+      {
+        name: "Nijarupa Darshanam (Chandanotsavam)",
+        description: "The once-a-year darshan of the deity's true form on Akshaya Tritiya, when the sandalwood paste is removed before a fresh coat is applied; the most sought-after sight at the temple.",
+        time: "Chandanotsavam (Akshaya Tritiya)",
+        fee: "Ticketed",
+        type: "special",
+      },
+      {
+        name: "Kalyanotsavam",
+        description: "The celestial wedding of the Lord and the Goddess performed on the devotee's behalf, a popular sponsored seva.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Archana & Sahasranama",
+        description: "Offering of worship and the recitation of the Lord's names in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is the deity at Simhachalam?",
+        answer:
+          "The Lord of Simhachalam is Varaha Lakshmi Narasimha, a rare combined form of two avatars of Vishnu: Varaha, the boar, who lifted the earth from the cosmic waters and rescued the boy Prahlada from the sea, and Narasimha, the man-lion, who slew the demon Hiranyakashipu to save the same devotee. The two forms are worshipped together as one image, the saving and world-upholding power of the Lord united.",
+      },
+      {
+        question: "Why is the deity covered in sandalwood paste?",
+        answer:
+          "Narasimha is believed to carry still the heat of the wrath with which he tore apart Hiranyakashipu, and so the deity is kept cooled beneath a thick coat of sandalwood paste through the year. By tradition a king who rediscovered the image was told by a divine voice to cover the Lord with chandanam to calm his ferocity and to reveal the true form only once a year. Devotees therefore see a smooth, fragrant mound rather than the carved image for all but one day.",
+      },
+      {
+        question: "When can I see the deity's true form?",
+        answer:
+          "Only on Chandanotsavam, the day of Akshaya Tritiya (April or May), is the sandalwood paste removed for the Nijarupa Darshanam, when the original stone image of Varaha Narasimha is revealed before a fresh coat is applied for the coming year. Lakhs of devotees come for this single darshan, so it is by far the most crowded day at the temple.",
+      },
+      {
+        question: "What is the story of Prahlada and Narasimha?",
+        answer:
+          "Prahlada was the son of the demon king Hiranyakashipu, who had won a boon that he could not be killed by man or beast, by day or night, indoors or out. When the king could not stop his son from worshipping Vishnu and tried to kill him, Vishnu appeared as Narasimha, neither man nor beast, at the threshold that is neither inside nor out, at dusk that is neither day nor night, and slew him, fulfilling the boon while breaking its pride. Prahlada is said to have raised the first shrine at Simhachalam.",
+      },
+      {
+        question: "How do I reach the temple, and is the climb hard?",
+        answer:
+          "The temple is on Simhachalam hill, about 16 km from Visakhapatnam, some 300 metres above the plain. You can drive or take a bus up the ghat road, or climb the long flight of stone steps. Those with limited mobility should use the ghat road. Visakhapatnam airport is about 25 km away and the city junction about 16 km.",
+      },
+      {
+        question: "How much time should I plan?",
+        answer:
+          "On an ordinary day, allow about one to two hours for darshan, a walk through the mandapams and a visit to the sacred tanks. On Chandanotsavam the crowds are enormous and the wait for the Nijarupa Darshanam can be very long, so plan for a much longer visit and book ahead where possible.",
+      },
+    ],
+  },
+  "attukal-bhagavathy": {
+    slug: "attukal-bhagavathy",
+    timings: { morning: "4:30 AM – 12:00 PM", evening: "5:00 PM – 8:30 PM", note: "The day follows the Kerala temple round of poojas, opening before dawn with the Nirmalya and Usha pooja and closing after the night worship. During the ten-day Pongala festival the temple and the whole city stay awake; confirm timings, which change greatly in that season." },
+    entryFee: "Free darshan. Sponsored poojas, offerings and vazhipadu (vows) are arranged at the temple counters.",
+    dressCode: "Traditional attire. As is the Kerala custom, men remove the shirt and upper garment to enter the inner precinct and wear a mundu (dhoti); women wear saree, set-mundu or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March, when Kerala is pleasant. The great peak is the Attukal Pongala (February–March), when millions of women fill the city; if you wish to witness it, plan and book accommodation far ahead, or visit outside it for a quieter darshan.",
+    travelInfo: {
+      byAir: "Thiruvananthapuram International Airport is about 6 km away, with domestic and international flights.",
+      byTrain: "Thiruvananthapuram Central railway station is about 2–3 km away, with trains from across India.",
+      byRoad: "The temple is in Attukal, in the city of Thiruvananthapuram, about 2 km from the Sree Padmanabhaswamy temple and East Fort. City buses, taxis and autos run throughout; the temple is on the banks of the Killi river.",
+    },
+    highlights: [
+      "Home of the Attukal Pongala, the world's largest gathering of women for a religious activity, recorded in the Guinness World Records",
+      "Known as the 'Sabarimala of Women' (Sthreekalude Sabarimala), the great women-centred shrine of Kerala",
+      "Dedicated to Attukal Bhagavathy, the Mother worshipped as Bhadrakali and identified with Kannaki of the Tamil epic Silappadikaram",
+      "The ten-day festival when millions of women cook pongala in earthen pots over open hearths lining the streets across the whole city",
+      "A gopuram richly carved with the Dasavatharam and the stories of the Goddess, blending Kerala and Dravidian styles",
+      "Set on the banks of the Killi river, about 2 km from the Padmanabhaswamy temple in Thiruvananthapuram",
+    ],
+    history: "The Attukal Bhagavathy temple stands in the city of Thiruvananthapuram, on the banks of the Killi river, a short way from the great Padmanabhaswamy temple. By tradition its origin lies in a vision granted to the head of the Mulluveettil family, to whom the Goddess came in the form of a young girl; the family raised her shrine on the spot she marked, and there she has been worshipped ever since as Attukal Amma. The Goddess is venerated as Bhadrakali, the fierce and protective form of the Mother, and is identified in local belief with Kannaki, the heroine of the ancient Tamil epic Silappadikaram, who is held to have passed through Attukal on her journey after the burning of Madurai. Over the centuries the temple grew from a modest family shrine into one of the most thronged in Kerala, above all through the Attukal Pongala, which has become the largest gathering of women anywhere in the world and has carried the temple's fame far beyond the state. It is administered today by the Attukal Bhagavathy Temple Trust.",
+    architecture: "The temple is built in a blend of the Kerala and Tamil (Dravidian) styles. Its gopuram is richly worked with sculpture, the ten avatars of Vishnu (Dasavatharam) and scenes from the stories of the Goddess arrayed across its tiers, while the shrines themselves keep the Kerala manner, with sloping copper-clad roofs, the sopanam steps to the sanctum, the namaskara mandapam and the chuttambalam enclosure around the inner shrine. The sanctum enshrines Attukal Bhagavathy as Bhadrakali, adorned and armed in the iconography of the Mother, with subsidiary shrines to Ganapathy, Shiva, the Nagas and the guardian deities ranged within the precinct. The Killi river flows beside the temple, and during the Pongala the surrounding streets of the whole city become, in effect, an extension of the temple, lined for kilometres with the hearths of the women devotees.",
+    festivals: [
+      { name: "Attukal Pongala", month: "February–March (Kumbham)", description: "The temple's supreme festival and the world's largest gathering of women. On the ninth day of the ten-day festival, millions of women cook pongala (rice with jaggery and coconut) in earthen pots over open hearths lining the streets across the entire city, offering it to the Goddess; the fire is kindled from the temple's main hearth and spreads outward. Recorded in the Guinness World Records.", slug: "pongala-attukal" },
+      { name: "Kappukettu & Thottam Pattu", month: "February–March (start of the festival)", description: "The festival opens with the Kappukettu ceremony and the nightly singing of the Thottam Pattu, the ballad of Kannaki, recounting the story of the Goddess over the days leading to the Pongala." },
+      { name: "Kuthiyottam & Children's Procession", month: "February–March (festival days)", description: "Young boys undertake the Kuthiyottam vow, a ritual offering of the body in penance to the Goddess, accompanied by colourful processions during the festival." },
+      { name: "Navaratri", month: "September–October (Ashwin)", description: "The nine nights of the Goddess observed with special worship and alankaram, an important season at this Devi temple." },
+    ],
+    poojas: [
+      { name: "Nirmalya & Usha Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Archana", time: "All day", fee: "Modest seva fee" },
+      { name: "Bhagavathi Seva", time: "Morning / on booking", fee: "Sponsored" },
+      { name: "Deeparadhana (Night)", time: "Evening (~6:45 PM)", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["padmanabhaswamy-trivandrum", "thanumalayan-suchindram"],
+    mythology: {
+      legend:
+        "The temple is said to have begun with a vision granted to the karanavar (elder) of the Mulluveettil family. As he sat by the Killi river he was approached by a young girl who wished to cross the water, and he helped her over and brought her to his home; but the child vanished, and that night the Goddess appeared to him in a dream, revealing that the girl had been none other than herself. She bade him build her a shrine, and told him he would find the chosen spot marked with three lines. The elder searched and found the place so marked in the Kavu (sacred grove) at Attukal, and there the first shrine was raised. The Goddess has been worshipped on that spot ever since as Attukal Amma, the Mother of Attukal, in her form as Bhadrakali, the protector of her children.",
+      additionalStories: [
+        {
+          title: "Attukal Amma and Kannaki of Silappadikaram",
+          content:
+            "Attukal Bhagavathy is identified in belief with Kannaki, the heroine of the ancient Tamil epic Silappadikaram. Kannaki's husband Kovalan was wrongly accused of stealing the queen's anklet and executed by the Pandya king of Madurai. Proving his innocence by breaking open her own matching anklet before the king, the grief-stricken and wrathful Kannaki tore off her breast and flung it at the city, calling down fire that consumed Madurai, sparing only the innocent. She is held to have journeyed afterward toward Kodungallur, where she is enshrined as the great Bhagavathy of Kerala, and by tradition she rested at Attukal on the way. The ballad of Kannaki, the Thottam Pattu, is sung through the nights of the festival, and the Pongala itself is understood as the women of the land offering comfort and welcome to the Mother who suffered so greatly.",
+        },
+        {
+          title: "The Pongala and the Sabarimala of Women",
+          content:
+            "Just as Sabarimala draws men in their millions, Attukal is called the Sabarimala of Women, for the Attukal Pongala is the greatest gathering of women anywhere in the world. On the Pongala day, the climax of the ten-day festival, women come from across Kerala and beyond and set up small hearths of brick and earthen pots along the streets of the whole city, for kilometres in every direction from the temple. They cook pongala, a sweet offering of rice, jaggery and coconut, and when it is ready it is sanctified by the sprinkling of holy water carried out from the temple. The offering is an act of devotion and of thanksgiving, a prayer for the welfare of family and home, and the sight of a city given over entirely to the worship of the Mother is among the most moving in all of India.",
+        },
+        {
+          title: "Bhadrakali, the Protecting Mother",
+          content:
+            "Attukal Amma is worshipped as Bhadrakali, the auspicious and fierce form of the Goddess born of Shiva to destroy evil, the slayer of the demon Darika in the Kerala tradition. Though fierce in aspect and armed in her iconography, she is to her devotees above all a mother, gentle and protecting toward those who come to her, and terrible only to wrongdoers. It is this union of power and tenderness that draws the women of Kerala to her in such numbers, bringing their cares and their gratitude to the Mother who watches over hearth and family.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Gopuram",
+        type: "gopuram",
+        description: "The richly carved main gateway, its tiers worked with the Dasavatharam (ten avatars of Vishnu) and scenes from the stories of the Goddess, blending the Kerala and Dravidian styles.",
+        detail: "Carved with Dasavatharam & Devi stories",
+      },
+      {
+        name: "Sreekovil (Sanctum)",
+        type: "sanctum",
+        description: "The inner shrine enshrining Attukal Bhagavathy as Bhadrakali, adorned and armed in the iconography of the Mother, approached by the sopanam steps in the Kerala manner.",
+        detail: "Bhadrakali in the Kerala sreekovil",
+      },
+      {
+        name: "Namaskara Mandapam & Chuttambalam",
+        type: "mandapam",
+        description: "The pillared hall of obeisance before the sanctum and the chuttambalam enclosure around the inner shrine, in the classic Kerala temple plan with copper-clad sloping roofs.",
+      },
+      {
+        name: "Subsidiary Shrines",
+        type: "other",
+        description: "The shrines of Ganapathy, Shiva, the Nagas and the guardian deities ranged within the precinct, worshipped alongside the Mother.",
+      },
+      {
+        name: "The Pongala Hearths",
+        type: "other",
+        description: "Not a building but a phenomenon: on Pongala day the streets of the entire city become an extension of the temple, lined for kilometres with the brick hearths and earthen pots of millions of women cooking the offering.",
+        detail: "City-wide hearths on Pongala day",
+      },
+      {
+        name: "Killi River",
+        type: "tank",
+        description: "The river flowing beside the temple, central to the founding legend of the Goddess crossing the water, where devotees bathe and which frames the sacred site.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Ganapathy",
+        deity: "Lord Ganesha",
+        description: "Ganesha worshipped within the precinct for the removal of obstacles, honoured before the Mother as is the custom.",
+      },
+      {
+        name: "Shiva",
+        deity: "Lord Shiva",
+        description: "Shiva venerated in the complex, the source from whom Bhadrakali is born in the Kerala tradition.",
+      },
+      {
+        name: "Nagaraja & the Nagas",
+        deity: "The serpent deities",
+        description: "The Naga deities worshipped in the precinct, as is widespread in Kerala temples, for family welfare and the removal of doshas.",
+      },
+      {
+        name: "Guardian Deities (Madan, Yakshi)",
+        deity: "The folk guardian spirits",
+        description: "The guardian and folk deities honoured alongside the Goddess, in keeping with the devotional traditions of the region.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Entrance (Gopuram)", direction: "East", notes: "The principal entrance beneath the carved gopuram; the regular darshan queue forms here, and crowds are vast during the Pongala." },
+        { name: "Festival / Vazhipadu Counters", direction: "South", notes: "Counters for offerings, vows and sponsored poojas; busiest in the festival season." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Men should be ready to remove the upper garment to go inside, as in Kerala temples; carry valuables with care, especially during the festival.",
+      mobilePolicy: "Mobile phones are generally restricted at and near the sanctum; follow the posted signs and temple staff. During the Pongala, phones are widely used in the streets but their use inside the temple is limited.",
+      cameraPolicy: "Photography is permitted in the outer areas and of the Pongala in the streets, but not of the deity within the sanctum or where prohibited during poojas.",
+      wheelchairAccess: "The temple is largely at ground level and walkable, with some steps and thresholds near the sanctum. During the Pongala the city is extremely crowded and movement is very difficult; plan accordingly.",
+      seniorCitizenDarshan: "Mornings and ordinary days are easiest for seniors. The Pongala draws millions and the heat from the hearths is intense; elderly visitors should take great care or choose another day for a peaceful darshan.",
+      parking: "Parking is available near the temple in the city on ordinary days, but on Pongala day the whole city is closed to traffic over a wide area and there is effectively no vehicle access near the temple; people walk in from far away.",
+      restrooms: "Restrooms and drinking-water points are available near the temple, with large temporary arrangements made by the authorities during the Pongala for the millions who attend.",
+      drinkingWater: "Drinking water is available near the temple, and extensive free water and refreshment is provided across the city during the festival. The day of the Pongala is hot near the hearths; carry water.",
+    },
+    sevas: [
+      {
+        name: "Darshan of Attukal Amma",
+        description: "Worship of the Mother as Bhadrakali in the sanctum, the central act of every devotee's visit.",
+        time: "During darshan hours",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Pongala Offering",
+        description: "The cooking and offering of pongala (rice, jaggery and coconut) to the Goddess, performed by women in their millions on the Pongala day and as a vow at other times, the temple's most famous offering.",
+        time: "Pongala day and on vow",
+        fee: "Cost of the offering",
+        type: "special",
+      },
+      {
+        name: "Bhagavathi Seva",
+        description: "A special worship of the Goddess performed with lamps and offerings on the devotee's behalf, a popular seva at Devi temples.",
+        time: "On booking",
+        fee: "Sponsored",
+        type: "special",
+      },
+      {
+        name: "Archana & Vazhipadu",
+        description: "Offering of worship and the various vows (vazhipadu) made to the Mother in the devotee's name and birth-star, performed by the temple priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the Attukal Pongala?",
+        answer:
+          "The Attukal Pongala is the temple's great festival and the largest gathering of women for a religious activity anywhere in the world, recorded in the Guinness World Records. On the ninth day of the ten-day festival, millions of women set up small hearths along the streets across the whole city of Thiruvananthapuram and cook pongala, a sweet offering of rice, jaggery and coconut, in earthen pots, offering it to the Goddess. The fire is kindled from the temple's main hearth and spreads outward, and the cooked offering is sanctified with holy water carried from the temple.",
+      },
+      {
+        question: "Why is Attukal called the 'Sabarimala of Women'?",
+        answer:
+          "Just as Sabarimala draws men in their millions, Attukal draws women in their millions for the Pongala, and so it is called the Sabarimala of Women (Sthreekalude Sabarimala). It is the great women-centred shrine of Kerala, where the offering at the heart of the festival is made by women, and the day belongs to them.",
+      },
+      {
+        question: "Who is Attukal Bhagavathy?",
+        answer:
+          "Attukal Bhagavathy, or Attukal Amma, is the Mother worshipped as Bhadrakali, the fierce and protecting form of the Goddess. She is identified in local belief with Kannaki, the heroine of the ancient Tamil epic Silappadikaram, who burned Madurai in her righteous wrath and is held to have passed through Attukal on her journey afterward. To her devotees she is above all a mother, gentle to those who come to her and terrible only to wrongdoers.",
+      },
+      {
+        question: "How is the temple connected to the Silappadikaram?",
+        answer:
+          "The Goddess is identified with Kannaki of the Silappadikaram, whose husband Kovalan was wrongly executed at Madurai and who avenged him by calling down fire on the city, sparing the innocent. She journeyed toward Kodungallur, where she is enshrined as the great Bhagavathy of Kerala, and by tradition rested at Attukal on the way. Her story is sung through the nights of the festival as the Thottam Pattu.",
+      },
+      {
+        question: "Can men visit the temple and the Pongala?",
+        answer:
+          "Yes. Men are welcome to worship at the temple year-round, and the temple is open to all. The Pongala offering itself, the cooking of pongala in the streets, is made by women, and the day is given over to them, but men take part in the festival in other ways and attend the temple. As in Kerala temples generally, men remove the shirt to enter the inner precinct.",
+      },
+      {
+        question: "When should I visit, and what should I expect during the Pongala?",
+        answer:
+          "For a peaceful darshan, visit between October and March outside the festival, allowing about an hour. To witness the Pongala (February–March), expect the entire city to be given over to the festival, with millions of people, streets closed to traffic over a wide area, and hearths burning everywhere; plan and book accommodation far ahead, arrive early, and be prepared for great crowds and heat.",
+      },
+    ],
+  },
+  "thanumalayan-suchindram": {
+    slug: "thanumalayan-suchindram",
+    timings: { morning: "4:30 AM – 11:45 AM", evening: "5:00 PM – 8:30 PM", note: "The temple keeps the Travancore round of poojas, opening before dawn and closing after the night worship. By tradition Indra is believed to worship the Lord at midnight, and a lamp is kept for him. Confirm timings, which change on festival days." },
+    entryFee: "Free darshan. Sponsored poojas, archanas and vazhipadu are arranged at the temple counters.",
+    dressCode: "Traditional attire. As in Travancore temples, men remove the shirt and upper garment to enter the inner precinct and wear a dhoti/mundu; women wear saree, set-mundu or salwar-kameez. Avoid shorts and sleeveless tops.",
+    bestTime: "October – March, when the deep south is pleasant. The annual car festival (Ther) in December–January (Margazhi) is the great peak. The temple is easily combined with Kanyakumari and Nagercoil nearby.",
+    travelInfo: {
+      byAir: "Thiruvananthapuram International Airport (~65 km) is the nearest major airport.",
+      byTrain: "Nagercoil Junction (~7 km) is the nearest railhead; Kanyakumari (~13 km) is also close, both with trains from across the south.",
+      byRoad: "Suchindram lies on the Nagercoil–Kanyakumari road, about 7 km from Nagercoil and about 12 km from Kanyakumari, in the far south of Tamil Nadu. Buses, taxis and autos run frequently from both towns.",
+    },
+    highlights: [
+      "A rare temple where the Hindu Trinity, Brahma, Vishnu and Shiva, is worshipped as a single deity, Sthanumalayan",
+      "The name Sthanumalaya unites Sthanu (Shiva), Maal (Vishnu) and Ayan (Brahma) in one form",
+      "The celebrated musical pillars, slender columns carved from single blocks of granite that ring with musical notes when struck",
+      "A giant ~18-foot (some say ~22-foot) monolithic statue of Hanuman carved from a single block of stone",
+      "A towering white eastern gopuram of seven tiers, rising about 134 feet over the temple town",
+      "The legend of Suchindram, where Indra was purified (suchi) of his curse, and is believed to worship the Lord each midnight",
+      "The richly sculptured Alankara Mandapam and a Nataraja shrine, administered by the Travancore Devaswom Board",
+    ],
+    history: "The Thanumalayan temple at Suchindram, in the Kanyakumari district at the southern tip of the mainland, is one of the great temples of the deep south, set in territory that long belonged to the kingdom of Travancore. Its origins are ancient, woven into the sthala purana of the place, but the temple as it stands was raised and enlarged over many centuries by the Pandya, Chola and Vijayanagara rulers and, in its present grand form, largely by the Nayak and Travancore kings around the seventeenth century, who built the towering gopuram, the great mandapams and the famous sculptures. The presiding deity is Sthanumalayan, the union of the three gods of the Trinity in a single linga, a rare theological conception that gives the temple its character as a shrine to all three. The town's name, Suchindram, is traced to the purification of Indra here, and the temple has long been a place where the Lord is worshipped as Brahma, Vishnu and Shiva together. It is administered today by the Travancore Devaswom Board.",
+    architecture: "Suchindram is a vast Dravidian temple, entered beneath a white seven-tiered gopuram rising about 134 feet, one of the landmarks of the far south. Within, the sanctum enshrines the Sthanumalaya linga, worshipped as Brahma, Vishnu and Shiva in one. The temple is famed above all for its stonework: the musical pillars, clusters of slender columns each carved from a single block of granite, sound musical notes when tapped, a marvel of the sculptor's art; and a giant monolithic image of Hanuman, some eighteen feet tall, carved from one block of stone. The Alankara Mandapam and the other halls are crowded with sculpture of gods, yalis and figures from the epics, and the temple holds a Nataraja shrine, shrines to the Goddess Aram Valartha Nayaki and to Hanuman, and a sacred tank. The whole complex, with its long corridors and pillared halls, reflects the wealth and artistry of the Nayak and Travancore patrons who shaped it.",
+    festivals: [
+      { name: "Car Festival (Ther)", month: "December–January (Margazhi)", description: "The grand annual festival, when the deities are taken in procession on the great temple car (ther) drawn through the streets of Suchindram, drawing large crowds over the festival days." },
+      { name: "Teppam (Float Festival)", month: "Varies (festival season)", description: "The float festival, when the processional deities are taken on a decorated float on the temple tank, lit by lamps in the evening." },
+      { name: "Navaratri", month: "September–October (Ashwin)", description: "The nine nights of the Goddess observed with special worship and music at the shrine of Aram Valartha Nayaki." },
+      { name: "Maha Shivaratri", month: "February–March (Magha)", description: "The great night of Shiva observed with night-long worship and abhishekam, fitting for a temple where Shiva is worshipped as part of the Trinity.", slug: "maha-shivaratri" },
+    ],
+    poojas: [
+      { name: "Usha Pooja", time: "Early morning", fee: "Sponsored" },
+      { name: "Archana", time: "All day", fee: "Modest seva fee" },
+      { name: "Abhishekam", time: "Morning", fee: "Sponsored" },
+      { name: "Ardhajama (Night) Pooja", time: "Night", fee: "Free to witness" },
+    ],
+    nearbyTemples: ["padmanabhaswamy-trivandrum", "attukal-bhagavathy"],
+    mythology: {
+      legend:
+        "The presiding deity Sthanumalayan is the three great gods of the Trinity joined in one, and the temple's sthala purana tells how this came to be through the chastity of Anasuya, wife of the sage Atri. So renowned was Anasuya for her virtue that Brahma, Vishnu and Shiva resolved to test her, and came to her hermitage as guests while her husband was away, asking to be served their meal as she was, unclothed. Seeing through the test and unwilling either to refuse a guest or to break her vow, Anasuya sprinkled water from her husband's worship upon the three and turned them into infants, then served them as a mother serves her children. When their consorts came in search of them and begged for their lords, Anasuya restored them, and in grace the three gods merged into a single linga at this place, worshipped ever since as Sthanumalaya, Sthanu the Shiva, Maal the Vishnu and Ayan the Brahma in one form.",
+      additionalStories: [
+        {
+          title: "Suchindram and the Purification of Indra",
+          content:
+            "The town's name, Suchindram, is traced to the purification of Indra, the king of the gods. By the well-known story, Indra was cursed by the sage Gautama for his transgression with Ahalya, the sage's wife, and wandered stained by the curse until he came to this place and worshipped the Lord here. By that worship he was cleansed and made pure, suchi, and so the place became Suchi-Indram, the place where Indra was purified. It is believed that Indra still descends to worship the Lord at midnight each day, and the temple keeps a lamp and observance in his honour, the night worship associated with the king of the gods.",
+        },
+        {
+          title: "The Musical Pillars and the Monolithic Hanuman",
+          content:
+            "Suchindram is celebrated for two wonders of stone. The first is its musical pillars: clusters of slender columns, each carved from a single block of granite, that ring with distinct musical notes when gently struck, a feat of the sculptor's craft that has drawn wonder for centuries. The second is the colossal image of Hanuman, some eighteen feet tall, carved from a single block of stone, one of the largest such monolithic figures in any temple. Together with the towering white gopuram and the sculpture-crowded mandapams, they make Suchindram one of the marvels of southern temple art.",
+        },
+        {
+          title: "A Temple of the Three Gods",
+          content:
+            "Few temples in India are dedicated to all three gods of the Trinity worshipped as one, and Suchindram is the foremost among them. The single linga of Sthanumalaya is venerated at once as Shiva the destroyer, Vishnu the preserver and Brahma the creator, so that devotees of all three traditions worship here as one. This union, born of the legend of Anasuya, gives the temple its rare standing as a shrine where the divisions among the deities dissolve into a single object of worship, a fitting emblem for a place at the very southern meeting-point of the land.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Eastern Gopuram",
+        type: "gopuram",
+        description: "The towering white seven-tiered gateway, rising about 134 feet over the temple and the town, one of the great landmarks of the far south, built under the Nayak and Travancore patrons.",
+        detail: "~134 ft · seven tiers",
+      },
+      {
+        name: "Garbhagriha (Sthanumalaya Linga)",
+        type: "sanctum",
+        description: "The sanctum enshrining the linga worshipped as Brahma, Vishnu and Shiva in one, the rare combined deity Sthanumalayan from whom the temple takes its name.",
+        detail: "Trinity worshipped as one linga",
+      },
+      {
+        name: "Musical Pillars",
+        type: "mandapam",
+        description: "Clusters of slender columns, each carved from a single block of granite, that sound distinct musical notes when struck, among the most famous works of stone craft in any South Indian temple.",
+        detail: "Granite pillars that ring with notes",
+      },
+      {
+        name: "Monolithic Hanuman",
+        type: "other",
+        description: "A giant image of Hanuman, some eighteen feet tall, carved from a single block of stone, one of the largest monolithic figures of the deity in any temple.",
+        detail: "~18 ft single-stone Hanuman",
+      },
+      {
+        name: "Alankara Mandapam",
+        type: "mandapam",
+        description: "The richly sculptured hall crowded with figures of gods, yalis and scenes from the epics, displaying the artistry of the temple's Nayak and Travancore builders.",
+      },
+      {
+        name: "Nataraja Shrine",
+        type: "other",
+        description: "The shrine of the dancing Shiva (Nataraja) within the complex, worshipped alongside the combined deity, reflecting the temple's Shaiva dimension.",
+      },
+      {
+        name: "Temple Tank",
+        type: "tank",
+        description: "The sacred tank of the temple, used for the float festival and for ritual bathing, set within the temple's wide precinct.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Aram Valartha Nayaki",
+        deity: "The Goddess, consort of the Lord",
+        description: "The Goddess of the temple, 'she who nurtured dharma', worshipped with her own shrine and the focus of the Navaratri festival.",
+      },
+      {
+        name: "Hanuman (Anjaneya)",
+        deity: "Lord Hanuman",
+        description: "Hanuman worshipped in the giant monolithic image, one of the most striking deities of the temple, venerated for strength and protection.",
+      },
+      {
+        name: "Vinayaka (Ganesha)",
+        deity: "Lord Ganesha",
+        description: "Ganesha worshipped within the precinct for the removal of obstacles, honoured before the main darshan as is the custom.",
+      },
+      {
+        name: "Nataraja",
+        deity: "Shiva as the Lord of the Dance",
+        description: "The dancing Shiva venerated in his shrine within the complex, part of the temple's worship of Shiva as one of the Trinity.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Eastern Gopuram (Main Entrance)", direction: "East", notes: "The principal entrance beneath the towering white gopuram; the regular darshan queue forms here, lengthening during the car festival." },
+        { name: "Vazhipadu / Seva Counters", direction: "South", notes: "Counters for offerings, archanas and sponsored poojas; busiest in the festival season." },
+      ],
+      cloakRoom: "Footwear is left at counters before entering. Men should be ready to remove the upper garment to go inside, as in Travancore temples; carry valuables with care.",
+      mobilePolicy: "Mobile phones are generally restricted at and near the sanctum; follow the posted signs and temple staff. Photography of the deity is not permitted.",
+      cameraPolicy: "Photography is permitted in the outer areas and of the gopuram and mandapams, but not of the deity within the sanctum or where prohibited during poojas.",
+      wheelchairAccess: "The temple is largely at ground level and walkable, with some steps and thresholds near the sanctum and through the long corridors. Assistance may be needed during busy times.",
+      seniorCitizenDarshan: "Mornings and weekdays are easiest for seniors. Crowds swell during the December–January car festival; allow extra time and use the regular queue.",
+      parking: "Parking is available near the temple in Suchindram, filling on festival days. The temple is easily reached from Nagercoil and Kanyakumari.",
+      restrooms: "Restrooms and drinking-water points are available near the temple. Facilities are stretched during the car festival; carry essentials.",
+      drinkingWater: "Drinking water is available near the temple and the tank. The far south is hot for much of the year; carry water.",
+    },
+    sevas: [
+      {
+        name: "Darshan of Sthanumalayan",
+        description: "Worship of the Lord as Brahma, Vishnu and Shiva in one linga, the central act of every pilgrim's visit.",
+        time: "During darshan hours",
+        fee: "Free",
+        type: "daily",
+      },
+      {
+        name: "Abhishekam",
+        description: "Sponsored ritual bathing and worship of the deity, performed by the temple priests on the devotee's behalf.",
+        time: "Morning",
+        fee: "Sponsored",
+        type: "daily",
+      },
+      {
+        name: "Archana & Vazhipadu",
+        description: "Offering of worship and the various vows (vazhipadu) made to the Lord and the Goddess in the devotee's name and birth-star, performed by the priests.",
+        time: "Daily on request",
+        fee: "Modest seva fee",
+        type: "daily",
+      },
+      {
+        name: "Festival Sevas (Ther / Teppam)",
+        description: "Participation in and sponsorship of the car festival and float festival sevas during the temple's festival season.",
+        time: "Festival season",
+        fee: "Sponsored",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is Suchindram called a temple of the Trinity?",
+        answer:
+          "The presiding deity, Sthanumalayan, is the three great gods of the Hindu Trinity worshipped as a single linga: Sthanu (Shiva), Maal (Vishnu) and Ayan (Brahma). Few temples in India are dedicated to all three as one, and Suchindram is the foremost among them, so that devotees of Shiva, Vishnu and Brahma worship here at the same shrine.",
+      },
+      {
+        question: "How did the three gods come to be worshipped as one?",
+        answer:
+          "By the temple's sthala purana, it came about through the chastity of Anasuya, wife of the sage Atri. When Brahma, Vishnu and Shiva came to test her virtue and asked to be served unclothed, she turned them into infants by her power and nursed them as a mother. When their consorts came seeking them she restored them, and in grace the three merged into a single linga at this place, worshipped ever since as Sthanumalaya.",
+      },
+      {
+        question: "What does the name Suchindram mean?",
+        answer:
+          "Suchindram is traced to the purification of Indra, the king of the gods. Cursed by the sage Gautama for his transgression with Ahalya, Indra came here and worshipped the Lord, by which he was cleansed and made pure (suchi), and so the place became Suchi-Indram. By tradition Indra still comes to worship the Lord at midnight, and the temple keeps a lamp and observance in his honour.",
+      },
+      {
+        question: "What are the musical pillars?",
+        answer:
+          "The musical pillars are clusters of slender stone columns, each carved from a single block of granite, that ring with distinct musical notes when gently struck. They are among the most famous works of stone craft in any South Indian temple. Visitors usually see them as part of a guided look at the temple's sculpture; please tap only as the temple permits, to protect the ancient stone.",
+      },
+      {
+        question: "Tell me about the giant Hanuman statue.",
+        answer:
+          "Suchindram has a colossal image of Hanuman, about eighteen feet tall, carved from a single block of stone, one of the largest monolithic figures of the deity in any temple. It is among the temple's chief wonders, alongside the musical pillars and the towering white gopuram.",
+      },
+      {
+        question: "Where is the temple and how do I reach it?",
+        answer:
+          "Suchindram is in the Kanyakumari district at the southern tip of the mainland, about 7 km from Nagercoil and about 12 km from Kanyakumari, on the road between them. The nearest railhead is Nagercoil Junction and the nearest major airport is Thiruvananthapuram (~65 km). The temple is easily combined with a visit to Kanyakumari. As in Travancore temples, men remove the shirt to enter the inner precinct.",
+      },
+    ],
+  },
 };
 
 // For temples without explicit detail entries, generate a sensible default
