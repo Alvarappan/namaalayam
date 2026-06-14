@@ -1245,67 +1245,432 @@ export const templeDetails: Record<string, TempleDetail> = {
   },
   "kapaleeswarar-mylapore": {
     slug: "kapaleeswarar-mylapore",
-    timings: { morning: "5:00 AM – 12:00 PM", evening: "4:00 PM – 9:30 PM" },
-    entryFee: "Free",
-    dressCode: "Traditional attire preferred. No shorts.",
-    bestTime: "Year-round. March–April for Arubathumoovar festival.",
+    timings: { morning: "5:00 AM – 12:00 PM", evening: "4:00 PM – 9:30 PM", note: "The sanctum is closed during the midday break (12:00 – 4:00 PM). Arrive early morning or after 5:30 PM to avoid the heaviest crowds; weekends and Pradosham evenings are busiest." },
+    entryFee: "Free. Paid archana and abhishekam tickets are sold at the counter inside the complex.",
+    dressCode: "Traditional attire preferred. Men: dhoti/veshti or trousers with a shirt; women: saree, half-saree or salwar kameez. Shorts and very short skirts are discouraged. Footwear is removed before entering.",
+    bestTime: "October–February (cool Chennai season). March–April for the ten-day Panguni Brahmotsavam, the grandest time to visit, with the Arupathimoovar procession its peak.",
     travelInfo: {
-      byAir: "Chennai International Airport (15 km).",
-      byTrain: "Mylapore is well connected by Chennai MRTS (Light Rail) at the Mylapore station. Also accessible by Chennai Metro.",
-      byRoad: "Located in the heart of Mylapore, Chennai. Auto-rickshaws and buses readily available.",
+      byAir: "Chennai International Airport (Meenambakkam), about 15 km away, is the nearest airport, well connected to all major Indian and many international cities. Taxis and app cabs reach Mylapore in 30–45 minutes.",
+      byTrain: "Thirumayilai (Mylapore) station on the Chennai MRTS line is about 1 km away. Chennai Egmore (8 km) and Chennai Central (10 km) handle long-distance trains. The Chennai Metro is also expanding into the area.",
+      byRoad: "In the heart of Mylapore, central Chennai. MTC city buses, auto-rickshaws and app cabs serve the temple from every part of the city. The temple sits on the four Mada streets (North, South, East, West Mada Street) that ring the complex.",
     },
     highlights: [
-      "The anchor temple of Mylapore, Chennai's cultural and spiritual heart",
-      "The magnificent 37-meter rajagopuram completed in 1906",
-      "The 63 Nayanmars (Tamil Shaivite saints) are depicted in life-size bronze statues",
-      "The sacred tank (Kapali Theertham) within the complex",
-      "Rich Carnatic music and Bharatanatyam heritage associated with this temple",
+      "The spiritual and cultural heart of Mylapore, one of the oldest residential quarters of Chennai",
+      "Towering ~37 m (nearly 120 ft) east rajagopuram, rebuilt in 1906 and covered in vividly painted stucco figures",
+      "A Paadal Petra Sthalam, sung in the 7th-century Thevaram hymns of Tirugnana Sambandar, Appar and Sundarar",
+      "The Poompavai legend: Sambandar's 'Mattita Punnai' hymn that brought a girl back from her ashes",
+      "Karpagambal, the wish-granting goddess, worshipped here as a peahen (mayil) under the sacred Punnai tree",
+      "The 63 Nayanmar saints depicted as bronze and stone figures, carried in the famous Arupathimoovar procession",
+      "A deep heritage of Carnatic music, Bharatanatyam and the surrounding Mylapore festival arts season",
     ],
-    history: "The original Kapaleeswarar Temple is said to have been located on the seashore but was destroyed by Portuguese colonists in the 16th century. The current temple was built around 1652 CE in the present Mylapore location. It is dedicated to Lord Kapaleeswarar (Shiva) and Goddess Karpagambal (Parvati). The temple is administered by the Hindu Religious and Charitable Endowments (HR&CE) Department of Tamil Nadu.",
-    architecture: "The temple follows the Dravidian style with a colorful 37-meter gopuram as its most striking feature. The gopuram is covered in intricate plaster sculptures depicting various deities and scenes from mythology. The temple complex includes the main sanctum, Karpagambal shrine, the sacred tank, and corridors lined with stone pillars.",
+    history: "Kapaleeswarar Temple is dedicated to Lord Shiva as Kapaleeswarar and his consort Parvati as Karpagambal, in the ancient settlement of Mylapore (Tamil Mayilai, 'the place of the peahen'). Mylapore is far older than the city of Chennai that grew around it: it was a flourishing port mentioned by the 2nd-century geographer Ptolemy, and the home of the Nayanmar saint Tirugnana Sambandar's miracles. The original Kapaleeswarar shrine is traditionally said to have stood on the seashore near present-day Santhome and to have been demolished by the Portuguese in the 16th century, when the San Thome Cathedral was raised on the coast. The temple was rebuilt about a kilometre inland at its present site around the 16th–17th century under Vijayanagara-era patronage; the soaring east gopuram in its current form dates to a renovation completed in 1906. The temple is administered by the Hindu Religious and Charitable Endowments (HR&CE) Department of Tamil Nadu. Despite the relocation of the structure, the sanctity of the site is vouched for by the Thevaram hymns, which place the deity firmly at Mylapore more than 1,300 years ago.",
+    architecture: "The temple is a classic example of South Indian Dravidian architecture on a compact urban plan, oriented to face east. Its dominant feature is the ~37 m east rajagopuram, a nine-tiered tower whose every surface is crowded with brightly repainted stucco figures of gods, sages and Puranic episodes; a smaller gopuram stands on the west, facing the temple tank. Within the high prakaram (enclosure) walls sit the main sanctum of Kapaleeswarar (a Shiva lingam), the separate west-facing shrine of Goddess Karpagambal, the brass-clad flagstaff (kodimaram) and bali peetam, and a Nandi mandapam. Pillared corridors line the inner courtyard, and a small shrine under the Punnai tree (the temple's sthala vriksham) holds the image of the goddess in the form of a peahen worshipping the lingam. The large stepped temple tank (Kapali Theertham) lies just outside the west gopuram and is the stage for the annual float festival.",
     festivals: [
-      { name: "Arubathumoovar Festival", month: "March–April", description: "63 Nayanmars (bronze statues) are taken in a grand procession around the Mylapore streets. Attended by hundreds of thousands." },
-      { name: "Panguni Uthiram", month: "March–April", description: "Celestial wedding of Shiva and Parvati celebrated with great pomp." },
-      { name: "Karthigai Deepam", month: "November–December", description: "Festival of lights celebrated with lamps and special puja." },
+      { name: "Panguni Brahmotsavam", month: "March–April (Panguni)", description: "The temple's grandest annual festival, ten days of processions on different vahanas beginning with Dwajarohanam (flag hoisting). It includes the great Ther (chariot) festival and culminates in the Thirukalyanam, the celestial wedding of Kapaleeswarar and Karpagambal." },
+      { name: "Arupathimoovar Festival", month: "March–April (Panguni, 8th day)", description: "On the eighth day of the Brahmotsavam, bronze images of all 63 Nayanmar saints are carried in a vast procession around the four Mada streets. Hundreds of thousands of devotees throng Mylapore for this iconic Chennai spectacle." },
+      { name: "Theppam (Float Festival)", month: "January–February (Thai–Masi)", description: "Over three nights the processional deities, including Lord Singaravelar (Murugan), are seated on an illuminated, flower-decked raft (teppam) and floated in circuits around the brightly lit temple tank to the accompaniment of music." },
+      { name: "Aadi Pooram", month: "July–August (Aadi)", description: "Dedicated to the goddess, marking the day of Andal's birth; special abhishekams and alankarams are offered to Karpagambal." },
+      { name: "Navaratri & Golu", month: "September–October (Purattasi)", description: "Nine nights honouring the goddess, with a stepped Golu doll display and daily alankarams of Karpagambal in different forms." },
+      { name: "Skanda Sashti", month: "October–November (Aippasi)", description: "Six days honouring Murugan (Singaravelar), recalling his victory over Surapadman, culminating in the Soorasamharam." },
+      { name: "Karthigai Deepam", month: "November–December (Karthigai)", description: "The festival of lights, when the temple and the Mada streets are lined with rows of oil lamps and a special deepam is lit." },
+      { name: "Arudra Darshan & Maha Shivaratri", month: "December–January / February–March", description: "Major Shaivite observances: Arudra Darshan honours Nataraja, while Maha Shivaratri brings night-long vigil, abhishekams and recitation.", slug: "maha-shivaratri" },
     ],
     poojas: [
-      { name: "Thiruvanandal", time: "5:30 AM", fee: "Free" },
-      { name: "Abhishekam", time: "6:00 AM", fee: "₹250" },
-      { name: "Ardhajama Puja", time: "9:00 PM", fee: "Free" },
+      { name: "Ushatkala Pooja (Thiruvanandal)", time: "5:30 AM", fee: "Free" },
+      { name: "Kalasanthi Pooja", time: "8:00 AM", fee: "Free" },
+      { name: "Uchikala Pooja", time: "11:30 AM", fee: "Free" },
+      { name: "Sayaratchai Pooja", time: "5:30 PM", fee: "Free" },
+      { name: "Ardhajama Pooja", time: "8:30 PM", fee: "Free" },
+      { name: "Archana", time: "During pooja hours", fee: "₹20 onwards" },
+      { name: "Abhishekam (sponsored)", time: "Morning", fee: "₹250 onwards" },
     ],
     nearbyTemples: ["arunachaleswarar-thiruvannamalai", "ekambareswarar-kanchipuram"],
+    mythology: {
+      legend:
+        "The name Mylapore comes from the Tamil 'Mayilai' or 'Mayilapur', the city of the peahen, and the story behind it is the central legend of this temple. On Mount Kailash, while Lord Shiva was expounding the meaning of a sacred mantra to Parvati, the goddess was momentarily distracted by the sight of a dancing peacock. Displeased that her attention had wandered, Shiva asked her to descend to earth and do penance. Parvati took the form of a peahen (mayil) and came to this spot on the Coromandel coast, where she fashioned a lingam of earth beneath a Punnai tree and worshipped it with deep devotion. Pleased by her penance, Shiva appeared, restored her to her original form and married her here. To this day the goddess is enshrined as Karpagambal, and a small shrine under the sacred Punnai tree shows her in the form of the peahen worshipping the lingam, the very image of the legend that gave Mylapore its name.",
+      tirukalyanam:
+        "The Thirukalyanam, the celestial wedding of Lord Kapaleeswarar and Goddess Karpagambal, is re-enacted as the climax of the ten-day Panguni Brahmotsavam, which falls in the Tamil month of Panguni around the Uthiram star. The festival recalls Shiva's marriage to Parvati at Mylapore after her penance as the peahen. The processional bronzes of the divine couple are richly adorned and brought together for the marriage rite, witnessed by enormous crowds, the same union celebrated on Panguni Uthiram at many of the great Shiva and Murugan temples of the Tamil country.",
+      additionalStories: [
+        {
+          title: "Poompavai Brought Back from Her Ashes",
+          content:
+            "The most beloved miracle of Mylapore concerns a merchant of the town, Sivanesan, and his daughter Poompavai, an ardent devotee of Shiva who longed to see the child-saint Tirugnana Sambandar. Before he could arrive, Poompavai died of a snakebite. Rather than complete her cremation, her grieving father preserved her bones and ashes in a pot, hoping the saint might still see her. When Sambandar came to Mylapore he asked to be shown the girl; on learning what had happened, he sang the 'Mattita Punnai' hymn (the Poompavai Pathigam) before the pot. As the verses were sung, Poompavai emerged from the ashes, restored to life as a grown girl. The episode, sung in the Thevaram itself, is one of the most famous resurrection legends of the Tamil Shaivite tradition and is closely associated with this temple and its sacred Punnai tree.",
+        },
+        {
+          title: "Why Shiva is Called 'Kapali'",
+          content:
+            "The deity's name Kapaleeswarar derives from 'kapala' (skull or cranium). In the Puranic tradition the name recalls the episode in which Lord Shiva severed one of the five heads of Brahma to humble his pride, carrying the skull (kapala) as he wandered. As Kapali, the bearer of the skull, Shiva embodies the destruction of ego and the transcendence of birth and death, the form in which he is worshipped at Mylapore.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "East Rajagopuram",
+        nameTa: "ராஜகோபுரம்",
+        type: "gopuram",
+        description: "The towering ~37 m (nearly 120 ft) nine-tiered eastern gateway tower, the landmark of Mylapore, rebuilt in 1906. Every tier is densely populated with brightly painted stucco figures of deities, dvarapalas and Puranic scenes, periodically repainted in vivid colours during kumbhabhishekam.",
+        detail: "~37 m · 9 tiers · rebuilt 1906",
+      },
+      {
+        name: "West Gopuram",
+        type: "gopuram",
+        description: "The smaller western gateway tower, facing the temple tank. The float festival processions and the goddess's tank rituals pass through this gateway toward the Kapali Theertham.",
+      },
+      {
+        name: "Kapaleeswarar Sanctum",
+        type: "sanctum",
+        description: "The east-facing main sanctum (garbhagriha) enshrining Lord Shiva as a lingam, Kapaleeswarar. Fronted by the Nandi mandapam, the brass-clad flagstaff (kodimaram) and the bali peetam, in line with the east gopuram.",
+      },
+      {
+        name: "Karpagambal Shrine",
+        nameTa: "கற்பகாம்பாள்",
+        type: "sanctum",
+        description: "The separate, prominent shrine of Goddess Karpagambal ('goddess of the wish-yielding Karpaga tree'), much venerated in her own right. Devotees offer worship here for boons, marriage and family welfare.",
+      },
+      {
+        name: "Punnai Tree Shrine (Sthala Vriksham)",
+        type: "other",
+        description: "The temple's sacred tree, an ancient Punnai (Calophyllum inophyllum). Beneath it stands a small shrine showing Parvati in the form of a peahen worshipping the lingam, the scene of the founding legend that named Mylapore.",
+      },
+      {
+        name: "Kapali Theertham (Temple Tank)",
+        type: "tank",
+        description: "The large stepped temple tank just west of the temple, surrounded by mandapams. It is the centrepiece of the annual three-night float festival, when the illuminated teppam carries the deities in circuits around the water.",
+      },
+      {
+        name: "Nayanmar Corridor",
+        type: "mandapam",
+        description: "The prakaram corridor where bronze and stone images of the 63 Nayanmar saints are installed. During the Arupathimoovar festival these figures are taken out together in the famous procession around the Mada streets.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Goddess Karpagambal",
+        deity: "Parvati as the Wish-Granting Goddess",
+        description: "The principal goddess shrine, dedicated to Parvati as Karpagambal. She is worshipped for boons, prosperity and auspicious marriage; the Friday and Navaratri alankarams of the goddess draw large crowds.",
+      },
+      {
+        name: "Singaravelar (Murugan)",
+        deity: "Lord Murugan with Valli and Deivanai",
+        description: "The shrine of Murugan as Singaravelar, a focus of the Skanda Sashti celebrations and a central figure in the float festival, when he is taken out on the teppam with his consorts.",
+      },
+      {
+        name: "The 63 Nayanmars",
+        deity: "The Tamil Shaivite Saints",
+        description: "Images of the sixty-three Nayanmar saints whose lives are recorded in the Periya Puranam. Honoured year-round and carried in the grand Arupathimoovar procession during Panguni.",
+      },
+      {
+        name: "Navagraha Shrine",
+        deity: "The Nine Planetary Deities",
+        description: "The shrine of the nine planets, where devotees offer worship and light lamps to mitigate planetary afflictions, a customary stop within the temple circuit.",
+      },
+      {
+        name: "Vinayaka (Ganesha)",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first on entering the temple. The Vinayaka Chaturthi festival is observed here in the month of Aavani.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "East Gopuram Entrance", direction: "East", notes: "The main entrance beneath the great rajagopuram, opening from East Mada Street toward the sanctum. Used by most devotees." },
+        { name: "West Gopuram", direction: "West", notes: "Faces the temple tank (Kapali Theertham); used during the float festival and for tank-side processions." },
+      ],
+      cloakRoom: "There is no large formal cloak room; footwear is left at small footwear-minding stalls just outside the entrances (a few rupees per pair). Carry valuables with you.",
+      mobilePolicy: "Mobile phones are generally permitted inside the complex, but should be silenced and kept away during darshan and pooja. Photography of the inner sanctums is not allowed.",
+      cameraPolicy: "Photography of the gopuram, courtyards and tank is generally fine; photography inside the main sanctum and the Karpagambal shrine is prohibited. Be respectful during rituals.",
+      wheelchairAccess: "The temple is largely on one level with ramped access at the main entrance, making most of the prakaram navigable by wheelchair, though some inner thresholds are raised. Assistance from temple staff is usually available.",
+      seniorCitizenDarshan: "No separate paid queue is normally required; queues move quickly outside festival days. During Brahmotsavam and the float festival, expect heavy crowds and arrive very early.",
+      parking: "On-street parking around the four Mada streets is limited and congested; paid parking lots operate nearby. Auto-rickshaws and app cabs are the easiest way to arrive, especially on festival days when the Mada streets are closed to traffic.",
+      restrooms: "Basic restrooms are available near the tank and within the complex. Numerous restaurants and the famous Mylapore eateries around the Mada streets offer facilities.",
+      drinkingWater: "Drinking water is available within the complex; bottled water and tender coconut are sold by vendors all around the Mada streets.",
+    },
+    sevas: [
+      {
+        name: "Archana",
+        description: "Recitation of the deity's names with offering of flowers and arati, performed in your name and star (nakshatra). Tickets are bought at the counter inside the complex.",
+        time: "During pooja hours",
+        fee: "₹20 onwards",
+        type: "daily",
+      },
+      {
+        name: "Abhishekam",
+        description: "Sacred anointing of the lingam with milk, curd, honey, sandal and water, performed during the morning pooja. Can be sponsored at the counter.",
+        time: "Morning pooja",
+        fee: "₹250 onwards",
+        type: "daily",
+      },
+      {
+        name: "Karpagambal Alankaram",
+        description: "Sponsored adornment and special pooja for Goddess Karpagambal, especially sought on Fridays and during Navaratri and Aadi.",
+        time: "Fridays / festival days",
+        fee: "At counter",
+        type: "weekly",
+      },
+      {
+        name: "Pradosham Pooja",
+        description: "The special twilight worship of Shiva on the thirteenth lunar day (Trayodasi), with abhishekam to the Nataraja/Somaskanda bronzes; a particularly auspicious and well-attended seva.",
+        time: "Pradosham evenings (twice monthly)",
+        fee: "Free / sponsored",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the temple timings, and when is it closed?",
+        answer:
+          "The temple is open from about 5:00 AM to 12:00 PM in the morning and from about 4:00 PM to 9:30 PM in the evening. It is closed during the midday break (roughly 12:00 to 4:00 PM). Early morning and after 5:30 PM are the most peaceful times; Friday evenings, Pradosham days and festival days are the busiest.",
+      },
+      {
+        question: "Is there an entry fee?",
+        answer:
+          "No, entry and general darshan are free. You only pay if you sponsor an archana, abhishekam or special alankaram, for which tickets (from around ₹20 upward) are sold at the counter inside the complex.",
+      },
+      {
+        question: "What is the dress code?",
+        answer:
+          "Traditional, modest attire is expected. Men commonly wear a dhoti/veshti or trousers with a shirt; women wear a saree, half-saree or salwar kameez. Shorts and very short skirts are best avoided. Footwear is removed before entering and left at the stalls outside.",
+      },
+      {
+        question: "Why is Mylapore called the 'city of the peacock', and what's the connection to the temple?",
+        answer:
+          "Mylapore comes from the Tamil 'Mayilai' / 'Mayilapur', meaning the place of the peahen. According to the temple's founding legend, Parvati took the form of a peahen (mayil) and worshipped Shiva as a lingam under the Punnai tree here before being restored to her form and married to him. A shrine under the sacred Punnai tree still depicts the goddess as a peahen worshipping the lingam.",
+      },
+      {
+        question: "What is the Poompavai legend associated with this temple?",
+        answer:
+          "A Mylapore merchant's daughter, Poompavai, a devotee of Shiva, died of snakebite before she could meet the child-saint Tirugnana Sambandar. Her father preserved her ashes and bones in a pot. When Sambandar arrived, he sang the 'Mattita Punnai' hymn (the Poompavai Pathigam) before the pot, and Poompavai emerged from the ashes restored to life. It is one of the most famous miracles in Tamil Shaivite tradition and is sung in the Thevaram.",
+      },
+      {
+        question: "When is the best time to visit, and what is the biggest festival?",
+        answer:
+          "October to February offers the most pleasant Chennai weather. The grandest festival is the ten-day Panguni Brahmotsavam (March–April), whose highlight is the Arupathimoovar procession on the eighth day, when the bronze images of all 63 Nayanmars are carried around the Mada streets before hundreds of thousands of devotees. The three-night float festival on the temple tank (around January–February) is another spectacular occasion.",
+      },
+      {
+        question: "How do I get there and where should I park?",
+        answer:
+          "The temple is in central Mylapore, about 1 km from Thirumayilai (Mylapore) MRTS station and roughly 15 km from Chennai Airport. The easiest way to arrive is by auto-rickshaw or app cab, as on-street parking around the four Mada streets is limited and congested, and the streets are closed to traffic during major festivals.",
+      },
+      {
+        question: "What else is worth seeing around the temple?",
+        answer:
+          "Mylapore around the temple is one of the oldest and liveliest quarters of Chennai: the bustling Mada street markets, the flower and produce bazaar, the nearby San Thome Cathedral, and a celebrated cluster of traditional South Indian eateries. The area is also a hub of Carnatic music and Bharatanatyam, with the annual Mylapore festival arts season.",
+      },
+    ],
   },
   "arunachaleswarar-thiruvannamalai": {
     slug: "arunachaleswarar-thiruvannamalai",
-    timings: { morning: "5:30 AM – 12:30 PM", evening: "3:30 PM – 10:00 PM", note: "Girivalam (circumambulation of Arunachala hill, 14 km) is done on full moon nights." },
-    entryFee: "Free",
-    dressCode: "Traditional attire. No shorts or sleeveless.",
-    bestTime: "November–December for Karthigai Deepam. Full moon for Girivalam.",
+    timings: { morning: "5:30 AM – 12:00 PM", evening: "5:00 PM – 9:30 PM", note: "Evening hours are shorter (to ~7:45 PM) on Saturdays, Sundays, full-moon days and public holidays. Girivalam, the 14 km barefoot circumambulation of Arunachala hill, is performed through the night, especially on Pournami (full-moon) eve." },
+    entryFee: "Free. Paid archana, abhishekam and special darshan tickets are available at the counters inside the complex.",
+    dressCode: "Traditional attire. Men: dhoti/veshti or trousers with a shirt; women: saree, half-saree or salwar kameez. Shorts and sleeveless tops are discouraged. Footwear is removed before entering.",
+    bestTime: "November–December for Karthigai Deepam (the spiritual climax), and any full-moon (Pournami) night for Girivalam. October–February is the most comfortable season; Tiruvannamalai is very hot March–June.",
     travelInfo: {
-      byAir: "Chennai Airport (200 km) or Bangalore Airport (200 km).",
-      byTrain: "Tiruvannamalai Railway Station (2 km). Trains from Chennai (3 hrs), Villupuram (40 km).",
-      byRoad: "200 km from Chennai. Buses from Chennai, Villupuram, Vellore, Bangalore. Well-connected by NH 79.",
+      byAir: "Chennai International Airport (~185 km) and Bengaluru Airport (~210 km) are the nearest major airports; Puducherry's small airport is closer but has limited flights.",
+      byTrain: "Tiruvannamalai Railway Station (~2 km) is connected to Chennai (~3.5 hrs), Villupuram, Vellore and Katpadi. Villupuram Junction (~40 km) is the larger railhead.",
+      byRoad: "About 185 km from Chennai (4–5 hrs) and 210 km from Bengaluru, well connected by NH 38 / NH 77. Frequent government and private buses run from Chennai, Villupuram, Vellore, Pondicherry and Bengaluru.",
     },
     highlights: [
-      "One of the Pancha Bhuta Stalas, representing the Fire (Agni) element",
-      "The sacred Arunachala hill itself is considered a manifestation of Lord Shiva",
-      "Karthigai Deepam, a massive beacon lit atop the hill visible for 30 km around",
-      "Girivalam (pradakshina), a 14 km circumambulation of the Arunachala hill on full moon days",
-      "Sri Ramana Maharshi's ashram is located at the foot of Arunachala",
+      "One of the Pancha Bhuta Sthalams, the temple of the Fire (Agni) element among Shiva's five element-shrines",
+      "Arunachala hill itself is revered as a swayambhu manifestation of Shiva, the cosmic column of fire turned to stone",
+      "Karthigai Deepam: a giant cauldron of ghee (Maha Deepam) lit atop the 800 m hill, visible for miles, drawing millions",
+      "Girivalam: the 14 km barefoot circumambulation of the hill, ringed by the eight Ashta Lingams",
+      "One of India's largest temple complexes (~25 acres) with a ~66 m eastern Rajagopuram, among the tallest in the country",
+      "A Paadal Petra Sthalam sung in the 7th-century Thevaram of the Nayanmar saints",
+      "Deeply linked to Sri Ramana Maharshi, who meditated in the temple's Patala Lingam and settled at Arunachala",
     ],
-    history: "The Arunachaleswarar Temple is one of the largest temple complexes in India, spread over 25 acres. The Arunachala hill (also called Annamalai) is believed to be a manifestation of Shiva as a column of fire. The temple's history spans over 2,000 years with references in ancient Tamil Sangam literature. Significant construction was done during the Vijayanagara and Hoysala periods.",
-    architecture: "The temple has four magnificent gopurams facing each cardinal direction, with the eastern tower (Raja Gopuram) being one of the tallest in Tamil Nadu at 66 meters. The complex contains multiple mandapams and shrines. The innermost sanctum houses the Agni Lingam (fire lingam).",
+    history: "Arunachaleswarar Temple at Tiruvannamalai is dedicated to Lord Shiva as Arunachaleswarar (also Annamalaiyar), worshipped as the Agni Lingam, the fire among the Pancha Bhuta Sthalams, with his consort as Unnamulai Amman (Apeetakuchamba). The sanctity of the site rests on Arunachala hill itself, held to be Shiva manifest as an infinite column of fire. References to the shrine appear in early Tamil Sangam literature, and it is celebrated as a Paadal Petra Sthalam in the 7th-century Thevaram hymns of Sambandar, Appar and Sundarar. The vast temple that stands today, spread over about 25 acres, was built up across centuries of royal patronage, the Cholas, the Hoysalas, and above all the Vijayanagara emperors, with Krishnadevaraya raising the towering eastern Rajagopuram and the thousand-pillar hall in the early 16th century. The temple is administered by the Hindu Religious and Charitable Endowments (HR&CE) Department of Tamil Nadu. In the modern era the hill and temple drew the sage Sri Ramana Maharshi, who as a youth meditated in the temple's underground Patala Lingam and spent the rest of his life at the foot of Arunachala, making Tiruvannamalai a global centre of pilgrimage and self-enquiry.",
+    architecture: "Arunachaleswarar is one of the largest temple complexes in India, covering roughly 25 acres at the eastern foot of Arunachala hill, laid out in classic Dravidian style with four massive gopurams facing the cardinal directions. The eastern Rajagopuram, raised by the Vijayanagara emperor Krishnadevaraya, soars to about 66 m across eleven tiers, making it one of the tallest temple towers in India. Within the concentric prakaram walls lie the main sanctum of the Agni Lingam, the Unnamulai Amman shrine, the great thousand-pillar mandapam (Krishnadevaraya's hall), the Kalyana Mandapam, the Shivaganga and Brahma theertham tanks, and the underground Patala Lingam shrine associated with Ramana Maharshi. The temple is integrated with the hill behind it, so that the true vimana of the deity, devotees say, is Arunachala itself.",
     festivals: [
-      { name: "Karthigai Deepam", month: "November–December", description: "A massive beacon (deepam) is lit atop the Arunachala hill, visible for miles. Millions of devotees gather." },
-      { name: "Girivalam", month: "Every full moon", description: "Devotees circumambulate the 14 km path around the Arunachala hill barefoot, especially on full moon days." },
-      { name: "Brahmotsavam", month: "December–January", description: "10-day festival with chariot procession and special rituals." },
+      { name: "Karthigai Deepam (Maha Deepam)", month: "November–December (Karthigai)", description: "The temple's supreme festival: at dusk on the Karthigai full moon a huge cauldron holding tonnes of ghee is lit atop Arunachala hill as the Maha Deepam, blazing for days and visible for miles, symbolising the cosmic column of fire. The ten-day Karthigai Brahmotsavam leads up to it with daily vahana processions." },
+      { name: "Girivalam (Giri Pradakshina)", month: "Every full moon (Pournami)", description: "Hundreds of thousands of devotees walk the 14 km path barefoot around Arunachala hill through the night, halting at the eight Ashta Lingams. Chithirai Pournami (April–May) is the most thronged." },
+      { name: "Panguni Brahmotsavam", month: "March–April (Panguni)", description: "A grand ten-day festival with the deities taken out on different vahanas each day, the chariot (ther) festival and a float festival, distinct from the Karthigai Brahmotsavam." },
+      { name: "Maha Shivaratri", month: "February–March (Masi)", description: "The 'great night of Shiva' observed with night-long vigil, four-quarter abhishekams and continuous worship of the Agni Lingam.", slug: "maha-shivaratri" },
+      { name: "Aadi Pooram", month: "July–August (Aadi)", description: "Festival dedicated to the goddess Unnamulai Amman, with special abhishekams and alankarams." },
+      { name: "Navaratri", month: "September–October (Purattasi)", description: "Nine nights honouring the goddess, with daily alankarams of Unnamulai Amman and a Golu doll display." },
     ],
     poojas: [
-      { name: "Thiruvanandal", time: "5:30 AM", fee: "Free" },
-      { name: "Agni Abhishekam", time: "6:00 AM / 6:00 PM", fee: "₹500" },
-      { name: "Pradosham Puja", time: "Bi-monthly (Trayodasi)", fee: "Free" },
+      { name: "Ushatkala Pooja (Thiruvanandal)", time: "5:30 AM", fee: "Free" },
+      { name: "Kalasanthi Pooja", time: "8:00 AM", fee: "Free" },
+      { name: "Uchikalam Pooja", time: "12:00 PM", fee: "Free" },
+      { name: "Sayaratchai Pooja", time: "6:00 PM", fee: "Free" },
+      { name: "Irandam Kalam Pooja", time: "8:00 PM", fee: "Free" },
+      { name: "Ardhajama Pooja", time: "9:00 PM", fee: "Free" },
+      { name: "Archana / Abhishekam (sponsored)", time: "During pooja hours", fee: "₹50 onwards" },
     ],
     nearbyTemples: ["vaitheeswaran-kovil", "nataraja-chidambaram"],
+    mythology: {
+      legend:
+        "The founding legend of Arunachala is the Lingodbhava, the appearance of Shiva as a limitless column of fire. Brahma, the creator, and Vishnu, the preserver, once fell into dispute over which of them was supreme. As they argued, an endless blazing pillar of light pierced the cosmos before them, with neither top nor bottom. To settle the matter they agreed to find its ends: Vishnu took the form of a boar (Varaha) and burrowed downward to seek the base, while Brahma took the form of a swan (Hamsa) and flew upward to seek the summit. After ages of searching neither could reach an end. Vishnu returned and honestly admitted defeat; but Brahma, unwilling to lose, falsely claimed he had touched the top, producing a thazhambu (screw-pine) flower as a false witness. Shiva then emerged from the fiery column and revealed himself as the source of both. He blessed the truthful Vishnu, but cursed Brahma to have no temples of his own and banished the lying thazhambu flower from his worship. Out of compassion for devotees who could not bear the unending fire, Shiva condensed the column into the hill of Arunachala, so that all might worship and circumambulate him. The hill is therefore Shiva himself, the Agni Lingam, and Karthigai Deepam re-enacts the original blaze of light atop it each year.",
+      tirukalyanam:
+        "The marriage of Lord Arunachaleswarar and Unnamulai Amman is celebrated during the Panguni and Karthigai Brahmotsavams, when the processional bronzes of Shiva and the goddess are richly adorned and brought together for the wedding rite before vast crowds, recalling the goddess's reunion with Shiva after her penance at the hill.",
+      additionalStories: [
+        {
+          title: "Unnamulai Amman and the Play of Closing Shiva's Eyes",
+          content:
+            "Once, in playful affection at Mount Kailash, Parvati covered Lord Shiva's eyes with her hands. Because Shiva's eyes are the sun, moon and fire that sustain all light, the entire universe was instantly plunged into darkness and the cosmic order ground to a halt. To atone for the calamity caused by her playfulness, Parvati came to Arunachala and performed severe penance under the guidance of the sage Gautama, worshipping the hill. Pleased by her devotion, Shiva accepted her back and absorbed her into the left half of his own body as Ardhanareeswara. As the goddess here, she is venerated as Unnamulai Amman, also called Apeetakuchamba, and her shrine within the temple is one of its most powerful centres of worship.",
+        },
+        {
+          title: "Ramana Maharshi and the Patala Lingam",
+          content:
+            "In 1896 a sixteen-year-old boy named Venkataraman, drawn by an inner call to Arunachala, arrived at the temple and, in deep absorption, sat for weeks in the dank underground shrine of the Patala Lingam, oblivious even to insects feeding on his flesh. He emerged to become Sri Ramana Maharshi, one of the most revered sages of modern India, who taught the path of self-enquiry ('Who am I?') and never again left Arunachala. His ashram, Sri Ramanasramam, at the foot of the hill, and the meditation caves on its slopes draw seekers from around the world, making Tiruvannamalai a meeting point of ancient temple worship and living spiritual practice.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "East Rajagopuram",
+        nameTa: "ராஜகோபுரம்",
+        type: "gopuram",
+        description: "The colossal eastern gateway tower, raised by the Vijayanagara emperor Krishnadevaraya in the early 16th century. At about 66 m over eleven tiers it is among the tallest temple gopurams in India, the landmark of Tiruvannamalai visible across the town.",
+        detail: "~66 m · 11 tiers · 16th-century Vijayanagara",
+      },
+      {
+        name: "Arunachala Hill",
+        type: "other",
+        description: "The roughly 800 m hill rising directly behind the temple, revered as the swayambhu form of Shiva himself, the fire column of the Lingodbhava turned to stone. The 14 km Girivalam path rings its base, and the Karthigai Deepam beacon is lit at its summit.",
+        detail: "~800 m · 14 km Girivalam path",
+      },
+      {
+        name: "Agni Lingam Sanctum",
+        type: "sanctum",
+        description: "The innermost sanctum (garbhagriha) enshrining Shiva as the Agni Lingam, the fire element among the Pancha Bhuta Sthalams. The deity is worshipped with the five daily kala poojas.",
+      },
+      {
+        name: "Unnamulai Amman Shrine",
+        nameTa: "உண்ணாமுலை அம்மன்",
+        type: "sanctum",
+        description: "The major shrine of the goddess Unnamulai Amman (Apeetakuchamba), a powerful Shakti centre in its own right, focus of the Aadi Pooram and Navaratri celebrations.",
+      },
+      {
+        name: "Thousand-Pillar Mandapam",
+        type: "mandapam",
+        description: "The great pillared hall built by Krishnadevaraya, its rows of intricately carved granite columns among the finest of Vijayanagara workmanship. The underground Patala Lingam lies near it.",
+      },
+      {
+        name: "Patala Lingam",
+        type: "other",
+        description: "An underground subterranean lingam shrine, famed as the spot where the young Sri Ramana Maharshi sat in deep meditation, undisturbed even by vermin. A revered place of stillness within the bustling complex.",
+      },
+      {
+        name: "Shivaganga Tank",
+        type: "tank",
+        description: "The principal temple tank within the complex, used for ritual bathing and the float festival, fed by the Shivaganga spring. The Brahma theertham is another of the temple's sacred waters.",
+      },
+      {
+        name: "Ashta Lingams (Girivalam path)",
+        type: "other",
+        description: "Eight lingam shrines spaced around the 14 km Girivalam route, each aligned to one of the eight directions and an associated planet (Indra, Agni, Yama, Niruthi, Varuna, Vayu, Kubera, Esanya). Pilgrims worship at each as they circumambulate the hill.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Unnamulai Amman",
+        deity: "Parvati as Apeetakuchamba",
+        description: "The consort of Arunachaleswarar and the temple's principal goddess, worshipped for grace, marriage and welfare. Her penance at Arunachala and reunion with Shiva is central to the temple's mythology.",
+      },
+      {
+        name: "Sambandar, Appar & Sundarar",
+        deity: "The Nayanmar Saints",
+        description: "The Thevaram saints who sang this shrine, honoured within the complex as a Paadal Petra Sthalam where their hymns are recited.",
+      },
+      {
+        name: "Subramanya (Murugan)",
+        deity: "Lord Murugan with consorts",
+        description: "Shrine of Murugan, son of Shiva and Parvati, a customary stop in the temple circuit.",
+      },
+      {
+        name: "Vinayaka (Ganesha)",
+        deity: "Lord Ganesha",
+        description: "The obstacle-remover, worshipped first on entering. Several Vinayaka shrines stand within the vast complex.",
+      },
+      {
+        name: "Navagraha Shrine",
+        deity: "The Nine Planetary Deities",
+        description: "The nine planets, worshipped to mitigate planetary afflictions, mirrored on a cosmic scale by the eight Ashta Lingams of the Girivalam path.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "East Rajagopuram Entrance", direction: "East", notes: "The main entrance beneath the great tower, used by most devotees, leading through the prakarams to the sanctum." },
+        { name: "North Gopuram (Ammani Amman Gopuram)", direction: "North", notes: "A secondary gateway; convenient on the Girivalam side and during festival crowd management." },
+        { name: "West Gopuram (Pey Gopuram)", direction: "West", notes: "The western tower, on the hill side of the complex." },
+        { name: "South Gopuram (Tirumanjana Gopuram)", direction: "South", notes: "The southern gateway tower of the four cardinal gopurams." },
+      ],
+      cloakRoom: "Footwear is left at minding stalls outside the gopurams (a few rupees). There is no large formal cloak room; carry valuables with you, especially during festival crowds.",
+      mobilePolicy: "Mobile phones are generally permitted in the complex but should be silenced and put away during darshan and pooja. Photography inside the sanctums is not allowed.",
+      cameraPolicy: "Photography of the gopurams, mandapams, tanks and hill is generally allowed; photography inside the main Agni Lingam sanctum and the Amman sanctum is prohibited.",
+      wheelchairAccess: "Much of the outer prakaram is level and navigable, though several inner thresholds and the older mandapams have steps. Assistance is usually available; the Girivalam road, by contrast, is a long flat 14 km walk.",
+      seniorCitizenDarshan: "Queues are usually quick outside festival days. During Karthigai Deepam and full-moon Girivalam expect enormous crowds, plan well ahead, arrive very early, and follow police crowd routing.",
+      parking: "Paid parking lots operate near the temple and along the Girivalam route; on full-moon and Deepam days the town's roads are extremely congested and partly closed to vehicles. Autos and app cabs are easiest for reaching the temple.",
+      restrooms: "Basic restrooms and bathing facilities are available within the complex and at points along the Girivalam path. Tiruvannamalai town has ample eateries and lodges.",
+      drinkingWater: "Drinking water is available within the complex; along the 14 km Girivalam route, numerous stalls, ashrams and annadhanam centres offer free water and food, especially on full-moon nights.",
+    },
+    sevas: [
+      {
+        name: "Archana",
+        description: "Recitation of the deity's names with flowers and arati, performed in your name and nakshatra. Tickets at the counter inside.",
+        time: "During pooja hours",
+        fee: "₹50 onwards",
+        type: "daily",
+      },
+      {
+        name: "Abhishekam",
+        description: "Sacred anointing of the Agni Lingam (and of the goddess) with milk, curd, honey, sandal and water during the kala poojas. Can be sponsored at the counter.",
+        time: "Morning / evening poojas",
+        fee: "At counter",
+        type: "daily",
+      },
+      {
+        name: "Pradosham Pooja",
+        description: "The twilight worship of Shiva on the thirteenth lunar day (Trayodasi), with abhishekam to the Nataraja/Somaskanda bronzes; a highly auspicious and well-attended seva.",
+        time: "Pradosham evenings (twice monthly)",
+        fee: "Free / sponsored",
+        type: "special",
+      },
+      {
+        name: "Girivalam Worship",
+        description: "Not a temple-counter seva but the temple's signature observance: a 14 km barefoot circumambulation of Arunachala hill, halting at the eight Ashta Lingams, performed especially through full-moon nights.",
+        time: "Full-moon (Pournami) nights",
+        fee: "Free",
+        type: "special",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the temple timings?",
+        answer:
+          "The temple is generally open about 5:30 AM to 12:00 PM and 5:00 PM to 9:30 PM. Evening hours are shorter (to around 7:45 PM) on Saturdays, Sundays, full-moon days and public holidays. Confirm locally during festivals, when timings are extended.",
+      },
+      {
+        question: "What is Girivalam and when should I do it?",
+        answer:
+          "Girivalam (Giri Pradakshina) is the sacred 14 km barefoot walk clockwise around Arunachala hill, stopping to worship at the eight Ashta Lingams along the way. It is done year-round but is most powerful and most crowded on Pournami (full-moon) nights, with Chithirai Pournami (April–May) and Karthigai (Nov–Dec) being the peak occasions. Allow 4–6 hours; carry water and start in the evening to avoid the heat.",
+      },
+      {
+        question: "What is Karthigai Deepam?",
+        answer:
+          "Karthigai Deepam is the temple's greatest festival, in November–December. After a ten-day Brahmotsavam, at dusk on the Karthigai full moon a giant cauldron holding tonnes of ghee is lit atop Arunachala hill as the Maha Deepam, a beacon visible for miles that symbolises the cosmic fire-column of the Lingodbhava legend. Millions of pilgrims gather; the flame burns for several days.",
+      },
+      {
+        question: "Why is the temple called a Pancha Bhuta Sthalam?",
+        answer:
+          "The Pancha Bhuta Sthalams are five Shiva temples each representing one of the five elements. Arunachaleswarar represents Fire (Agni), the deity being worshipped as the Agni Lingam. The other four are Ekambareswarar (Earth) at Kanchipuram, Jambukeswarar (Water) at Thiruvanaikaval, Kalahasti (Air) at Srikalahasti, and Nataraja (Space/Ether) at Chidambaram.",
+      },
+      {
+        question: "What is the connection with Ramana Maharshi?",
+        answer:
+          "Sri Ramana Maharshi, one of the most revered modern sages, arrived at Arunachala as a teenager in 1896 and meditated in the temple's underground Patala Lingam, then spent the rest of his life at the hill. His ashram, Sri Ramanasramam, and the meditation caves on Arunachala's slopes draw seekers worldwide, and most pilgrims combine a temple visit with the ashram and Girivalam.",
+      },
+      {
+        question: "How do I get there?",
+        answer:
+          "Tiruvannamalai is about 185 km from Chennai (4–5 hrs) and 210 km from Bengaluru, connected by NH 38/77. The nearest airports are Chennai (~185 km) and Bengaluru (~210 km). Tiruvannamalai railway station (~2 km from the temple) links to Chennai and Villupuram; Villupuram Junction (~40 km) is the larger railhead. Frequent buses serve the town from across the region.",
+      },
+      {
+        question: "When is the best time to visit, and what should I avoid?",
+        answer:
+          "October to February is the most comfortable season. Karthigai Deepam (Nov–Dec) and full-moon Girivalam nights are spiritually the richest but extraordinarily crowded, plan accommodation far ahead. March to June is very hot. If you prefer a quieter darshan, visit on a non-festival weekday morning.",
+      },
+    ],
   },
   "sabarimala-ayyappa": {
     slug: "sabarimala-ayyappa",
@@ -5004,6 +5369,153 @@ export const templeDetails: Record<string, TempleDetail> = {
         question: "Where is the temple and how do I reach it?",
         answer:
           "Suchindram is in the Kanyakumari district at the southern tip of the mainland, about 7 km from Nagercoil and about 12 km from Kanyakumari, on the road between them. The nearest railhead is Nagercoil Junction and the nearest major airport is Thiruvananthapuram (~65 km). The temple is easily combined with a visit to Kanyakumari. As in Travancore temples, men remove the shirt to enter the inner precinct.",
+      },
+    ],
+  },
+  "kesava-somnathpur": {
+    slug: "kesava-somnathpur",
+    timings: { morning: "8:30 AM – 5:30 PM", evening: "Open continuously through the day", note: "This is an Archaeological Survey of India (ASI) monument, not a functioning temple, so it keeps monument visiting hours rather than pooja timings. There is no midday closure; the best light for photography is early morning or late afternoon." },
+    entryFee: "ASI ticket: about ₹25 for Indian and SAARC/BIMSTEC visitors, ₹300 for other foreign nationals. Children up to 15 free. Still/mobile photography is free; the ticket can be bought at the gate or online via the ASI portal.",
+    dressCode: "No religious dress code, as regular worship has been discontinued. Modest, comfortable clothing is fine. Footwear must be removed before stepping onto the raised stone platform (jagati); the granite can be hot at midday, so carry socks.",
+    bestTime: "October–February, when Karnataka's weather is pleasant. Early morning just after opening, or the golden hour before closing, gives the best light on the carvings and the thinnest crowds. Easily done as a half-day trip from Mysore.",
+    travelInfo: {
+      byAir: "Mysore (Mandakalli) Airport is about 40 km away with limited flights; Bengaluru's Kempegowda International Airport (~175 km) is the main gateway with onward road/rail to Mysore.",
+      byTrain: "Mysore Junction (~35 km) is the nearest major railhead, well connected to Bengaluru and beyond. From Mysore, hire a cab or take a bus toward Bannur or T. Narasipura.",
+      byRoad: "About 35 km east of Mysore on the bank of the Kaveri. Two common routes: via Bannur (~24 km) then ~7 km, or via T. Narasipura (~30 km) then ~9 km. Buses run from Mysore toward Bannur/T. Narasipura; a taxi is easiest and lets you combine it with Talakad and Shivanasamudra.",
+    },
+    highlights: [
+      "A jewel of Hoysala architecture, consecrated in 1268 CE and remarkably well preserved",
+      "A trikuta (three-shrined) temple, the rare Hoysala temple whose three tower vimanas all survive intact",
+      "Built on a star-shaped (stellate) raised platform (jagati) that devotees and visitors circumambulate",
+      "Over 6,000 soapstone carvings covering nearly every surface, many signed by the sculptors who made them",
+      "Horizontal wall friezes of elephants, horsemen, foliage, and entire Ramayana, Mahabharata and Bhagavata scenes",
+      "Inscribed in 2023 as a UNESCO World Heritage Site within the 'Sacred Ensembles of the Hoysalas'",
+      "An ASI-protected monument: a place to marvel at craftsmanship rather than a centre of daily worship",
+    ],
+    history: "The Chennakesava (Kesava) Temple at Somanathapura was built by Somanatha Dandanayaka, a general (dandanayaka) of the Hoysala king Narasimha III, who founded the agrahara township of Somanathapura on the Kaveri and named it after himself. An inscription on a stone slab at the temple records its consecration in 1268 CE and the grants made for its upkeep. It represents the final flowering of Hoysala temple art, the culmination of the tradition seen earlier at Belur and Halebidu. Within a few decades the Hoysala kingdom fell to the invasions of the Delhi Sultanate (the campaigns of Malik Kafur and later raids) in the early 14th century; in the turmoil the temple was damaged, the principal Kesava idol of the central shrine was lost, and regular worship ceased. Unlike the great living temples of the south, Somanathapura was never revived as an active shrine. It survives instead as one of the most complete records of Hoysala craftsmanship, today protected by the Archaeological Survey of India and inscribed in 2023 on the UNESCO World Heritage List as part of the 'Sacred Ensembles of the Hoysalas'.",
+    architecture: "The temple is the textbook example of the mature Hoysala style. It stands on a broad star-shaped (stellate) platform, the jagati, that echoes the outline of the shrines and forms a raised circumambulatory path. The plan is a trikuta, three garbhagrihas opening off a common pillared hall (navaranga), each sanctum crowned by its own ornate tower (vimana/shikhara); Somanathapura is celebrated as the Hoysala temple where all three towers survive largely intact. The whole is carved from soapstone (chloritic schist), a soft stone when quarried that hardens with exposure, allowing the astonishing depth and delicacy of the work. The lathe-turned, bell-shaped pillars of the hall and the deeply undercut domical ceilings, each bay carved with a different motif of lotus or plantain bud, are masterpieces in themselves. The exterior walls run in horizontal bands: at the base a row of marching elephants (stability), then horsemen (speed), then scrollwork and foliage, then continuous narrative friezes from the Ramayana, Mahabharata and Bhagavata Purana, and above them larger panels of gods and goddesses set in the angles of the star plan. Remarkably, many of the carvings are signed by their sculptors, the prolific Mallitamma chief among them, an almost unique window into the artists of medieval India.",
+    festivals: [
+      { name: "No active temple festivals", month: "N/A", description: "Because regular worship was discontinued centuries ago and the site is now an ASI-protected monument, Somanathapura does not observe the usual Hindu temple festival calendar of brahmotsavams and processions. Visitors come for its art and history rather than for ritual occasions." },
+      { name: "Heritage & cultural events", month: "Varies", description: "The ASI and Karnataka tourism occasionally host heritage walks, photography and cultural-awareness events at the monument, especially around World Heritage Day (18 April) and Karnataka's tourism season." },
+    ],
+    poojas: [
+      { name: "No daily poojas (ASI monument)", time: "N/A", fee: "N/A" },
+    ],
+    nearbyTemples: ["udupi-krishna", "murudeshwara-karnataka"],
+    mythology: {
+      legend:
+        "Somanathapura is dedicated to Vishnu in the form of Kesava, and the temple's three shrines enshrine him in three aspects, a theme that runs through its iconography rather than a single sthala legend. The central sanctum held the image of Kesava himself (now lost); the northern sanctum holds Janardana and the southern holds Venugopala, Krishna playing the flute. Together they present Vishnu as the gracious lord (Kesava), the bestower of liberation (Janardana), and the divine cowherd-musician (Venugopala). The deeper 'mythology' of the temple is written across its walls: the entire stone surface is a retelling of the great Vaishnava narratives in sculpture, so that walking around the jagati is itself a reading of the epics and the Bhagavata.",
+      additionalStories: [
+        {
+          title: "The Epics Carved in Stone",
+          content:
+            "The continuous friezes that wrap the outer walls are meant to be read clockwise, like a stone scripture. One band narrates the Ramayana, another the Mahabharata, and another the life of Krishna from the Bhagavata Purana, episode after episode rendered in miniature with extraordinary detail, down to jewellery, musical instruments and facial expression. For a largely non-literate medieval public, these carvings were both devotion and storytelling, allowing pilgrims to 'read' the epics by circumambulating the shrine.",
+        },
+        {
+          title: "The Sculptors Who Signed Their Work",
+          content:
+            "Unusually for ancient India, many of the carvings at Somanathapura bear the names of the artists who made them, inscribed at the base of the panel. The most prolific signature is that of Mallitamma, whose name appears on dozens of works; others include Masanitamma, Chameya, Bharmma and Nanjaya. These signatures turn an anonymous monument into a roll-call of named master craftsmen, a rare and moving record of the individual artists of the Hoysala age.",
+        },
+      ],
+    },
+    architectureFeatures: [
+      {
+        name: "Stellate Jagati (Platform)",
+        type: "other",
+        description: "The broad, star-shaped raised stone platform on which the temple sits, following the outline of the shrines. It forms a raised circumambulatory path from which visitors view the carved walls at eye level.",
+      },
+      {
+        name: "Trikuta (Three Shrines)",
+        type: "sanctum",
+        description: "Three garbhagrihas opening off a shared pillared hall, dedicated to Vishnu as Kesava (centre), Janardana (north) and Venugopala (south). The central Kesava image is lost; the other two survive, though damaged.",
+      },
+      {
+        name: "Three Vimana Towers",
+        type: "vimana",
+        description: "Each of the three sanctums is crowned by its own ornate, tiered Hoysala tower with a sukanasi (nose) projection. Somanathapura is prized as the Hoysala temple where all three towers remain intact.",
+      },
+      {
+        name: "Navaranga Mandapa",
+        type: "mandapam",
+        description: "The common pillared hall linking the three shrines, with lathe-turned bell-shaped soapstone pillars and a series of deeply carved domical ceilings, each bay sculpted with a different lotus or plantain-bud motif.",
+      },
+      {
+        name: "Narrative Wall Friezes",
+        type: "other",
+        description: "Horizontal bands wrapping the exterior: elephants at the base, then horsemen, foliage and scrollwork, then continuous Ramayana, Mahabharata and Bhagavata narratives, then makaras and hamsas, totalling over 6,000 carvings.",
+        detail: "6,000+ carvings · read clockwise",
+      },
+      {
+        name: "Deity Wall Panels",
+        type: "other",
+        description: "Larger relief images of Vishnu and other deities, richly jewelled, set into the projections created by the star-shaped plan of the sanctuaries, between the narrative friezes and the eaves.",
+      },
+      {
+        name: "Outer Pillared Cloister",
+        type: "mandapam",
+        description: "A rectangular pillared corridor (now partly ruined) once enclosed the courtyard around the temple, with rows of small cells along its inner face, framing the central shrine.",
+      },
+    ],
+    subShrines: [
+      {
+        name: "Kesava (Central Shrine)",
+        deity: "Vishnu as Kesava",
+        description: "The principal western/central sanctum, originally enshrining the image of Kesava that gave the temple its name. The idol was lost during the 14th-century invasions and the central shrine now stands empty.",
+      },
+      {
+        name: "Janardana (North Shrine)",
+        deity: "Vishnu as Janardana",
+        description: "The northern sanctum, retaining its image of Vishnu as Janardana, the bestower of liberation, standing with conch, discus, mace and lotus, though the carving bears damage from the temple's troubled history.",
+      },
+      {
+        name: "Venugopala (South Shrine)",
+        deity: "Krishna as Venugopala",
+        description: "The southern sanctum, with its image of Krishna as Venugopala, playing the flute, the divine cowherd, one of the most beloved Vaishnava forms.",
+      },
+    ],
+    visitorLogistics: {
+      gates: [
+        { name: "Main Entrance (East)", direction: "East", notes: "The single public entrance, through the eastern gateway of the enclosing cloister. The ASI ticket counter is here." },
+      ],
+      cloakRoom: "No formal cloak room; the site is compact and visited in under an hour. Leave large bags in your vehicle. Footwear is removed before stepping onto the stone platform.",
+      mobilePolicy: "Mobile phones are allowed. Still and mobile photography are free; tripods or professional/commercial video may require separate ASI permission. Do not touch or climb on the carvings.",
+      cameraPolicy: "Personal still photography is free and encouraged, the carvings are extraordinarily photogenic. Commercial photography/videography needs ASI permission. Flash is best avoided to protect the soapstone surfaces.",
+      wheelchairAccess: "The site has lawns and paved approaches, but the temple itself sits on a raised stone platform reached by steps, which limits full wheelchair access to the shrines. The exterior carvings can be viewed from ground level around the platform.",
+      seniorCitizenDarshan: "Not applicable, there is no darshan queue. The monument is quiet on weekday mornings; weekends and holidays bring tour groups.",
+      parking: "A parking area for cars and buses is available near the entrance. Local guides (some ASI-approved) offer to explain the carvings for a fee, recommended to appreciate the iconography.",
+      restrooms: "Basic restrooms and drinking water are available near the entrance/parking. A few small shops and eateries sit in the village; for a proper meal, plan around Mysore or carry refreshments.",
+      drinkingWater: "Drinking water is available near the entrance; carry a bottle, especially in the hotter months, as the open platform offers little shade.",
+    },
+    faqs: [
+      {
+        question: "Is Somanathapura a working temple where I can do darshan?",
+        answer:
+          "No. The Kesava Temple is an Archaeological Survey of India monument, not a functioning temple. Regular worship was discontinued after the temple was damaged in the 14th century and the central Kesava idol was lost. There are no daily poojas or priests; visitors come to admire the architecture and carvings. Some devotees still offer informal prayers, but there is no organised ritual.",
+      },
+      {
+        question: "What are the timings and the entry fee?",
+        answer:
+          "The monument is open through the day, roughly 8:30 AM to 5:30 PM, with no midday break. The ASI ticket is about ₹25 for Indian and SAARC/BIMSTEC visitors and ₹300 for other foreign nationals; children up to 15 enter free. Still and mobile photography are free. Tickets are sold at the gate and online via the ASI portal.",
+      },
+      {
+        question: "Why is the temple famous?",
+        answer:
+          "It is one of the finest and best-preserved examples of Hoysala architecture, consecrated in 1268 CE. It is a trikuta (three-shrined) temple whose three tower-vimanas all survive, set on a star-shaped platform, with over 6,000 soapstone carvings, many signed by their sculptors. In 2023 it was inscribed as a UNESCO World Heritage Site within the 'Sacred Ensembles of the Hoysalas', alongside Belur and Halebidu.",
+      },
+      {
+        question: "Who built it and when?",
+        answer:
+          "It was built by Somanatha Dandanayaka, a general of the Hoysala king Narasimha III, who founded the township of Somanathapura on the Kaveri and named it after himself. A temple inscription records the consecration in 1268 CE.",
+      },
+      {
+        question: "How much time do I need, and should I hire a guide?",
+        answer:
+          "Allow about 45 minutes to an hour and a half. Hiring a local guide (some are ASI-approved) is well worth it, the carvings tell entire stories from the Ramayana, Mahabharata and Bhagavata, and a guide helps you 'read' them and spot the sculptors' signatures. Go early morning or late afternoon for the best light and fewer crowds.",
+      },
+      {
+        question: "How do I get there from Mysore, and what can I combine it with?",
+        answer:
+          "Somanathapura is about 35 km east of Mysore. Drive via Bannur (~24 km, then ~7 km) or via T. Narasipura (~30 km, then ~9 km); buses run on both routes, but a taxi is easiest. It pairs naturally with the riverside ruins of Talakad and the Shivanasamudra falls for a full day out from Mysore.",
       },
     ],
   },
