@@ -40,7 +40,7 @@ git push
 ### Data
 | File | Purpose |
 |------|---------|
-| `src/data/temples.ts` | All 25 temple records + the homepage `festivals` array (16 entries; `featured: false` keeps a festival off the homepage Trending grid but still generates its detail page). |
+| `src/data/temples.ts` | All 25 temple records + the `festivals` array (16 entries; `featured: false` keeps a festival off the homepage Trending grid but it still appears in the `/festivals` directory and generates its detail page). Each festival has a `category` (deity grouping, mirrors `TempleCategory`) used by the `/festivals` directory filter. Exports `TempleCategory`. |
 | `src/data/templeDetails.ts` | Rich per-temple detail. Required fields: `timings`, `entryFee`, `dressCode`, `bestTime`, `travelInfo`, `highlights`, `history`, `architecture`, `festivals`, `poojas`, `nearbyTemples`. Optional rich fields (preferred when present): `mythology`, `architectureFeatures[]`, `subShrines[]`, `visitorLogistics`, `sevas[]` (richer than `poojas`), `faqs[]`. All 25 temples are now fully deep-detailed (every optional field populated): **madurai-meenakshi**, **tirupati-venkateswara**, **brihadeeswara-thanjavur**, **ramanathaswamy-rameswaram**, **sabarimala-ayyappa**, **ranganathaswamy-srirangam**, **padmanabhaswamy-trivandrum**, **guruvayur-krishna**, **nataraja-chidambaram**, **tiruchendur-murugan**, **palani-murugan**, **ekambareswarar-kanchipuram**, **vaitheeswaran-kovil**, **sarangapani-kumbakonam**, **murudeshwara-karnataka**, **udupi-krishna**, **dharmasthala-karnataka**, **srikalahasti-temple**, **govindarajaswamy-tirupati**, **simhachalam-visakhapatnam**, **attukal-bhagavathy**, **thanumalayan-suchindram**, **kapaleeswarar-mylapore**, **arunachaleswarar-thiruvannamalai**, and **kesava-somnathpur** (an ASI/UNESCO Hoysala monument, framed as a heritage site rather than a living temple). The default fallback in `getTempleDetail()` remains for any future temples added without a detail entry. |
 | `src/data/festivalDetails.ts` | Rich detail per festival. 16 festivals detailed: original 8 — `karthigai-deepam`, `mahamaham`, `brahmotsavam-tirupati`, `chithirai-festival`, `aadi-perukku`, `pongala-attukal`, `skanda-sashti`, `sabarimala-season`. 3 Madurai-specific — `aavani-moolam`, `navaratri-golu`, `float-festival-madurai`. 3 Tirumala-specific — `vaikunta-ekadasi-tirupati`, `rathasapthami-tirupati`, `pushpa-yagam-tirupati`. 2 added for Brihadeeswara — `maha-shivaratri` (pan-Shaivite, cross-linked to 6 Shiva temples), `sadayam-vizha-thanjavur`. |
 | `src/data/imageCredits.ts` | Image source / license credits for temple photos. |
@@ -52,6 +52,7 @@ git push
 | `src/app/page.tsx` | Homepage — assembles Hero, Categories, Featured Temples, Festivals (filtered to `featured !== false`), CTA. |
 | `src/app/temples/page.tsx` | Temple directory with search + filters. |
 | `src/app/temples/[slug]/page.tsx` | Static temple detail page (SSG via `generateStaticParams`). Layout: hero (image overlay) → full-width row of 4 quick cards → 2-column main+sidebar grid. Conditionally renders mythology / architecture-features grid / sub-shrines / sevas / FAQs only if those optional fields exist. |
+| `src/app/festivals/page.tsx` | Festivals directory ("Sacred Calendar"). Header + cross-link to `/calendar/tamil`, then `<FestivalGrid />` (live search + deity-chip filter over all 16 festivals). Mirrors the `/temples` directory pattern. Static route. |
 | `src/app/festivals/[slug]/page.tsx` | Static festival detail page — Overview, Significance, Story, Rituals, When & Where, For Devotees, Related Temples. SSG via `generateStaticParams`. |
 | `src/app/calendar/page.tsx` | Calendar landing — 4 language cards (Tamil active; others "Coming soon"). |
 | `src/app/calendar/tamil/page.tsx` | Tamil Daily Calendar — daily panchang + monthly grid. Reads `?date=YYYY-MM-DD` from search params. |
@@ -66,7 +67,9 @@ git push
 | `src/components/home/TodayPanchang.tsx` | Server component rendering today's date + Abhijit Muhurta + Rahu Kalam as a compact 3-line text block. Wraps in a `<Link>` to `/calendar/tamil`. Passed into the Navbar via the layout's `rightSlot` prop. |
 | `src/components/home/CategoriesSection.tsx` | Light pastel deity-category cards (Shiva/Vishnu/Murugan/Shakti). |
 | `src/components/home/FeaturedTemples.tsx` | 25 temple cards (white with light category badges). |
-| `src/components/home/FestivalsSection.tsx` | Filters `featured !== false` to keep the homepage Trending grid tight. |
+| `src/components/home/FestivalsSection.tsx` | Homepage "Trending Festivals" section. Filters `featured !== false` to keep the grid tight, then renders shared `<FestivalCard />`. |
+| `src/components/festivals/FestivalCard.tsx` | Shared festival card (image + type badge + temple + date), linking to `/festivals/[slug]`. Used by both the homepage `FestivalsSection` and the `/festivals` directory. Owns the rotating `festivalColors` palette. |
+| `src/components/festivals/FestivalGrid.tsx` | Client component for the `/festivals` directory — sticky filter bar (live text search + deity chips derived from `festival.category`, reads `?category=` from URL) over all 16 festivals, then a responsive `FestivalCard` grid. |
 | `src/components/home/CTASection.tsx` | Saffron-orange gradient banner with explore/book CTAs. |
 | `src/components/temples/TempleCard.tsx` · `TempleGrid.tsx` · `TempleFilters.tsx` | Directory page components. |
 | `src/components/temples/TempleQuickCards.tsx` | Client component — 4 colour-coded cards at the top of every temple detail page (Temple Timings / Entry Fee / Best Time to Visit / How to Reach). Each opens a centred modal with full details (daily schedule, fee table, crowd tips, travel + Google Maps actions). Modals share UX: backdrop click · ESC · X · body scroll lock. |
@@ -138,7 +141,6 @@ Follow the pattern in `VisitorLogisticsCard.tsx` or `TempleQuickCards.tsx`: clie
 
 ## Still To Build
 
-- `/festivals` index/listing page (individual `/festivals/[slug]` pages exist).
 - `/puja` booking page.
 - `/travel` guides.
 - More festival detail pages for the remaining un-detailed festivals (e.g. Aippasi Brahmotsavam at Brihadeeswara, Aadi Pooram for Brihannayaki).

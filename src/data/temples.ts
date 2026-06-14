@@ -460,6 +460,8 @@ export interface Festival {
   slug: string;
   description: string;
   featured?: boolean;
+  /** Deity grouping for the /festivals directory filter. Mirrors TempleCategory. */
+  category?: TempleCategory;
 }
 
 export const festivals: Festival[] = [
@@ -469,6 +471,7 @@ export const festivals: Festival[] = [
     date: "Nov–Dec",
     type: "Fire Festival",
     slug: "karthigai-deepam",
+    category: "shiva",
     description: "Millions of lamps lit across Tamil Nadu on the Karthigai full moon, culminating in the massive Mahadeepam beacon atop Arunachala hill — visible for 30 km.",
   },
   {
@@ -477,6 +480,7 @@ export const festivals: Festival[] = [
     date: "Every 12 years",
     type: "Holy Dip",
     slug: "mahamaham",
+    category: "mixed",
     description: "Once-every-12-years holy dip at the Mahamaham tank in Kumbakonam, where the nine sacred rivers of India are believed to converge. Draws millions of pilgrims.",
   },
   {
@@ -485,6 +489,7 @@ export const festivals: Festival[] = [
     date: "Sep–Oct",
     type: "Annual Festival",
     slug: "brahmotsavam-tirupati",
+    category: "vishnu",
     description: "Nine-day grand festival at Tirumala where Lord Venkateswara is taken in procession on a different vahana each day. The Garuda Seva on day five draws over a million.",
   },
   {
@@ -493,6 +498,7 @@ export const festivals: Festival[] = [
     date: "Apr–May",
     type: "Celestial Wedding",
     slug: "chithirai-festival",
+    category: "shakti",
     description: "Madurai's 18-day spectacle celebrating the celestial wedding of Goddess Meenakshi and Lord Sundareswarar — the largest street festival in Tamil Nadu.",
   },
   {
@@ -501,6 +507,7 @@ export const festivals: Festival[] = [
     date: "Aug",
     type: "Water Festival",
     slug: "aadi-perukku",
+    category: "mixed",
     description: "Tamil monsoon festival on the 18th day of Aadi, honouring the swelling River Kaveri whose floodwaters bring life and abundance to the delta.",
   },
   {
@@ -509,6 +516,7 @@ export const festivals: Festival[] = [
     date: "Feb–Mar",
     type: "Women's Festival",
     slug: "pongala-attukal",
+    category: "shakti",
     description: "World's largest gathering of women — over 3 million devotees cook sweet rice offerings on roadside hearths along miles of Thiruvananthapuram streets for Goddess Attukal.",
   },
   {
@@ -517,6 +525,7 @@ export const festivals: Festival[] = [
     date: "Oct–Nov",
     type: "Murugan Festival",
     slug: "skanda-sashti",
+    category: "murugan",
     description: "Six-day fast and battle festival commemorating Lord Murugan's victory over the demon Soorapadman, culminating in the dramatic Soorasamharam ritual at Tiruchendur.",
   },
   {
@@ -525,6 +534,7 @@ export const festivals: Festival[] = [
     date: "Nov–Jan",
     type: "Annual Pilgrimage",
     slug: "sabarimala-season",
+    category: "ayyappa",
     description: "Two-month pilgrimage to Lord Ayyappa's forest shrine, where over 50 million devotees undertake the 41-day vratham and climb the 18 sacred Pathinettam Padi steps.",
   },
   {
@@ -533,6 +543,7 @@ export const festivals: Festival[] = [
     date: "Aug–Sep",
     type: "Annual Festival",
     slug: "aavani-moolam",
+    category: "shakti",
     description: "10-day Madurai festival re-enacting the 64 sacred sports (Thiruvilayadal) of Lord Sundareswarar — each evening a different leela.",
     featured: false,
   },
@@ -542,6 +553,7 @@ export const festivals: Festival[] = [
     date: "Sep–Oct",
     type: "Nine Nights of Devi",
     slug: "navaratri-golu",
+    category: "shakti",
     description: "Nine nights of the Goddess celebrated with the traditional Tamil golu (step-doll display) at homes and temples — at Meenakshi Amman, the goddess is dressed in nine different alankarams.",
     featured: false,
   },
@@ -551,6 +563,7 @@ export const festivals: Festival[] = [
     date: "Jan–Feb",
     type: "Float Festival",
     slug: "float-festival-madurai",
+    category: "shakti",
     description: "On Thai Poosam full moon, processional images of Meenakshi and Sundareswarar are taken on an illuminated float across the Mariamman Teppakulam tank in Madurai.",
     featured: false,
   },
@@ -560,6 +573,7 @@ export const festivals: Festival[] = [
     date: "Dec–Jan",
     type: "Sacred Ekadasi",
     slug: "vaikunta-ekadasi-tirupati",
+    category: "vishnu",
     description: "The most sacred Ekadasi of the year at Tirumala — the Vaikunta Dwaram (Heaven's Gate) is opened, and devotees passing through it are believed to attain moksha. Lakhs gather at Tirumala for this single-day darshan.",
     featured: false,
   },
@@ -569,6 +583,7 @@ export const festivals: Festival[] = [
     date: "Feb",
     type: "One-day Brahmotsavam",
     slug: "rathasapthami-tirupati",
+    category: "vishnu",
     description: "Surya's birthday at Tirumala — Sri Malayappa Swami is taken in procession on seven different vahanas across one day (4 AM to midnight), the only day in the year this happens. Considered equivalent to attending the full nine-day Brahmotsavam.",
     featured: false,
   },
@@ -578,6 +593,7 @@ export const festivals: Festival[] = [
     date: "May",
     type: "Flower Festival",
     slug: "pushpa-yagam-tirupati",
+    category: "vishnu",
     description: "Annual flower festival at Tirumala — over five tonnes of flowers are offered in a six-hour Pushpa Abhishekam to the processional deities, performed in the Tirumamani Mandapam.",
     featured: false,
   },
@@ -587,6 +603,7 @@ export const festivals: Festival[] = [
     date: "Feb–Mar",
     type: "Night of Shiva",
     slug: "maha-shivaratri",
+    category: "shiva",
     description: "The 'Great Night of Shiva' — celebrated at every Shaivite temple in India with all-night vigil, fasting, and four prahara abhishekams to the lingam.",
     featured: false,
   },
@@ -596,6 +613,7 @@ export const festivals: Festival[] = [
     date: "Oct–Nov",
     type: "Founder's Birthday",
     slug: "sadayam-vizha-thanjavur",
+    category: "shiva",
     description: "Commemorates the birthday of Raja Raja Chola I (Sadayam nakshatra in the Tamil month of Aippasi), revived in 2003 as a state-level cultural festival at the Brihadeeswara Temple.",
     featured: false,
   },
