@@ -1,16 +1,20 @@
-import HeroSection from "@/components/home/HeroSection";
-import CategoriesSection from "@/components/home/CategoriesSection";
-import FeaturedTemples from "@/components/home/FeaturedTemples";
-import FestivalsSection from "@/components/home/FestivalsSection";
+import PoojaHero from "@/components/home/PoojaHero";
+import PillarsSection from "@/components/home/PillarsSection";
+import TodayTithiSection from "@/components/home/TodayTithiSection";
+import DoshasSection from "@/components/home/DoshasSection";
+import FeaturedPoojas from "@/components/home/FeaturedPoojas";
+import TemplesStrip from "@/components/home/TemplesStrip";
 import CTASection from "@/components/home/CTASection";
 
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
-      <CategoriesSection />
-      <FeaturedTemples />
-      <FestivalsSection />
+      <PoojaHero />
+      <PillarsSection />
+      <TodayTithiSection />
+      <DoshasSection />
+      <FeaturedPoojas />
+      <TemplesStrip />
       <CTASection />
     </>
   );

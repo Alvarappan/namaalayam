@@ -158,10 +158,27 @@ Pooja page (#5) ──venue──► vaitheeswaran-kovil (existing temple page)
 Three new data files drive everything — `poojas.ts`, `doshas.ts`, `tithis.ts` — plus the existing
 `panchang.ts` for every "next date."
 
-## 9. Open items / next steps
+## 9. Build progress
 
-- [ ] Refine & expand the pooja catalog (20 → 25+) when ready.
+**Phase 1 landing page — DONE (2026-06-28).** Shipped pooja-first homepage + working pages:
+- New homepage sections: `PoojaHero`, `PillarsSection`, `TodayTithiSection` (live panchang),
+  `DoshasSection`, `FeaturedPoojas`, `TemplesStrip` (temples demoted), kept `CTASection`.
+- Data files: `src/data/doshas.ts` (6), `src/data/poojas.ts` (10), `src/data/tithis.ts` (8).
+- Routes: `/poojas`, `/poojas/[slug]` (with booking), `/doshas`, `/doshas/[slug]`, `/tithis`.
+- Booking: `BookPooja` component (WhatsApp + enquiry form) on every pooja page; dosha pages
+  route into it via "Book this Pooja". Config in `src/lib/contact.ts` (PLACEHOLDER number/email).
+- Navbar reordered: Poojas · Doshas · Tithis · Temples · Festivals · Calendar.
+- Old homepage sections (CategoriesSection, FeaturedTemples, FestivalsSection) kept, unwired.
+
+## 10. Open items / next steps
+
+- [ ] Replace placeholder `WHATSAPP_NUMBER` / `CONTACT_EMAIL` in `src/lib/contact.ts` before launch.
+- [ ] **Make every pooja page fully bookable** (vedamandir-style) as the catalog grows — booking
+      block is already in place; extend to each new pooja.
+- [ ] **Add images** as we go — pooja/deity banners into `public/images/poojas/`, wired into
+      `PoojaCard` and the pooja hero.
+- [ ] Refine & expand the pooja catalog (10 → 20 → 25+) when ready.
 - [ ] Decide Guru-dosha venue (Alangudi as #26 vs Brihadeeswara/Dakshinamurthy vs first-party).
 - [ ] Consider Shani dosha (#7) + Thirunallar temple when expanding.
 - [ ] More high-priority features to be added (per product owner).
-- [ ] Then: start Phase 1 build (IA + data files + pages).
+- [ ] Phase 2: database + auth + cart + Razorpay checkout for real paid bookings.

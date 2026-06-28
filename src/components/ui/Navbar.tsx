@@ -6,12 +6,11 @@ import { Menu, X } from "lucide-react";
 import GopuramIcon from "./GopuramIcon";
 
 const navLinks = [
+  { label: "Poojas", href: "/poojas" },
+  { label: "Doshas", href: "/doshas" },
+  { label: "Tithis", href: "/tithis" },
   { label: "Temples", href: "/temples" },
   { label: "Festivals", href: "/festivals" },
-  { label: "Travel", href: "/travel" },
-  { label: "Poojas", href: "/puja" },
-  { label: "Gallery", href: "/gallery" },
-  { label: "Blog", href: "/blog" },
   { label: "Calendar", href: "/calendar" },
 ];
 
@@ -46,7 +45,7 @@ export default function Navbar({ rightSlot }: { rightSlot?: React.ReactNode }) {
             </Link>
           ))}
           <Link
-            href="/puja"
+            href="/poojas"
             className="ml-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white text-sm font-semibold rounded-lg shadow-md shadow-orange-300/40 transition-all"
           >
             Book Pooja
@@ -83,7 +82,7 @@ export default function Navbar({ rightSlot }: { rightSlot?: React.ReactNode }) {
             </Link>
           ))}
           <Link
-            href="/puja"
+            href="/poojas"
             className="block mt-4 px-4 py-3 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-sm font-semibold rounded-xl text-center"
           >
             Book Pooja
